@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SCKAN Explorer</title>
+        <link rel="stylesheet" href="./css/simple-css.css">
+        <link rel="stylesheet" href="./css/panel-css.css">
+        <script src="./js/stardog.js"></script>
+        <script src="./js/stardog-db-query.js"></script>
+        <script src="./js/sparql-query-texts.js"></script>
+        <script src="./js/utilities.js"> </script>
+        <script src="./js/prefix-iri-mapping.js"> </script>
+        <script src="./js/auto-complete.js"> </script>
+        <script src="./js/load-npo-locations.js"> </script>
+        <script src="./js/load-a-b-c.js"> </script>
+        <script src="./js/graph-viz/viz.js"> </script>
+        <script src="./js/table-format/display-table.js"> </script>
+    </head>
+    <body>
+        <hr>
+        <p> 
+            <center><a href="https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD" target="_blank"><img style="width:300px;" src="./img/sckan-explorer-logo.svg" alt="sparc"></a></center>
+        </p>
+        <!-- <hr><br> -->
+
+        <!-- The form must have the default autocomplete function switched off:-->
+        <form id="myForm" autocomplete="off">
+            <table alight="center" width="60%" style="background-color: white;">
+                    <tr>
+                        <td>
+                            <b>Connection Origin</b><br>
+                            <div class="autocomplete">
+                                <input type="text" id= "conn-origin" name="con-origin" size="40" placeholder="Type Soma Location">
+                            </div>
+                        </td>
+                        <td>
+                            <b>Neuron ID</b><br>
+                            <div class="autocomplete">
+                                <input type="text" id="neuron-id" name="neuron" size="20" placeholder="Type Neuron ID" autocomplete="off">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Connection Terminal</b><br>
+                            <div class="autocomplete">    
+                                <input type="text" id="conn-dest" name="con-dest" size="40" placeholder="Type Axon Terminal or Axon Sensory Location" >
+                            <div>
+                        </td>
+                        <td>
+                            <b>Species</b><br>
+                            <div class="autocomplete">
+                                <input type="text" id="species-id" name="species" size="20" placeholder="Type Species" autocomplete="off">
+                            </div>
+                        </td>                     
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Connection Via</b><br>
+                            <div class="autocomplete">    
+                                <input type="text" id="conn-via" name="con-via" size="40" placeholder="Type Axon or Nerve Location" >
+                            <div>
+                        </td>
+                        <td>
+                            <b>End Organ</b><br>
+                            <div class="autocomplete">
+                                <input type="text" id="organ-id" name="organ" size="20" placeholder="Type End Organ" autocomplete="off">
+                            </div>
+                        </td>
+                    </tr>
+                <tr>
+                    <td colspan = "4" style="text-align: center">Note: All input fields are optional.<br>
+                    </td>
+                </tr>
+            </table>
+            <div style="text-align: center">
+                <br>
+                <button style="border:0ex; background-color: DodgerBlue; color: #fff; padding: 10px; font-size: 14px;"
+                id="submit" name="submit"><label for="submit">Search</label></button>
+                
+                <button style="border:0ex; background-color: DodgerBlue; color: #fff; padding: 10px; font-size: 14px;"
+                id="resetButton" name="resetButton" onClick = "resetForm(event)"> <label for="resetButton">Reset</label></button>
+            </div>
+        </form>
+        <hr>
+        
+        <div id = "query-input">
+            <!-- <p> ToDo: Summary of inputs e.g., display the description and synonyms of the anatomical locations</p> -->
+        </div>
+        
+        <div id = "query-result">
+        </div>    
+
+        <div id="table-container">
+        </div>
+
+        <div id="query-results-end">
+
+        </div>
+
+        
+        <script>
+        function resetForm(event) 
+        {
+            event.preventDefault(); // To prevents default form submission behavior
+            document.getElementById("myForm").reset();
+        }
+        </script>
+        
+        
+        <script>
+            loadAllLocations();
+            loadABCData();
+        </script>
+    </body>
+</html>

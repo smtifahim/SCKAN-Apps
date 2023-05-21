@@ -1,0 +1,17 @@
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  .panel-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .panel-body {
+    padding: 10px;
+    display: none;
+  }
