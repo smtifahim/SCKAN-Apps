@@ -69,17 +69,10 @@ async function loadABCData()
     const abc_data = await getABCDataFromDB();
     aToBviaC = getAtoBviaC(abc_data);
 
-    // console.info("ATOBVIAC");
-    // console.log (aToBviaC);
-
-    // console.info("Neurons MetaDATA");
-    // console.log (npo_neurons_metadata);
-
-    // console.info("Neurons PARTIAL ORDER");
-    // console.log (npo_poset);
-
-    // console.info ("NPO NEURON PATHS");
-    // console.log (npo_neuron_paths);
+    // console.info("ATOBVIAC"); console.log (aToBviaC);
+    // console.info("Neurons MetaDATA"); console.log (npo_neurons_metadata);
+    // console.info("Neurons PARTIAL ORDER"); console.log (npo_poset);
+    // console.info ("NPO NEURON PATHS"); console.log (npo_neuron_paths);
 
     function getNPOPartialOrders(poData)
     {
@@ -112,7 +105,7 @@ async function loadABCData()
         var neuronAdj = npo_poset.filter(obj => obj.neuron.ID === n_id);
         var diGraph  = 'digraph {'; 
             diGraph += 'label = "[' + neuronAdj[0].neuron.ID + '] ' 
-                                   + splitTextIntoLines(neuronAdj[0].neuron.Label,70) + '";\n';
+                                    + splitTextIntoLines(neuronAdj[0].neuron.Label,70) + '";\n';
         
         for (let i=0; i < neuronAdj.length; i++)
         {
@@ -209,8 +202,7 @@ async function loadABCData()
             via = new ClassEntity(viaID, viaIRI, viaLabel);
             }
 
-
-           var target_organ = new ClassEntity("", "", ""); 
+           var target_organ = new ClassEntity("", "", "");
     
            if (abc_data[i].hasOwnProperty("Target_Organ_IRI"))
             {
@@ -222,17 +214,12 @@ async function loadABCData()
 
            var neuron_meta = npo_neurons_metadata.find(obj => obj.neuronID === neuron_id);
            
-          // var neuron_digraph = new NeuronPathDiGraph("", ""); 
-            
+           var neuron_digraph = new NeuronPathDiGraph("", "");   
            var digraph = npo_neuron_paths.find(obj=> obj.neuronID === neuron_id);
-           if (digraph)
-              neuron_digraph = digraph;
-           else
-              neuron_digraph =  new NeuronPathDiGraph("", "");
+           if (digraph){neuron_digraph = digraph;}
 
-    
            var abcData = new AtoBviaC (neuronType, origin, dest, via, neuron_meta, target_organ, neuron_digraph);
-           abc.push(abcData);       
+           abc.push(abcData);
         }
         return abc;
     }
@@ -248,6 +235,10 @@ async function loadABCData()
            var neuron_label = "";
            if (neuronMetaData[i].hasOwnProperty("Neuron_Label"))
                 neuron_label = neuronMetaData[i].Neuron_Label.value;
+           
+           var neuron_pref_label = "";
+           if (neuronMetaData[i].hasOwnProperty("Neuron_Pref_Label"))
+                neuron_pref_label = neuronMetaData[i].Neuron_Pref_Label.value;
            
            var neuron_sex = "";
            if (neuronMetaData[i].hasOwnProperty("Sex"))
@@ -276,9 +267,9 @@ async function loadABCData()
            if (neuronMetaData[i].hasOwnProperty("Reference"))
                 neuron_reference = neuronMetaData[i].Reference.value;      
     
-           var neuron_meta_data = new NeuronMetaData (neuron_id, neuron_label, neuron_species, neuron_sex, 
-                                          neuron_phenotypes, neuron_forward_connections, 
-                                          neuron_alert, neuron_reference);
+           var neuron_meta_data = new NeuronMetaData (neuron_id, neuron_label, neuron_pref_label, neuron_species, neuron_sex, 
+                                                      neuron_phenotypes, neuron_forward_connections, 
+                                                      neuron_alert, neuron_reference);
            neurons_meta.push (neuron_meta_data);
         }
         return neurons_meta;
@@ -304,21 +295,21 @@ async function loadABCData()
     {
        //populate the distinct set of neuron IDs for auto-complete.
        var neuron_ids = [...new Set(aToBviaC.map(obj => obj.neuron.ID))];
-       autocomplete(document.getElementById("neuron-id"), neuron_ids);
+       autocomplete(document.getElementById("neuron-txt"), neuron_ids);
     }
 
     populateNeuronSpecies()
     function populateNeuronSpecies()
     {
         var species = [...new Set(aToBviaC.map(obj => obj.neuronMetaData.species))];
-        autocomplete(document.getElementById("species-id"), species);
+        autocomplete(document.getElementById("species-txt"), species);
     }
 
     populateNeuronTergetOrgans()
     function populateNeuronTergetOrgans()
     {
         var target_organs = [...new Set(aToBviaC.map(obj => obj.targetOrgan.Label))];
-        autocomplete(document.getElementById("organ-id"), target_organs);
+        autocomplete(document.getElementById("organ-txt"), target_organs);
     }
 
     function search(event)
@@ -327,9 +318,9 @@ async function loadABCData()
       var filtered_abc = new Array(); 
       filtered_abc = aToBviaC;
 
-      const neuron_id = document.getElementById("neuron-id").value.trim();
-      const species_id = document.getElementById("species-id").value.trim();
-      const organ_id = document.getElementById("organ-id").value.toLowerCase().trim();
+      const neuron_id = document.getElementById("neuron-txt").value.toLowerCase().trim();
+      const species_id = document.getElementById("species-txt").value.trim();
+      const organ_id = document.getElementById("organ-txt").value.toLowerCase().trim();
 
       
       const conn_origin = document.getElementById("conn-origin").value.trim();
@@ -410,4 +401,4 @@ async function loadABCData()
      const searchButton = document.querySelector("button", "#submit");
      searchButton.addEventListener("click", search);
 
-}
+} // End of function loadABCData(); 
