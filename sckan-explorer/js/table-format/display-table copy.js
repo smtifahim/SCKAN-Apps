@@ -3,7 +3,7 @@ function getPopulatedTable(data)
   // create table element
   const table = document.createElement("table");
   table.style.borderCollapse = "collapse";
-  table.style.width = "95%";
+  table.style.width = "1250px";
   table.style.border = "1px solid black";
 
   // create a map to group data by neuron ID
@@ -20,7 +20,9 @@ function getPopulatedTable(data)
   // loop through neuron data and add rows to table
   for (var [neuronId, neuronData] of neuronDataMap)
   {
-  
+    // store axonal path for the neuron as a graph
+    var gData = neuronData[0].diGraph.axonalPath;
+    
     // create neuron row
     const neuronRow = document.createElement("tr"); //panelRow
     neuronRow.classList.add('panel');
@@ -28,41 +30,42 @@ function getPopulatedTable(data)
     const neuronHeader = document.createElement("th"); //headerCell
     neuronHeader.classList.add('panel-header');
     neuronHeader.colSpan = 6;
-    neuronHeader.innerHTML = `Neuron Population: ${neuronId}`;
-    neuronHeader.style.border = "1px solid black";
+    
+    if (gData !== "")
+      neuronHeader.innerHTML = `Neuron Population: ${neuronId}` + '<font color="#C0F0FB"> [Click to Visualize]</font>';
+    else
+      neuronHeader.innerHTML = `Neuron Population: ${neuronId}`; 
+    
+      neuronHeader.style.border = "1px solid black";
     neuronHeader.style.backgroundColor = "black";
 
-    var gData = neuronData[0].diGraph.axonalPath;
-    
-  
-    neuronHeader.addEventListener('click', () => {
-      togglePanel(vizRow);
-    });
-    
     neuronRow.appendChild(neuronHeader);
 
     const vizRow = document.createElement("tr"); //panelBodyRow
-    vizRow.classList.add('panel-body');
-    vizRow.style.display = 'none';
-
-    const vizData = document.createElement("td"); //contentCell
-    vizData.style.border = "1px solid black";
-    vizData.colSpan = 6;
-    const div = document.createElement('div');
-    div.id = "graphContainer";
-    
-    if(gData !== "")
+    if (gData !== "")
     {
+      neuronHeader.addEventListener('click', () => {
+        togglePanel(vizRow);
+      });
+      
+     // neuronRow.appendChild(neuronHeader);
+
+      //const vizRow = document.createElement("tr"); //panelBodyRow
+      vizRow.classList.add('panel-body');
+      vizRow.style.display = 'none';
+
+      const vizData = document.createElement("td"); //contentCell
+      vizData.style.border = "1px solid black";
+      vizData.colSpan = 6;
+      const div = document.createElement('div');
+      div.id = "graphContainer";
+    
       var graphSVG = Viz(gData);
       div.innerHTML = graphSVG;
-    }
-    else
-    {
-      div.innerHTML = "No visualization available for this neuron population.";
-    }
 
-    vizData.appendChild(div);    
-    vizRow.appendChild (vizData);
+      vizData.appendChild(div);    
+      vizRow.appendChild (vizData);
+    }
 
     table.appendChild(neuronRow);
 
@@ -74,11 +77,9 @@ function getPopulatedTable(data)
     var nmdata = getFormattedNeuronMetaData(neuronData[0].neuronMetaData);
     neuronMetaData.innerHTML = nmdata;
     neuronDataRow.appendChild (neuronMetaData);
+    
     table.appendChild (neuronDataRow);
-
     table.appendChild(vizRow);
-   
-   
    
     const locationHeaderRow = document.createElement("tr");
     locationHeaderRow.style.backgroundColor = "#A9D0F5";
@@ -175,25 +176,29 @@ function getPopulatedTable(data)
   function getFormattedNeuronMetaData(nmdata)
   {
       var text = "<strong>Label:</strong> " + nmdata.neuronLabel +
-                 "<br><strong>Phenotype(s):</strong> " + nmdata.phenotypes;
+                 "<hr><strong>Phenotype(s):</strong> " + nmdata.phenotypes;
       if (nmdata.species !== "")
-        text += "<br><b>Species:</b> " + nmdata.species;
+        text += "<hr><b>Species:</b> " + nmdata.species;
       if (nmdata.sex !== "")
         text += "; <b>Sex:</b> " + nmdata.sex;
       if (nmdata.forwardConnections !=="")
-        text += "<br><b>Forward Connection(s):</b> " + nmdata.forwardConnections;
+        text += "<hr><b>Forward Connection(s):</b> " + nmdata.forwardConnections;
       if (nmdata.reference !== "")
-        text += "<br><b>Reference:</b> " + addHyperlinksToURIs(nmdata.reference) + "<br>";
+        text += "<hr><b>Reference:</b> " + addHyperlinksToURIs(nmdata.reference);
+      if (nmdata.alert != "")
+        text += "<hr><b>Alert Note:</b> " + addHyperlinksToURIs(nmdata.alert);
+  
      // text = JSON.stringify(nmdata);
+      text += "<br></br>"
 
       return text;
-
   }
 
   function addHyperlinksToURIs(text) 
   {
-    // Regular expression to match URIs
-    const uriRegex = /(https?:\/\/[^\s]+)/g;
+    // Regular expression to match URIs ignoring punctuation charecters or any braces 
+    // at the end of a url within the texts
+    const uriRegex = /(https?:\/\/[^\s,:]+[^\s.)},;:])/g;
     
     // Replace URIs with hyperlinks
     const result = text.replace(uriRegex, '<a href="$&" target="_blank">$&</a>');
@@ -208,20 +213,4 @@ function getPopulatedTable(data)
 function togglePanel(panelBodyRow)
 {
     panelBodyRow.style.display = panelBodyRow.style.display === 'none' ? 'table-row' : 'none';
-}
-
-function displayAxonalPath(vizData, graphData)
-{
-    const div = document.createElement('div');
-    div.setAttribute('id', 'vizABC');
-    div.setAttribute('style', 'text-align:center');
-     // Add the <div> element to the document
-    document.body.appendChild(div);
-    vizData.appendChild(div);
-     d3.select("#" + 'vizABC').graphviz().renderDot(graphData);
-     vizData.innerHTML = div.outerHTML;
-
-   // return "this is a test";
-   // d3.select("#graph").graphviz().renderDot(g);
-
 }
