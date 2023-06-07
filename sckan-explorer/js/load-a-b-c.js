@@ -1,3 +1,6 @@
+// This file contains the function called loadABCData() to load, process, search, and display the a to b via c connections 
+// for the SCKAN Explorer. 
+
 // Database and queries
 const dbName = 'NPO';
 //const dbName = 'sckan-explorer'; //from my localhost 
