@@ -60,100 +60,90 @@ ORDER BY ?Neuron_ID ?A_Label ?B_IRI ?C_Label
 LIMIT 120000`
 
 const npo_neuron_meta = 
-`# QUERY: This query is for loading the a-b-via-c results in sckan
+`# Query to retreive metadata of the neuron populations for sckan explorer.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-# Neuron populations where A projects to B via some Nerve C
-
-SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Species ?Sex ?Phenotypes ?Forward_Connections ?Alert ?Reference
+SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species ?Sex 
+                ?Phenotypes ?Forward_Connections ?Alert ?Reference
 WHERE
 {
     { 
-        SELECT DISTINCT  ?Neuron_IRI ?Neuron_Label ?Sex ?Alert ?Reference  
+        SELECT DISTINCT  ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Sex ?Alert ?Reference
         WHERE                  
         {
             ?Neuron_IRI rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748   
             OPTIONAL{?Neuron_IRI rdfs:label ?Neuron_Label.}
+            OPTIONAL{?Neuron_IRI skos:prefLabel ?Neuron_Pref_Label.}
+
             ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI.
-                    ?A_IRI (rdfs:label) ?A_Label.
-            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI. 
-                        ?C_IRI rdfs:label ?C_Label.}
+            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI.}
             ?Neuron_IRI (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
-                    ?B_IRI (rdfs:label) ?B_Label.
                     
             OPTIONAL {?Neuron_IRI ilxtr:hasPhenotypicSex/rdfs:label ?Sex.}
             OPTIONAL {?Neuron_IRI ilxtr:reference ?Reference.}
             OPTIONAL {?Neuron_IRI ilxtr:alertNote ?Alert.}
-
         }
     }
     
     { 
-        SELECT DISTINCT  ?Neuron_IRI ?Neuron_Label 
+        SELECT DISTINCT  ?Neuron_IRI
         (group_concat(distinct ?ObservedIn; separator=", ") as ?Species) 
         WHERE                  
         {
             ?Neuron_IRI rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748   
-            OPTIONAL{?Neuron_IRI rdfs:label ?Neuron_Label.}
+            
             ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI.
-                    ?A_IRI (rdfs:label) ?A_Label.
-            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI. 
-                        ?C_IRI rdfs:label ?C_Label.}
+            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI.}
             ?Neuron_IRI (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
-                    ?B_IRI (rdfs:label) ?B_Label.
                     
             OPTIONAL {?Neuron_IRI ilxtr:isObservedInSpecies/rdfs:label ?ObservedIn.}
-
         }
-        GROUP BY ?Neuron_IRI ?Neuron_Label
+        GROUP BY ?Neuron_IRI
     }
     {
-        SELECT DISTINCT  ?Neuron_IRI ?Neuron_Label 
+        SELECT DISTINCT  ?Neuron_IRI 
         (group_concat(distinct ?ForwardConnection; separator=", ") as ?Forward_Connections)  
         WHERE                  
         {
             ?Neuron_IRI rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748   
-            OPTIONAL{?Neuron_IRI rdfs:label ?Neuron_Label.}
+            
             ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI.
-                    ?A_IRI (rdfs:label) ?A_Label.
-            optional {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI. 
-                        ?C_IRI rdfs:label ?C_Label.}
+            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI.}
             ?Neuron_IRI (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
-                    ?B_IRI (rdfs:label) ?B_Label.
+
             OPTIONAL {?Neuron_IRI ilxtr:hasForwardConnection ?ForwardConnection.}
         }
-        GROUP BY ?Neuron_IRI ?Neuron_Label
+        GROUP BY ?Neuron_IRI
     }
 
     {
-        SELECT DISTINCT  ?Neuron_IRI ?Neuron_Label 
+        SELECT DISTINCT  ?Neuron_IRI 
         (group_concat(distinct ?Phenotype; separator=", ") as ?Phenotypes) 
         WHERE                  
         {
             ?Neuron_IRI rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748   
-            OPTIONAL{?Neuron_IRI rdfs:label ?Neuron_Label.}
+            
             ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI.
-                    ?A_IRI (rdfs:label) ?A_Label.
-            optional {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI. 
-                        ?C_IRI rdfs:label ?C_Label.}
+            OPTIONAL {?Neuron_IRI ilxtr:hasAxonLocation ?C_IRI.}
             ?Neuron_IRI (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
-                    ?B_IRI (rdfs:label) ?B_Label.
+
             OPTIONAL {?Neuron_IRI (ilxtr:hasNeuronalPhenotype | 
                                   ilxtr:hasFunctionalCircuitRole |
                                   ilxtr:hasCircuitRole |
                                   ilxtr:hasProjection  
                                   )/rdfs:label ?Phenotype.}
         }
-        GROUP BY ?Neuron_IRI ?Neuron_Label
+        GROUP BY ?Neuron_IRI
     }
 }
-ORDER BY ?Neuron_IRI
-LIMIT 100000`
+ORDER BY ?Neuron_IRI ?Neuron_Label
+LIMIT 10000`
 
 const npo_partial_order =
 `SELECT DISTINCT
