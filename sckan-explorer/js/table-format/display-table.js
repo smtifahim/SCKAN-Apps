@@ -7,7 +7,8 @@ function getPopulatedTable(data)
 
   const neuronDataMap = groupDataByNeuronID(data);
 
-  for (const [neuronId, neuronData] of neuronDataMap) {
+  for (const [neuronId, neuronData] of neuronDataMap) 
+  {
     var gData = neuronData[0].diGraph.axonalPath;
     const vizRow = createVizRow(gData);
     const neuronRow = createNeuronRow(neuronId, gData, vizRow);
@@ -124,7 +125,8 @@ function createDataRows(neuronData)
   });
 }
 
-function createEmptyRow() {
+function createEmptyRow()
+{
   const emptyRow = createTableRow();
   const emptyData = createTableData();
   emptyData.colSpan = 6;
@@ -133,31 +135,123 @@ function createEmptyRow() {
   return emptyRow;
 }
 
+// function getFormattedNeuronMetaData(nmdata) 
+// {
+//   let text = `<strong>Label:</strong> ` + nmdata.neuronLabel;
+
+//   if (nmdata.neuronPrefLabel !== "")
+//     text +=  `<hr><strong>Preferred Label</strong><pre>  </pre>` + nmdata.neuronPrefLabel; 
+
+//   text += `<hr><strong>Phenotype(s):</strong>` + nmdata.phenotypes;
+//   if (nmdata.species !== "")
+//     text += `<hr><b>Species:</b>` +  nmdata.species;
+
+//   if (nmdata.sex !== "")
+//     text += `; <b>Sex:</b>` + nmdata.sex;
+  
+//   if (nmdata.forwardConnections !== "")
+//     text += `<hr><b>Forward Connection(s):</b>` +  nmdata.forwardConnections;
+  
+//   if (nmdata.reference !== "")
+//     text += `<hr><b>Reference:</b>` +  addHyperlinksToURIs(nmdata.reference);
+  
+//   if (nmdata.alert !== "")
+//     text += `<hr><b>Alert Note:</b>` + addHyperlinksToURIs(nmdata.alert);
+
+//   text += "<br>";
+//   return text;
+// }
+
 function getFormattedNeuronMetaData(nmdata) 
 {
-  let text = `<strong>Label:</strong> ${nmdata.neuronLabel}`;
+  let table = `<table style="border-collapse: collapse; width: 100%;">`;
 
-  if (nmdata.neuronPrefLabel !== "")
-    text +=  `<hr><strong>Preferred Label:</strong> ${nmdata.neuronPrefLabel}`; 
+  table += `<tr><td style="font-weight: bold; width: 25px;">Label</td>`;
+  table += `<td style="width:90%">${nmdata.neuronLabel}</td></tr>`;
 
-  text += `<hr><strong>Phenotype(s):</strong> ${nmdata.phenotypes}`;
+  // Will need to consider if we want the label to be displayed in title case
+  // table += `<td style="width:90%">${convertToTitleCase(nmdata.neuronLabel)}</td></tr>`;
+
+  if (nmdata.neuronPrefLabel !== "") 
+  {
+    table += `<tr><td style="font-weight: bold;">Preferred Label</td>`;
+    table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
+    
+    // Will need to cosider if we want the pref label to be displayed in title case
+    // table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
+  }
+
+  table += `<tr><td style="font-weight: bold;">Phenotype(s)</td>`;
+  table += `<td>${nmdata.phenotypes}</td></tr>`;
+
   if (nmdata.species !== "")
-    text += `<hr><b>Species:</b> ${nmdata.species}`;
+  {
+    table += `<tr><td style="font-weight: bold;">Species</td>`;
+    table += `<td>${nmdata.species}`;
+    if (nmdata.sex !== "")
+      table += `; <b>Sex:</b> ${convertToTitleCase(nmdata.sex)}`;
+    table += `</td></tr>`;
+  }
 
-  if (nmdata.sex !== "")
-    text += `; <b>Sex:</b> ${nmdata.sex}`;
-  
+  // if (nmdata.sex !== "") {
+  //   table += `<tr><td style="font-weight: bold;">Sex:</td>`;
+  //   table += `<td>${titleCase(nmdata.sex)}</td></tr>`;
+  // }
+
   if (nmdata.forwardConnections !== "")
-    text += `<hr><b>Forward Connection(s):</b> ${nmdata.forwardConnections}`;
-  
-  if (nmdata.reference !== "")
-    text += `<hr><b>Reference:</b> ${addHyperlinksToURIs(nmdata.reference)}`;
-  
-  if (nmdata.alert !== "")
-    text += `<hr><b>Alert Note:</b> ${addHyperlinksToURIs(nmdata.alert)}`;
+  {
+    table += `<tr><td style="font-weight: bold;">Forward Connection(s)</td>`;
+    table += `<td>${nmdata.forwardConnections}</td></tr>`;
+  }
 
-  text += "<br>";
-  return text;
+  if (nmdata.reference !== "")
+  {
+    table += `<tr><td style="font-weight: bold;">Reference</td>`;
+    table += `<td>${addHyperlinksToURIs(nmdata.reference)}</td></tr>`;
+  }
+
+  if (nmdata.alert !== "")
+  {
+    table += `<tr><td style="font-weight: bold;">Alert Note</td>`;
+    table += `<td>${addHyperlinksToURIs(nmdata.alert)}</td></tr>`;
+  }
+
+  table += `</table>`;
+  return table;
+}
+
+// function titleCase(str) 
+// {
+//   return str.toLowerCase().split(' ').map(function(word) {
+//     return word.replace(word[0], word[0].toUpperCase());
+//   }).join(' ');
+// }
+
+function convertToTitleCase(sentence)
+{
+  const smallWords = ['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 
+                      'via', 'on', 'at', 'to', 'from', 'by', 'in', 'of'];
+  const words = sentence.toLowerCase().split(/[\s,]+/);
+
+  for (let i = 0; i < words.length; i++) 
+  {
+    const word = words[i];
+
+    if (i === 0 || !smallWords.includes(word)) 
+    {
+      // Check if the word matches the pattern "X1-X9" or "X1-XN"
+      if (/^[a-z]\d+(-[a-z]\d+|-[a-z]n)?$/.test(word)) 
+      {
+        words[i] = word.toUpperCase(); // Preserve the pattern in uppercase
+      } 
+      else 
+      {
+        words[i] = word.charAt(0).toUpperCase() + word.slice(1); // Convert other words to title case
+      }
+    }
+  }
+
+  return words.join(' ');
 }
 
 function addHyperlinksToURIs(text) 
