@@ -46,9 +46,12 @@ SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Targ
     ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
                 ?B_IRI (rdfs:label) ?B_Label.
 
-    OPTIONAL{?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                    owl:onProperty partOf: ; 
-                                    owl:someValuesFrom ?Target_Organ_IRI].
+   # OPTIONAL{?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
+   #                                 owl:onProperty partOf: ; 
+   #                                 owl:someValuesFrom ?Target_Organ_IRI].
+
+
+    OPTIONAL { ?B_IRI ilxtr:isPartOf+ ?Target_Organ_IRI.
     ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
                     
     FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
@@ -146,25 +149,35 @@ ORDER BY ?Neuron_IRI ?Neuron_Label
 LIMIT 10000`
 
 const npo_partial_order =
-`SELECT DISTINCT
-?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
-WHERE
-{
-    ?Neuron_IRI ilxtr:neuronPartialOrder ?o .
-    ?o (rdf:rest|rdf:first)* ?r1 .
-    ?o (rdf:rest|rdf:first)* ?r2 .
-    ?r1 rdf:rest|rdf:first ?V1 .
-    ?r2 rdf:rest|rdf:first ?V2 .
-    ?V1 rdf:type owl:Class .
-    ?V2 rdf:type owl:Class .
-    ?mediator rdf:first ?V1 .  # car
-    ?mediator rdf:rest*/rdf:first/rdf:first ?V2 .  # caadr
-    ?V1 rdfs:label ?V1_Label.
-    ?V2 rdfs:label ?V2_Label.
-    optional {?Neuron_IRI rdfs:label ?Neuron_Label.}
+`# Query to generate the adjacency matrix representing the axonal paths of the neuron populations.
 
-FILTER (?V1 != ?V2).
-FILTER (CONTAINS(STR(?Neuron_IRI), 'mmset')).  
-} 
-ORDER BY ?Neuron_IRI 
-limit 100000`
+SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
+WHERE 
+{
+
+    # Note: This query currently works for the NLP curated neuron populations.
+    # We will update the query for other populations such as the populations from ApINATOMY models. 
+    ?Neuron_IRI rdfs:subClassOf ilxtr:NeuronSparcNlp.
+
+    ?Neuron_IRI ilxtr:neuronPartialOrder ?PO .
+        ?PO (rdf:rest|rdf:first)* ?r1 .
+        ?r1 (rdf:rest|rdf:first)* ?r2 .
+        ?r1 rdf:first ?V1 .
+        ?r2 rdf:first ?V2 .
+        ?V1 rdf:type owl:Class .
+        ?V2 rdf:type owl:Class .
+
+        FILTER (?mediator = ?r1)  # draw only from the same partial order
+        ?mediator rdf:first ?V1 .  # car
+        ?mediator rdf:rest+/rdf:first/rdf:first ?V2 .  # caadr
+
+    ?V1 rdfs:label ?V1_Label. ?V2 rdfs:label ?V2_Label.
+    ?Neuron_IRI rdfs:label ?Neuron_Label.
+
+    FILTER (?V1 != ?V2).
+
+   # FILTER (CONTAINS(STR(?Neuron_IRI), 'semves/2')).
+
+}
+ORDER BY ?Neuron_IRI ?V1 ?V2 
+LIMIT 100000`
