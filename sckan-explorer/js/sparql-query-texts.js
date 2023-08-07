@@ -57,7 +57,7 @@ SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Targ
     FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
                                 'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
                                 'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
-                                'penis', 'clitoris', 'pancreas'))}               
+                                'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas'))}               
 }
 ORDER BY ?Neuron_ID ?A_Label ?B_IRI ?C_Label
 LIMIT 120000`
