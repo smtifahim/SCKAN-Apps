@@ -404,4 +404,6 @@ async function loadABCData()
      const searchButton = document.querySelector("button", "#submit");
      searchButton.addEventListener("click", search);
 
+return true; //return true after all the data are loaded and ready to be used by the html forms
+
 } // End of function loadABCData(); 

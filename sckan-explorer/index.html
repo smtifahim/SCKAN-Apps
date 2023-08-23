@@ -16,10 +16,15 @@
         <script src="./js/table-format/display-table.js"> </script>
     </head>
     <body>
+       
         <hr>
         <p> 
             <center><a href="https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD" target="_blank"><img style="width:300px;" src="./img/sckan-explorer-logo.svg" alt="sparc"></a></center>
         </p>
+
+        <p id="db-conn-status">
+        </p>
+
         <!-- <hr><br> -->
 
         <!-- The form must have the default autocomplete function switched off:-->
@@ -108,8 +113,33 @@
         
         
         <script>
-            loadAllLocations();
-            loadABCData();
+
+        const db_status = "Loading SCKAN Data Status: ";
+
+        async function loadAllData()
+        {
+            var s1 = await loadAllLocations();
+            var s2 = await loadABCData();
+
+            if (s1 && s2)
+            {
+                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status + "Data loaded sucessfully." + "<center>";
+                document.getElementById("myForm").style.visibility = "visible";    
+            }
+            else
+            {
+                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status + "Unsuccessfull." + "<center>";
+
+            }  
+        }
+
+        window.onload = function()
+        {            
+            document.getElementById("myForm").style.visibility = "hidden";
+            document.getElementById("db-conn-status").innerHTML = "<hr><center>Loading data from SCKAN database. <b>Please wait ... </b></center>";
+    
+            loadAllData();
+        }
         </script>
     </body>
 </html>

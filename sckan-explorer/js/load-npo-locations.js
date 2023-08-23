@@ -84,4 +84,5 @@ async function loadAllLocations()
    autocomplete(document.getElementById("conn-dest"), terminals);
    autocomplete(document.getElementById("conn-via"), vias);
 
-}
+return true;
+} //End of function loadAllLocations()
