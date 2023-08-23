@@ -60,12 +60,34 @@ async function getABCDataFromDB()
     }
 }
 
+function loadJSONFromFile(filename) 
+{
+  const xhr = new XMLHttpRequest();
+  xhr.overrideMimeType("application/json");
+  xhr.open('GET', filename, false);
+  xhr.send();
+
+  if (xhr.status === 200) 
+  {
+    jsonData =  JSON.parse(xhr.responseText)
+    return jsonData.results.bindings;
+  } 
+  else 
+  {
+    console.error("Error fetching JSON data:", xhr.statusText);
+    return null;
+  }
+}
+
+
 async function loadABCData()
 {
     const neuronsMetaDataFromDB = await getNeuronsMetaDataFromDB();
     npo_neurons_metadata = getNeuronsMetaData(neuronsMetaDataFromDB);
 
-    const poDataFromDB = await getPartialOrderDataFromDB();
+    //const poDataFromDB = await getPartialOrderDataFromDB();
+    const poDataFromDB = loadJSONFromFile("./json/npo-poset.json");
+
     npo_poset = getNPOPartialOrders(poDataFromDB);
     populateNPONeuronDiGraphs();
     
