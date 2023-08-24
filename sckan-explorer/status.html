@@ -33,7 +33,7 @@
           ?Location_IRI (rdfs:label | NIFRID:synonym | oboInOwl:hasExactSynonym) ?Location_Label.
       }
       ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
-      LIMIT 100`
+      LIMIT 10`
 
     
     async function runStardogQuery() 
@@ -41,7 +41,7 @@
       try
       {
           var queryResults = await executeDBQuery(conn, db_test, test_query);
-          if (queryResults.length > 1)
+          if (queryResults.length > 0)
           {
             setStatusMessage(true);
           }
