@@ -51,7 +51,7 @@ SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Targ
    #                                 owl:someValuesFrom ?Target_Organ_IRI].
 
 
-    OPTIONAL { ?B_IRI ilxtr:isPartOf+ ?Target_Organ_IRI.
+    OPTIONAL { ?B_IRI ilxtr:isPartOf ?Target_Organ_IRI.
     ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
                     
     FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
