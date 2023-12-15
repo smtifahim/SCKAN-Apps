@@ -1,2 +1,11 @@
-# Wecome to SCKAN Explorer!
-This is a web application to explore the SPARC's SCKAN knowledgebase.
+# About SCKAN Explorer
+
+SCKAN Explorer ([https://services.scicrunch.io/sckan/explorer/](https://services.scicrunch.io/sckan/explorer/)) is a JavaScript-based intuitive search interface to explore SCKAN’s neuron populations along with their detailed connectivity information. It was developed as a proof of concept for the SPARC investigators, anatomical experts, and knowledge curators to quickly check and verify existing SCKAN connections without the hurdle of writing tedious and intricate SPARQL queries. SCKAN Explorer (see Figure 1) allows searching for specific neuron populations filtered based on a given origin (soma location), destination (axon terminal or axon sensory terminal location), and/or via location (axon location including nerve, nerve plexus, or ganglia). This repository contains the source code for the SCKAN Explorer.
+
+![](https://lh7-us.googleusercontent.com/g1OJu0O5-I0DfPvpYAxHFMrNHSBG2fcBHsfdX3jynd7ppHUmQvn8MQqIv3hAGGHGmiPbx5k5GuFKCvpAQLfFNzq6a1XWjyoaA0T_uPlJT92S4SZ6EEtnCbgrXiqRh08vaKyXZAC8kiRFCwcqVhAppIo)
+**Fig 1.** A screenshot of the SCKAN Explorer’s input interface. This example asks for any neuron population that terminates at the pelvic ganglion. Hitting the search button returns 6 such neuron populations with details.
+
+SCKAN Explorer facilitates flexible, streamlined data inputs by providing autocomplete suggestions for SCKAN-specific anatomical locations of the origin, terminal, and ‘via’ location fields within its interface. The autocomplete suggestions include standard anatomical terms along with their exact synonyms broadly used by the community ontologies like UBERON. The explorer also allows filtering the search results based on species, known neuron population IDs (or their fragments), as well as the end organs, also supported by autocomplete suggestions. The end organ filter can be used to retrieve the populations that terminate at any part of a given major organ (e.g., heart, prostate gland, urinary bladder). SCKAN explorer also allows visualizing the axonal course between the origin and the terminus whenever a neuron population has that knowledge available in SCKAN (see an example in Figure 2).
+
+![](https://lh7-us.googleusercontent.com/BWekel7UoR9u7Wwvld2Pl_tUjsyQ_CfQr9q1YC2QHZjj95MMtasNSUSoKXz3cjyQm4z6eayzsRRQPzYXNRIuQ6muXeNgDNqSiN34pSd1aB92wcP2mbvwDyD6o4YNxHKHoLeFvVYCzoX3bfAdydjTKrs)
+**Fig 2.** A screenshot of an example search result showing a parasympathetic pre-ganglionic neuron population that terminates at the pelvic ganglion along with a visual diagram of its axonal path.
