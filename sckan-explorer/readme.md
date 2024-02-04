@@ -1,6 +1,6 @@
 # About SCKAN Explorer
 
-SCKAN Explorer ([https://services.scicrunch.io/sckan/explorer/](https://services.scicrunch.io/sckan/explorer/)) is a JavaScript-based intuitive search interface to explore SCKAN’s neuron populations along with their detailed connectivity information. It was developed as a proof of concept for the SPARC investigators, anatomical experts, and knowledge curators to quickly check and verify existing SCKAN connections without the hurdle of writing tedious and intricate SPARQL queries. SCKAN Explorer (see Figure 1) allows searching for specific neuron populations filtered based on a given origin (soma location), destination (axon terminal or axon sensory terminal location), and/or via location (axon location including nerve, nerve plexus, or ganglia). This repository contains the source code for the SCKAN Explorer.
+SCKAN Explorer ([https://services.scicrunch.io/sckan/explorer/](https://services.scicrunch.io/sckan/explorer/)) is a JavaScript-based intuitive search interface to explore [SCKAN](https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD)’s neuron populations along with their detailed connectivity information. It was developed as a proof of concept for the SPARC investigators, anatomical experts, and knowledge curators to quickly check and verify existing SCKAN connections without the hurdle of writing tedious and intricate SPARQL queries. SCKAN Explorer (see Figure 1) allows searching for specific neuron populations filtered based on a given origin (soma location), destination (axon terminal or axon sensory terminal location), and/or via location (axon location including nerve, nerve plexus, or ganglia). This repository contains the source code for the SCKAN Explorer.
 
 ![](https://lh7-us.googleusercontent.com/g1OJu0O5-I0DfPvpYAxHFMrNHSBG2fcBHsfdX3jynd7ppHUmQvn8MQqIv3hAGGHGmiPbx5k5GuFKCvpAQLfFNzq6a1XWjyoaA0T_uPlJT92S4SZ6EEtnCbgrXiqRh08vaKyXZAC8kiRFCwcqVhAppIo)
 **Fig 1.** A screenshot of the SCKAN Explorer’s input interface. This example asks for any neuron population that terminates at the pelvic ganglion. Hitting the search button returns 6 such neuron populations with details.
@@ -9,3 +9,14 @@ SCKAN Explorer facilitates flexible, streamlined data inputs by providing autoco
 
 ![](https://lh7-us.googleusercontent.com/BWekel7UoR9u7Wwvld2Pl_tUjsyQ_CfQr9q1YC2QHZjj95MMtasNSUSoKXz3cjyQm4z6eayzsRRQPzYXNRIuQ6muXeNgDNqSiN34pSd1aB92wcP2mbvwDyD6o4YNxHKHoLeFvVYCzoX3bfAdydjTKrs)
 **Fig 2.** A screenshot of an example search result showing a parasympathetic pre-ganglionic neuron population that terminates at the pelvic ganglion along with a visual diagram of its axonal path.
+
+## Limitations
+
+SCKAN Explorer was developed as a proof-of-concept prototype for exploring SCKAN for SPARC curators, anatomical experts, and domain experts. This version is not intended for general audience. We are in the process of developing a version of SCKAN explorer more accessible for wider audience. Here we list the current limitations of SCKAN explorer:
+
+* The users have to be specific about the connection origin, terminal, and via; i.e., SCKAN explorer currently does not support general terms that would intutitively include specific terms.
+  * For instance, you need to specy a particular segment of the spinal cord like 'first cervical segment of spinal cord' or its synonym 'C1 segment' as the origin of a connection. You currently cannot ask the interface to list any connection(s) that originates at any segment of 'cerivcal spinal cord'.
+  * Similarly, you cannot to ask to list the connection(s) that go through any of the cranial nerves; instead, you will have to select the specific cranial nerve from the auto-complete suggestions.
+* The interface currently does not have the mechanism to save the results in CSV or any other format. Also, the interface does not have the mechanism to copy/share the url for any specific search results.
+* The interface currently lists all the connections categorized by neuron populations only. The overall, region-region connections (regardless of the neuron populations forming  those connects) cannot be viewed.
+* The axonal path diagrams (such as the one in Fig. 2) are only available for NLP-curated neuron populations. The populations from [ApINATOMY](https://scicrunch.org/sawg/about/ApiNATOMY) models are not visible at the moment. We are working on including those remaining diagrams for the next release of SCKAN.
