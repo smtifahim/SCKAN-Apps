@@ -7,6 +7,7 @@ const Prefix_IRI_Mapping = [
   { prefix: "mmset2cn:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/" },
   { prefix: "mmset4:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/" },
   { prefix: "semves:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/" },
+  { prefix: "femrep:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/" },
   { prefix: "prostate:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/" },
   { prefix: "ilxtr:", iri: "http://uri.interlex.org/tgbugs/uris/readable/" },
   { prefix: "npokb:", iri: "http://uri.interlex.org/npo/uris/neurons/" },

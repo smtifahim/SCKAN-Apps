@@ -327,7 +327,21 @@ async function loadABCData()
     function populateNeuronSpecies()
     {
         var species = [...new Set(aToBviaC.map(obj => obj.neuronMetaData.species))];
-        autocomplete(document.getElementById("species-txt"), species);
+        var unique_species = [...new Set(sortStringsInArray(species))];
+        autocomplete(document.getElementById("species-txt"), unique_species);
+    }
+
+    // for multiple species seperated by comma we want to have ordered list. SPARQL group_concat does not gurantee ordering.
+    function sortStringsInArray(inputArray) 
+    {
+      // Sort each string within the array
+      var sortedArray = inputArray.map(function(str) 
+      {
+          // Split the string by comma, sort the parts, and join back with comma
+          return str.split(', ').sort().join(', ');
+      });
+      
+      return sortedArray;
     }
 
     populateNeuronTergetOrgans()
