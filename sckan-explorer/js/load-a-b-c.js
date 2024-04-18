@@ -271,8 +271,9 @@ async function loadABCData()
            
            var neuron_species = "";
            if (neuronMetaData[i].hasOwnProperty("Species"))
-                neuron_species = neuronMetaData[i].Species.value;
-           
+               // neuron_species = neuronMetaData[i].Species.value;
+               neuron_species = sortWords(neuronMetaData[i].Species.value); // sort the species for multispecies populations.
+
            var neuron_phenotypes = "";
            if (neuronMetaData[i].hasOwnProperty("Phenotypes"))
                 neuron_phenotypes = neuronMetaData[i].Phenotypes.value;
@@ -300,6 +301,19 @@ async function loadABCData()
         return neurons_meta;
     }
 
+    // To have an ordered list of species for neuron metadata where a population is observed on multiple species.
+    function sortWords(inputString) 
+    {
+      // split the input string into an array of words
+      let words = inputString.split(', ');
+      
+      words.sort();
+      
+      // join the sorted array back into a string
+      let sortedString = words.join(', ');
+      
+      return sortedString;
+    }
 
     function getPrefixesFromIRIs(uriString) 
     {
@@ -327,22 +341,25 @@ async function loadABCData()
     function populateNeuronSpecies()
     {
         var species = [...new Set(aToBviaC.map(obj => obj.neuronMetaData.species))];
-        var unique_species = [...new Set(sortStringsInArray(species))];
-        autocomplete(document.getElementById("species-txt"), unique_species);
+      //  var unique_species = [...new Set(sortStringsInArray(species))];
+      //  autocomplete(document.getElementById("species-txt"), unique_species);
+        autocomplete(document.getElementById("species-txt"), species);
+
     }
 
     // for multiple species seperated by comma we want to have ordered list. SPARQL group_concat does not gurantee ordering.
-    function sortStringsInArray(inputArray) 
-    {
-      // Sort each string within the array
-      var sortedArray = inputArray.map(function(str) 
-      {
-          // Split the string by comma, sort the parts, and join back with comma
-          return str.split(', ').sort().join(', ');
-      });
+    // (not needed for now)
+    // function sortStringsInArray(inputArray) 
+    // {
+    //   // Sort each string within the input array
+    //   var sortedArray = inputArray.map(function(str)
+    //   {
+    //       // Split the string by comma, sort the parts, and join back with comma
+    //       return str.split(', ').sort().join(', ');
+    //   });
       
-      return sortedArray;
-    }
+    //   return sortedArray;
+    // }
 
     populateNeuronTergetOrgans()
     function populateNeuronTergetOrgans()
