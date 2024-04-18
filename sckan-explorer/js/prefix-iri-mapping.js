@@ -17,6 +17,7 @@ const Prefix_IRI_Mapping = [
   { prefix: "NIFSTD:", iri: "http://uri.neuinfo.org/nif/nifstd/" },
 ];
 
+// to get curie from a given URI.
 function getCurieFromIRI(uri) 
 {
   for (const mapping of Prefix_IRI_Mapping) 

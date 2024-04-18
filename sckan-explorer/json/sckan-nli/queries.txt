@@ -1,0 +1,294 @@
+# Saved results: neurons-metadata-2.json
+# Neurons with metadata Version 2. This one includes literature citations and IRI for the species.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species_IRI
+                (GROUP_CONCAT(DISTINCT ?Species_1; SEPARATOR=", ") AS ?Species)
+                ?Sex
+                (GROUP_CONCAT(DISTINCT ?Phenotype; SEPARATOR=", ") AS ?Phenotypes)
+                (GROUP_CONCAT(DISTINCT ?Forward_Connection; SEPARATOR=", ") AS ?Forward_Connections)
+                ?Alert
+                ?Reference
+                (GROUP_CONCAT(DISTINCT ?Literature_Citation; SEPARATOR=", ") AS ?Citations)
+
+WHERE
+{
+  #  FILTER ( regex (LCase(?Phenotype), 'sensory phenotype' ))
+
+   # ?Neuron_IRI rdfs:subClassOf+ SAO:1417703748.   # SAO Neuron IRI http://uri.neuinfo.org/nif/nifstd/sao1417703748
+    ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only clonsidering SCKAN neurons 
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+
+    OPTIONAL {?Neuron_IRI rdfs:label ?Neuron_Label.}
+    OPTIONAL {?Neuron_IRI skos:prefLabel ?Neuron_Pref_Label.}
+            
+    OPTIONAL {
+                ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
+                ?Species_IRI rdfs:label ?Species_1.
+             }
+    OPTIONAL {?Neuron_IRI ilxtr:hasPhenotypicSex/rdfs:label ?Sex.}
+    OPTIONAL {?Neuron_IRI (  ilxtr:literatureCitation 
+                            |rdfs:subClassOf/ilxtr:literatureCitation) ?Literature_Citation.}
+    OPTIONAL {?Neuron_IRI ilxtr:reference ?Reference.}
+
+    OPTIONAL {?Neuron_IRI ilxtr:alertNote ?Alert.}
+    OPTIONAL {?Neuron_IRI ilxtr:hasForwardConnection ?Forward_Connection.}
+    OPTIONAL {?Neuron_IRI (ilxtr:hasNeuronalPhenotype | 
+                            ilxtr:hasFunctionalCircuitRole |
+                            ilxtr:hasCircuitRole |
+                            ilxtr:hasProjection  
+                           )/rdfs:label ?Phenotype.}
+}
+GROUP BY ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species_IRI ?Sex ?Alert ?Reference
+ORDER BY ?Neuron_IRI
+
+####
+# Saved results: major-organ-synonyms.json
+# SCKAN Organs Synonyms
+# This query looks for the terminals of the populations that reside in any part of a major organ.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT 
+# ?Neuron_ID 
+# ?A_IRI ?A_Label 
+# ?B_IRI ?B_Label 
+?Organ_ID ?Organ_Label ?Organ_Synonym
+{                
+
+   ## For exact matching of the target organ name
+    # FILTER (LCase(?Organ) = 'heart')
+   
+   ## For partial matching of the target organ name
+    # FILTER REGEX (LCase(?Organ), 'heart left')
+
+   # ?Neuron_ID rdfs:subClassOf+/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748
+   # ?Neuron_ID rdfs:subClassOf+ SAO:1417703748. 
+   
+   ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron .
+   values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+    
+   ?Neuron_ID ilxtr:hasSomaLocation ?A_IRI.
+            ?A_IRI (rdfs:label) ?A_Label.
+   
+   
+   ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
+                ?B_IRI (rdfs:label) ?B_Label.
+
+   ?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
+                                     owl:onProperty partOf: ; 
+                                     owl:someValuesFrom ?Organ_ID].
+    
+   ?Organ_ID rdfs:label ?Organ_Label.
+   Optional {?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym) ?Organ_Synonym.}
+
+
+    ## using shortcut ilxtr:isPartOf relation 
+    # ?B_IRI ilxtr:isPartOf/rdfs:label ?Organ.
+
+    FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'spinal cord', 'adrenal gland', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
+                              'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
+                              'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
+                              'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'pancreas'))
+
+}
+ORDER BY ?Organ_Label
+LIMIT 999
+
+
+######
+# Saved results: a-b-via-c-2.json
+# QUERY: This query is for loading the a-b-via-c results with hierarchy.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT DISTINCT 
+?Neuron_ID
+?A_L1_ID ?A_L1 # Level 1: brain/spinal cord/ganglion
+?A_L2_ID ?A_L2 # Level 2: nucleus of brain/ spinal cord segments/ kind of ganglion
+?A_L3_ID ?A_L3 # Level 3: kind of brain nucleus, more specific DRG and spinal cord segments C/T/L/S
+?A_ID ?A       # Level 4: specific region   
+?C_ID ?C ?C_Type 
+?B_ID ?B 
+?Target_Organ_IRI ?Target_Organ
+{                
+    # ?Neuron_ID rdfs:subClassOf+ SAO:1417703748. #Neuron
+    
+    ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    ?Neuron_ID ilxtr:hasSomaLocation ?A_ID.
+                ?A_ID rdfs:label ?A.
+    
+    # FILTER (regex(str(?Neuron_ID), 'aacar-5')) .
+    # Filter (regex(?A, 'sacral spinal cord')) .
+
+    OPTIONAL
+    {
+        # Check if A is/part of brain, spinal cord, or ganglia
+        ?A_ID (rdfs:subClassOf+| ilxtr:isPartOf+ | ILX:0112785+) ?A_L1_ID.
+        ?A_L1_ID rdfs:label ?A_L1.
+        FILTER (?A_L1 in ('brain', 
+                          'spinal cord', 
+                          'ganglion', 
+                          'nerve plexus'))
+        
+        # Check brain, spinal cord, or ganglia
+        OPTIONAL
+        {
+            ?A_ID (rdfs:subClassOf+) ?A_L2_ID.
+            ?A_L2_ID rdfs:label ?A_L2.
+            FILTER (?A_L2 in ('nucleus of brain',
+                              'spinal cord segment',   
+                              'cranial ganglion',
+                              'paravertebral ganglion',
+                              'prevertebral ganglion',
+                              'dorsal root ganglion'
+                              ))
+        }
+        OPTIONAL
+        {
+            ?A_ID (rdfs:subClassOf+ | ilxtr:isPartOf+ | ILX:0112785+) ?A_L3_ID.
+            ?A_L3_ID rdfs:label ?A_L3.
+            FILTER (?A_L3 in (## Types of nucleus
+                              'brainstem nucleus',
+                              'cranial nerve nucleus',
+                              'diencephalic nucleus',
+                              'hindbrain nucleus',
+                              'midbrain nucleus',
+                              'pretectal nucleus',
+                              'telencephalic nucleus',
+                              'trigeminal nucleus',        
+                              ## Spinal Cord Segments
+                              'cervical spinal cord', # need to inspect
+                              'thoracic spinal cord',
+                              'lumbar spinal cord',
+                              'sacral spinal cord',
+                              ## Types of ganglion
+                              'thoracic ganglion',
+                              'cervical ganglion',
+                              ## Types of Dorsal Root Ganglions
+                              'cervical dorsal root ganglion',
+                              'lumbar dorsal root ganglion',
+                              'thoracic dorsal root ganglion',
+                              'sacral dorsal root ganglion'
+                              ))
+        }
+    }
+   
+    OPTIONAL 
+    { ?Neuron_ID ilxtr:hasAxonLocation ?C_ID. 
+        ?C_ID rdfs:label ?C.
+        OPTIONAL
+        {
+        # Check if C is a nerve, nerve plexus, fiber, root, or, ganglia,
+         
+          ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+ | ILX:0112785+ ) /rdfs:label ?C_Type.
+          FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
+                              'ganglion', 'white matter', 'regional part of brain', 
+                              'cervical spinal cord', # need to inspect
+                              'thoracic spinal cord',
+                              'lumbar spinal cord',
+                              'sacral spinal cord')).
+
+        }
+    }
+    
+    ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_ID.
+                ?B_ID rdfs:label ?B.
+
+    OPTIONAL
+    {
+        ?B_ID rdfs:subClassOf+ [rdf:type owl:Restriction ;
+                                   owl:onProperty partOf: ; 
+                                   owl:someValuesFrom ?Target_Organ_IRI].
+        
+        ?Target_Organ_IRI rdfs:label ?Target_Organ.      
+                
+        FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'spinal cord', 'adrenal gland', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
+                                   'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
+                                   'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
+                                   'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'pancreas'))
+    }               
+}
+ORDER BY ?Neuron_ID ?B ?Target_Organ
+LIMIT 120000
+
+####
+# Saved results: species-synonyms.json
+# Species with synonyms
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT 
+# ?Neuron_IRI 
+?Species_IRI ?Species_Label ?Species_Synonym
+WHERE
+{
+   # ?Neuron_IRI rdfs:subClassOf+ SAO:1417703748.   # SAO Neuron IRI http://uri.neuinfo.org/nif/nifstd/sao1417703748
+    
+        ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+        values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+        ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
+        ?Species_IRI rdfs:label ?Species_Label.
+        OPTIONAL
+        {
+            ?Species_IRI (oboInOwl:hasExactSynonym | NIFRID:synonym)  ?Species_Synonym.
+        }
+
+}
+ORDER BY ?Species_Label ?Neuron_IRI
+#LIMIT 10000
+
+####
+# Saved results: npo-all-locations.json
+# QUERY: This query is for loading the locations for sckan explorer's auto-complete text input.
+# The query returns all the connected anatomical locations along with their synonyms based on the 
+# locational phenotype relations on the  NPO neuron types.  
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT DISTINCT ?Connection_Type ?Location_IRI ?Location_Label
+{
+    # FILTER (lcase(?Location_Label) = 'nodose ganglion')
+    
+    ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    ?Neuron_ID ?Connection_Type ?Location_IRI.
+   
+    ?Connection_Type rdfs:subPropertyOf+ ilxtr:hasConnectedLocation.
+    # ?Neuron_ID ilxtr:hasSomaLocation ?s;
+    #            (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?x.                    
+        
+    # Consider rdfs:label or any of the synonyms for the Location_Label for the UI autocomplete search. 
+    ?Location_IRI (rdfs:label | NIFRID:synonym | oboInOwl:hasExactSynonym) ?Location_Label.
+}
+ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
+LIMIT 100000 
