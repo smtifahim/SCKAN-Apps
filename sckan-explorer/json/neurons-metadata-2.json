@@ -27,11 +27,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Spinal cord ascending projection phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 1"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Spinal cord ascending projection phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 1"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -55,9 +115,13 @@
           "type": "literal",
           "value": "neuron type aacar 10a"
         },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
         "Species": {
           "type": "literal",
-          "value": ""
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -65,7 +129,67 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 10a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 10a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
         },
         "Citations": {
           "type": "literal",
@@ -83,11 +207,11 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -95,7 +219,67 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 10v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 10v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
         },
         "Citations": {
           "type": "literal",
@@ -113,11 +297,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-1"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-11"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 11"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-1"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-11"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 11"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -143,11 +387,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2i, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1002/cphy.c150046, http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-12"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 12"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2i, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1002/cphy.c150046, http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-12"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 12"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -173,11 +477,11 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -185,7 +489,253 @@
         },
         "Forward_Connections": {
           "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 13"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 13"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
           "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-14"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2i"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 2i"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
         },
         "Citations": {
           "type": "literal",
@@ -203,11 +753,41 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2i"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 2i"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -233,11 +813,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 2m"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 2m"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -263,11 +903,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-4"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 4"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-4"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 4"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -293,11 +993,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-5"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 5"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-5"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 5"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -323,11 +1083,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 6"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-6"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 6"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -353,11 +1173,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 7a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 7a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -383,11 +1263,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 7v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-7v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 7v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -413,11 +1353,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 8a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 8a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -443,11 +1443,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 8v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-8v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 8v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -473,11 +1533,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-9a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 9a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10a"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-9a"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 9a"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -503,11 +1623,71 @@
         },
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species": {
           "type": "literal",
-          "value": "Mammal, Mammalia"
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-9v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 9v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-10v"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-9v"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type aacar 9v"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2869,6 +4049,32 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-10"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 10"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2902218, http://www.ncbi.nlm.nih.gov/pubmed/11437981, http://www.ncbi.nlm.nih.gov/pubmed/12576302, http://www.ncbi.nlm.nih.gov/pubmed/18286675, http://www.ncbi.nlm.nih.gov/pubmed/18364578, http://www.ncbi.nlm.nih.gov/pubmed/18924442, http://www.ncbi.nlm.nih.gov/pubmed/23438947, http://www.ncbi.nlm.nih.gov/pubmed/24306100"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-11"
         },
         "Neuron_Label": {
@@ -2900,6 +4106,58 @@
         "Neuron_Label": {
           "type": "literal",
           "value": "neuron type sstom 12"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Excitatory"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2902218, http://www.ncbi.nlm.nih.gov/pubmed/11437981, http://www.ncbi.nlm.nih.gov/pubmed/12576302, http://www.ncbi.nlm.nih.gov/pubmed/18286675, http://www.ncbi.nlm.nih.gov/pubmed/18364578, http://www.ncbi.nlm.nih.gov/pubmed/18924442, http://www.ncbi.nlm.nih.gov/pubmed/23438947, http://www.ncbi.nlm.nih.gov/pubmed/24306100"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-13"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 13"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Inhibitory"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2902218, http://www.ncbi.nlm.nih.gov/pubmed/11437981, http://www.ncbi.nlm.nih.gov/pubmed/12576302, http://www.ncbi.nlm.nih.gov/pubmed/18286675, http://www.ncbi.nlm.nih.gov/pubmed/18364578, http://www.ncbi.nlm.nih.gov/pubmed/18924442, http://www.ncbi.nlm.nih.gov/pubmed/23438947, http://www.ncbi.nlm.nih.gov/pubmed/24306100"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 14"
         },
         "Species": {
           "type": "literal",
@@ -3098,6 +4356,2266 @@
         "Citations": {
           "type": "literal",
           "value": "http://www.ncbi.nlm.nih.gov/pubmed/2902218, http://www.ncbi.nlm.nih.gov/pubmed/11437981, http://www.ncbi.nlm.nih.gov/pubmed/12576302, http://www.ncbi.nlm.nih.gov/pubmed/18286675, http://www.ncbi.nlm.nih.gov/pubmed/18364578, http://www.ncbi.nlm.nih.gov/pubmed/18924442, http://www.ncbi.nlm.nih.gov/pubmed/23438947, http://www.ncbi.nlm.nih.gov/pubmed/24306100"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-9"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 9"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-13"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2902218, http://www.ncbi.nlm.nih.gov/pubmed/11437981, http://www.ncbi.nlm.nih.gov/pubmed/12576302, http://www.ncbi.nlm.nih.gov/pubmed/18286675, http://www.ncbi.nlm.nih.gov/pubmed/18364578, http://www.ncbi.nlm.nih.gov/pubmed/18924442, http://www.ncbi.nlm.nih.gov/pubmed/23438947, http://www.ncbi.nlm.nih.gov/pubmed/24306100"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/100"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "S2-S4 dorsal root ganglia with axon sensory terminal in vagina via pelvic splanchnic nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.3389/fphar.2014.00017"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/101"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "S2-S4 dorsal root ganglia with axon sensory terminal in uterine cervix via pelvic splanchnic nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.3389/fphar.2014.00017"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/102"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L2 dorsal root ganglia with axon sensory terminal in uterus via hypogastric nerve with axon terminal in T10-L2 dorsal root ganglia to T10-L2 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.3389/fphar.2014.00017"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/103"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L2 dorsal root ganglia with axon sensory terminal in uterine cervix via hypogastric nerve with axon terminal in T10-L2 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.3389/fphar.2014.00017"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/104"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "S2-S4 dorsal root ganglia with axon sensory terminal in clitoris via pudendal nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.3389/fphar.2014.00017"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/30"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T1-L2 spinal cord to paravertebral sympathetic chain of T12-L1 via white rami communicantes"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/31, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/32, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/33"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Mónica Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009, Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/31"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to blood vessel of the upper uterus via splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Mónica Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009, Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/32"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to smooth muscle of the upper uterus via splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1152/ajpcell.1986.251.1.C41"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/33"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to uterine tube infundibulum via splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": ""
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/34"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T1-L2 spinal cord to suprarenal ganglion via splanchnic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/35"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sangari (2014) https://doi.org/10.1016/j.jasi.2014.04.008"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.jasi.2014.04.008"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/35"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "suprarenal ganglion to uterine tube infundibulum via ovarian plexus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Serghini (1997) http://dx.doi.org/10.1016/S0165-1838(97)00091-X"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1016/S0165-1838(97)00091-X"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/36"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T9-T10 spinal cord to paravertebral sympathetic chain of T12-L1 or celiac ganglion or superior mesenteric ganglion via white rami communicantes"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/37, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/38"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Gerendai (2000) https://doi.org/10.1016/S0165-1838(00)00071-0 , Gerendai (1998) https://doi.org/10.1159/000054372 , Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0 , Pastelín (2017) http://dx.doi.org/10.1186/s13048-017-0311-x"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/37"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T13-L1 to left ovary via ovarian plexus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Pastelín (2017) http://dx.doi.org/10.1186/s13048-017-0311-x, Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, Morán (2009) http://dx.doi.org/10.1186/1477-7827-7-50 , Uchida (2016) https://doi.org/10.1016/j.autneu.2016.04.003, Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, http://dx.doi.org/10.1186/1477-7827-7-50, https://doi.org/10.1016/j.autneu.2016.04.003"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/38"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "celiac ganglion or superior mesenteric ganglion or paravertebral sympathetic chain of T12-L1 to left ovary via superior ovarian nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Pastelín (2017) http://dx.doi.org/10.1186/s13048-017-0311-x, Morán (2009) http://dx.doi.org/10.1186/1477-7827-7-50 , Uchida (2016) https://doi.org/10.1016/j.autneu.2016.04.003 , Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0 "
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, http://dx.doi.org/10.1186/1477-7827-7-50, https://doi.org/10.1016/j.autneu.2016.04.003"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/39"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T9-T10 spinal cord to celiac ganglion or superior mesenteric ganglion or paravertebral sympathetic chain of T12-L1 via splanchnic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/40"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Gerendai (2000) https://doi.org/10.1016/S0165-1838(00)00071-0, Pastelín (2017) http://dx.doi.org/10.1186/s13048-017-0311-x, Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/40"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "celiac ganglion or superior mesenteric ganglion or paravertebral sympathetic chain of T13-L1 to right ovary via ovarian plexus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Pastelín (2017) http://dx.doi.org/10.1186/s13048-017-0311-x, Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/41"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T1-L2 spinal cord to paravertebral sympathetic chain of L2-L4 via white rami communicantes"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/42, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/43, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/44"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/42"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to smooth muscle of the lower uterus via splanchnic nerve via hypogastric nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7 ,  Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4 "
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/0165-1838(96)00019-7, https://doi.org/10.1016/S0165-1838(97)00091-X"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/43"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to blood vessel of the lower uterus via splanchnic nerve via hypogastric nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/0165-1838(96)00019-7"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/44"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to uterine cervix via splanchnic nerve via hypogastric nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/S0165-1838(97)00091-X"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/52"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "intermediolateral nucleus of L6-S1 to major pelvic ganglion via pelvic splanchnic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/53, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/54, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/55, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/56"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Papka (1995) https://doi.org/10.1002/ar.10924104133, Collins (1999) https://doi.org/10.1016/S0306-4522(99)00396-6"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1002/ar.10924104133, https://doi.org/10.1016/S0306-4522(99)00396-6"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/53"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "major pelvic ganglion to uterine blood vessels via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7, Gnanamanickam (2011) https://doi.org/10.1002/cne.22515 , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 ,  Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Papka (1999) http://dx.doi.org/10.1007/s004410051290"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/54"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "major pelvic ganglion to myometrium via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7, Gnanamanickam (2011) https://doi.org/10.1002/cne.22515 , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 ,  Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Papka (1999) http://dx.doi.org/10.1007/s004410051290"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/55"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "major pelvic ganglion to the uterine endometrium via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7, Gnanamanickam (2011) https://doi.org/10.1002/cne.22515 , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 ,  Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Papka (1999) http://dx.doi.org/10.1007/s004410051290"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/56"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "major pelvic ganglion to uterine cervix via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Papka (1999) http://dx.doi.org/10.1007/s004410051290, Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051290"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/60"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T13-L4 dorsal root ganglion with axon sensory terminal in upper uterine segment via hypogastric nerve with axon terminal in T13-L4 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Ortega-Villalobos (1990) https://doi.org/10.1016/0361-9230(90)90221-K , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 , Komisaruk (1996) https://doi.org/10.1016/0006-8993(95)01312-1 , Collins (1999) http://dx.doi.org/10.1007/s004410051211 , Ghatei (1985) https://doi.org/10.1016/0196-9781(85)90306-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/61"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T13-L4 dorsal root ganglion with axon sensory terminal in ovary via hypogastric nerve with axon terminal in T13-L4 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Ortega-Villalobos (1990) https://doi.org/10.1016/0361-9230(90)90221-K , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 , Komisaruk (1996) https://doi.org/10.1016/0006-8993(95)01312-1 , Collins (1999) http://dx.doi.org/10.1007/s004410051211 , Ghatei (1985) https://doi.org/10.1016/0196-9781(85)90306-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/62"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "L6-S2 dorsal root ganglion with axon sensory terminal in lower uterine segment via pelvic nerve with axon terminal in L6-S2 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Ortega-Villalobos (1990) https://doi.org/10.1016/0361-9230(90)90221-K , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 , Komisaruk (1996) https://doi.org/10.1016/0006-8993(95)01312-1 , Collins (1999) http://dx.doi.org/10.1007/s004410051211 , Ghatei (1985) https://doi.org/10.1016/0196-9781(85)90306-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/63"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "L6-S2 dorsal root ganglion with axon sensory terminal in uterine cervix via pelvic nerve with axon terminal in L6-S2 spinal cord via dorsal root of spinal cord"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Ortega-Villalobos (1990) https://doi.org/10.1016/0361-9230(90)90221-K , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 , Komisaruk (1996) https://doi.org/10.1016/0006-8993(95)01312-1 , Collins (1999) http://dx.doi.org/10.1007/s004410051211 , Ghatei (1985) https://doi.org/10.1016/0196-9781(85)90306-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/64"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "nodose ganglion with axon sensory terminal in uterus or uterine cervix via abdominal vagal nerve with axon terminal in nucleus of the tractus solitarius via vagus nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Ortega-Villalobos (1990) https://doi.org/10.1016/0361-9230(90)90221-K , Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009 , Komisaruk (1996) https://doi.org/10.1016/0006-8993(95)01312-1 , Collins (1999) http://dx.doi.org/10.1007/s004410051211 , Ghatei (1985) https://doi.org/10.1016/0196-9781(85)90306-7"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/66"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L1 spinal cord to pelvic ganglion via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/67, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/68, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/69, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/70, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/71, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/72"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/67"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to uterine myometrium via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Thorbert (1979) https://doi.org/10.1016/0002-9378(79)90348-X , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/ , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/0002-9378(79)90348-X, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://pubmed.ncbi.nlm.nih.gov/18677514/"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/68"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to helicine branch of uterine artery of uterus via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Thorbert (1979) https://doi.org/10.1016/0002-9378(79)90348-X , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/ , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/0002-9378(79)90348-X, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://pubmed.ncbi.nlm.nih.gov/18677514/"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/69"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to smooth muscle of cervix via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Freeman (1946) https://doi.org/10.1093/ajcp/16.2.117"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1093/ajcp/16.2.117"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/70"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to uterine artery of the cervix via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1152/ajpendo.1989.257.2.E220"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/71"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to smooth muscle of vagina via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Freeman (1946) https://doi.org/10.1093/ajcp/16.2.117"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1093/ajcp/16.2.117"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/72"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to blood vessel of vagina via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1152/ajpendo.1989.257.2.E220"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/73"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L2 spinal cord to ovarian ganglion via celiac plexus via superior mesenteric plexus via intermesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/74"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/74"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "ovarian ganglion to smooth muscle of the isthmus or ampulla of the Fallopian tube via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/75"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L2 spinal cord to aorticorenal ganglion via lesser splanchnic nerve or lumbar splanchnic nerves"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/76"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Gray’s Anatomy 40th edition ISBN13:9780702077050"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001, https://uilx.org/tgbugs/u/r/isbn-13/9780702077050"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/76"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "Aorticorenal ganglion to distal ampulla or fimbriae of the uterine tube via superior mesenteric plexus via intermesenteric plexus via inferior mesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus via ovarian plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/77"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-T11 spinal cord to ovarian ganglion via celiac plexus via superior mesenteric plexus via intermesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/78, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/79, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/80"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/B978-0-12-410390-0.00050-0, https://doi.org/10.1097/00006254-197010000-00001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/78"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "ovarian ganglion to the ovary stroma via ovarian nerve plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/B978-0-12-410390-0.00050-0, https://doi.org/10.1097/00006254-197010000-00001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/79"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "ovarian ganglion to the ovarian artery via ovarian nerve plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/B978-0-12-410390-0.00050-0, https://doi.org/10.1097/00006254-197010000-00001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/80"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "ovarian ganglion to ovarian follicle of the ovary via ovarian nerve plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://doi.org/10.1152/ajpendo.1989.257.2.E220, https://pubmed.ncbi.nlm.nih.gov/4911145/, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/B978-0-12-410390-0.00050-0, https://doi.org/10.1097/00006254-197010000-00001"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/81"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "T10-L1 spinal cord to pelvic ganglion via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/82, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/83"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hauser–Kronberger (1999) https://doi.org/10.1016/S0196-9781(99)00005-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/S0196-9781(99)00005-4"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/82"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to dorsal artery of clitoris via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hauser–Kronberger (1999) https://doi.org/10.1016/S0196-9781(99)00005-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/S0196-9781(99)00005-4"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/83"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to clitoral smooth muscle via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hauser–Kronberger (1999) https://doi.org/10.1016/S0196-9781(99)00005-4"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/S0196-9781(99)00005-4"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/84"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "anterior ramus of S2‒S4 spinal cord to pelvic ganglion via pelvic splanchnic nerves via inferior hypogastric plexus"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/85, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/86, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/87, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/88, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/89, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/90, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/91, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/92, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/93, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/94"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Netter Atlas of Human Anatomy_ 8th edition PLATE S–515 ISBN13:9780323760232"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.mpaic.2019.04.003, https://uilx.org/tgbugs/u/r/isbn-13/9780323760232"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/85"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the blood vessel of the vagina via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hilliges (1995) https://doi.org/10.1159/000147722 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Pauls (2006) https://doi.org/10.1111/j.1743-6109.2006.00325.x"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.1111/j.1743-6109.2006.00325.x, https://doi.org/10.1159/000147722"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/86"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the epithelium of the vagina via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hilliges (1995) https://doi.org/10.1159/000147722 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Pauls (2006) https://doi.org/10.1111/j.1743-6109.2006.00325.x"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.1111/j.1743-6109.2006.00325.x, https://doi.org/10.1159/000147722"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/87"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the smooth muscle of the vagina via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Hilliges (1995) https://doi.org/10.1159/000147722 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Pauls (2006) https://doi.org/10.1111/j.1743-6109.2006.00325.x"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.1111/j.1743-6109.2006.00325.x, https://doi.org/10.1159/000147722"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/88"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the blood vessel of the cervix via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1982) https://doi.org/10.1016/0167-0115(82)90091-X , Jansen (1984) https://doi.org/10.1210/edrv-5-4-525"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/0167-0115(82)90091-X, https://doi.org/10.1210/edrv-5-4-525"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/89"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the smooth muscle of the cervix via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1982) https://doi.org/10.1016/0167-0115(82)90091-X , Jansen (1984) https://doi.org/10.1210/edrv-5-4-525"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/0167-0115(82)90091-X, https://doi.org/10.1210/edrv-5-4-525"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/90"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the blood vessel of the isthmus of Fallopian tube via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1982) https://doi.org/10.1016/0167-0115(82)90091-X , Jansen (1984) https://doi.org/10.1210/edrv-5-4-525"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/0167-0115(82)90091-X, https://doi.org/10.1210/edrv-5-4-525"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/91"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the smooth muscle of the isthmus of Fallopian tube via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1982) https://doi.org/10.1016/0167-0115(82)90091-X , Jansen (1984) https://doi.org/10.1210/edrv-5-4-525"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1095/biolreprod25.1.227, https://doi.org/10.3843/GLOWM.10001, https://doi.org/10.1016/0167-0115(82)90091-X, https://doi.org/10.1210/edrv-5-4-525"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/92"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the blood vessel of uterus via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Morizaki (1989) https://doi.org/10.1016/0002-9378(89)90126-9 , Aleksandrovych (2019) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7103609/ , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://pubmed.ncbi.nlm.nih.gov/18677514/, https://doi.org/10.1016/0002-9378(89)90126-9, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7103609/"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/93"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the uterine myometrium via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Morizaki (1989) https://doi.org/10.1016/0002-9378(89)90126-9 , Aleksandrovych (2019) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7103609/ , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://pubmed.ncbi.nlm.nih.gov/18677514/, https://doi.org/10.1016/0002-9378(89)90126-9, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7103609/"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/94"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "pelvic ganglion to the ovary via uterovaginal plexus via postganglionic nerve"
+        },
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Sex": {
+          "type": "literal",
+          "value": "female"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1097/00006254-197010000-00001"
         }
       },
       {
@@ -4551,7 +8069,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/13"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/14"
         },
         "Reference": {
           "type": "literal",

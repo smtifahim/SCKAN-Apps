@@ -19,7 +19,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Canis canis"
+          "value": "dog"
         }
       },
       {
@@ -47,20 +47,6 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Canis familiaris"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Canis familiaris"
-        },
-        "Species_Synonym": {
-          "type": "literal",
           "value": "dogs"
         }
       },
@@ -75,7 +61,21 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "dog"
+          "value": "Canis familiaris"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis canis"
         }
       },
       {
@@ -151,15 +151,57 @@
       {
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
         },
         "Species_Label": {
           "type": "literal",
-          "value": "Homo sapiens"
+          "value": "Domestic Pig"
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "h"
+          "value": "Sus domesticus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus scrofa domestica"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "domestic pig"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus domestica"
         }
       },
       {
@@ -193,57 +235,15 @@
       {
         "Species_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
         },
         "Species_Label": {
           "type": "literal",
-          "value": "Mammal"
+          "value": "Homo sapiens"
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "mammals"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Mammal"
-        },
-        "Species_Synonym": {
-          "type": "literal",
-          "value": "Mammalia"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Mammalia"
-        },
-        "Species_Synonym": {
-          "type": "literal",
-          "value": "mammals"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_40674"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Mammalia"
-        },
-        "Species_Synonym": {
-          "type": "literal",
-          "value": "Mammalia"
+          "value": "h"
         }
       },
       {
@@ -257,7 +257,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "m"
+          "value": "house mouse"
         }
       },
       {
@@ -285,21 +285,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "house mouse"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Rattus norvegicus"
-        },
-        "Species_Synonym": {
-          "type": "literal",
-          "value": "rat"
+          "value": "m"
         }
       },
       {
@@ -327,7 +313,21 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Norway rat"
+          "value": "rat"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "brown rat"
         }
       },
       {
@@ -355,7 +355,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "brown rat"
+          "value": "Norway rat"
         }
       }
     ]

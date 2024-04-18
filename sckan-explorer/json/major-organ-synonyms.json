@@ -1,7 +1,7 @@
 {
   "head": {
     "vars": [
-      "Organ_IRI",
+      "Organ_ID",
       "Organ_Label",
       "Organ_Synonym"
     ]
@@ -9,7 +9,7 @@
   "results": {
     "bindings": [
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -23,7 +23,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -37,7 +37,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -51,7 +51,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -65,7 +65,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -79,7 +79,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -93,7 +93,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -107,7 +107,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -121,7 +121,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -135,7 +135,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -149,7 +149,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
@@ -163,7 +163,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
         },
@@ -177,7 +177,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
         },
@@ -191,7 +191,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
         },
@@ -205,7 +205,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
         },
@@ -219,7 +219,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
         },
@@ -233,7 +233,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002411"
         },
@@ -243,7 +243,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001155"
         },
@@ -257,7 +257,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001155"
         },
@@ -271,7 +271,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001043"
         },
@@ -285,7 +285,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001043"
         },
@@ -299,7 +299,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
         },
@@ -313,7 +313,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
         },
@@ -327,7 +327,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
         },
@@ -341,7 +341,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001556"
         },
@@ -351,7 +351,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002048"
         },
@@ -365,7 +365,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -379,7 +379,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -393,7 +393,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -407,7 +407,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -421,7 +421,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -435,7 +435,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -449,7 +449,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -463,7 +463,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -477,7 +477,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -491,7 +491,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -505,7 +505,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -519,7 +519,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -533,7 +533,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -547,7 +547,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -561,7 +561,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -575,7 +575,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -589,7 +589,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -603,7 +603,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -617,7 +617,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -631,7 +631,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -645,7 +645,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -659,7 +659,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -673,7 +673,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -687,7 +687,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -701,7 +701,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
         },
@@ -715,7 +715,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000989"
         },
@@ -729,7 +729,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000989"
         },
@@ -743,7 +743,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
         },
@@ -757,7 +757,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
         },
@@ -771,7 +771,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
         },
@@ -785,7 +785,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -799,7 +799,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -813,7 +813,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -827,7 +827,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -841,7 +841,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -855,7 +855,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -869,7 +869,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -883,7 +883,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -897,7 +897,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -911,7 +911,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
         },
@@ -925,7 +925,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -939,7 +939,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -953,7 +953,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -967,7 +967,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -981,7 +981,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -995,7 +995,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -1009,7 +1009,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -1023,7 +1023,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
@@ -1037,7 +1037,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
@@ -1051,7 +1051,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
@@ -1065,7 +1065,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
@@ -1079,7 +1079,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
@@ -1093,7 +1093,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000057"
         },
@@ -1103,7 +1103,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
         },
@@ -1117,7 +1117,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
         },
@@ -1131,7 +1131,7 @@
         }
       },
       {
-        "Organ_IRI": {
+        "Organ_ID": {
           "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
         },
