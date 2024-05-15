@@ -1,0 +1,193 @@
+{
+  "head": {
+    "vars": [
+      "neuron_category",
+      "model",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Bladder Innervation Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "20"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Bronchomotor Control Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Defensive Breathing Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "29"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Descending Colon Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "18"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Heart Innervation Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Pancreas Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Spleen Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Stomach Circuitry"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "14"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "NLP Curated Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Cranial Nerve"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "10"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "NLP Curated Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Female Reproductive System"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "59"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "NLP Curated Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Male Reproductive System"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "21"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "NLP Curated Population"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Other NLP Curated Populations"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "29"
+        }
+      }
+    ]
+  }
+}
