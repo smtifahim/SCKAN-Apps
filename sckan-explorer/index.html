@@ -118,19 +118,37 @@
 
         async function loadAllData()
         {
+            var sckan_version = await getVersionInfo();
             var s1 = await loadAllLocations();
             var s2 = await loadABCData();
 
             if (s1 && s2)
             {
-                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status + "Data loaded sucessfully." + "<center>";
-                document.getElementById("myForm").style.visibility = "visible";    
+                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status 
+                                                                    + "Data Loaded Sucessfully <br>" 
+                                                                    + "<b>(SCKAN Version: " + sckan_version + ")</b><center>";
+                document.getElementById("myForm").style.visibility = "visible";
             }
             else
             {
                 document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status + "Unsuccessfull." + "<center>";
 
             }  
+        }
+
+        async function getVersionInfo()  //get SCKAN version information.
+        {
+            try
+            {
+               var queryResults = await executeDBQuery(conn, 'NPO', sckan_version_info);
+               return String(queryResults[0].sckan_version.value);
+            } 
+            catch (error)
+            {
+              console.error(error);
+              alert("Satrdog is not responding with query results.");
+            }
+            
         }
 
         window.onload = function()

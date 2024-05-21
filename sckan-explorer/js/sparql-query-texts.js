@@ -181,3 +181,17 @@ WHERE
 }
 ORDER BY ?Neuron_IRI ?V1 ?V2 
 LIMIT 100000`
+
+const sckan_version_info =
+`prefix build: <http://uri.interlex.org/tgbugs/uris/readable/build/> 
+prefix buildid: <http://uri.interlex.org/tgbugs/uris/readable/build/id/> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+Select ?sckan_version
+WHERE
+{
+    build:prov a owl:NamedIndividual;
+              build:date ?sckan_version;
+}`

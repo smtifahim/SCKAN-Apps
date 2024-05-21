@@ -3,73 +3,40 @@
 <head>
   <script src="./js/stardog.js"></script>
   <script src="./js/stardog-db-query.js"></script>
+  <script src="./js/sparql-query-texts.js"></script>
   <title>Stardog SCKAN Database Status</title>
 </head>
 <body>
-  <p id="statusMessage"> Status: Retreiving data from Stardog NPO. Please wait for a moment... </p>
+  <p id="statusMessage"> SCKAN Database Connection Status: Retreiving data from Stardog NPO. Please wait for a moment... </p>
 
   <script>
     const db_test = 'NPO';
-    const test_query =
-    `# Using the following query to test if the NPO database is returning query results. 
-     # QUERY: This query is for loading the locations for sckan explorer's auto-complete text input.
-     # The query returns all the connected anatomical locations along with their synonyms based on the 
-     # locational phenotype relations on the  NPO neuron types. 
-      PREFIX owl: <http://www.w3.org/2002/07/owl#>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-      PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
-      PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+    const test_query = sckan_version_info;
 
-      SELECT DISTINCT ?Connection_Type ?Location_IRI ?Location_Label
-      {
-          #FILTER (lcase(?Location_Label) = 'nodose ganglion')
-          ?Neuron_ID ?Connection_Type ?Location_IRI.
-          ?Connection_Type rdfs:subPropertyOf+ ilxtr:hasConnectedLocation.
-          ?Neuron_ID ilxtr:hasSomaLocation ?s;
-                    (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?x.                    
-              
-          # Consider rdfs:label or any of the synonyms for the Location_Label for the UI autocomplete search. 
-          ?Location_IRI (rdfs:label | NIFRID:synonym | oboInOwl:hasExactSynonym) ?Location_Label.
-      }
-      ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
-      LIMIT 10`
-
-    
-    async function runStardogQuery() 
+   async function runStardogQuery() 
     {
+      var message = "SCKAN Database Connection Status: ";
       try
       {
           var queryResults = await executeDBQuery(conn, db_test, test_query);
           if (queryResults.length > 0)
           {
-            setStatusMessage(true);
-          }
-          else
-          {
-            setStatusMessage(false);
+           var sckan_version = "SCKAN Version: " + queryResults[0].sckan_version.value;
+           setStatusMessage( message + "SUCCESS. ", sckan_version);
           }
       } 
       catch (error)
       {
         console.error(error);
-        setStatusMessage(false);
+        setStatusMessage( message + "FAILED. ", "" );
       }
     }
     
     // Function to set the status message based on success or failure
-    function setStatusMessage(isSuccessful) 
+    function setStatusMessage(status, message) 
     {
       const statusMessageElement = document.getElementById("statusMessage");
-
-      if (isSuccessful) 
-      {
-        statusMessageElement.textContent = "Status: SUCCESS";
-      }
-      else
-      {
-        statusMessageElement.textContent = "Status: FAILED";
-      }
+      statusMessageElement.textContent = status + " " + message;
     }
 
     // Call this function when the page is loaded
