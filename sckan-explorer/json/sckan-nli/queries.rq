@@ -139,11 +139,12 @@ SELECT DISTINCT
     
     # FILTER (regex(str(?Neuron_ID), 'aacar-5')) .
     # Filter (regex(?A, 'sacral spinal cord')) .
+    # FILTER (?Target_Organ = 'descending colon').
 
     OPTIONAL
     {
         # Check if A is/part of brain, spinal cord, or ganglia
-        ?A_ID (rdfs:subClassOf+| ilxtr:isPartOf+ | ILX:0112785+) ?A_L1_ID.
+        ?A_ID (rdfs:subClassOf+| ilxtr:isPartOf) ?A_L1_ID.
         ?A_L1_ID rdfs:label ?A_L1.
         FILTER (?A_L1 in ('brain', 
                           'spinal cord', 
@@ -156,7 +157,10 @@ SELECT DISTINCT
             ?A_ID (rdfs:subClassOf+) ?A_L2_ID.
             ?A_L2_ID rdfs:label ?A_L2.
             FILTER (?A_L2 in ('nucleus of brain',
-                              'spinal cord segment',   
+                              'spinal cord segment',
+                              'nucleus of spinal cord',
+                              'gray matter of spinal cord',
+                              'white matter of spinal cord',   
                               'cranial ganglion',
                               'paravertebral ganglion',
                               'prevertebral ganglion',
@@ -165,7 +169,7 @@ SELECT DISTINCT
         }
         OPTIONAL
         {
-            ?A_ID (rdfs:subClassOf+ | ilxtr:isPartOf+ | ILX:0112785+) ?A_L3_ID.
+            ?A_ID (rdfs:subClassOf+ | ilxtr:isPartOf ) ?A_L3_ID.
             ?A_L3_ID rdfs:label ?A_L3.
             FILTER (?A_L3 in (## Types of nucleus
                               'brainstem nucleus',
@@ -200,7 +204,7 @@ SELECT DISTINCT
         {
         # Check if C is a nerve, nerve plexus, fiber, root, or, ganglia,
          
-          ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+ | ILX:0112785+ ) /rdfs:label ?C_Type.
+          ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf) /rdfs:label ?C_Type.
           FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
                               'ganglion', 'white matter', 'regional part of brain', 
                               'cervical spinal cord', # need to inspect
@@ -214,23 +218,24 @@ SELECT DISTINCT
     ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_ID.
                 ?B_ID rdfs:label ?B.
 
+    VALUES ?part_of {ILX:0112785 partOf:} # to include both UBERON partOf and ILX 'is Part Of' relation
+
     OPTIONAL
     {
         ?B_ID rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                   owl:onProperty partOf: ; 
+                                   owl:onProperty ?part_of ; 
                                    owl:someValuesFrom ?Target_Organ_IRI].
         
         ?Target_Organ_IRI rdfs:label ?Target_Organ.      
                 
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'spinal cord', 'adrenal gland', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
-                                   'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
+                                   'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
-                                   'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'pancreas'))
+                                   'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'uterus','pancreas'))
     }               
 }
 ORDER BY ?Neuron_ID ?B ?Target_Organ
 LIMIT 120000
-
 ####
 # Saved results: species-synonyms.json
 # Species with synonyms
@@ -291,4 +296,4 @@ SELECT DISTINCT ?Connection_Type ?Location_IRI ?Location_Label
     ?Location_IRI (rdfs:label | NIFRID:synonym | oboInOwl:hasExactSynonym) ?Location_Label.
 }
 ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
-LIMIT 100000 
+LIMIT 100000
