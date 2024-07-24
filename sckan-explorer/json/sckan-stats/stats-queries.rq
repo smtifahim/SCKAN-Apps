@@ -30,7 +30,7 @@ LIMIT 4000
 
 ## Stats-1
 ##This query returns the number of neuron types by their category #STATS version 2
-# SCKAN populations count by category and models
+# SCKAN populations count by category and models - version July 20, 2024
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
@@ -46,28 +46,29 @@ SELECT DISTINCT ?neuron_category ?model
     values ?sckan_neuron_category { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
     
     BIND(IF(STR(?Neuron_ID) =  "", "",
-                            IF(CONTAINS (STR(?Neuron_ID), 'aacar'), "Heart Innervation Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID), 'bromo'), "Bronchomotor Control Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID), 'bolew'), "Defensive Breathing Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID), 'keast'), "Bladder Innervation Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID), 'pancr'), "Pancreas Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID),'sdcol'), "Descending Colon Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID), 'splen'), "Spleen Circuitry",
-                            IF(CONTAINS (STR(?Neuron_ID),'sstom'), "Stomach Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'aacar'), "UCLA Model of the Heart",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bromo'), "SAWG Model of Bronchomotor Control",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bolew'), "Bolser-Lewis Model of Defensive Breathing",
+                            IF(CONTAINS (STR(?Neuron_ID), 'keast'), "Keast Model of Bladder Innervation",
+                            IF(CONTAINS (STR(?Neuron_ID), 'pancr'), "SAWG Model of the Pancreas",
+                            IF(CONTAINS (STR(?Neuron_ID),'sdcol'), "SAWG Model of the Descending Colon",
+                            IF(CONTAINS (STR(?Neuron_ID), 'splen'), "SAWG Model of the Spleen",
+                            IF(CONTAINS (STR(?Neuron_ID),'sstom'), "SAWG Model of the Stomach",
                             IF(CONTAINS (STR(?Neuron_ID),'femrep'), "Female Reproductive System",
                             IF(CONTAINS (STR(?Neuron_ID),'prostate'), "Male Reproductive System",
                             IF(CONTAINS (STR(?Neuron_ID),'semves'), "Male Reproductive System",
                             IF(CONTAINS (STR(?Neuron_ID),'mmset2cn'), "Cranial Nerve",
-                            "Other NLP Curated Populations"))))))))))))) AS ?model)
+                            "Other Literature-Extracted Populations"))))))))))))) AS ?model)
     
     BIND ( IF(STR(?sckan_neuron_category) =  "", "",
-           IF(CONTAINS (STR(?sckan_neuron_category), 'Apinat'), "ApiNATOMY Population",
-           "NLP Curated Population"))AS ?neuron_category)
+           IF(CONTAINS (STR(?sckan_neuron_category), 'Apinat'), "Expert-Contributed Populations",
+           "Literature-Extracted Populations"))AS ?neuron_category)
 
 }
 GROUP BY ?model  ?neuron_category
 ORDER BY ?neuron_category ?model 
 LIMIT 999
+
 
 
 
@@ -251,7 +252,7 @@ WHERE
                             IF(CONTAINS (STR(?phenotype), 'hasProjection'), "Projection",
                             IF(CONTAINS (STR(?phenotype), 'hasPhenotypicSex'), "Sex",
                             IF(CONTAINS (STR(?phenotype), 'hasNeuronalPhenotype'), "ANS Phenotype",
-                            IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Cicruit Role",
+                            IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Circuit Role",
                             IF(CONTAINS (STR(?phenotype), 'hasCircuitRole'), "Circuit Role",
                             "Other")))))) AS ?phenotype_label)
     
