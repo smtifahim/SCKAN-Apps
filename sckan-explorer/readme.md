@@ -16,7 +16,7 @@ SCKAN Explorer was developed as a proof-of-concept prototype for exploring SCKAN
 
 * The users have to be specific about the connection origin, terminal, and via; i.e., SCKAN explorer currently does not support general terms that would intutitively include specific terms.
   * For instance, you need to specy a particular segment of the spinal cord like 'first cervical segment of spinal cord' or its synonym 'C1 segment' as the origin of a connection. You currently cannot ask the interface to list any connection(s) that originates at any segment of 'cerivcal spinal cord'.
-  * Similarly, you cannot to ask to list the connection(s) that go through any of the cranial nerves; instead, you will have to select the specific cranial nerve from the auto-complete suggestions.
+  * Similarly, one cannot to ask to list the connection(s) that go through any of the cranial nerves; instead, you will have to select the specific cranial nerve from the auto-complete suggestions.
 * The interface currently does not have the mechanism to save the results in CSV or any other format. Also, the interface does not have the mechanism to copy/share the url for any specific search results.
 * The interface currently lists all the connections categorized by neuron populations only. The overall, region-region connections (regardless of the neuron populations forming  those connects) cannot be viewed.
 * The axonal path diagrams (such as the one in Fig. 2) are only available for NLP-curated neuron populations. The populations from [ApINATOMY](https://scicrunch.org/sawg/about/ApiNATOMY) models are not visible at the moment. We are working on including those remaining diagrams for the next release of SCKAN.
