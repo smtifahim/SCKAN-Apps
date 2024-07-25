@@ -206,7 +206,7 @@
       {
         "phenotype_label": {
           "type": "literal",
-          "value": "Functional Cicruit Role"
+          "value": "Functional Circuit Role"
         },
         "type": {
           "type": "literal",
@@ -221,7 +221,7 @@
       {
         "phenotype_label": {
           "type": "literal",
-          "value": "Functional Cicruit Role"
+          "value": "Functional Circuit Role"
         },
         "type": {
           "type": "literal",

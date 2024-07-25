@@ -11,41 +11,11 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "ApiNATOMY Population"
+          "value": "Expert-Contributed Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Bladder Innervation Circuitry"
-        },
-        "count": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "type": "literal",
-          "value": "20"
-        }
-      },
-      {
-        "neuron_category": {
-          "type": "literal",
-          "value": "ApiNATOMY Population"
-        },
-        "model": {
-          "type": "literal",
-          "value": "Bronchomotor Control Circuitry"
-        },
-        "count": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "type": "literal",
-          "value": "6"
-        }
-      },
-      {
-        "neuron_category": {
-          "type": "literal",
-          "value": "ApiNATOMY Population"
-        },
-        "model": {
-          "type": "literal",
-          "value": "Defensive Breathing Circuitry"
+          "value": "Bolser-Lewis Model of Defensive Breathing"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
@@ -56,11 +26,41 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "ApiNATOMY Population"
+          "value": "Expert-Contributed Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Descending Colon Circuitry"
+          "value": "Keast Model of Bladder Innervation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "20"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of Bronchomotor Control"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of the Descending Colon"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
@@ -71,26 +71,11 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "ApiNATOMY Population"
+          "value": "Expert-Contributed Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Heart Innervation Circuitry"
-        },
-        "count": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "type": "literal",
-          "value": "19"
-        }
-      },
-      {
-        "neuron_category": {
-          "type": "literal",
-          "value": "ApiNATOMY Population"
-        },
-        "model": {
-          "type": "literal",
-          "value": "Pancreas Circuitry"
+          "value": "SAWG Model of the Pancreas"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
@@ -101,11 +86,11 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "ApiNATOMY Population"
+          "value": "Expert-Contributed Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Spleen Circuitry"
+          "value": "SAWG Model of the Spleen"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
@@ -116,11 +101,11 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "ApiNATOMY Population"
+          "value": "Expert-Contributed Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Stomach Circuitry"
+          "value": "SAWG Model of the Stomach"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
@@ -131,7 +116,22 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "NLP Curated Population"
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "UCLA Model of the Heart"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
         },
         "model": {
           "type": "literal",
@@ -146,7 +146,7 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "NLP Curated Population"
+          "value": "Literature-Extracted Populations"
         },
         "model": {
           "type": "literal",
@@ -161,7 +161,7 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "NLP Curated Population"
+          "value": "Literature-Extracted Populations"
         },
         "model": {
           "type": "literal",
@@ -176,11 +176,11 @@
       {
         "neuron_category": {
           "type": "literal",
-          "value": "NLP Curated Population"
+          "value": "Literature-Extracted Populations"
         },
         "model": {
           "type": "literal",
-          "value": "Other NLP Curated Populations"
+          "value": "Other Literature-Extracted Populations"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
