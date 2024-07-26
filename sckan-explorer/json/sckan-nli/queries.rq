@@ -112,6 +112,8 @@ LIMIT 999
 ######
 # Saved results: a-b-via-c-2.json
 # QUERY: This query is for loading the a-b-via-c results with hierarchy.
+# Version: July 26, 2024
+
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -206,7 +208,7 @@ SELECT DISTINCT
          
           ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf) /rdfs:label ?C_Type.
           FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
-                              'ganglion', 'white matter', 'regional part of brain', 
+                              'ganglion', 'white matter', 'brain', 
                               'cervical spinal cord', # need to inspect
                               'thoracic spinal cord',
                               'lumbar spinal cord',
@@ -222,20 +224,30 @@ SELECT DISTINCT
 
     OPTIONAL
     {
-        ?B_ID rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                   owl:onProperty ?part_of ; 
-                                   owl:someValuesFrom ?Target_Organ_IRI].
+        # ?B_ID rdfs:subClassOf+ [rdf:type owl:Restriction ;
+        #                            owl:onProperty ?part_of ; 
+        #                            owl:someValuesFrom ?Target_Organ_IRI].
         
-        ?Target_Organ_IRI rdfs:label ?Target_Organ.      
+       
+        ?B_ID (rdfs:subClassOf+ | ilxtr:isPartOf)/rdfs:label | rdfs:label ?Target_Organ.
+        # ?Target_Organ_IRI rdfs:label ?Target_Organ.      
                 
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'spinal cord', 'adrenal gland', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
                                    'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
-                                   'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
-                                   'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'uterus','pancreas'))
+                                   'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'tongue', 'vagina',
+                                   'penis', 'clitoris', 'prostate gland', 'seminal vesicle', 'uterus', 'pancreas', 'oral gland', 'eye gland', 'endocrine gland', 'artery', 
+                                   'ganglion')    #Note: although not an organ, ganglion is included for sckanner.                
+                                 )
     }               
 }
 ORDER BY ?Neuron_ID ?B ?Target_Organ
 LIMIT 120000
+
+
+
+
+
+
 ####
 # Saved results: species-synonyms.json
 # Species with synonyms
