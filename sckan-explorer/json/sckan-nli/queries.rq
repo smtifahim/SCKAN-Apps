@@ -112,7 +112,8 @@ LIMIT 999
 ######
 # Saved results: a-b-via-c-2.json
 # QUERY: This query is for loading the a-b-via-c results with hierarchy.
-# Version: July 26, 2024
+# Version: July 29, 2024
+
 
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -230,7 +231,8 @@ SELECT DISTINCT
         
        
         ?B_ID (rdfs:subClassOf+ | ilxtr:isPartOf)/rdfs:label | rdfs:label ?Target_Organ.
-        # ?Target_Organ_IRI rdfs:label ?Target_Organ.      
+        
+        ?Target_Organ_IRI rdfs:label ?Target_Organ.     
                 
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'spinal cord', 'adrenal gland', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
                                    'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
