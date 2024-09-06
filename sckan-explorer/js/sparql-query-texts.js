@@ -23,7 +23,8 @@ ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
 LIMIT 100000`
 
 const a_b_via_c =
-`# QUERY: This query is for loading the a-b-via-c results in sckan-explorer.
+`
+# QUERY: This query is for loading the a-b-via-c results in sckan-explorer.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -35,7 +36,10 @@ PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 
 SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Target_Organ_IRI ?Target_Organ_Label
 {                
-    ?Neuron_ID rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748
+    # FILTER (REGEX(str(?Neuron_ID), 'liver')).
+    # FILTER (?Target_Organ_Label = 'urinary bladder').
+
+    ?Neuron_ID rdfs:subClassOf+  <http://uri.neuinfo.org/nif/nifstd/sao1417703748> .
     
     ?Neuron_ID ilxtr:hasSomaLocation ?A_IRI.
             ?A_IRI (rdfs:label) ?A_Label.
@@ -45,22 +49,68 @@ SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Targ
     
     ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
                 ?B_IRI (rdfs:label) ?B_Label.
+    
+#    VALUES ?part_of {ILX:0112785 partOf:} # to include both UBERON partOf and ILX 'is Part Of' relation
+#     OPTIONAL{?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
+#                                     owl:onProperty ?part_of ; 
+#                                     owl:someValuesFrom ?Target_Organ_IRI].
 
-    OPTIONAL{?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                    owl:onProperty partOf: ; 
-                                    owl:someValuesFrom ?Target_Organ_IRI].
-
-
-   # OPTIONAL { ?B_IRI ilxtr:isPartOf ?Target_Organ_IRI.
-    ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
+    OPTIONAL 
+    { 
+        ?B_IRI (rdfs:subClassOf* | ilxtr:isPartOf/ilxtr:isPartOf/ilxtr:isPartOf)/rdfs:label | rdfs:label ?Target_Organ_Label.
+        #?B_IRI ilxtr:isPartOf ?Target_Organ_IRI.
+        ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
                     
-    FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
-                                'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
-                                'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
-                                'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus'))}            
+        FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
+                                        'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
+                                        'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 
+                                        'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body',
+                                        'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'arterial system'))
+   }            
 }
 ORDER BY ?Neuron_ID ?A_Label ?B_IRI ?C_Label
 LIMIT 120000`
+
+// Older version.
+// const a_b_via_c =
+// `# QUERY: This query is for loading the a-b-via-c results in sckan-explorer.
+
+// PREFIX owl: <http://www.w3.org/2002/07/owl#>
+// PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+// PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+// PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+// PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+// # Neuron populations where A projects to B via some Nerve C
+
+// SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Target_Organ_IRI ?Target_Organ_Label
+// {                
+//     ?Neuron_ID rdfs:subClassOf*/rdfs:label 'Neuron'. #http://uri.neuinfo.org/nif/nifstd/sao1417703748
+    
+//     ?Neuron_ID ilxtr:hasSomaLocation ?A_IRI.
+//             ?A_IRI (rdfs:label) ?A_Label.
+   
+//     OPTIONAL {?Neuron_ID ilxtr:hasAxonLocation ?C_IRI. 
+//                     ?C_IRI rdfs:label ?C_Label.}
+    
+//     ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
+//                 ?B_IRI (rdfs:label) ?B_Label.
+
+//     OPTIONAL{?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
+//                                     owl:onProperty partOf: ; 
+//                                     owl:someValuesFrom ?Target_Organ_IRI].
+
+
+//    # OPTIONAL { ?B_IRI ilxtr:isPartOf ?Target_Organ_IRI.
+//     ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
+                    
+//     FILTER (?Target_Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'skin of body', 'lung', 'liver', 
+//                                 'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'kidney', 
+//                                 'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 
+//                                 'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus'))}            
+// }
+// ORDER BY ?Neuron_ID ?A_Label ?B_IRI ?C_Label
+// LIMIT 120000`
 
 const npo_neuron_meta = 
 `# Query to retreive metadata of the neuron populations for sckan explorer.

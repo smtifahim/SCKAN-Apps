@@ -2,63 +2,63 @@
 // for the SCKAN Explorer. 
 
 // Database and queries
-const dbName = 'NPO';
-//const dbName = 'sckan-explorer'; //from my localhost 
-const qry1 = a_b_via_c;
-const qry2 = npo_neuron_meta;
-const qry3 = npo_partial_order;
+// const dbName = 'NPO';
+// const qry1 = a_b_via_c;
+// const qry2 = npo_neuron_meta;
+// const qry3 = npo_partial_order;
 
 // Global variables
 var npo_poset = new Array();
-var npo_neuron_paths = new Array(); 
-
+var npo_neuron_paths = new Array();
 var npo_neurons_metadata = new Array();
-
 var abc_data = new Array();
 var aToBviaC = new Array();
 
 
-async function getPartialOrderDataFromDB() 
-{
-    try 
-    {
-       var queryResults = await executeDBQuery(conn, dbName, qry3);
-       return queryResults;
-    } 
-    catch (error) 
-    {
-      console.error(error);
-      alert("Satrdog is not responding with query results.");
-    }
-}
+// Not sending the query to the server. Using pre-generated json files instead.
+// async function getPartialOrderDataFromDB() 
+// {
+//     try 
+//     {
+//        var queryResults = await executeDBQuery(conn, dbName, qry3);
+//        return queryResults;
+//     } 
+//     catch (error) 
+//     {
+//       console.error(error);
+//       alert("Satrdog is not responding with query results.");
+//     }
+// }
 
-async function getNeuronsMetaDataFromDB() 
-{
-    try 
-    {
-       var queryResults = await executeDBQuery(conn, dbName, qry2);
-       return queryResults;
-    } 
-    catch (error) 
-    {
-      console.error(error);
-      alert("Satrdog is not responding with query results.");
-    }
-}
+// async function getNeuronsMetaDataFromDB() 
+// {
+//     try 
+//     {
+//        var queryResults = await executeDBQuery(conn, dbName, qry2);
+//        return queryResults;
+//     } 
+//     catch (error) 
+//     {
+//       console.error(error);
+//       alert("Satrdog is not responding with query results.");
+//     }
+// }
 
-async function getABCDataFromDB() 
-{
-    try 
-    {
-       var queryResults = await executeDBQuery(conn, dbName, qry1);
-       return queryResults;
-    } 
-    catch (error)
-    {
-      console.error(error);
-      alert("Satrdog is not responding with query results.");
-    }
-}
+// async function getABCDataFromDB() 
+// {
+//     try 
+//     {
+//        var queryResults = await executeDBQuery(conn, dbName, qry1);
+//        return queryResults;
+//     } 
+//     catch (error)
+//     {
+//       console.error(error);
+//       alert("Satrdog is not responding with query results.");
+//     }
+// }
+
+const json_directory = "./json/explorer-data/sckan-data/";
 
 function loadJSONFromFile(filename) 
 {
@@ -79,19 +79,20 @@ function loadJSONFromFile(filename)
   }
 }
 
-
 async function loadABCData()
 {
-    const neuronsMetaDataFromDB = await getNeuronsMetaDataFromDB();
+    //const neuronsMetaDataFromDB = await getNeuronsMetaDataFromDB();
+    const neuronsMetaDataFromDB = loadJSONFromFile(json_directory + "neuron-metadata.json");
     npo_neurons_metadata = getNeuronsMetaData(neuronsMetaDataFromDB);
 
     //const poDataFromDB = await getPartialOrderDataFromDB();
-    const poDataFromDB = loadJSONFromFile("./json/npo-poset.json");
+    const poDataFromDB = loadJSONFromFile(json_directory + "axonal-path.json");
 
     npo_poset = getNPOPartialOrders(poDataFromDB);
     populateNPONeuronDiGraphs();
     
-    const abc_data = await getABCDataFromDB();
+    //const abc_data = await getABCDataFromDB();
+    const abc_data = loadJSONFromFile(json_directory + "a-b-via-c.json");
     aToBviaC = getAtoBviaC(abc_data);
 
     // console.info("ATOBVIAC"); console.log (aToBviaC);
@@ -196,7 +197,6 @@ async function loadABCData()
       // console.log (npo_neuron_paths[0].neuronID + npo_neuron_paths[0].diGraph);
     }
 
-    
     function getAtoBviaC(abc_data)
     {
         var abc = new Array();

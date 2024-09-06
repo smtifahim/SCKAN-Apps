@@ -4,26 +4,47 @@ var soma_locations = new Array();
 var terminal_locations = new Array();
 var via_locations = new Array();
 
-//const databaseName = 'sckan-explorer'; // From my local host.
-const databaseName = 'NPO';
-const qry0 = npo_all_locations;
+// const databaseName = 'NPO';
+// const qry0 = npo_all_locations;
 
-//const databaseName = 'NPO';
-//const storedQueryName = npo_all_locations;
+// const databaseName = 'NPO';
+// const storedQueryName = npo_all_locations;
 
-async function getNPOLocations() 
+// Load data directly from generated query results in json instead.
+// async function getNPOLocations() 
+// {
+//    try
+//    {
+//       var queryResults = await executeDBQuery(conn, databaseName, qry0);
+//       return queryResults;
+//    } 
+//    catch (error)
+//    {
+//      console.error(error);
+//      alert("Satrdog is not responding with query results.");
+//    }
+//  }
+
+const json_dir = "./json/explorer-data/sckan-data/";
+
+function loadJSONFromFile(filename) 
 {
-   try
-   {
-      var queryResults = await executeDBQuery(conn, databaseName, qry0);
-      return queryResults;
-   } 
-   catch (error)
-   {
-     console.error(error);
-     alert("Satrdog is not responding with query results.");
-   }
- }
+  const xhr = new XMLHttpRequest();
+  xhr.overrideMimeType("application/json");
+  xhr.open('GET', filename, false);
+  xhr.send();
+
+  if (xhr.status === 200) 
+  {
+    jsonData =  JSON.parse(xhr.responseText)
+    return jsonData.results.bindings;
+  } 
+  else 
+  {
+    console.error("Error fetching JSON data:", xhr.statusText);
+    return null;
+  }
+}
 
 class AutoCompleteEntity
 {
@@ -39,7 +60,8 @@ class AutoCompleteEntity
 // for auto complete search.
 async function loadAllLocations()
 {
-   const data  = await getNPOLocations();
+   // const data  = await getNPOLocations();
+   const data = loadJSONFromFile(json_dir + "sckan-all-locations.json")
    //var locationsDropDown = document.getElementById("locationsDropDown");
  
    for (let i = 0; i <data.length; i++)

@@ -6,15 +6,17 @@
 //                   endpoint: 'http://localhost:5820',
 //             });
 
+// USE this one
 const conn = new stardogjs.Connection({
     username: 'SPARC',
     password: 'RCvp9tKzTdxg42py',
-    //endpoint: 'https://stardog.scicrunch.io:5821',
-      endpoint: 'https://sd-c1e74c63.stardog.cloud:5820',
-    // endpoint: 'https://sd-5f6e22c6.stardog.cloud:5820',
-    // endpoint: 'https://sckan-stardog.scicrunch.io',
+    endpoint: 'https://sd-c1e74c63.stardog.cloud:5820',
+   
 
-  });
+ });
+
+
+
 
 async function executeDBQuery(conn, databaseName, queryString)
 {

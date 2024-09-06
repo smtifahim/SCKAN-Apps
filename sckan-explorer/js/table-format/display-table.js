@@ -110,19 +110,60 @@ function createLocationHeaderRow()
   return locationHeaderRow;
 }
 
-function createDataRows(neuronData)
+// function createDataRows(neuronData)
+// {
+//   return neuronData.map(datum => {
+//     const dataRow = createTableRow();
+//     dataRow.style.backgroundColor = "#EFF5FB";
+//     dataRow.appendChild(createTableData(datum.origin.Label));
+//     dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
+//     dataRow.appendChild(createTableData(datum.destination.Label || "-"));
+//     dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
+//     dataRow.appendChild(createTableData(datum.via ? datum.via.Label : "-"));
+//     dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
+//     return dataRow;
+//   });
+// }
+
+// To create unique rows for each population.
+function createDataRows(neuronData) 
 {
-  return neuronData.map(datum => {
-    const dataRow = createTableRow();
-    dataRow.style.backgroundColor = "#EFF5FB";
-    dataRow.appendChild(createTableData(datum.origin.Label));
-    dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
-    dataRow.appendChild(createTableData(datum.destination.Label || "-"));
-    dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
-    dataRow.appendChild(createTableData(datum.via ? datum.via.Label : "-"));
-    dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
-    return dataRow;
-  });
+  const uniqueData = new Set();
+
+  return neuronData
+    .filter(datum => {
+      // creating a unique key for each row, ensuring all relevant fields are consistently represented
+      const key = [
+        datum.origin.Label || "",
+        datum.origin.IRI || "",
+        datum.origin.ID || "",
+        datum.destination.Label || "-",
+        datum.destination.IRI || "",
+        datum.destination.ID || "",
+        datum.via ? datum.via.Label || "-" : "-",
+        datum.via ? datum.via.IRI || "" : "",
+        datum.via ? datum.via.ID || "" : ""
+      ].join("|"); // joining all parts with a delimiter to form a unique string
+
+      // Check if the key is already in the Set
+      if (uniqueData.has(key)) {
+        return false; // if duplicate is found, filter it out
+      } else {
+        uniqueData.add(key); // Add the key to the Set
+        return true; // Include the row
+      }
+    })
+    .map(datum => {
+      const dataRow = createTableRow();
+      dataRow.style.backgroundColor = "#EFF5FB";
+      dataRow.appendChild(createTableData(datum.origin.Label));
+      dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
+      dataRow.appendChild(createTableData(datum.destination.Label || "-"));
+      dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
+      dataRow.appendChild(createTableData(datum.via ? datum.via.Label : "-"));
+      dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
+      return dataRow;
+    });
 }
 
 function createEmptyRow()
