@@ -112,7 +112,7 @@ LIMIT 999
 ######
 # Saved results: a-b-via-c-2.json
 # QUERY: This query is for loading the a-b-via-c results with hierarchy.
-# Version: Sep 29, 2024
+# Version: Aug 29, 2024
 
 
 
@@ -245,7 +245,7 @@ SELECT DISTINCT
 ORDER BY ?Neuron_ID ?B ?Target_Organ
 LIMIT 120000
 
-#updated version of the above
+#updated version is above.
 #saved results a-b-via-c2.json
 
 

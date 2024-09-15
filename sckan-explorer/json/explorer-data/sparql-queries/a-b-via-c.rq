@@ -33,7 +33,7 @@ SELECT DISTINCT ?Neuron_ID ?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label ?Targ
 
     OPTIONAL 
     { 
-        ?B_IRI (rdfs:subClassOf* | ilxtr:isPartOf* |ilxtr:suppliesTo)/rdfs:label | rdfs:label ?Target_Organ_Label.
+        ?B_IRI (rdfs:subClassOf* | ilxtr:isPartOf* |ilxtr:suppliesTo* )/rdfs:label | rdfs:label ?Target_Organ_Label.
         #?B_IRI ilxtr:isPartOf ?Target_Organ_IRI.
         ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
                     

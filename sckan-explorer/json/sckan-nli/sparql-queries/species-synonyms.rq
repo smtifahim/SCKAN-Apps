@@ -1,0 +1,32 @@
+####
+# Saved results: species-synonyms.json
+# Species with synonyms
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+
+SELECT DISTINCT 
+# ?Neuron_IRI 
+?Species_IRI ?Species_Label ?Species_Synonym
+WHERE
+{
+   # ?Neuron_IRI rdfs:subClassOf+ SAO:1417703748.   # SAO Neuron IRI http://uri.neuinfo.org/nif/nifstd/sao1417703748
+    
+        ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+        values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+        ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
+        ?Species_IRI rdfs:label ?Species_Label.
+        OPTIONAL
+        {
+            ?Species_IRI (oboInOwl:hasExactSynonym | NIFRID:synonym)  ?Species_Synonym.
+        }
+
+}
+ORDER BY ?Species_Label ?Neuron_IRI

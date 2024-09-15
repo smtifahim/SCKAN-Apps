@@ -1,0 +1,32 @@
+####
+# Saved results: npo-all-locations.json
+# QUERY: This query is for loading the locations for SCKAN NLI's auto-complete text input.
+# The query returns all the connected anatomical locations along with their synonyms based on the 
+# locational phenotype relations on the  NPO neuron types.  
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+
+SELECT DISTINCT ?Connection_Type ?Location_IRI ?Location_Label
+{
+    # FILTER (lcase(?Location_Label) = 'nodose ganglion')
+    
+    ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    ?Neuron_ID ?Connection_Type ?Location_IRI.
+   
+    ?Connection_Type rdfs:subPropertyOf+ ilxtr:hasConnectedLocation.
+    # ?Neuron_ID ilxtr:hasSomaLocation ?s;
+    #            (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?x.                    
+        
+    # Consider rdfs:label or any of the synonyms for the Location_Label for the UI autocomplete search. 
+    ?Location_IRI (rdfs:label | NIFRID:synonym | oboInOwl:hasExactSynonym) ?Location_Label.
+}
+ORDER BY ?Neuron_ID  DESC(?Location_ID) ?Location_Label
+LIMIT 100000

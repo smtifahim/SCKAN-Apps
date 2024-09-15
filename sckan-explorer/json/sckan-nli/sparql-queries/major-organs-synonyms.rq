@@ -1,0 +1,51 @@
+####
+# Saved results: major-organ-synonyms.json
+# SCKAN Organs Synonyms for SCKAN NLI
+# This query looks for the terminals of the populations that reside in any part of a major organ.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT DISTINCT 
+# ?Neuron_ID 
+# ?A_IRI ?A_Label 
+# ?B_IRI ?B_Label 
+?Organ_ID ?Organ_Label ?Organ_Synonym
+{                
+
+   ## For exact matching of the target organ name
+    # FILTER (LCase(?Organ) = 'heart')
+
+   ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron .
+   values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+   ?Neuron_ID ilxtr:hasSomaLocation ?A_IRI.
+            ?A_IRI (rdfs:label) ?A_Label.
+      
+   ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
+                ?B_IRI (rdfs:label) ?B_Label.
+
+   ?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
+                                     owl:onProperty partOf: ; 
+                                     owl:someValuesFrom ?Organ_ID].
+    
+   ?Organ_ID rdfs:label ?Organ_Label.
+   Optional {?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym) ?Organ_Synonym.}
+
+    ## using shortcut ilxtr:isPartOf relation 
+    # ?B_IRI ilxtr:isPartOf/rdfs:label ?Organ.
+
+    FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
+                                'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
+                                'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue',
+                                'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body', 'adrenal gland','buttock',
+                                'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system', 'pharynx'))
+
+}
+ORDER BY ?Organ_ID ?Organ_Label ?Organ_Synonym
+LIMIT 999
