@@ -1,0 +1,419 @@
+{
+  "head": {
+    "vars": [
+      "Species_IRI",
+      "Species_Label",
+      "Species_Synonym"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis canis"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis domesticus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis borealis"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "dog"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "dogs"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9615"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Canis familiaris"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Canis lupus borealis"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10141"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Cavia porcellus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Cavia aperea porcellus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10141"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Cavia porcellus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "guinea pig"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10141"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Cavia porcellus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Mus porcellus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10141"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Cavia porcellus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Cavia cobaya"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10141"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Cavia porcellus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "domestic guinea pig"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus domesticus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus scrofa domestica"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "domestic pig"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus domestica"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9685"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "cats"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9685"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "cat"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9685"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "domestic cat"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9685"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Felis domesticus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9685"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Felis silvestris catus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "human"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Mus musculus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "house mouse"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Mus musculus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "mouse"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Norway rat"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Mus norvegicus"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "rats"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "rat"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "brown rat"
+        }
+      }
+    ]
+  }
+}

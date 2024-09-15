@@ -1,0 +1,1543 @@
+{
+  "head": {
+    "vars": [
+      "Organ_ID",
+      "Organ_Label",
+      "Organ_Synonym"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000057"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "urethra"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "stomach"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "anterior intestine"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "stomach"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gaster"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "stomach"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "mesenteron"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "stomach"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ventriculus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "heart"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "cardium"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "heart"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "chambered heart"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000948"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "heart"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vertebrate heart"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "brain"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "encephalon"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "brain"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "suprasegmental levels of nervous system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "brain"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "suprasegmental structures"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "brain"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "synganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000955"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "brain"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "the brain"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000989"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "penis"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "penes"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000989"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "penis"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "phallus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "animal ovary"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism genitalia gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism genitalia gonada"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism reproductive system gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism reproductive system gonada"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female reproductive system gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female reproductive system gonada"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "genitalia of female organism gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "genitalia of female organism gonada"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonad of female organism genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonad of female organism reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonad of female reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonad of genitalia of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonad of reproductive system of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonada of female organism genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonada of female organism reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonada of female reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonada of genitalia of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonada of reproductive system of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ovaries"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ovarium"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ovum-producing ovary"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "reproductive system of female organism gonad"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "reproductive system of female organism gonada"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000995"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "uterus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000996"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "vagina"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "distal oviductal region"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000996"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "vagina"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "distal portion of oviduct"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000996"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "vagina"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vaginae"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula seminalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula vesiculosa"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gonecyst"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vas efferens"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesicula seminalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesiculae seminales"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesicular gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesicular glands"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesicular seminalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000998"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "seminal vesicle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesicul\u00e6 seminales"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001043"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "esophagus"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gullet"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001043"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "esophagus"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "oesophagus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001155"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "colon"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "hindgut"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001155"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "colon"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "large bowel"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001158"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "descending colon"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "colon descendens"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "urinary bladder"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "urocyst"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "urinary bladder"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesica"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001255"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "urinary bladder"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vesica urinaria"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001556"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "lower urinary tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001723"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "tongue"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glossus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002048"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "lung"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "pulmo"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "entire integument"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "entire skin"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "integument"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "integumental organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "pelt"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "skin"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "skin organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002107"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "liver"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "iecur"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002107"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "liver"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "jecur"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "kidney"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "SpC"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "cerebro-cerebellar fissure"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "cerebrocerebellar fissure"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "fissura cerebro-cerebellaris"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "fissura cerebrocerebellaris"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "medulla spinalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "spinal cord structure"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spinal cord"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "spinal medulla"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prostate gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male prostate"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prostate gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "prostata"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002367"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prostate gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "prostate"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "adrenal"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "adrenal capsule"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "adrenal medulla cell"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "atrabiliary capsule"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "epinephric gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "epinephros"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula adrenalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula suprarenalis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "interrenal gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "suprarenal capsule"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "adrenal gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "suprarenal gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002370"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "thymus"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "thymus gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002370"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "thymus"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "thymus organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002411"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "clitoris"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004572"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "arterial system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gland of oral opening"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gland of oral region"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "mouth gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "oral cavity gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "oral region gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0013691"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "buttock"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "buttocks"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0013691"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "buttock"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "clunis"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0013691"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "buttock"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gluteal part of pelvic girdle"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0013691"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "buttock"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gluteal region"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0013691"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "buttock"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "regio glutealis"
+        }
+      }
+    ]
+  }
+}
