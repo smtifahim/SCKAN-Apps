@@ -1,5 +1,5 @@
-# This script assumes that the stardog server is running. The python code runs all the necessary SPARQL queries for SCKAN NLI
-# and saves the results in corresponing json files. 
+# This script assumes that the stardog server is running. The python code runs all the necessary 
+# SPARQL queries for SCKAN NLI and saves the results in corresponing json files. 
 # (version: 1.0; @Author: Fahim Imam)
 
 import stardog
@@ -9,12 +9,12 @@ import json
 conn_details = {
                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
                 'username': 'sparc-admin',
-                'password': 'w8399Hzj78exJkaebz'
+                'password': 'you need password from 1password' # password from 1password.
                }
 
 db_name = 'NPO-SIMPLE-SCKAN-TEST'
 
-# File locations for the queries needed for SCKAN-Explorer
+# File locations for the queries needed for SCKAN-NLI
 query_files = [
                 './sparql-queries/sckan-all-locations.rq',
                 './sparql-queries/a-b-via-c.rq',
