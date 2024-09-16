@@ -1,0 +1,70 @@
+#list of SCKAN major nerves
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+# Neuron populations where A projects to B via some Nerve C
+
+SELECT DISTINCT 
+# ?Neuron_ID 
+# ?Neuron_Label ?A ?Region_A ?B ?Region_B 
+?Nerve_IRI ?Nerve_Label 
+{
+   ?Neuron_ID rdfs:label ?Neuron_Label;
+       ilxtr:hasSomaLocation ?A;
+       ilxtr:hasAxonLocation ?Nerve_IRI;
+      (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B.
+    
+    ?A rdfs:label ?Region_A.
+    ?B rdfs:label ?Region_B.
+    ?Nerve_IRI rdfs:label ?Nerve_Label.
+    
+    FILTER (?Nerve_Label in ('Aortic arch depressor nerve',
+            'Auriculotemporal nerve',
+            'Clitoral cavernous nerve',
+            'Communicating branch of zygomatic nerve',
+            'Deep petrosal nerve',
+            'External branch of inferior laryngeal nerve',
+            'External carotid nerve',
+            'External laryngeal nerve',
+            'Ganglioglomerular nerve',
+            'Greater petrosal nerve',
+            'Internal branch of inferior laryngeal nerve',
+            'Internal branch of superior laryngeal nerve',
+            'Lesser petrosal nerve',
+            'Mesenteric nerve',
+            'Penile cavernous nerve',
+            'Pharyngeal branch of glossopharyngeal nerve',
+            'Superior ovarian nerve',
+            'Zygomatic nerve',
+            'bladder nerve',
+            'carotid sinus nerve',
+            'chorda tympani branch of facial nerve',
+            'facial nerve',
+            'glossopharyngeal nerve',
+            'greater splanchnic nerve',
+            'hypoglossal nerve',
+            'lacrimal nerve',
+            'lesser splanchnic nerve',
+            'lingual nerve',
+            'long ciliary nerve',
+            'lumbar colonic nerve',
+            'lumbar splanchnic nerve',
+            'nasopalatine nerve',
+            'oculomotor nerve',
+            'pelvic splanchnic nerve',
+            'phrenic nerve',
+            'pudendal nerve',
+            'short ciliary nerve',
+            'spinal nerve',
+            'splanchnic nerve',
+            'splenic nerve',
+            'superior laryngeal nerve',
+            'tympanic nerve',
+            'vagus nerve',
+            'vidian nerve')).
+}
+ORDER BY ?Nerve_Label ?Nerve_IRI
