@@ -9,7 +9,7 @@ import json
 conn_details = {
                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
                 'username': 'sparc-admin',
-                'password': 'you need password from 1password' # password from 1password.
+                #'password': 'you need password from 1password' # password from 1password.
                }
 
 db_name = 'NPO-SIMPLE-SCKAN-TEST'
@@ -22,6 +22,7 @@ query_files = [
                 './sparql-queries/neuron-metadata.rq',
                 './sparql-queries/major-organs-synonyms.rq',
                 './sparql-queries/species-synonyms.rq',
+                './sparql-queries/major-nerves.rq',
                 './sparql-queries/sckan-version-info.rq'
               ]
 
@@ -33,6 +34,7 @@ generated_files = [
                     './sckan-nli-data/neuron-metadata.json',
                     './sckan-nli-data/major-organs-synonyms.json',
                     './sckan-nli-data/species-synonyms.json',
+                    './sckan-nli-data/major-nerves.json',
                     './sckan-nli-data/sckan-version.json'
                   ]
 
