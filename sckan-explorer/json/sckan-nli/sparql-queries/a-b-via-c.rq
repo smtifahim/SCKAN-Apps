@@ -1,5 +1,4 @@
-# Query for a to b via c with major target organs for SCKAN NLI.
-# Also includes the higher level structures for the origins.
+## Hierarical locations for the origin, destination, and via for SCKAN NLI
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -17,18 +16,51 @@ SELECT DISTINCT
 ?B_ID ?B            # Terminal structure
 ?Target_Organ_IRI ?Target_Organ
 {                
-    # ?Neuron_ID rdfs:subClassOf+ SAO:1417703748. #Neuron
+    # Filtering neuron by ID regex
+    # FILTER (regex(str(?Neuron_ID), 'bolew-unbranched-9')).
     
     ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
     
-    ?Neuron_ID ilxtr:hasSomaLocation ?A_ID.
-                ?A_ID rdfs:label ?A.
-    
-    # FILTER (regex(str(?Neuron_ID), 'aacar-5')) .
-    # Filter (regex(?A, 'sacral spinal cord')) .
-    # FILTER (?Target_Organ = 'kidney').
+    {
+        ?Neuron_ID ilxtr:hasSomaLocation ?A_ID;
+                   ilxtr:hasAxonTerminalLocation ?B_ID.
+        ?A_ID rdfs:label ?A. ?B_ID rdfs:label ?B.
 
+        # Optional Axon/Via Locations
+        OPTIONAL
+        {
+            ?Neuron_ID ilxtr:hasAxonLocation ?C_ID.
+            ?C_ID rdfs:label ?C.
+            
+            OPTIONAL {
+                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) /rdfs:label ?C_Type.
+                        FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
+                                            'ganglion', 'white matter', 'brain', 'spinal cord')).
+                     }
+        }        
+    }
+    UNION
+    {
+        ?Neuron_ID ilxtr:hasSomaLocation ?A_ID;
+                   ilxtr:hasAxonSensoryLocation ?B_ID.
+        ?A_ID rdfs:label ?A. ?B_ID rdfs:label ?B.
+
+        # Optional Axon/Via Locations
+        OPTIONAL
+        {
+            ?Neuron_ID ilxtr:hasAxonToSensoryTerminal ?C_ID.
+            ?C_ID rdfs:label ?C.
+            
+            OPTIONAL {
+                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) /rdfs:label ?C_Type.
+                        FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
+                                            'ganglion', 'white matter', 'brain', 'spinal cord')).
+                     }
+        }
+    }
+
+    # Hierarchical origin
     OPTIONAL
     {
         # Check if A is/part of brain, spinal cord, or ganglia
@@ -63,7 +95,7 @@ SELECT DISTINCT
                               'brainstem nucleus',
                               'cranial nerve nucleus',
                               'diencephalic nucleus',
-                              'hindbrain nucleus',
+                              # 'hindbrain nucleus',
                               'midbrain nucleus',
                               'pretectal nucleus',
                               'telencephalic nucleus',
@@ -85,51 +117,20 @@ SELECT DISTINCT
         }
     }
    
-    OPTIONAL 
-    { ?Neuron_ID ilxtr:hasAxonLocation ?C_ID. 
-        ?C_ID rdfs:label ?C.
-        OPTIONAL
-        {
-        # Check if C is a nerve, nerve plexus, fiber, root, or, ganglia,
-         
-          ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) /rdfs:label ?C_Type.
-          FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
-                              'ganglion', 'white matter', 'brain', 
-                              'cervical spinal cord', # need to inspect
-                              'thoracic spinal cord',
-                              'lumbar spinal cord',
-                              'sacral spinal cord')).
-
-        }
-    }
-    
-    ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_ID.
-                ?B_ID rdfs:label ?B.
-
-    # VALUES ?part_of {ILX:0112785 partOf:} # to include both UBERON partOf and ILX 'is Part Of' relation
-
     OPTIONAL
-    {
-        # ?B_ID rdfs:subClassOf+ [rdf:type owl:Restriction ;
-        #                            owl:onProperty ?part_of ; 
-        #                            owl:someValuesFrom ?Target_Organ_IRI].
-        
-       
-        ?B_ID (rdfs:subClassOf+ | ilxtr:isPartOf* | ilxtr:suppliesTo*)/rdfs:label | rdfs:label ?Target_Organ.
-        #?B_ID (rdfs:subClassOf* | ilxtr:isPartOf/ilxtr:isPartOf/ilxtr:isPartOf)/rdfs:label | rdfs:label ?Target_Organ.
-
-        
+    { 
+        ?B_ID (rdfs:subClassOf+ | ilxtr:isPartOf* | ilxtr:suppliesTo* | ilxtr:isPartOf*/ilxtr:surrounds*)/rdfs:label | rdfs:label ?Target_Organ.        
         ?Target_Organ_IRI rdfs:label ?Target_Organ.
                 
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
                                     'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
-                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue',
-                                    'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body', 'adrenal gland','buttock',
-                                    'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system', 'pharynx')    #Note: although not an organ, ganglion is included for sckanner.           
+                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue', 'respiratory tract', 
+                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract',
+                                    'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
+                                    'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
+                                    'paravertebral ganglion', 'prevertebral ganglion')  #Note: although not an organ, ganglion is included for sckanner.           
                                  )
     }
-
-   # Filter (!REGEX (str(?Neuron_ID), 'senmot'))      
 }
-ORDER BY ?Neuron_ID ?B ?Target_Organ
-LIMIT 120000
+ORDER BY ?Neuron_ID ?A ?C ?B ?Target_Organ
+LIMIT 100000

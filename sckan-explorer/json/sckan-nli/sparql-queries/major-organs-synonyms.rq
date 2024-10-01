@@ -29,23 +29,20 @@ SELECT DISTINCT
       
    ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
                 ?B_IRI (rdfs:label) ?B_Label.
-
-   ?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                     owl:onProperty partOf: ; 
-                                     owl:someValuesFrom ?Organ_ID].
-    
+   
+   ?B_IRI (rdfs:subClassOf* | ilxtr:isPartOf* | ilxtr:suppliesTo* ) ?Organ_ID. 
    ?Organ_ID rdfs:label ?Organ_Label.
-   Optional {?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym) ?Organ_Synonym.}
+   OPTIONAL {
+                ?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym) ?Organ_Synonym.
+            }
 
-    ## using shortcut ilxtr:isPartOf relation 
-    # ?B_IRI ilxtr:isPartOf/rdfs:label ?Organ.
-
-    FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
-                                'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
-                                'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue',
-                                'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body', 'adrenal gland','buttock',
-                                'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system', 'pharynx'))
-
+   FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
+                                    'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
+                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue',
+                                    'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body', 'adrenal gland','buttock', 'trachea',
+                                    'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system', 'pharynx',
+                                    'larynx','paravertebral ganglion', 'prevertebral ganglion')  #Note: although not an organ, ganglion is included for sckanner.           
+                            )
 }
 ORDER BY ?Organ_ID ?Organ_Label ?Organ_Synonym
 LIMIT 999
