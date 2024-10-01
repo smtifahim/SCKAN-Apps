@@ -21,6 +21,20 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000059"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "large intestine"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "intestinum crassum"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
         "Organ_Label": {
@@ -871,11 +885,31 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001264"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "pancreas"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001556"
         },
         "Organ_Label": {
           "type": "literal",
           "value": "lower urinary tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001630"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "muscle organ"
         }
       },
       {
@@ -890,6 +924,184 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "glossus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001737"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "larynx"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ganglia of sympathetic trunk"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ganglia trunci sympathici"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ganglion of sympathetic trunk"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ganglion trunci sympathetici"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ganglion trunci sympathici"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "paravertebral ganglia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "sympathetic chain ganglia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001807"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "paravertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "sympathetic chain ganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001820"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "sweat gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula sudorifera"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001820"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "sweat gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "sudoriferous gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001820"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "sweat gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "sudoriparous gland"
         }
       },
       {
@@ -1002,6 +1214,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "skin organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002106"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spleen"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "lien"
         }
       },
       {
@@ -1199,6 +1425,48 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002368"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "endocrine gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "ductless gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002368"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "endocrine gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandula endocrina"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002368"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "endocrine gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "glandulae endocrinae"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002369"
         },
         "Organ_Label": {
@@ -1391,11 +1659,235 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003126"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "trachea"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "cartilaginous trachea"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003126"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "trachea"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "tracheal tubule"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003126"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "trachea"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "vertebrate trachea"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003126"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "trachea"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "windpipe"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "collateral ganglia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "collateral ganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "pre-aortic ganglia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "preaortic ganglia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "prevertebral plexuses"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "previsceral ganglion"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003964"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "prevertebral ganglion"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "three great gangliated plexuses"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0004572"
         },
         "Organ_Label": {
           "type": "literal",
           "value": "arterial system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004859"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "eye gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "eye-associated gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004859"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "eye gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gland of eye"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006562"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "pharynx"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "anterior part of foregut"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006562"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "pharynx"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "pharyngeal tube"
         }
       },
       {

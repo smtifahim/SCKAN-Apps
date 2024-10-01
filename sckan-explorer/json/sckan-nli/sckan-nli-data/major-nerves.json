@@ -10,16 +10,6 @@
       {
         "Nerve_IRI": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0738312"
-        },
-        "Nerve_Label": {
-          "type": "literal",
-          "value": "Aortic arch depressor nerve"
-        }
-      },
-      {
-        "Nerve_IRI": {
-          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793723"
         },
         "Nerve_Label": {
@@ -150,16 +140,6 @@
       {
         "Nerve_IRI": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0789339"
-        },
-        "Nerve_Label": {
-          "type": "literal",
-          "value": "Pharyngeal branch of glossopharyngeal nerve"
-        }
-      },
-      {
-        "Nerve_IRI": {
-          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793822"
         },
         "Nerve_Label": {
@@ -185,16 +165,6 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "bladder nerve"
-        }
-      },
-      {
-        "Nerve_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
-        },
-        "Nerve_Label": {
-          "type": "literal",
-          "value": "carotid sinus nerve"
         }
       },
       {
@@ -380,31 +350,11 @@
       {
         "Nerve_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
-        },
-        "Nerve_Label": {
-          "type": "literal",
-          "value": "splanchnic nerve"
-        }
-      },
-      {
-        "Nerve_IRI": {
-          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793563"
         },
         "Nerve_Label": {
           "type": "literal",
           "value": "splenic nerve"
-        }
-      },
-      {
-        "Nerve_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0011326"
-        },
-        "Nerve_Label": {
-          "type": "literal",
-          "value": "superior laryngeal nerve"
         }
       },
       {

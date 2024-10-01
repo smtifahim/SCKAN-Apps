@@ -25,7 +25,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Canis familiaris, Homo sapiens, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -47,7 +47,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -69,7 +69,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
+          "value": "Canis familiaris, Homo sapiens, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -91,7 +91,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -113,7 +113,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -135,7 +135,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -179,7 +179,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -201,7 +201,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -223,11 +223,11 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Pre ganglionic phenotype, Parasympathetic phenotype"
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -245,11 +245,11 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -267,7 +267,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -333,7 +333,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -359,7 +359,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -377,7 +377,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -513,7 +513,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -535,7 +535,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -579,7 +579,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -601,7 +601,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -689,7 +689,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -711,7 +711,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -843,7 +843,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -865,7 +865,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Sympathetic phenotype"
+          "value": "Sympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1063,7 +1063,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1107,7 +1107,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Parasympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1129,7 +1129,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Parasympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1173,7 +1173,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Post ganglionic phenotype, Parasympathetic phenotype"
+          "value": "Parasympathetic phenotype, Post ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1641,7 +1641,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1667,7 +1667,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1825,7 +1825,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1891,7 +1891,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1913,7 +1913,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Post ganglionic phenotype"
+          "value": "Post ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -1979,7 +1979,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Motor phenotype, Posterior projecting, Excitatory"
+          "value": "Posterior projecting, Excitatory, Motor phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2001,7 +2001,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Excitatory, Motor phenotype, Posterior projecting"
+          "value": "Posterior projecting, Excitatory, Motor phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2045,7 +2045,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Anterior projecting, Motor phenotype, Inhibitory"
+          "value": "Inhibitory, Anterior projecting, Motor phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2221,7 +2221,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Sympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Sympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2507,7 +2507,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Pre ganglionic phenotype, Parasympathetic phenotype"
+          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2529,7 +2529,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Parasympathetic phenotype, Pre ganglionic phenotype"
+          "value": "Pre ganglionic phenotype, Parasympathetic phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -2542,6 +2542,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/100"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 100"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 dorsal root ganglia with axon sensory terminal in vagina via pelvic splanchnic nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
         },
@@ -2563,7 +2567,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017"
+          "value": "Jobling (2014) https://doi.org/10.3389/fphar.2014.00017, Expert consultation:  Dr. Caroline A Cobine, https://orcid.org/0000-0002-2871-3825  "
         }
       },
       {
@@ -2572,6 +2576,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/101"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 101"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 dorsal root ganglia with axon sensory terminal in uterine cervix via pelvic splanchnic nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
         },
@@ -2603,6 +2611,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 102"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L2 dorsal root ganglia with axon sensory terminal in uterus via hypogastric nerve with axon terminal in T10-L2 dorsal root ganglia to T10-L2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -2632,6 +2644,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/103"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 103"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T10-L2 dorsal root ganglia with axon sensory terminal in uterine cervix via hypogastric nerve with axon terminal in T10-L2 spinal cord via dorsal root of spinal cord"
         },
@@ -2663,6 +2679,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 104"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 dorsal root ganglia with axon sensory terminal in clitoris via pudendal nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -2692,6 +2712,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/30"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 30"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T1-L2 spinal cord to paravertebral sympathetic chain of T12-L1 via white rami communicantes"
         },
@@ -2723,7 +2747,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of T12-L1 to blood vessel of the upper uterus via splanchnic nerve via aorticorenal ganglion via ovarian plexus nerve"
+          "value": "neuron type femrep 31"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to blood vessel of the upper uterus via lesser OR least splanchnic nerve OR lumbar splanchnic nerve via aorticorenal ganglion via ovarian plexus nerve"
         },
         "Species": {
           "type": "literal",
@@ -2743,7 +2771,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "M\u00f3nica Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009, Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+          "value": "M\u00f3nica Brauer (2015) https://doi.org/10.1016/j.autneu.2014.11.009, Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, ISBN13:978-1608312948"
         }
       },
       {
@@ -2753,7 +2781,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of T12-L1 to smooth muscle of the upper uterus via splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
+          "value": "neuron type femrep 32"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to smooth muscle of the upper uterus via lesser OR least splanchnic nerve OR lumbar splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
         },
         "Species": {
           "type": "literal",
@@ -2773,7 +2805,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+          "value": "Garfield (1986) https://doi.org/10.1152/ajpcell.1986.251.1.C41 , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, ISBN13:978-1608312948"
         }
       },
       {
@@ -2783,7 +2815,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of T12-L1 to uterine tube infundibulum via splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
+          "value": "neuron type femrep 33"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to uterine tube infundibulum via lesser OR least splanchnic nerve OR lumbar splanchnic nerve via aortecorenal ganglion via ovarian plexus nerve"
         },
         "Species": {
           "type": "literal",
@@ -2803,7 +2839,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+          "value": "Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, ISBN13:978-1608312948"
         }
       },
       {
@@ -2813,7 +2849,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T1-L2 spinal cord to suprarenal ganglion via splanchnic nerve"
+          "value": "neuron type femrep 34"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T1-L2 spinal cord to suprarenal ganglion via thoracic splanchnic nerve OR lumbar splanchnic nerve"
         },
         "Species": {
           "type": "literal",
@@ -2833,7 +2873,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Sangari (2014) https://doi.org/10.1016/j.jasi.2014.04.008"
+          "value": "Sangari (2014) https://doi.org/10.1016/j.jasi.2014.04.008, ISBN13:978-1608312948"
         }
       },
       {
@@ -2842,6 +2882,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/35"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 35"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "suprarenal ganglion to uterine tube infundibulum via ovarian plexus nerve"
         },
@@ -2873,7 +2917,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T9-T10 spinal cord to paravertebral sympathetic chain of T12-L1 via white rami communicantes"
+          "value": "neuron type femrep 36"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T9-T10 spinal cord to paravertebral sympathetic chain of T12-L1 via white communicating rami of T9-T10"
         },
         "Species": {
           "type": "literal",
@@ -2902,6 +2950,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/37"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 37"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "paravertebral sympathetic chain of T12-L1 to left ovary via ovarian plexus nerve"
         },
@@ -2933,6 +2985,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 38"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "celiac ganglion-superior mesenteric ganglion complex to left ovary via superior ovarian nerve"
         },
         "Species": {
@@ -2963,7 +3019,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T9-T10 spinal cord to celiac ganglion-superior mesenteric ganglion complex via splanchnic nerve"
+          "value": "neuron type femrep 39"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T9-T10 spinal cord to celiac ganglion-superior mesenteric ganglion complex via greater splanchnic nerve"
         },
         "Species": {
           "type": "literal",
@@ -2983,7 +3043,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Gerendai (2000) https://doi.org/10.1016/S0165-1838(00)00071-0 , Gerendai (1998) https://doi.org/10.1159/000054372 , Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0 , Pastel\u00edn (2017) http://dx.doi.org/10.1186/s13048-017-0311-x"
+          "value": "Gerendai (2000) https://doi.org/10.1016/S0165-1838(00)00071-0 , Gerendai (1998) https://doi.org/10.1159/000054372 , Klein (1988) https://doi.org/10.1016/0304-3940(88)90354-0 , Pastel\u00edn (2017) http://dx.doi.org/10.1186/s13048-017-0311-x, ISBN13:978-1608312948"
         }
       },
       {
@@ -2993,7 +3053,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "celiac ganglion or superior mesenteric ganglion to right ovary via ovarian plexus nerve"
+          "value": "neuron type femrep 40"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "celiac ganglion-superior mesenteric ganglion complex to right ovary via ovarian plexus nerve"
         },
         "Species": {
           "type": "literal",
@@ -3022,6 +3086,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/40-1"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 40-1"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "paravertebral sympathetic chain of T12-L1 to right ovary via ovarian plexus nerve"
         },
@@ -3053,6 +3121,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 41"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T1-L2 spinal cord to paravertebral sympathetic chain of L2-L4 via white rami communicantes"
         },
         "Species": {
@@ -3083,7 +3155,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of L2-L4 to smooth muscle of the lower uterus via splanchnic nerve via hypogastric nerve"
+          "value": "neuron type femrep 42"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to smooth muscle of the lower uterus via lumbar splanchnic nerves via hypogastric nerve"
         },
         "Species": {
           "type": "literal",
@@ -3103,7 +3179,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7 ,  Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4 "
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7 ,  Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X , Houdeau (1998) http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4 , ISBN13:978-1608312948"
         }
       },
       {
@@ -3113,7 +3189,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of L2-L4 to blood vessel of the lower uterus via splanchnic nerve via hypogastric nerve"
+          "value": "neuron type femrep 43"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to blood vessel of the lower uterus via lumbar splanchnic nerves via hypogastric nerve"
         },
         "Species": {
           "type": "literal",
@@ -3133,7 +3213,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7"
+          "value": "Sato (1996) https://doi.org/10.1016/0165-1838(96)00019-7, ISBN13:978-1608312948"
         }
       },
       {
@@ -3143,7 +3223,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of L2-L4 to uterine cervix via splanchnic nerve via hypogastric nerve"
+          "value": "neuron type femrep 44"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of L2-L4 to uterine cervix via lumbar splanchnic nerves via hypogastric nerve"
         },
         "Species": {
           "type": "literal",
@@ -3163,7 +3247,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X"
+          "value": "Serghini (1997) https://doi.org/10.1016/S0165-1838(97)00091-X, ISBN13:978-1608312948"
         }
       },
       {
@@ -3172,6 +3256,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/52"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 52"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intermediolateral nucleus of L6-S1 to major pelvic ganglion via pelvic splanchnic nerve"
         },
@@ -3203,6 +3291,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 53"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to uterine blood vessels via postganglionic nerve"
         },
         "Species": {
@@ -3232,6 +3324,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/54"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 54"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "major pelvic ganglion to myometrium via postganglionic nerve"
         },
@@ -3263,6 +3359,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 55"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to the uterine endometrium via postganglionic nerve"
         },
         "Species": {
@@ -3292,6 +3392,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/56"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 56"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "major pelvic ganglion to uterine cervix via postganglionic nerve"
         },
@@ -3323,6 +3427,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 60"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T13-L4 dorsal root ganglion with axon sensory terminal in upper uterine segment via hypogastric nerve with axon terminal in T13-L4 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -3352,6 +3460,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/61"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 61"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T13-L4 dorsal root ganglion with axon sensory terminal in ovary via hypogastric nerve with axon terminal in T13-L4 spinal cord via dorsal root of spinal cord"
         },
@@ -3383,6 +3495,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 62"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L6-S2 dorsal root ganglion with axon sensory terminal in lower uterine segment via pelvic nerve with axon terminal in L6-S2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -3412,6 +3528,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/63"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 63"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L6-S2 dorsal root ganglion with axon sensory terminal in uterine cervix via pelvic nerve with axon terminal in L6-S2 spinal cord via dorsal root of spinal cord"
         },
@@ -3443,6 +3563,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 64"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "nodose ganglion with axon sensory terminal in uterus or uterine cervix via abdominal vagal nerve with axon terminal in nucleus of the tractus solitarius via vagus nerve"
         },
         "Species": {
@@ -3473,6 +3597,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 66"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L1 spinal cord to pelvic ganglion via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
         },
         "Species": {
@@ -3493,7 +3621,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003"
+          "value": "Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003, Expert consultation:  Dr. Caroline A Cobine, https://orcid.org/0000-0002-2871-3825  "
         }
       },
       {
@@ -3502,6 +3630,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/67"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 67"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to uterine myometrium via uterovaginal plexus via postganglionic nerve"
         },
@@ -3523,7 +3655,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Thorbert (1979) https://doi.org/10.1016/0002-9378(79)90348-X , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/ , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+          "value": "Thorbert (1979) https://doi.org/10.1016/0002-9378(79)90348-X , Latini (2008) https://pubmed.ncbi.nlm.nih.gov/18677514/ , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/, Expert consultation:  Dr. Caroline A Cobine, https://orcid.org/0000-0002-2871-3825  "
         }
       },
       {
@@ -3532,6 +3664,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/68"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 68"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to helicine branch of uterine artery of uterus via uterovaginal plexus via postganglionic nerve"
         },
@@ -3563,6 +3699,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 69"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to smooth muscle of cervix via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -3592,6 +3732,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/70"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 70"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to uterine artery of the cervix via uterovaginal plexus via postganglionic nerve"
         },
@@ -3623,6 +3767,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 71"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to smooth muscle of vagina via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -3652,6 +3800,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/72"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 72"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to blood vessel of vagina via uterovaginal plexus via postganglionic nerve"
         },
@@ -3683,6 +3835,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 73"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L2 spinal cord to ovarian ganglion via celiac plexus via superior mesenteric plexus via intermesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
         },
         "Species": {
@@ -3703,7 +3859,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/"
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Helm (1981) https://doi.org/10.1095/biolreprod25.1.227 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/, Expert consultation:  Dr. Caroline A Cobine, https://orcid.org/0000-0002-2871-3825 "
         }
       },
       {
@@ -3712,6 +3868,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/74"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 74"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ovarian ganglion to smooth muscle of the isthmus or ampulla of the Fallopian tube via postganglionic nerve"
         },
@@ -3743,6 +3903,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 75"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L2 spinal cord to aorticorenal ganglion via lesser splanchnic nerve or lumbar splanchnic nerves"
         },
         "Species": {
@@ -3773,7 +3937,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "Aorticorenal ganglion to distal ampulla or fimbriae of the uterine tube via superior mesenteric plexus via intermesenteric plexus via inferior mesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus via ovarian plexus"
+          "value": "neuron type femrep 76"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "Aorticorenal ganglion to distal ampulla OR fimbriae of the uterine tube via superior mesenteric plexus via intermesenteric plexus via inferior mesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus via ovarian plexus"
         },
         "Species": {
           "type": "literal",
@@ -3803,6 +3971,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 77"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-T11 spinal cord to ovarian ganglion via celiac plexus via superior mesenteric plexus via intermesenteric plexus via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
         },
         "Species": {
@@ -3823,7 +3995,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001"
+          "value": "Sokol (2011) https://doi.org/10.3843/GLOWM.10001 , Tubbs (2015) https://doi.org/10.1016/B978-0-12-410390-0.00050-0 , Abbas (2019) https://doi.org/10.1016/j.mpaic.2019.04.003 , Jorgensen (1989) https://doi.org/10.1152/ajpendo.1989.257.2.E220 , Marshall https://pubmed.ncbi.nlm.nih.gov/4911145/ , Neilson (1970) https://doi.org/10.1097/00006254-197010000-00001, Expert consultation:  Dr. Caroline A Cobine, https://orcid.org/0000-0002-2871-3825   "
         }
       },
       {
@@ -3832,6 +4004,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/78"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 78"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ovarian ganglion to the ovary stroma via ovarian nerve plexus"
         },
@@ -3863,6 +4039,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 79"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "ovarian ganglion to the ovarian artery via ovarian nerve plexus"
         },
         "Species": {
@@ -3892,6 +4072,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/80"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 80"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ovarian ganglion to ovarian follicle of the ovary via ovarian nerve plexus"
         },
@@ -3923,6 +4107,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 81"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L1 spinal cord to pelvic ganglion via superior hypogastric plexus via hypogastric nerve via inferior hypogastric plexus"
         },
         "Species": {
@@ -3952,6 +4140,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/82"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 82"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to dorsal artery of clitoris via uterovaginal plexus via postganglionic nerve"
         },
@@ -3983,6 +4175,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 83"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to clitoral smooth muscle via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4012,6 +4208,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/84"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 84"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "anterior ramus of S2\u2012S4 spinal cord to pelvic ganglion via pelvic splanchnic nerves via inferior hypogastric plexus"
         },
@@ -4043,6 +4243,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 85"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to the blood vessel of the vagina via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4072,6 +4276,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/86"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 86"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to the epithelium of the vagina via uterovaginal plexus via postganglionic nerve"
         },
@@ -4103,6 +4311,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 87"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to the smooth muscle of the vagina via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4132,6 +4344,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/88"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 88"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to the blood vessel of the cervix via uterovaginal plexus via postganglionic nerve"
         },
@@ -4163,6 +4379,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 89"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to the smooth muscle of the cervix via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4192,6 +4412,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/90"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 90"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to the blood vessel of the isthmus of Fallopian tube via uterovaginal plexus via postganglionic nerve"
         },
@@ -4223,6 +4447,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 91"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to the smooth muscle of the isthmus of Fallopian tube via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4252,6 +4480,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/92"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 92"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to the blood vessel of uterus via uterovaginal plexus via postganglionic nerve"
         },
@@ -4283,6 +4515,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type femrep 93"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to the uterine myometrium via uterovaginal plexus via postganglionic nerve"
         },
         "Species": {
@@ -4312,6 +4548,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/femrep/94"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type femrep 94"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to the ovary via uterovaginal plexus via postganglionic nerve"
         },
@@ -4343,6 +4583,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 131"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T10-L1 to aorticorenal ganglion via lesser splanchnic nerve"
         },
         "Species": {
@@ -4355,7 +4599,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/132"
         },
         "Reference": {
           "type": "literal",
@@ -4368,6 +4612,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/132"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 132"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "aorticorenal ganglion to tunica adventitia of the renal artery OR afferent/efferent arterioles OR the juxtaglomerular apparatus OR renal tubules OR upper ureter via renal nerve plexus"
         },
@@ -4395,6 +4643,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 133"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T10-L1 to renal ganglion via least splanchnic nerve"
         },
         "Species": {
@@ -4407,7 +4659,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/134"
         },
         "Reference": {
           "type": "literal",
@@ -4420,6 +4672,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/134"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 134"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "renal ganglion to tunica adventitia of the renal artery OR afferent/efferent arterioles OR the juxtaglomerular apparatus OR renal tubules OR upper ureter via renal plexus"
         },
@@ -4447,6 +4703,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 135"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "dorsal motor nucleus of vagus nerve to intramural ganglia of the kidney via vagus nerve via esophageal vagus trunk via vagal trunks via aortic plexus via renal plexus"
         },
         "Species": {
@@ -4459,7 +4719,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/136"
         },
         "Reference": {
           "type": "literal",
@@ -4472,6 +4732,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/136"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 136"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intramural ganglia of the kidney to renal artery OR kidney OR upper ureter via postganglionic fiber"
         },
@@ -4499,6 +4763,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 137"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to intramural ganglia of the kidney via pelvic splanchnic nerve via inferior hypogastric plexus via hypogastric nerve"
         },
         "Species": {
@@ -4511,7 +4779,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/138"
         },
         "Reference": {
           "type": "literal",
@@ -4524,6 +4792,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/138"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 138"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intramural ganglia of the kidney to renal artery OR to lower ureter via postganglionic fiber"
         },
@@ -4551,6 +4823,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 139"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L1 dorsal root ganglion with axon sensory terminal in renal artery OR kidney OR upper ureter via lesser OR least splanchnic nerve with axon terminal in the dorsal grey horn of T10-L1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -4577,6 +4853,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 140"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T9-T12 spinal cord to suprarenal ganglion OR aorticorenal ganglion via least splanchnic nerve"
         },
         "Species": {
@@ -4589,7 +4869,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/141"
         },
         "Reference": {
           "type": "literal",
@@ -4602,6 +4882,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/141"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 141"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "suprarenal ganglion OR aorticorenal ganglion to kidney OR mucosa of renal pelvis via postganglionic fiber"
         },
@@ -4629,6 +4913,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 142"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Dorsal motor nucleus of vagus nerve to renal nerve plexus ganglion via vagus nerve via renal plexus"
         },
         "Species": {
@@ -4641,7 +4929,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/143"
         },
         "Reference": {
           "type": "literal",
@@ -4654,6 +4942,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/143"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 143"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "renal nerve plexus ganglion to renal artery OR segmental renal artery OR renal pelvis via postganglionic fiber"
         },
@@ -4681,6 +4973,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 144"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T10-L2 dorsal root ganglion with axon sensory terminal in Bowman's capsule OR blood vessel of the kidney OR renal cortex via lesser OR least splanchnic nerve with axon terminal in the dorsal grey horn of T10-L2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -4706,6 +5002,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/145"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 145"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "nodose ganglion with axon sensory terminal in mucosa of renal pelvis via abdominal branch of vagus nerve with axon terminal in nucleus of solitary tract via vagus nerve"
         },
@@ -4733,7 +5033,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T12-L4 spinal cord to superior mesenteric ganglia OR paravertebral sympathetic chain of T12-L3 OR renal nerve plexus ganglion via splanchnic nerve"
+          "value": "neuron type kidney 146"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T12-L4 spinal cord to paravertebral sympathetic chain of T12-L3 via white rami communicating rami of T12-L4"
         },
         "Species": {
           "type": "literal",
@@ -4745,7 +5049,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/147"
         },
         "Reference": {
           "type": "literal",
@@ -4755,11 +5059,75 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/146-1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 146-1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T12-L4 spinal cord to superior mesenteric ganglia OR renal nerve plexus ganglion via least splanchnic nerve OR lumbar splanchnic nerve"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/147-1"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "- Sripairojthikoon (1987) http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, - Kuo (1982) https://doi.org/10.1016/0304-3940(82)90319-6, - Kuo (1983) https://doi.org/10.1002/cne.902160205, - Meckler (1984) https://doi.org/10.1016/0165-1838(84)90076-6, ISBN13:978-1608312948"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/147"
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "superior mesenteric ganglia OR paravertebral sympathetic chain of T12-L3 OR renal nerve plexus ganglion to kidney via renal nerve"
+          "value": "neuron type kidney 147"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L3 to kidney via least splanchnic nerve OR lumbar splanchnic nerve via renal nerve"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Felis catus"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Post-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "- Sripairojthikoon (1987) http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, - Kuo (1982) https://doi.org/10.1016/0304-3940(82)90319-6, - Kuo (1983) https://doi.org/10.1002/cne.902160205, - Meckler (1984) https://doi.org/10.1016/0165-1838(84)90076-6, ISBN13:978-1608312948"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/147-1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 147-1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "superior mesenteric ganglia OR renal nerve plexus ganglion to kidney via renal nerve"
         },
         "Species": {
           "type": "literal",
@@ -4784,6 +5152,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/148"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 148"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L1-L3 dorsal root ganglion with axon sensory terminal in kidney via lumbar splanchnic nerve with axon terminal in the dorsal grey horn of L1-L3 spinal cord via dorsal root of spinal cord"
         },
@@ -4811,6 +5183,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 149"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T12-L1 to paravertebral sympathetic chain of T12-L1 via white rami communicantes"
         },
         "Species": {
@@ -4823,7 +5199,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/150"
         },
         "Reference": {
           "type": "literal",
@@ -4837,7 +5213,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "paravertebral sympathetic chain of T12-L1 to renal cortical tubules OR juxtaglomerular apparatus OR renal cortex OR efferent arterioles OR afferent arterioles OR renal cortical capillaries via splanchnic nerves via renal plexus"
+          "value": "neuron type kidney 150"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "paravertebral sympathetic chain of T12-L1 to renal cortical tubules OR juxtaglomerular apparatus OR renal cortex OR efferent arterioles OR afferent arterioles OR renal cortical capillaries via least splanchnic nerve via renal plexus"
         },
         "Species": {
           "type": "literal",
@@ -4853,7 +5233,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "- Barajas (1984) https://doi.org/10.1152/ajprenal.1984.247.1.F50, - Burnstock (2016) http://dx.doi.org/10.1016/j.autneu.2016.05.007, - Barajas (1973) https://doi.org/10.1016/s0022-5320(73)90073-7 "
+          "value": "- Barajas (1984) https://doi.org/10.1152/ajprenal.1984.247.1.F50, - Burnstock (2016) http://dx.doi.org/10.1016/j.autneu.2016.05.007, - Barajas (1973) https://doi.org/10.1016/s0022-5320(73)90073-7 , ISBN13:978-1608312948"
         }
       },
       {
@@ -4862,6 +5242,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/151"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 151"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intermediolateral cell column of T12-L1 to celiac-superior mesenteric ganglion complex OR suprarenal ganglia via white rami communicantes via celiac plexus"
         },
@@ -4875,7 +5259,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/152"
         },
         "Reference": {
           "type": "literal",
@@ -4888,6 +5272,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/152"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 152"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "celiac ganglion- superior mesenteric ganglion complex OR suprarenal ganglia to renal cortical tubules OR juxtaglomerular apparatus OR renal cortex OR efferent arterioles OR afferent arterioles OR cortical capillaries via renal plexus"
         },
@@ -4915,6 +5303,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 153"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "left T8-L2 dorsal root ganglion with axon sensory terminal in left kidney via lumbar splanchnic nerve with axon terminal in the dorsal grey horn of left T8-L2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -4940,6 +5332,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/kidney/154"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type kidney 154"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "right T6-L1 dorsal root ganglion with axon sensory terminal in right kidney via lumbar splanchnic nerve with axon terminal in the dorsal grey horn of right T6-L1 spinal cord via dorsal root of spinal cord"
         },
@@ -4967,6 +5363,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type kidney 155"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "nodose ganglion with axon sensory terminal in kidney via abdominal branch of vagus nerve with axon terminal in nucleus of the tractus solitarius via vagus nerve"
         },
         "Species": {
@@ -4993,6 +5393,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 105"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T7-T12 spinal cord to celiac-superior mesenteric ganglia via thoracic splanchnic nerves"
         },
         "Species": {
@@ -5005,7 +5409,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/106"
         },
         "Reference": {
           "type": "literal",
@@ -5018,6 +5422,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/106"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 106"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "celiac-superior mesenteric ganglia to hepatic artery via periarterial neural plexus of the common hepatic artery via anterior hepatic plexus"
         },
@@ -5041,9 +5449,43 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/107"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 107"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "intermediolateral cell column of T7-T12 spinal cord to celiac-superior mesenteric ganglia via thoracic splanchnic nerves"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/108"
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Jensen et al., (2013) http://dx.doi.org/10.1002/cphy.c120018 , Yi et al., (2010) https://doi.org/10.1016/j.bbadis.2010.01.006 , Strack (1988) http://dx.doi.org/10.1016/0006-8993(88)90132-1 , Buijs (2003) http://dx.doi.org/10.1002/cne.10765 "
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/108"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 108"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "celiac-superior mesenteric ganglia to portal vein OR bile duct via posterior hepatic plexus"
         },
@@ -5071,6 +5513,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 109"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "dorsal motor nucleus to ganglia located at the hepatic hilus and within the portal spaces via left cervical vagus nerve via anterior abdominal vagal trunk via hepatic branch of left vagus nerve"
         },
         "Species": {
@@ -5083,7 +5529,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/110"
         },
         "Reference": {
           "type": "literal",
@@ -5096,6 +5542,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/110"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 110"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ganglia located at the hepatic hilus and within the portal spaces to hepatic artery via periarterial neural plexus of the common hepatic artery via anterior hepatic plexus"
         },
@@ -5123,6 +5573,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 111"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "nucleus ambiguus to ganglia located at the hepatic hilus and within the portal spaces via right cervical vagus nerve via posterior abdominal vagal trunk via posterior hepatic branch of vagus nerve"
         },
         "Species": {
@@ -5135,7 +5589,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/112"
         },
         "Reference": {
           "type": "literal",
@@ -5148,6 +5602,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/112"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 112"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ganglia located at the hepatic hilus and within the portal spaces to portal vein OR bile duct via posterior hepatic plexus"
         },
@@ -5175,7 +5633,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T7-T12 dorsal root ganglion with axon sensory terminal in portal vein OR bile duct OR portal region via splanchnic nerve with axon terminal in the dorsal grey horn of T7-T12 spinal cord via dorsal root of spinal cord"
+          "value": "neuron type liver 113"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T7-T12 dorsal root ganglion with axon sensory terminal in portal vein OR bile duct OR portal region via thoracic splanchnic nerve with axon terminal in the dorsal grey horn of T7-T12 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
           "type": "literal",
@@ -5191,7 +5653,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "Berthoud et al., (2004) http://dx.doi.org/10.1002/ar.a.20088 , Magni F., (1983) https://doi.org/10.1016/0165-1838(83)90108-X "
+          "value": "Berthoud et al., (2004) http://dx.doi.org/10.1002/ar.a.20088 , Magni F., (1983) https://doi.org/10.1016/0165-1838(83)90108-X , ISBN13:978-1608312948"
         }
       },
       {
@@ -5200,6 +5662,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/114"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 114"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "left nodose ganglion with axon sensory terminal in hilus of the liver OR bile duct OR portal vein via anterior abdominal vagal trunk with axon terminal in nucleus of solitary tract via vagus nerve"
         },
@@ -5227,6 +5693,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 115"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "right nodose ganglion with axon sensory terminal in bile duct OR portal vein via periarterial plexus of the common hepatic artery via dorsal celiac branch via posterior abdominal vagal trunk with axon terminal in nucleus of solitary tract via vagus nerve"
         },
         "Species": {
@@ -5253,6 +5723,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 116"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T7-T10 spinal cord to left celiac-superior mesenteric ganglia via greater splanchnic nerve"
         },
         "Species": {
@@ -5265,7 +5739,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/117"
         },
         "Reference": {
           "type": "literal",
@@ -5278,6 +5752,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/117"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 117"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "left celiac-superior mesenteric ganglia to smooth muscle of hepatic artery via periarterial neural plexus of the common hepatic artery via anterior hepatic plexus"
         },
@@ -5305,6 +5783,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 118"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T7-T10 spinal cord to right celiac-superior mesenteric ganglia via greater splanchnic nerve"
         },
         "Species": {
@@ -5317,7 +5799,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/119"
         },
         "Reference": {
           "type": "literal",
@@ -5330,6 +5812,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/119"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 119"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "right celiac-superior mesenteric ganglia to smooth muscle of portal vein OR bile duct epithelium OR peribiliary gland via posterior hepatic plexus"
         },
@@ -5357,6 +5843,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 120"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T7-T10 spinal cord to celiac-superior mesenteric ganglia via greater splanchnic nerve"
         },
         "Species": {
@@ -5382,6 +5872,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/121"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 121"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "celiac-superior mesenteric ganglia to liver lobule OR hepatic sinusoid OR hepatic acini OR hepatocytes OR space of Disse via hepatic plexus"
         },
@@ -5409,6 +5903,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 122"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "dorsal motor nucleus to ganglia located at the hepatic hilus and within the portal spaces via left cervical vagus nerve via anterior abdominal vagal trunk via hepatic branch of left vagus nerve"
         },
         "Species": {
@@ -5421,7 +5919,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/123"
         },
         "Reference": {
           "type": "literal",
@@ -5434,6 +5932,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/123"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 123"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ganglia located at the hepatic hilus and within the portal spaces to hepatic artery via periarterial neural plexus of the common hepatic artery via anterior hepatic plexus"
         },
@@ -5461,6 +5963,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 124"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "dorsal motor nucleus to ganglia located at the hepatic hilus and within the portal spaces via right cervical vagus nerve via posterior abdominal vagal trunk via posterior hepatic branch of vagus nerve"
         },
         "Species": {
@@ -5473,7 +5979,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/125"
         },
         "Reference": {
           "type": "literal",
@@ -5486,6 +5992,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/125"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 125"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "ganglia located at the hepatic hilus and within the portal spaces to portal vein OR bile duct via posterior hepatic plexus"
         },
@@ -5513,7 +6023,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "T7-T12 dorsal root ganglion with axon sensory terminal in portal vein OR bile duct OR portal region via splanchnic nerve with axon terminal in the dorsal grey horn of T7-T12 spinal cord via dorsal root of spinal cord"
+          "value": "neuron type liver 126"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "T7-T12 dorsal root ganglion with axon sensory terminal in portal vein OR bile duct OR portal region via thoracic splanchnic nerve with axon terminal in the dorsal grey horn of T7-T12 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
           "type": "literal",
@@ -5529,7 +6043,7 @@
         },
         "Reference": {
           "type": "literal",
-          "value": "- Adori et al., (2023) http://dx.doi.org/10.1055/s-0043-57237, - Uyama et al., (2004) https://doi.org/10.1002/ar.a.20086"
+          "value": "- Adori et al., (2023) http://dx.doi.org/10.1055/s-0043-57237, - Uyama et al., (2004) https://doi.org/10.1002/ar.a.20086, ISBN13:978-1608312948"
         }
       },
       {
@@ -5538,6 +6052,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/127"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 127"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "inferior vagus X ganglion with axon sensory terminal in hilus of the liver OR bile duct via anterior abdominal vagal trunk with axon terminal in nucleus of the tractus solitarius via vagus nerve"
         },
@@ -5565,6 +6083,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 130"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of T7-T12 spinal cord to celiac-superior mesenteric ganglia OR aorticorenal ganglion via thoracic splanchnic nerves"
         },
         "Species": {
@@ -5577,7 +6099,7 @@
         },
         "Forward_Connections": {
           "type": "literal",
-          "value": ""
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/131, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/132"
         },
         "Reference": {
           "type": "literal",
@@ -5590,6 +6112,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/liver/131"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type liver 131"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "celiac-superior mesenteric ganglia OR aorticorenal ganglion to smooth muscle OR endothelial cell of common hepatic artery via periarterial neural plexus of the common hepatic artery via anterior hepatic plexus"
         },
@@ -5617,6 +6143,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type liver 132"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "celiac-superior mesenteric ganglia OR aorticorenal ganglion to smooth muscle OR endothelial cell of hepatic portal vein OR epithelial cell of bile duct via posterior hepatic plexus"
         },
         "Species": {
@@ -5642,6 +6172,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/1"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 1"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Nucleus of the pudendal nerve to urethral sphincter via pudendal nerve"
         },
@@ -5669,6 +6203,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset1 10"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Superior salivatory nucleus to pterygopalatine ganglion via facial nerve via greater petrosal nerve via vidian nerve"
         },
         "Species": {
@@ -5694,6 +6232,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/11"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 11"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T2-T6 intermediolateral cell column of spinal cord to cervicothoracic ganglion-T5 ganglion via T2-T6 white communicating ramus via T2-T6 sympathetic chain"
         },
@@ -5721,6 +6263,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset1 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Cervicothoracic ganglion T2-T5 ganglion to interscapsular brown adipose tissue via Cervicothoracic T2-T5 gray ramus via spinal nerve"
         },
         "Species": {
@@ -5746,6 +6292,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/13"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 13"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Myenteric ganglion of small intestine to celiac ganglion via mesenteric nerve"
         },
@@ -5773,6 +6323,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset1 14"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Inferior vagus X ganglion to thymus gland via vagus nerve"
         },
         "Species": {
@@ -5798,6 +6352,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/2"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 2"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Superior cervical ganglion to lacrimal gland via internal carotid nerve plexus via deep petrosal nerve via vidian nerve via zygomatic nerve via communicating branch to ophthalmic nerve via lacrimal nerve"
         },
@@ -5825,6 +6383,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset1 3"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Superior cervical ganglion to sphincter papillae via internal carotid nerve plexus via ophthalmic plexus via long ciliary nerve"
         },
         "Species": {
@@ -5850,6 +6412,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/3a"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 3a"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Superior cervical ganglion to sphincter pupillae via internal carotid plexus via ophthalmic plexus via short ciliary nerve"
         },
@@ -5877,6 +6443,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset1 4"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Superior cervical ganglion to parotid gland via external carotid plexus"
         },
         "Species": {
@@ -5902,6 +6472,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/5"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset1 5"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Inferior salivatory nucleus to otic ganglion via glossopharyngeal nerve via tympanic nerve via lesser petrosal nerve"
         },
@@ -5929,6 +6503,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Parvocellular oculomotor nucleus nucleus to main ciliary ganglion via occulomotor nerve"
         },
         "Species": {
@@ -5955,6 +6533,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 10"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Submandibular ganglion to sublingual gland via nerve fiber from submandibular ganglion to sublingual gland"
         },
         "Species": {
@@ -5976,6 +6558,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/11"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset2cn 11"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Submandibular ganglion to submandibular gland via nerve fiber from submandibular ganglion to submandibular gland"
         },
@@ -5999,6 +6585,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Submandibular ganglion to mouth mucosa via nerve fiber from submandibular ganglion to mouth mucosa"
         },
         "Species": {
@@ -6020,6 +6610,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/3"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset2cn 3"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Superior salivatory nucleus to submandibular ganglion via facial nerve via chorda tympani via lingual nerve"
         },
@@ -6047,6 +6641,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 4"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Main clilary ganglion to ciliary muscle via short ciliary nerve"
         },
         "Species": {
@@ -6073,6 +6671,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 5"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Main clilary ganglion to sphincter papillae via short ciliary nerve"
         },
         "Species": {
@@ -6094,6 +6696,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/6"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset2cn 6"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Otic ganglion to parotid gland via auriculotemporal nerve"
         },
@@ -6117,6 +6723,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset2cn 7"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Pterygopalantine ganglion to lacrimal gland via communicating branch of zygomatic nerve via lacrimal nerve"
         },
         "Species": {
@@ -6138,6 +6748,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/9"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset2cn 9"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Pterygopalantine ganglion to nasal cavity mucosa via nasopalantine nerve"
         },
@@ -6161,6 +6775,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-4 sacral parasympathetic nucleus to inferior hypogastric plexus ganglion via pelvic splanchnic nerve"
         },
         "Species": {
@@ -6183,39 +6801,13 @@
       {
         "Neuron_IRI": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/10"
-        },
-        "Neuron_Label": {
-          "type": "literal",
-          "value": "celiac-mesenteric ganglion to ovary via superior ovarian nerve"
-        },
-        "Species": {
-          "type": "literal",
-          "value": "Rattus norvegicus"
-        },
-        "Sex": {
-          "type": "literal",
-          "value": "female"
-        },
-        "Phenotypes": {
-          "type": "literal",
-          "value": "Sympathetic Post-Ganglionic phenotype"
-        },
-        "Forward_Connections": {
-          "type": "literal",
-          "value": ""
-        },
-        "Reference": {
-          "type": "literal",
-          "value": "(from https://www.frontiersin.org/articles/10.3389/fphys.2018.01142/full, https://ovarianresearch.biomedcentral.com/articles/10.1186/s13048-017-0311-x)"
-        }
-      },
-      {
-        "Neuron_IRI": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/11"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 11"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T5-T8 intermediolateral cell column to adrenal medulla via greater splanchnic nerve"
         },
@@ -6243,6 +6835,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T5-T8 intermedio lateral cell column to Celiac ganglion via Greater splanchnic nerves"
         },
         "Species": {
@@ -6269,6 +6865,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 2"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L6-S1 Sacral parasympathetic nucleus to pelvic ganglion (major pelvic ganglion + accessory pelvic ganglion) via pelvic nerve"
         },
         "Species": {
@@ -6294,6 +6894,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/3"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 3"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Inferior hypogastric plexus ganglion to corpus cavernosum penis via inferior hypogastric plexus to the prostatic nerve plexus to cavernous nerve of penis"
         },
@@ -6325,6 +6929,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 3a"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Pelvic ganglion (major pelvic ganglion + accessory pelvic ganglion) to corpus cavernosum penis via penile cavernous nerve"
         },
         "Species": {
@@ -6354,6 +6962,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/3b"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 3b"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Pelvic ganglion (major pelvic ganglion + accessory pelvic ganglion) to corpus spongiosum penis via penile cavernous nerve"
         },
@@ -6385,6 +6997,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 3c"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Pelvic ganglion (major pelvic ganglion + accessory pelvic ganglion) to bulbo-urethral gland via penile cavernous nerve"
         },
         "Species": {
@@ -6414,6 +7030,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/3e"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 3e"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Pelvic ganglion to corpus cavernosum clitoridis via inferior hypogastric plexus to the uterovaginal plexus to clitoral cavernous nerve"
         },
@@ -6445,7 +7065,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "Nucleus of the solitary tract to ovarian nerve plexus parasympathetic ganglion via vagus nerve via aortic plexus"
+          "value": "neuron type mmset4 4a"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "Nucleus of the solitary tract to ovarian ganglion via vagus nerve via aortic plexus"
         },
         "Species": {
           "type": "literal",
@@ -6465,7 +7089,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "An alert was added to indicate that limited evidence is available for this projection may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
+          "value": "An alert was added to indicate that limited evidence is available for this projection and that additional evidence may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
         },
         "Reference": {
           "type": "literal",
@@ -6479,7 +7103,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "Nucleus ambiguus to parasympathetic ganglion in ovarian nerve plexus via vagus nerve via aortic plexus"
+          "value": "neuron type mmset4 4b"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "Nucleus ambiguus to ovarian ganglion via vagus nerve via aortic plexus"
         },
         "Species": {
           "type": "literal",
@@ -6499,7 +7127,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "An alert was added to indicate that limited evidence is available for this projection may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
+          "value": "An alert was added to indicate that limited evidence is available for this projection and that additional evidence may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
         },
         "Reference": {
           "type": "literal",
@@ -6513,7 +7141,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "Dorsal motor nucleus of vagus nerve to ovarian nerve plexus parasympathetic ganglion via vagus nerve via aortic plexus"
+          "value": "neuron type mmset4 4c"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "Dorsal motor nucleus of vagus nerve to ovarian ganglion via vagus nerve via aortic plexus"
         },
         "Species": {
           "type": "literal",
@@ -6533,7 +7165,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "An alert was added to indicate that limited evidence is available for this projection may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
+          "value": "An alert was added to indicate that limited evidence is available for this projection and that additional evidence may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
         },
         "Reference": {
           "type": "literal",
@@ -6547,7 +7179,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "ovarian nerve plexus parasympathetic ganglion to ovary via ovarian nerve plexus"
+          "value": "neuron type mmset4 5"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "ovarian ganglion to ovary via ovarian nerve plexus"
         },
         "Species": {
           "type": "literal",
@@ -6567,7 +7203,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "An alert was added to indicate that limited evidence is available for this projection may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
+          "value": "An alert was added to indicate that limited evidence is available for this projection and that additional evidence may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
         },
         "Reference": {
           "type": "literal",
@@ -6580,6 +7216,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/6"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 6"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "inferior vagus X ganglion to ovary via vagus and inferior vagus X ganglion to NTS via vagus"
         },
@@ -6601,7 +7241,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "An alert was added to indicate that limited evidence is available for this projection may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
+          "value": "An alert was added to indicate that limited evidence is available for this projection and that additional evidence may be needed. The general consensus among anatomists consulted is that there is no parasympathetic innervation of the ovary in humans. However, in rats, Gerendai and colleagues have provided evidence of a parasympathetic innervation of the ovaries using transsynaptic tracing techniques. We added the projections represented in Figure 1 of Gerendai (2002) et al Microscopy Research and Technique Volume 59, Issue 6 p. 474-483 but note that transsynaptic tracing studies can be difficult to interpret and that additional evidence may be needed."
         },
         "Reference": {
           "type": "literal",
@@ -6614,6 +7254,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/7"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 7"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T4\u2013L2 intermediolateral cell columns to pre vertebral sympathetic ganglia in abdominal aortic plexus via greater splanchnic nerve OR lesser splanchnic nerve"
         },
@@ -6640,6 +7284,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/8"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type mmset4 8"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T5-T9 intermediolateral cell columns to pre vertebral sympathetic ganglia in abdominal aortic plexus via greater splanchnic nerve OR lesser splanchnic nerve"
         },
@@ -6671,6 +7319,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type mmset4 9"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pre vertebral sympathetic ganglia in abdominal aortic plexus to ovary via aortic plexus to ovarian nerve plexus"
         },
         "Species": {
@@ -6700,6 +7352,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/11"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 11"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "dorsal gray commissure and the intermediolateral column of T13-L2 spinal cord to major pelvic ganglion via inferior mesenteric nerve plexus via hypogastric nerve"
         },
@@ -6731,6 +7387,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type prostate 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to prostate gland smooth muscle via postganglionic sympathetic fiber"
         },
         "Species": {
@@ -6760,6 +7420,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/13"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 13"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intermediolateral cell column of L6-S1 spinal cord to major pelvic ganglion via pelvic splanchnic nerve"
         },
@@ -6791,6 +7455,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type prostate 14"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to prostate epithelium via postganglionic parasympathetic fiber"
         },
         "Species": {
@@ -6820,6 +7488,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/15"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 15"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intermediolateral column of thoracolumbar T11-L2 spinal cord to pelvic ganglion via superior hypogastric nerve plexus via hypogastric nerve"
         },
@@ -6851,6 +7523,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type prostate 16"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to prostate gland smooth muscle via postganglionic sympathetic fiber"
         },
         "Species": {
@@ -6880,6 +7556,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/17"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 17"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "intermediolateral cell column of sacral S2-S4 spinal cord to pelvic ganglion via pelvic splanchnic nerve"
         },
@@ -6911,6 +7591,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type prostate 18"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "pelvic ganglion to prostate epithelium via postganglionic parasympathetic fiber"
         },
         "Species": {
@@ -6940,6 +7624,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/24"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 24"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L2-L5 spinal cord to inferior mesenteric ganglion via lumbar splanchic nerve"
         },
@@ -6971,6 +7659,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type prostate 25"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "inferior mesenteric ganglion to prostate gland smooth muscle via hypogastric nerve via postganglionic sympathetic fiber"
         },
         "Species": {
@@ -7000,6 +7692,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/prostate/26"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type prostate 26"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L6-S3 spinal cord to inferior mesenteric ganglion via pelvic splanchnic nerve"
         },
@@ -7031,6 +7727,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type semves 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "intermediolateral cell column of L1-L2 spinal cord to major pelvic ganglion via inferior mesenteric ganglion via hypogastric nerve"
         },
         "Species": {
@@ -7060,6 +7760,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/2"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type semves 2"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "major pelvic ganglion to seminal vesicle epithelium via first accessory pelvic ganglion via postganglionic sympathetic fiber"
         },
@@ -7091,6 +7795,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type semves 2a"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to muscular coat of seminal vesicle via first accessory pelvic ganglion via postganglionic sympathetic fiber"
         },
         "Species": {
@@ -7120,6 +7828,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/3"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type semves 3"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L6-S1 spinal cord to major pelvic ganglion via pelvic splanchnic nerve"
         },
@@ -7151,6 +7863,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type semves 4"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "major pelvic ganglion to seminal vesicle epithelium via first accessory pelvic ganglion via postganglionic parasympathetic fiber"
         },
         "Species": {
@@ -7180,6 +7896,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/4a"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type semves 4a"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "major pelvic ganglion to muscular coat of seminal vesicle via first accessory pelvic ganglion via postganglionic parasympathetic fiber"
         },
@@ -7211,6 +7931,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type semves 5"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Thoracolumbar T10-L2 spinal cord to pelvic ganglion via superior hypogastric nerve plexus via hypogastric nerve"
         },
         "Species": {
@@ -7240,6 +7964,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/6"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type semves 6"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to muscular coat of seminal vesicle via postganglionic sympathetic fiber"
         },
@@ -7271,6 +7999,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type semves 7"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Sacral S2-S4 spinal cord to pelvic ganglion via pelvic splanchnic nerves"
         },
         "Species": {
@@ -7300,6 +8032,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/semves/8"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type semves 8"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "pelvic ganglion to seminal vesicles via postganglionic parasympathetic fiber"
         },
@@ -7331,6 +8067,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C7 spinal cord to coracobrachialis muscle via musculocutaneous nerve"
         },
         "Species": {
@@ -7356,6 +8096,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/10"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 10"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-C8 spinal cord to pronator quadratus muscle via median nerve"
         },
@@ -7383,6 +8127,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 100"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L1 spinal cord to psoas minor muscle via anterior rami of L1"
         },
         "Species": {
@@ -7408,6 +8156,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/101"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 101"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T12-L4 spinal cord to quadratus lumborum muscle via anterior rami of T12-L4"
         },
@@ -7435,6 +8187,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 102"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L4 spinal cord to iliacus muscle via femoral nerve"
         },
         "Species": {
@@ -7460,6 +8216,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/103"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 103"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7 spinal cord to latissimus dorsi muscle via thoracodorsal (middle subscapular) nerve"
         },
@@ -7487,6 +8247,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 104"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T2-T5 spinal cord to serratus posterior superior muscle via anterior rami of upper thoracic nerves (T2 to T5)"
         },
         "Species": {
@@ -7512,6 +8276,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/105"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 105"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T9-T12 spinal cord to serratus posterior inferior muscle via anterior rami of lower thoracic nerves (T9 to T12)"
         },
@@ -7539,6 +8307,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 106"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C3-C4 spinal cord to splenius capitis muscle via posterior rami middle cervical nerves of C3 and C4"
         },
         "Species": {
@@ -7564,6 +8336,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/107"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 107"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T3-T6 spinal cord to splenius cervicis via posterior rami lower cervical nerves"
         },
@@ -7591,6 +8367,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 108"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C1 spinal cord to rectus capitis posterior major muscle via posterior ramus of C1 (Suboccipital nerve)"
         },
         "Species": {
@@ -7616,6 +8396,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/109"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 109"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C1 spinal cord to rectus capitis posterior minor muscle via posterior ramus of C1 (Suboccipital nerve)"
         },
@@ -7643,7 +8427,11 @@
         },
         "Neuron_Label": {
           "type": "literal",
-          "value": "C6-C7 spinal cord to 1st lumbrical muscle via median nerve via proper palmar digital branches of the median nerve"
+          "value": "neuron type senmot 11"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "C6-C7 spinal cord to first lumbrical muscle of the hand via median nerve via proper palmar digital branches of the median nerve"
         },
         "Species": {
           "type": "literal",
@@ -7668,6 +8456,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/110"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 110"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C1 spinal cord to obliquus capitis superior muscle via posterior ramus of C1 (Suboccipital nerve)"
         },
@@ -7695,6 +8487,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 111"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C1 spinal cord to obliquus capitis inferior muscle via posterior ramus of C1 (Suboccipital nerve)"
         },
         "Species": {
@@ -7720,6 +8516,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/112"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 112"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L5-S1 spinal cord to gemellus superior muscle via nerve to obturator internus"
         },
@@ -7747,6 +8547,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 113"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L5-S1 spinal cord to gemellus inferior muscle via nerve to quadratus femoris"
         },
         "Species": {
@@ -7772,6 +8576,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/114"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 114"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L5-S1 spinal cord to quadratus femoris muscle via nerve to quadratus femoris"
         },
@@ -7799,6 +8607,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 115"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L4-L5 spinal cord to gluteus minimus muscle via superior gluteal nerve"
         },
         "Species": {
@@ -7824,6 +8636,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/116"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 116"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L4-L5 spinal cord to gluteus medius muscle via superior gluteal nerve"
         },
@@ -7851,6 +8667,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 117"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L5-S1 spinal cord to gluteus maximus muscle via inferior gluteal nerve"
         },
         "Species": {
@@ -7877,6 +8697,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 118"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L4-L5 spinal cord to tensor fasciae latae muscle via superior gluteal nerve"
         },
         "Species": {
@@ -7899,9 +8723,43 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/12"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "C6-C7 spinal cord to second lumbrical muscle of the hand via median nerve via the palmar digital nerve"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Motor phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Reference": {
+          "type": "literal",
+          "value": "Borene (2004) http://dx.doi.org/10.1016/j.rapm.2003.12.015 , Neal (2015) https://doi.org/10.1016/B978-0-12-802653-3.00082-8, Gray's Basic Anatomy 2nd Edition ISBN13:978-0275970987"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/120"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 120"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L3-L4 spinal cord to vastus medialis muscle via femoral nerve"
         },
@@ -7929,6 +8787,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 121"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L3-L4 spinal cord to vastus intermedius muscle via femoral nerve"
         },
         "Species": {
@@ -7954,6 +8816,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/122"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 122"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L3-L4 spinal cord to vastus lateralis muscle via femoral nerve"
         },
@@ -7981,6 +8847,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 123"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L3-L4 spinal cord to rectus femoris muscle via femoral nerve"
         },
         "Species": {
@@ -8006,6 +8876,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/124"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 124"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L2-L3 spinal cord to sartorius muscle via femoral nerve"
         },
@@ -8033,6 +8907,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 125"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2 spinal cord to gracilis muscle via obturator nerve"
         },
         "Species": {
@@ -8058,6 +8936,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/126"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 126"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L2 spinal cord to pectineus muscle via femoral nerve"
         },
@@ -8085,6 +8967,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 127"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L3 spinal cord to adductor longus muscle via obturator nerve (anterior division)"
         },
         "Species": {
@@ -8110,6 +8996,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/128"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 128"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L2-L3 spinal cord to adductor brevis muscle via obturator nerve"
         },
@@ -8137,6 +9027,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 129"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L3 spinal cord to adductor magnus muscle via obturator nerve"
         },
         "Species": {
@@ -8162,6 +9056,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/13"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 13"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to abductor pollicis brevis muscle via median nerve via recurrent branch of the median nerve"
         },
@@ -8189,6 +9087,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 130"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L3 spinal cord to adductor magnus muscle via sciatic nerve (tibial division)"
         },
         "Species": {
@@ -8214,6 +9116,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/131"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 131"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L4 spinal cord to obturator externus via obturator nerve (posterior division)"
         },
@@ -8241,6 +9147,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 132"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1 spinal cord to biceps femoris muscle via sciatic nerve"
         },
         "Species": {
@@ -8266,6 +9176,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/133"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 133"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1 spinal cord to semitendinosus muscle via sciatic nerve"
         },
@@ -8293,6 +9207,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 134"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1 spinal cord to semimembranosus muscle via sciatic nerve"
         },
         "Species": {
@@ -8318,6 +9236,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/135"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 135"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1-S2 spinal cord to gastrocnemius muscle via tibial nerve"
         },
@@ -8345,6 +9267,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 136"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1-S2 spinal cord to plantaris muscle via tibial nerve"
         },
         "Species": {
@@ -8370,6 +9296,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/137"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 137"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1-S2 spinal cord to soleus muscle via tibial nerve"
         },
@@ -8397,6 +9327,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 138"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L4-S1 spinal cord to popliteus muscle via tibial nerve"
         },
         "Species": {
@@ -8422,6 +9356,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/139"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 139"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2 spinal cord to flexor hallucis longus muscle via tibial nerve"
         },
@@ -8449,6 +9387,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 14"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to opponens pollicis muscle via recurrent branch of the median nerve"
         },
         "Species": {
@@ -8474,6 +9416,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/140"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 140"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2 spinal cord to flexor digitorum longus muscle via tibial nerve"
         },
@@ -8501,6 +9447,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 141"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L4-L5 spinal cord to tibialis posterium muscle via tibial nerve"
         },
         "Species": {
@@ -8526,6 +9476,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/142"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 142"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L5-S1 spinal cord to fibularis longus muscle via superficial fibular nerve"
         },
@@ -8553,6 +9507,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 143"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L5-S1 spinal cord to fibularis brevis muscle via superficial fibular\nnerve"
         },
         "Species": {
@@ -8578,6 +9536,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/144"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 144"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L4 spinal cord to tibialis anterior muscle via deep fibular nerve"
         },
@@ -8605,6 +9567,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 145"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L5-S1 spinal cord to extensor hallucis longus muscle via deep fibular nerve"
         },
         "Species": {
@@ -8630,6 +9596,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/146"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 146"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L5-S1 spinal cord to extensor digitorum longus muscle via deep fibular nerve"
         },
@@ -8657,6 +9627,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 147"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L5-S1 spinal cord to fabularis tertius muscle via deep fibular nerve"
         },
         "Species": {
@@ -8682,6 +9656,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/148"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 148"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1-S2 spinal cord to extensor hallucis brevis and extensor digitorum brevis muscle via deep fibular nerve"
         },
@@ -8709,6 +9687,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 149"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1-S3 spinal cord to abductor hallucis muscle via medial plantar nerve"
         },
         "Species": {
@@ -8734,6 +9716,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/15"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 15"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to flexor pollicis brevis via recurrent branch of the median nerve"
         },
@@ -8761,6 +9747,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 150"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1-S3 spinal cord to flexor digitorum longus muscle via medial plantar nerve"
         },
         "Species": {
@@ -8786,6 +9776,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/151"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 151"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1-S3 spinal cord to abductor digiti minimi muscle of foot via lateral plantar nerve"
         },
@@ -8813,6 +9807,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 152"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1-S3 spinal cord to quadratus plantae muscle via lateral plantar nerve"
         },
         "Species": {
@@ -8838,6 +9836,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/153"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 153"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S3 spinal cord to first lumbrical muscle via medial plantar nerve"
         },
@@ -8865,6 +9867,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 154"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S3 spinal cord to 2nd-4th lumbrical muscle via lateral plantar nerve"
         },
         "Species": {
@@ -8890,6 +9896,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/155"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 155"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1 spinal cord to flexor hallucis brevis muscle via medial plantar nerve"
         },
@@ -8917,6 +9927,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 156"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S3 spinal cord to adductor hallucis muscle via lateral plantar nerve"
         },
         "Species": {
@@ -8942,6 +9956,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/157"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 157"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S3 spinal cord to flexor digiti minimi brevis muscle via lateral plantar nerve"
         },
@@ -8969,6 +9987,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 158"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S3 spinal cord to dorsal interossei muscle via lateral plantar nerve OR deep fibular nerve"
         },
         "Species": {
@@ -8994,6 +10016,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/159"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 159"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S3 spinal cord to plantar interosseous muscle of pes via lateral plantar nerve"
         },
@@ -9021,6 +10047,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 16"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C6-C8 spinal cord to coracoclavicular ligament or subacromial bursa or acromioclavicular joint via suprascapular nerve via articular branch of lateral pectoral nerve"
         },
         "Species": {
@@ -9046,6 +10076,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/160"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 160"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L1 dorsal root ganglia with axon sensory terminal in skin over anteromedial part of upper thigh and adjacent skin of perineum via ilioinguinal nerve with axon terminal in L1 spinal cord via dorsal root of spinal cord"
         },
@@ -9073,6 +10107,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 161"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L1-L2 dorsal root ganglia with axon sensory terminal in skin on anterior central part of upper thigh via femoral branch of genitofemoral nerve with axon terminal in L1-L2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9098,6 +10136,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/162"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 162"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L1-L2 dorsal root ganglia with axon sensory terminal in skin in anterior part of perineum (anterior scrotum in men) via genital branch of genitofemoral nerve with axon terminal in L1-L2 spinal cord via dorsal root of spinal cord"
         },
@@ -9125,6 +10167,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 163"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L1-L2 dorsal root ganglia with axon sensory terminal in anterior part of perineum (mons pubis and anterior labia majora in women) via genital branch of genitofemoral nerve with axon terminal in L1-L2 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9150,6 +10196,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/164"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 164"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L2-L4 dorsal root ganglia with axon sensory terminal in skin over the anterior thigh, anteromedial knee, medial side of the leg, and the medial side of the foot via femoral nerve with axon terminal in L2-L4 spinal cord via dorsal root of spinal cord"
         },
@@ -9177,6 +10227,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 165"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L4 dorsal root ganglia with axon sensory terminal in skin over upper medial aspect of thigh via obturator nerve with axon terminal in L2-L4 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9202,6 +10256,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/166"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 166"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L4-S3 dorsal root ganglia with axon sensory terminal in skin over lateral side of leg and foot, and over the sole and dorsal surface of foot via sciatic nerve with axon terminal in L4-S3 spinal cord via dorsal root of spinal cord"
         },
@@ -9229,6 +10287,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 167"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2-L3 dorsal root ganglia with axon sensory terminal in parietal peritoneum in iliac fossa OR skin over anterolateral thigh via lateral cutaneous nerve of thigh with axon terminal in L2-L3 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9254,6 +10316,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/168"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 168"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S1-S3 dorsal root ganglia with axon sensory terminal in skin over gluteal fold and upper medial aspect of thigh and adjacent perineum, posterior aspect of thigh and upper posterior leg via posterior cutaneous nerve of thigh with axon terminal in S1-S3 spinal cord via dorsal root of spinal cord"
         },
@@ -9281,6 +10347,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 169"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S3 dorsal root ganglia with axon sensory terminal in skin over medial aspect of gluteal fold via perforating cutaneous nerve with axon terminal in S2-S3 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9306,6 +10376,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/17"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 17"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 dorsal root ganglia with axon sensory terminal in shoulder joint via musculocutaneous nerve with axon terminal in C5-C7 spinal cord via dorsal root of spinal cord"
         },
@@ -9333,6 +10407,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 170"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L4-S3 dorsal root ganglia with axon sensory terminal in plantar surface of foot via radial nerve via medial plantar nerve with axon terminal in L4-S3 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9358,6 +10436,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/171"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 171"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L1 dorsal root ganglia with axon sensory terminal in posterolateral gluteal skin and skin in pubic region via iliohypogastric nerve with axon terminal in L1 spinal cord via dorsal root of spinal cord"
         },
@@ -9385,6 +10467,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 172"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L2 spinal cord to iliacus muscle via femoral nerve"
         },
         "Species": {
@@ -9410,6 +10496,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/18"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 18"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 dorsal root ganglia with axon sensory terminal in shoulder joint via lateral cutaneous nerve of the forearm with axon terminal in C5-C7 spinal cord via dorsal root of spinal cord"
         },
@@ -9437,6 +10527,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 19"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C6-C7 dorsal root ganglia with axon sensory terminal in supinator muscle via posterior interosseous nerve with axon terminal in C6-C7 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9462,6 +10556,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/2"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 2"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 spinal cord to bicep brachii muscle via musculocutaneous nerve"
         },
@@ -9489,6 +10587,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 20"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C7 dorsal root ganglia with axon sensory terminal in lateral or radial half of the forearm (brachioradialis muscle) via musculocutaneous nerve with axon terminal in C5-C7 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9514,6 +10616,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/21"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 21"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8 spinal cord to flexor carpi ulnaris muscle via ulnar nerve"
         },
@@ -9541,6 +10647,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 22"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to flexor digitorum profundus muscle via ulnar nerve"
         },
         "Species": {
@@ -9566,6 +10676,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/23"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 23"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to the palmar and dorsal interosseous muscles via deep branch of ulnar nerve"
         },
@@ -9593,6 +10707,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 24"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to palmaris brevis muscle via deep branch of ulnar nerve"
         },
         "Species": {
@@ -9618,6 +10736,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/25"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 25"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to opponens digiti minimi muscle via deep branch of ulnar nerve"
         },
@@ -9645,6 +10767,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 26"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to flexor digiti minimi brevis muscle via deep branch of ulnar nerve"
         },
         "Species": {
@@ -9670,6 +10796,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/27"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 27"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to abductor digiti minimi muscle of hand via deep branch of ulnar nerve"
         },
@@ -9697,6 +10827,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 28"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to the third and fourth lumbrical muscles via deep branch of the ulnar nerve"
         },
         "Species": {
@@ -9722,6 +10856,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/29"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 29"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 dorsal root ganglia with axon sensory terminal in flexor surface OR nails of the 31/2 radial digits OR a corresponding area of the palm via medial root of median nerve with axon terminal in C8-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -9749,6 +10887,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 3"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C7 spinal cord to medial portion of the brachialis muscle via musculocutaneous nerve"
         },
         "Species": {
@@ -9774,6 +10916,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/30"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 30"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T1 dorsal root ganglia with axon sensory terminal in skin on the front and medial sides of the upper arm via medial cutaneous nerve of the arm with axon terminal in T1 spinal cord via dorsal root of spinal cord"
         },
@@ -9801,6 +10947,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 31"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 dorsal root ganglia with axon sensory terminal in skin over medial side of the forearm via medial cutaneous nerve of the forearm with axon terminal in C8-T1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9826,6 +10976,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/32"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 32"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-T1 dorsal root ganglia with axon sensory terminal in ulnar collateral ligament via ulnar nerve with axon terminal in C7-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -9853,6 +11007,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 33"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7-T1 dorsal root ganglia with axon sensory terminal in dorsum of the hand and dorsum of ulnar 11/2 fingers via ulnar nerve with axon terminal in C7-T1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -9878,6 +11036,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/34"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 34"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-T1 dorsal root ganglia with axon sensory terminal in flexor surface of ulnar 11/2 fingers and their nail beds via ulnar nerve with axon terminal in C7-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -9905,6 +11067,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 35"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C6 spinal cord to deltoid muscle via axillary nerve"
         },
         "Species": {
@@ -9930,6 +11096,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/36"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 36"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C6 spinal cord to teres minor muscle via axillary nerve"
         },
@@ -9957,6 +11127,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 37"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C6 spinal cord to infraspinatus muscle via suprascapular nerve"
         },
         "Species": {
@@ -9982,6 +11156,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/38"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 38"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 spinal cord to teres major muscle via lower (inferior) subscapular nerve"
         },
@@ -10009,6 +11187,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 39"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C7 spinal cord to subscapularis muscle via upper subscapular nerve"
         },
         "Species": {
@@ -10034,6 +11216,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/4"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 4"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C6-C7 spinal cord to pronator teres muscle via median nerve"
         },
@@ -10061,6 +11247,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 40"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C6 spinal cord to supraspinatus muscle via suprascapular nerve"
         },
         "Species": {
@@ -10086,6 +11276,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/41"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 41"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 spinal cord to pectoralis major muscle via lateral pectoral nerve"
         },
@@ -10113,6 +11307,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 42"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to pectoralis major muscle via medial pectoral nerve"
         },
         "Species": {
@@ -10138,6 +11336,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/43"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 43"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-C8 spinal cord to pectoralis minor muscle via medial pectoral nerve"
         },
@@ -10165,6 +11367,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 44"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7 spinal cord to triceps brachii muscle via radial nerve"
         },
         "Species": {
@@ -10190,6 +11396,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/45"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 45"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7 spinal cord to long head of triceps brachii muscle via radial nerve"
         },
@@ -10217,6 +11427,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 46"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-T1 spinal cord to the lateral portion of the brachialis muscle via radial nerve"
         },
         "Species": {
@@ -10242,6 +11456,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/47"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 47"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-T1 spinal cord to the entire extensor-supinator group of muscles via radial nerve"
         },
@@ -10269,6 +11487,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 48"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C6 spinal cord to brachioradialis muscle via radial nerve"
         },
         "Species": {
@@ -10294,6 +11516,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/49"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 49"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C6 spinal cord to extensor carpi radialis longus muscle via radial nerve"
         },
@@ -10321,6 +11547,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 5"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C8-T1 spinal cord to flexor digitorum superficialis muscle via median nerve"
         },
         "Species": {
@@ -10346,6 +11576,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/50"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 50"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7 spinal cord to extensor carpi radialis brevis muscle via deep branch of radial nerve"
         },
@@ -10373,6 +11607,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 51"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7 spinal cord to extensor digitorum communis muscle via posterior interosseous nerve"
         },
         "Species": {
@@ -10398,6 +11636,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/52"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 52"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7 spinal cord to extensor digiti minimi muscle via posterior interosseous nerve"
         },
@@ -10425,6 +11667,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 53"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7 spinal cord to extensor carpi ulnaris muscle via posterior interosseous nerve"
         },
         "Species": {
@@ -10450,6 +11696,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/54"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 54"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C6-C8 spinal cord to anconeus muscle via radial nerve"
         },
@@ -10477,6 +11727,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 55"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7-C8 spinal cord to abductor pollicis longus muscle via posterior interosseous nerve"
         },
         "Species": {
@@ -10502,6 +11756,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/56"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 56"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-C8 spinal cord to extensor pollicis brevis muscle via posterior interosseous nerve"
         },
@@ -10529,6 +11787,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 57"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7-C8 spinal cord to extensor pollicis longus muscle via posterior interosseous nerve"
         },
         "Species": {
@@ -10554,6 +11816,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/58"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 58"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-C8 spinal cord to extensor indicis muscle via posterior interosseous nerve"
         },
@@ -10581,6 +11847,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 59"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5 dorsal root ganglia with axon sensory terminal in glenohumeral (shoulder) joint via axillary nerve with axon terminal in C5 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -10606,6 +11876,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/6"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 6"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C7-C8 spinal cord to palmaris longus muscle via median nerve"
         },
@@ -10633,6 +11907,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 60"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-C6 dorsal root ganglia with axon sensory terminal in skin over lower half and the center of the deltoid muscle via upper lateral cutaneous nerve with axon terminal in C5-C6 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -10658,6 +11936,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/61"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 61"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in skin along extensor surface of upper arm down to the elbow via posterior cutaneous nerve of the arm with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -10685,6 +11967,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 62"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in skin over the lateral part of the upper arm via inferior lateral cutaneous nerve of the arm with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -10710,6 +11996,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/63"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 63"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in skin over extensor surface of the forearm to the wrist via radial nerve with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -10737,6 +12027,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 64"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in interosseous membrane via posterior interosseous nerve with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -10762,6 +12056,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/65"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 65"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in periosteum of the radius and ulna and wrist and extensor surfaces of carpal joints via posterior interosseous nerve with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
@@ -10789,6 +12087,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 66"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5-T1 dorsal root ganglia with axon sensory terminal in radial 31/2 (falling short of the nail beds) and corresponding area of the back of the hand via superficial branch of the radial nerve with axon terminal in C5-T1 spinal cord via dorsal root of spinal cord"
         },
         "Species": {
@@ -10814,6 +12116,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/67"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 67"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C7 dorsal root ganglia with axon sensory terminal in lateral or radial half of the forearm via musculocutaneous nerve via lateral cutaneous nerve of the forearm with axon terminal in C5-C7 spinal cord via dorsal root of spinal cord"
         },
@@ -10841,6 +12147,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 68"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C3-C4 spinal cord to trapezius muscle via accessory nerve XI"
         },
         "Species": {
@@ -10866,6 +12176,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/69"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 69"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C3-C5 spinal cord to levator scapulae muscle via spinal nerve OR dorsal scapular nerve"
         },
@@ -10893,6 +12207,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 7"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C6-C7 spinal cord to flexor carpi radialis muscle via median nerve"
         },
         "Species": {
@@ -10918,6 +12236,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/70"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 70"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C4-C5 spinal cord to rhomboid major muscle via dorsal scapular nerve"
         },
@@ -10945,6 +12267,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 71"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C4-C5 spinal cord to rhomboid minor muscle via dorsal scapular nerve"
         },
         "Species": {
@@ -10970,6 +12296,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/72"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 72"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C5-C6 spinal cord to subclavius muscle via subclavian nerve"
         },
@@ -10997,6 +12327,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 73"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C5 spinal cord to serratus anterior muscle via long thoracic nerve"
         },
         "Species": {
@@ -11022,6 +12356,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/74"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 74"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T1-T11 spinal cord to external intercostal muscle via intercostal nerves"
         },
@@ -11049,6 +12387,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 75"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T1-T11 spinal cord to internal intercostal muscle via intercostal nerves"
         },
         "Species": {
@@ -11074,6 +12416,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/76"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 76"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T1-T11 spinal cord to innermost intercostal muscle via intercostal nerves"
         },
@@ -11101,6 +12447,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 77"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T2-T6 spinal cord to transversus thoracis muscle via intercostal nerves"
         },
         "Species": {
@@ -11126,6 +12476,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/78"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 78"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 spinal cord to ischiocavernosus muscle via pudendal nerve"
         },
@@ -11153,6 +12507,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 79"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to bulbospongiosus muscle via pudendal nerve"
         },
         "Species": {
@@ -11178,6 +12536,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/8"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 8"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "C8-T1 spinal cord to flexor digitorum profundus muscle via median nerve"
         },
@@ -11205,6 +12567,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 80"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to superficial transverse perineal muscle via pudendal nerve"
         },
         "Species": {
@@ -11230,6 +12596,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/81"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 81"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 spinal cord to deep part of external anal sphincter via pudendal nerve (S2-S3) and branches directly from S4"
         },
@@ -11257,6 +12627,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 82"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to superficial part of external anal sphincter via pudendal nerve (S2-S3) and branches directly from S4"
         },
         "Species": {
@@ -11282,6 +12656,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/83"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 83"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 spinal cord to subcutaneous part of external anal sphincter via pudendal nerve (S2-S3) and branches directly from S4"
         },
@@ -11309,6 +12687,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 84"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to external anal sphincter via inferior rectal branches of the pudendal nerve (S2-S3) and branches directly from the anterior ramus of S4"
         },
         "Species": {
@@ -11334,6 +12716,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/85"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 85"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 dorsal root ganglia with axon sensory terminal in most skin of the perineum; penis and clitoris via pudendal nerve with axon terminal in S2-S4 spinal cord via dorsal root of spinal cord"
         },
@@ -11361,6 +12747,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 86"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to external urethral sphincter via perineal nerve"
         },
         "Species": {
@@ -11387,6 +12777,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 87"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to deep transverse perineal muscle via perineal nerve"
         },
         "Species": {
@@ -11412,6 +12806,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/88"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 88"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 spinal cord to compressor urethrae muscle via perineal nerve"
         },
@@ -11443,6 +12841,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 89"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S2-S4 spinal cord to deep transverse perineal muscle via perineal nerve"
         },
         "Species": {
@@ -11473,6 +12875,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 9"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "C7-C8 spinal cord to flexor pollicis longus muscle via median nerve"
         },
         "Species": {
@@ -11498,6 +12904,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/90"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 90"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "S2-S4 spinal cord to skeletal muscles in the perineum (including the external urethral and anal sphincters and levator ani via branches direct from the anterior ramus of S4 OR by the inferior rectal branch of the pudendal nerve"
         },
@@ -11525,6 +12935,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 91"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S3-S4 spinal cord to coccygeus muscle via branches from the anterior rami of S3-S4"
         },
         "Species": {
@@ -11550,6 +12964,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/92"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 92"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "L5-S1 spinal cord to obturator internus muscle via nerve to obturator internus"
         },
@@ -11577,6 +12995,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 93"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "S1-S2 spinal cord to piriformis muscle via nerve branches from S1-S2"
         },
         "Species": {
@@ -11602,6 +13024,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/94"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 94"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T7-T12 spinal cord to abdominal external oblique muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12)"
         },
@@ -11629,6 +13055,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 95"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T7-L1 spinal cord to abdominal internal oblique muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12) and L1"
         },
         "Species": {
@@ -11654,6 +13084,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 96"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T7-L1 spinal cord to transversus abdominis muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12) and L1"
         },
@@ -11681,6 +13115,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 97"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "T7-T12 spinal cord to rectus abdominis muscle via anterior rami of lower seven thoracic spinal nerves (T7 to T12)"
         },
         "Species": {
@@ -11706,6 +13144,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/98"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type senmot 98"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "T12 spinal cord to pyramidalis muscle via anterior ramus of T12"
         },
@@ -11733,6 +13175,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type senmot 99"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "L1-L2 spinal cord to psoas major muscle via anterior rami via nerve"
         },
         "Species": {
@@ -11758,6 +13204,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/swglnd/156"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type swglnd 156"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Intermediolateral cell column of T2-T8 to sympathetic trunk ganglia of T2-T8 via white communicating rami"
         },
@@ -11785,6 +13235,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type swglnd 157"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "sympathetic trunk ganglia of T2-T8 to eccrine sweat glands of the skin of the upper limb via nerves"
         },
         "Species": {
@@ -11810,6 +13264,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/swglnd/158"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type swglnd 158"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Intermediolateral cell column of T1-T4 to sympathetic trunk ganglia of T1-T4 via white communicating rami"
         },
@@ -11837,6 +13295,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type swglnd 159"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "sympathetic trunk ganglia of T1-T4 to eccrine sweat glands of the skin of the face and eyelids via nerves"
         },
         "Species": {
@@ -11862,6 +13324,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/swglnd/160"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type swglnd 160"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "Intermediolateral cell column of T4-T12 to sympathetic trunk ganglia of T4-T12 via white communicating rami"
         },
@@ -11889,6 +13355,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type swglnd 161"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "sympathetic trunk ganglia of T4-T12 to eccrine sweat glands of the skin of the trunk via nerves"
         },
         "Species": {
@@ -11915,6 +13385,10 @@
         },
         "Neuron_Label": {
           "type": "literal",
+          "value": "neuron type swglnd 162"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
           "value": "Intermediolateral cell column of T10-L2 to sympathetic trunk ganglia of T10-L2 via white communicating rami"
         },
         "Species": {
@@ -11940,6 +13414,10 @@
           "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/swglnd/163"
         },
         "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type swglnd 163"
+        },
+        "Neuron_Pref_Label": {
           "type": "literal",
           "value": "sympathetic trunk ganglia of T10-L2 to eccrine sweat glands of the skin of the lower limb via nerves"
         },

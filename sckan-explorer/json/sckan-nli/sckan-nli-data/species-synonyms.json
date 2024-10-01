@@ -117,7 +117,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Cavia aperea porcellus"
+          "value": "guinea pig"
         }
       },
       {
@@ -131,7 +131,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "guinea pig"
+          "value": "domestic guinea pig"
         }
       },
       {
@@ -159,7 +159,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Cavia cobaya"
+          "value": "Cavia aperea porcellus"
         }
       },
       {
@@ -173,7 +173,21 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "domestic guinea pig"
+          "value": "Cavia cobaya"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Domestic Pig"
+        },
+        "Species_Synonym": {
+          "type": "literal",
+          "value": "Sus domestica"
         }
       },
       {
@@ -201,20 +215,6 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Sus scrofa domestica"
-        }
-      },
-      {
-        "Species_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9825"
-        },
-        "Species_Label": {
-          "type": "literal",
-          "value": "Domestic Pig"
-        },
-        "Species_Synonym": {
-          "type": "literal",
           "value": "domestic pig"
         }
       },
@@ -229,7 +229,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Sus domestica"
+          "value": "Sus scrofa domestica"
         }
       },
       {
@@ -285,7 +285,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Felis domesticus"
+          "value": "Felis silvestris catus"
         }
       },
       {
@@ -299,7 +299,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Felis silvestris catus"
+          "value": "Felis domesticus"
         }
       },
       {
@@ -369,7 +369,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "Mus norvegicus"
+          "value": "rat"
         }
       },
       {
@@ -397,7 +397,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "rat"
+          "value": "brown rat"
         }
       },
       {
@@ -411,7 +411,7 @@
         },
         "Species_Synonym": {
           "type": "literal",
-          "value": "brown rat"
+          "value": "Mus norvegicus"
         }
       }
     ]
