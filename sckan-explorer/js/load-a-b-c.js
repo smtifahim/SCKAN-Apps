@@ -276,7 +276,26 @@ async function loadABCData()
 
            var neuron_phenotypes = "";
            if (neuronMetaData[i].hasOwnProperty("Phenotypes"))
+           {
+              if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Sympathetic phenotype" ||
+                  neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Pre ganglionic phenotype")
+                neuron_phenotypes = "Sympathetic Pre-Ganglionic phenotype";
+            
+              else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Sympathetic phenotype" ||
+                      neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Post ganglionic phenotype")
+                neuron_phenotypes = "Sympathetic Post-Ganglionic phenotype";
+            
+              else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Parasympathetic phenotype" ||
+                      neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Post ganglionic phenotype")
+                neuron_phenotypes = "Parasympathetic Post-Ganglionic phenotype";
+            
+              else if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Parasympathetic phenotype" ||
+                      neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Pre ganglionic phenotype")
+                neuron_phenotypes = "Parasympathetic Pre-Ganglionic phenotype";
+
+              else
                 neuron_phenotypes = neuronMetaData[i].Phenotypes.value;
+           }
         
            var neuron_forward_connections = "";
            if (neuronMetaData[i].hasOwnProperty("Forward_Connections"))
@@ -291,11 +310,19 @@ async function loadABCData()
            
            var neuron_reference = "";
            if (neuronMetaData[i].hasOwnProperty("Reference"))
-                neuron_reference = neuronMetaData[i].Reference.value;      
+                neuron_reference = neuronMetaData[i].Reference.value;
+           
+           var neuron_citation = "";
+           if (neuronMetaData[i].hasOwnProperty("Citations"))
+                neuron_citation = neuronMetaData[i].Citations.value;
+           
+           var neuron_diagram_link = "";
+           if (neuronMetaData[i].hasOwnProperty("Diagram_Link"))
+                neuron_diagram_link = neuronMetaData[i].Diagram_Link.value;      
     
            var neuron_meta_data = new NeuronMetaData (neuron_id, neuron_label, neuron_pref_label, neuron_species, neuron_sex, 
                                                       neuron_phenotypes, neuron_forward_connections, 
-                                                      neuron_alert, neuron_reference);
+                                                      neuron_alert, neuron_diagram_link, neuron_reference, neuron_citation);
            neurons_meta.push (neuron_meta_data);
         }
         return neurons_meta;
@@ -377,7 +404,8 @@ async function loadABCData()
       const neuron_id = document.getElementById("neuron-txt").value.toLowerCase().trim();
       const species_id = document.getElementById("species-txt").value.trim();
       const organ_id = document.getElementById("organ-txt").value.toLowerCase().trim();
-
+      const phenotype = getStringAfterColon(document.getElementById("conn-phenotype").value.trim());
+      const model_id = getStringAfterPipe(document.getElementById("conn-model").value.trim());
       
       const conn_origin = document.getElementById("conn-origin").value.trim();
       const conn_dest = document.getElementById("conn-dest").value.trim();
@@ -386,6 +414,12 @@ async function loadABCData()
       const oID =  getStringAfterPipe(conn_origin);
       const dID = getStringAfterPipe (conn_dest);
       const vID = getStringAfterPipe(conn_via);
+
+      if (model_id !== "")
+        filtered_abc = filtered_abc.filter(obj => obj.neuron.ID.includes(model_id));
+
+      if (phenotype !== "")
+        filtered_abc = filtered_abc.filter(obj => obj.neuronMetaData.phenotypes.includes(phenotype));
 
       if (organ_id !== "")
          filtered_abc = filtered_abc.filter(obj => obj.targetOrgan.Label.includes(organ_id));
@@ -448,6 +482,15 @@ async function loadABCData()
      function getStringAfterPipe(str) 
      {
          let index = str.indexOf('|');
+         if (index !== -1) {
+             return str.slice(index + 1).trim();
+         }
+         return str.trim();
+     }
+
+     function getStringAfterColon(str) 
+     {
+         let index = str.indexOf(':');
          if (index !== -1) {
              return str.slice(index + 1).trim();
          }
