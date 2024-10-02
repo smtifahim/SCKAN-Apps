@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> SCKAN Explorer</title>
         <link rel="stylesheet" href="./css/simple-css.css">
         <link rel="stylesheet" href="./css/panel-css.css">
@@ -11,12 +13,12 @@
         <script src="./js/prefix-iri-mapping.js"> </script>
         <script src="./js/auto-complete.js"> </script>
         <script src="./js/load-npo-locations.js"> </script>
+        <script src="./js/models-and-phenotypes.js"> </script>
         <script src="./js/load-a-b-c.js"> </script>
         <script src="./js/graph-viz/viz.js"> </script>
         <script src="./js/table-format/display-table.js"> </script>
     </head>
     <body>
-       
         <hr>
         <p> 
             <center><a href="https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD" target="_blank"><img style="width:300px;" src="./img/sckan-explorer-logo.svg" alt="sparc"></a></center>
@@ -37,12 +39,14 @@
                                 <input type="text" id= "conn-origin" name="con-origin" size="40" placeholder="Type Soma Location">
                             </div>
                         </td>
+                        
                         <td>
-                            <b>Neuron ID</b><br>
+                            <b>Model Name</b><br>
                             <div class="autocomplete">
-                                <input type="text" id="neuron-txt" name="neuron" size="20" placeholder="Type Neuron ID" autocomplete="off">
+                                <input type="text" id="conn-model" name="model" size="20" placeholder="Type Model Name" list="modelList" autocomplete="off">
+                                <datalist id="modelList"></datalist>
                             </div>
-                        </td>
+                        </td>                        
                     </tr>
                     <tr>
                         <td>
@@ -52,17 +56,32 @@
                             <div>
                         </td>
                         <td>
-                            <b>Species</b><br>
+                            <b>Neuron ID</b><br>
                             <div class="autocomplete">
-                                <input type="text" id="species-txt" name="species" size="20" placeholder="Type Species" autocomplete="off">
+                                <input type="text" id="neuron-txt" name="neuron" size="20" placeholder="Type Neuron ID" autocomplete="off">
                             </div>
-                        </td>                     
+                        </td>                  
                     </tr>
                     <tr>
                         <td>
                             <b>Connection Via</b><br>
                             <div class="autocomplete">    
                                 <input type="text" id="conn-via" name="con-via" size="40" placeholder="Type Axon or Nerve Location" >
+                            <div>
+                        </td>
+                        <td>
+                            <b>Species</b><br>
+                            <div class="autocomplete">
+                                <input type="text" id="species-txt" name="species" size="20" placeholder="Type Species" autocomplete="off">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Connection Phenotype</b><br>
+                            <div class="autocomplete">    
+                                <input type="text" id="conn-phenotype" name="phenotype" size="40" list="phenotypeList" placeholder="Type Phenotype" >
+                                <datalist id="phenotypeList"></datalist>
                             <div>
                         </td>
                         <td>
@@ -161,6 +180,8 @@
             document.getElementById("db-conn-status").innerHTML = "<hr><center>Loading data from SCKAN database. <b>Please wait ... </b></center>";
     
             loadAllData();
+            loadModelNames();
+            loadPhenotypeValues();
         }
         </script>
     </body>
