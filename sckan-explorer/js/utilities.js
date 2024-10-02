@@ -45,7 +45,7 @@ class ClassEntity
 
 class NeuronMetaData
     {
-        constructor (neuron_id, neuron_label, neuron_pref_label, species, sex, phenotypes, forward_connections, alert, reference)
+        constructor (neuron_id, neuron_label, neuron_pref_label, species, sex, phenotypes, forward_connections, alert, diagram_link, reference, citation)
         {
             this.neuronID = neuron_id;
             this.neuronLabel = neuron_label;
@@ -55,6 +55,8 @@ class NeuronMetaData
             this.phenotypes = phenotypes;
             this.forwardConnections = forward_connections;
             this.alert = alert;
-            this.reference = reference;   
+            this.reference = reference;
+            this.citation = citation;
+            this.diagramLink = diagram_link;   
         }
     }
