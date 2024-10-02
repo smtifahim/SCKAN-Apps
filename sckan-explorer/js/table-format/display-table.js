@@ -218,7 +218,7 @@ function getFormattedNeuronMetaData(nmdata)
     table += `<tr><td style="font-weight: bold;">Preferred Label</td>`;
     table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
     
-    // Will need to cosider if we want the pref label to be displayed in title case
+    // Will need to consider if we want the pref label to be displayed in title case
     // table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
   }
 
@@ -245,11 +245,23 @@ function getFormattedNeuronMetaData(nmdata)
     table += `<td>${nmdata.forwardConnections}</td></tr>`;
   }
 
+  if (nmdata.diagramLink !== "")
+  {
+      table += `<tr><td style="font-weight: bold;">Model Diagram</td>`;
+      table += `<td>${addHyperlinksToURIs(nmdata.diagramLink)}</td></tr>`;
+  }
+
   if (nmdata.reference !== "")
   {
     table += `<tr><td style="font-weight: bold;">Reference</td>`;
     table += `<td>${addHyperlinksToURIs(nmdata.reference)}</td></tr>`;
   }
+
+  if (nmdata.citation !== "")
+    {
+      table += `<tr><td style="font-weight: bold;">Citations</td>`;
+      table += `<td>${addHyperlinksToURIs(nmdata.citation)}</td></tr>`;
+    }
 
   if (nmdata.alert !== "")
   {
@@ -270,7 +282,7 @@ function getFormattedNeuronMetaData(nmdata)
 
 function convertToTitleCase(sentence)
 {
-  const smallWords = ['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 
+  const smallWords = ['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'with',
                       'via', 'on', 'at', 'to', 'from', 'by', 'in', 'of'];
   const words = sentence.toLowerCase().split(/[\s,]+/);
 
