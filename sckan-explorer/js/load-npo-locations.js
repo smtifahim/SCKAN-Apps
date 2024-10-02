@@ -82,14 +82,15 @@ async function loadAllLocations()
 
       }
 
-      if (connection_id === "ilxtr:hasAxonLocation")
+      if (connection_id === "ilxtr:hasAxonLocation"
+          || connection_id === "ilxtr:hasAxonToSensoryTerminal")
       {
          if (via_locations.indexOf(entity)===-1) //just a test
              via_locations.push (entity);
       }
 
       if (connection_id === "ilxtr:hasAxonTerminalLocation" 
-         || connection_id === "ilxtr:hasAxonSensoryLocation")
+          || connection_id === "ilxtr:hasAxonSensoryLocation")
       {
          if (terminal_locations.indexOf(entity)===-1) //just a test
              terminal_locations.push (entity);
