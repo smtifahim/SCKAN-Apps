@@ -49,57 +49,35 @@ The connections that terminate in the urinary bladder can be summarized as follo
 
 ### Origins of Connections:
 
-1.**Pelvic Ganglion**
-
-2.**First Sacral Dorsal Root Ganglion**
-
-3.**Sixth Lumbar Dorsal Root Ganglion**
-
-4.**First Lumbar Dorsal Root Ganglion**
-
-5.**Second Lumbar Dorsal Root Ganglion**
-
-6.**Third Lumbar Dorsal Root Ganglion**
-
-7.**Fourth Lumbar Ganglion**
-
-8.**Fifth Lumbar Sympathetic Ganglion**
-
-9.**Sixth Lumbar Sympathetic Ganglion**
-
-10.**Twelfth Thoracic Ganglion**
-
-11.**Thirteenth Thoracic Ganglion**
-
-12.**Inferior Mesenteric Ganglion**
-
-13.**First Lumbar Ganglion**
+1. **Pelvic Ganglion**
+2. **First Sacral Dorsal Root Ganglion**
+3. **Sixth Lumbar Dorsal Root Ganglion**
+4. **First Lumbar Dorsal Root Ganglion**
+5. **Second Lumbar Dorsal Root Ganglion**
+6. **Third Lumbar Dorsal Root Ganglion**
+7. **Fourth Lumbar Ganglion**
+8. **Fifth Lumbar Sympathetic Ganglion**
+9. **Sixth Lumbar Sympathetic Ganglion**
+10. **Twelfth Thoracic Ganglion**
+11. **Thirteenth Thoracic Ganglion**
 
 ### Parts of the Organ the Connections Terminate:
 
-1.**Dome of the Bladder**
-
-2.**Neck of the Urinary Bladder**
-
-3.**Arteriole in Connective Tissue of Bladder Neck**
+1. **Dome of the Bladder**
+2. **Neck of the Urinary Bladder**
+3. **Arteriole in Connective Tissue of Bladder Neck**
 
 ### Nerves Involved in Those Connections:
 
-1.**Bladder Nerve**
+1. **Bladder Nerve**
+2. **Pelvic Splanchnic Nerve**
+3. **Lumbar Splanchnic Nerve**
+4. **Hypogastric Nerve**
+5. **Gray Communicating Ramus of First Sacral Nerve**
+6. **Gray Communicating Ramus of Sixth Lumbar Nerve**
+7. **Interganglionic Segments of the Sympathetic Chain (various segments)**
 
-2.**Pelvic Ganglion**
-
-3.**Pelvic Splanchnic Nerve**
-
-4.**Lumbar Splanchnic Nerve**
-
-5.**Hypogastric Nerve**
-
-6.**Gray Communicating Ramus**
-
-7.**Interganglionic Segments of the Sympathetic Chain** (e.g., L1 - L2, L2 - L3, etc.)
-
-These connections illustrate the complex neural pathways that facilitate communication between various spinal ganglia and the urinary bladder, involving multiple nerves and ganglia.
+These connections illustrate the complex neural pathways that facilitate communication between the nervous system and the urinary bladder.
 
 ---
 
@@ -298,7 +276,11 @@ The pathways ending in the ovary include the following terminal structures:
 
 In summary, the pathways to the ovary involve various sympathetic and sensory nerves originating from the paravertebral sympathetic chain, celiac and superior mesenteric ganglia, pelvic ganglia, and the vagus nerve, all converging through different plexuses to reach the ovary.
 
+---
+
 **Prompt: What anatomical structures are stimulated via the inferior mesenteric ganglion? List the terminal structures first and then summarize the pathways at the end.**
+
+---
 
 The anatomical structures stimulated via the inferior mesenteric ganglion include the following terminal structures:
 
