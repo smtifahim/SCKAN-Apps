@@ -6,9 +6,11 @@
         <title> SCKAN Explorer</title>
         <link rel="stylesheet" href="./css/simple-css.css">
         <link rel="stylesheet" href="./css/panel-css.css">
-        <script src="./js/stardog.js"></script>
+        <link rel="stylesheet" href="./css/buttons.css">
+
+        <!-- <script src="./js/stardog.js"></script>
         <script src="./js/stardog-db-query.js"></script>
-        <script src="./js/sparql-query-texts.js"></script>
+        <script src="./js/sparql-query-texts.js"></script> -->
         <script src="./js/utilities.js"> </script>
         <script src="./js/prefix-iri-mapping.js"> </script>
         <script src="./js/auto-complete.js"> </script>
@@ -24,13 +26,17 @@
             <center><a href="https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD" target="_blank"><img style="width:300px;" src="./img/sckan-explorer-logo.svg" alt="sparc"></a></center>
         </p>
 
+      
+        <!-- Progress Container -->
+        <div id="progress-container" style="display: auto; width: 100%; background: #f3f3f3; margin-bottom: 10px;">
+            <div id="progress-bar" style="width: 0%; height: 2px; background: DodgerBlue;"></div>
+        </div>
+
         <p id="db-conn-status">
         </p>
 
-        <!-- <hr><br> -->
-
         <!-- The form must have the default autocomplete function switched off:-->
-        <form id="myForm" autocomplete="off">
+        <form id="myForm" autocomplete="off" style="visibility: hidden;">
             <table alight="center" style="background-color: white;">
                     <tr>
                         <td>
@@ -98,14 +104,21 @@
             </table>
             <div style="text-align: center">
                 <br>
-                <button style="border:0ex; background-color: DodgerBlue; color: #fff; padding: 10px; font-size: 14px;"
-                id="submit" name="submit"><label for="submit">Search</label></button>
-                
-                <button style="border:0ex; background-color: DodgerBlue; color: #fff; padding: 10px; font-size: 14px;"
-                id="resetButton" name="resetButton" onClick = "resetForm(event)"> <label for="resetButton">Reset</label></button>
+                <button class="rounded-button" id="submit" name="submit">
+                    <b>Search</b>
+                </button>
+        
+                <button class="rounded-button" id="resetButton" name="resetButton" onClick="resetForm(event)">
+                    &nbsp;<b>Reset</b>&nbsp;
+                </button>
             </div>
         </form>
-        <hr>
+
+        <!-- Search Progress Container -->
+        <br/>
+        <div id="search-progress-container" style="display: auto; width: 100%; background: #f3f3f3; margin-bottom: 10px;">
+            <div id="search-progress-bar" style="width: 0%; height: 2px; background: DodgerBlue;"></div>
+        </div>
         
         <div id = "query-input">
             <!-- <p> ToDo: Summary of inputs e.g., display the description and synonyms of the anatomical locations</p> -->
@@ -137,22 +150,65 @@
 
         async function loadAllData()
         {
-            var sckan_version = await getVersionInfo();
-            var s1 = await loadAllLocations();
-            var s2 = await loadABCData();
-
-            if (s1 && s2)
+            try
             {
-                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status 
-                                                                    + "Data Loaded Sucessfully <br>" 
-                                                                    + "<b>(SCKAN Version: " + sckan_version + ")</b><center>";
-                document.getElementById("myForm").style.visibility = "visible";
+                document.getElementById("progress-container").style.display = "block";
+                updateProgress(0); // Start progress    
+
+                // load all required data
+                var sckan_version = await getVersionInfo();
+                await wait(25);
+                updateProgress(10);
+
+                var s1 = await loadAllLocations();
+                await wait(25);
+                updateProgress(40);
+
+                var s2 = await loadABCData();
+                await wait(25);
+                updateProgress(80);                
+    
+                // load model names and phenotype values
+                var s3 = loadModelNames();
+                await wait(25);
+                updateProgress(90);
+
+                var s4 = loadPhenotypeValues();
+                await wait(25);
+                updateProgress(100);
+
+    
+                // check if all data was successfully loaded
+                if (sckan_version && s1 && s2 && s3 && s4)
+                {
+                    document.getElementById("db-conn-status").innerHTML = "<center>"
+                        + "SCKAN Data Loaded Successfully <br/>" 
+                        + "<b>(SCKAN Version: " + sckan_version + ")</b><center>";
+                    
+                    // only show the form after all data is loaded
+                    document.getElementById("myForm").style.visibility = "visible";
+                }
+                else
+                {
+                    document.getElementById("db-conn-status").innerHTML = "<center>" + db_status + "Unsuccessful." + "<center>";
+                }
+            } 
+            catch (error)
+            {
+                console.error("Error loading data:", error);
+                document.getElementById("db-conn-status").innerHTML = "<center>" + db_status + "Error occurred while loading data.<center>";
             }
-            else
-            {
-                document.getElementById("db-conn-status").innerHTML = "<hr><center>" + db_status + "Unsuccessfull." + "<center>";
+        }
 
-            }  
+        function wait(ms)
+        {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        function updateProgress(percent)
+        {
+            const progressBar = document.getElementById("progress-bar");
+            progressBar.style.width = percent + '%';
         }
 
         async function getVersionInfo()  //get SCKAN version information.
@@ -176,12 +232,9 @@
 
         window.onload = function()
         {            
-            document.getElementById("myForm").style.visibility = "hidden";
-            document.getElementById("db-conn-status").innerHTML = "<hr><center>Loading data from SCKAN database. <b>Please wait ... </b></center>";
-    
+            //document.getElementById("myForm").style.visibility = "hidden";
+            document.getElementById("db-conn-status").innerHTML = "<center>Loading SCKAN Data. <b>Please Wait ... </b></center>";
             loadAllData();
-            loadModelNames();
-            loadPhenotypeValues();
         }
         </script>
     </body>

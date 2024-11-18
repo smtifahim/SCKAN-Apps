@@ -58,7 +58,7 @@ input[type=submit] {
 
 table {
   /* margin: 10px; */
-  margin: 0 auto;
+  margin: auto;
   border-collapse: collapse;
   width: 600px;
   /* width: 70%; */
@@ -66,7 +66,7 @@ table {
 
 th, td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 10px;
   text-align: left;
 }
 
