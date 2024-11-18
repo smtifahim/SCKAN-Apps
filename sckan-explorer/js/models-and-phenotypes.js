@@ -31,6 +31,8 @@ function loadModelNames()
         option.value = `${model}  | ${models[model]}`;
         modelList.appendChild(option);
     }
+    
+    return true;
 }
 
 function loadPhenotypeValues()
@@ -56,10 +58,12 @@ function loadPhenotypeValues()
     ];
 
     const phenotypeList = document.getElementById('phenotypeList');
-    phenotypes.forEach(phenotype => {
+    phenotypes.forEach(phenotype =>
+    {
         let option = document.createElement('option');
         option.value = phenotype;
         phenotypeList.appendChild(option);
     });
 
+    return true;
 }
