@@ -9,7 +9,7 @@ import json
 conn_details = {
                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
                 'username': 'sparc-admin',
-                'password': 'password' # use password from 1password
+                'password': 'password' # password from 1password.
                }
 
 db_name = 'SIMPLE-SCKAN-TEST-SEP'
