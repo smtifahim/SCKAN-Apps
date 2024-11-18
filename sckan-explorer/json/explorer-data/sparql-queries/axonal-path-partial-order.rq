@@ -1,38 +1,40 @@
-# Query to generate the adjacency matrix representing the axonal paths of the neuron populations for SCKAN Explorer.
+## Axonal path query for SCKAN Explorer
+
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
+SELECT DISTINCT ?Neuron_Connected ?V1_ID ?V1 ?V1_Type ?V2_ID ?V2 ?V2_Type ?IsSynapse
 WHERE 
 {
-
-    # Note: This query currently works for the NLP curated neuron populations.
-    # We will update the query for other populations such as the populations from ApINATOMY models. 
-    ?Neuron_IRI rdfs:subClassOf* ilxtr:NeuronSparcNlp.
-
-    ?Neuron_IRI ilxtr:neuronPartialOrder ?PO .
-        ?PO (rdf:rest|rdf:first)* ?r1 .
-        ?r1 (rdf:rest|rdf:first)* ?r2 .
-        ?r1 rdf:first ?V1 .
-        ?r2 rdf:first ?V2 .
-        ?V1 rdf:type owl:Class .
-        ?V2 rdf:type owl:Class .
-
-        FILTER (?mediator = ?r1)  # draw only from the same partial order
-        ?mediator rdf:first ?V1 .  # car
-        ?mediator rdf:rest+/rdf:first/rdf:first ?V2 .  # caadr
-
-    ?V1 rdfs:label ?V1_Label. ?V2 rdfs:label ?V2_Label.
-    ?Neuron_IRI skos:prefLabel ?Neuron_Label.
-
-    FILTER (?V1 != ?V2).
-
-   # FILTER (CONTAINS(STR(?Neuron_IRI), 'semves/2')).
+    ?V1_ID ilxtr:hasNextNode{ilxtr:isConnectedBy ?Neuron_Connected} ?V2_ID.
+    
+    ?V1_ID rdfs:label ?V1. ?V2_ID rdfs:label ?V2.
+   
+    # Find the locational phenotypes for the V1 node
+    ?Neuron_Connected ?V1_Location_Type_IRI ?V1_ID.
+    ?V1_Location_Type_IRI rdfs:label ?V1_Type.
+    
+    # Find the locational phenotype for the V2 node
+    ?Neuron_Connected ?V2_Location_Type_IRI ?V2_ID.
+    ?V2_Location_Type_IRI rdfs:label ?V2_Type.
+  
+    # Filter out the generic hasConnectedLocation relation for the connected nodes.
+    FILTER (ilxtr:hasConnectedLocation not in (?V1_Location_Type_IRI, ?V2_Location_Type_IRI))
+    
+    # Check if ?V2_ID is associated with a synapse
+    OPTIONAL 
+    {
+        ?Neuron_Connnected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
+        FILTER (?V2_ID = ?Synapse)
+        FILTER (?V2_Type = "hasAxonTerminalLocation")
+    }
+    
+    # Set IsSynapse to "Yes" if a synapse is detected, otherwise leave it as NO
+    BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
 
 }
-ORDER BY ?Neuron_IRI ?V1 ?V2 
-LIMIT 100000
+ORDER BY ?Neuron_Connected ?V1 ?V2
+LIMIT 20000
