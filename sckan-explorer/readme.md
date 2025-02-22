@@ -6,7 +6,7 @@ SCKAN Explorer (see Figure 1) facilitates flexible, streamlined data inputs by p
 
  ![1740182905570](image/readme/1740182905570.png)
 
-![1740184584958](https://file+.vscode-resource.vscode-cdn.net/Users/fahimimam/Library/CloudStorage/OneDrive-UniversityofCalifornia%2CSanDiegoHealth/GitHub/smtifahim/SCKAN-Apps/sckan-explorer/image/readme/1740184584958.png)
+ ![1740186737869](image/readme/1740186737869.png)
 
 **Fig 1.** A screenshot of SCKAN Explorer’s input interface (top) and an example of a neuron population details returned (bottom). In this example, selecting `ANS:Sympathetic Pre-Ganglionic` as the connection phenotype and selecting `Female Reproductive System`as the model name returns 10 neuron populations from SCKAN.
 
