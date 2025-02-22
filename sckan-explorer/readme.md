@@ -16,7 +16,7 @@ SCKAN explorer also allows visualizing the detailed axonal pathways, including t
 
 ![1740185188144](image/readme/1740185188144.png)
 
-**Fig 2.** A screenshot of the generated visual diagram for an example neuron population (femrep:30) including its synaptic connectiosn terminating in different parts of the uterus.
+**Fig 2.** A screenshot of the generated visual diagram for an example neuron population (femrep:30) including its synaptic connections terminating in different parts of the uterus.
 
 ## Limitations
 
