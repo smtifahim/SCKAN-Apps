@@ -9,12 +9,10 @@ import json
 conn_details = {
                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
                 'username': 'sparc-admin',
-                # 'password': 'password' # password from 1password.
-                'password': 'w8399Hzj78exJkaebz' # password from 1password.
-
+                'password': 'password' # password from 1password.
                }
 
-db_name = 'SIMPLE-SCKAN-TEST-SEP'
+db_name = 'NPO'
 
 # File locations for the queries needed for SCKAN-NLI
 query_files = [

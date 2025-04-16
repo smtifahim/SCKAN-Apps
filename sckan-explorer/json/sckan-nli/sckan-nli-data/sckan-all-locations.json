@@ -221,7 +221,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -235,7 +235,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1593,6 +1593,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002440"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "cervico-thoracic ganglion"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
@@ -1602,34 +1616,6 @@
         "Location_Label": {
           "type": "literal",
           "value": "cervico-thoracic ganglion"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002440"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "cervico-thoracic ganglion"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002440"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "ganglion cervicale inferioris"
         }
       },
       {
@@ -1657,7 +1643,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "ganglion cervicale inferius"
+          "value": "ganglion cervicale inferioris"
         }
       },
       {
@@ -1678,6 +1664,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002440"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "ganglion cervicale inferius"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1691,7 +1691,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1761,7 +1761,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1775,7 +1775,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1817,7 +1817,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -1831,7 +1831,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -5723,6 +5723,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "nucleus filiformis"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -5732,34 +5746,6 @@
         "Location_Label": {
           "type": "literal",
           "value": "nucleus filiformis"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "nucleus filiformis"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "nucleus hypothalami filiformis"
         }
       },
       {
@@ -5787,7 +5773,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "nucleus hypothalami paraventricularis"
+          "value": "nucleus hypothalami filiformis"
         }
       },
       {
@@ -5808,6 +5794,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "nucleus hypothalami paraventricularis"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -5821,7 +5821,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -5863,6 +5863,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "paraventricular nucleus"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -5877,21 +5891,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001930"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "paraventricular nucleus"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -5905,7 +5905,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -6101,7 +6101,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -6115,7 +6115,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -7963,7 +7963,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -7977,7 +7977,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -8327,20 +8327,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0005807"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "RVLM"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
@@ -8363,7 +8349,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "medulla pressor"
+          "value": "RVLM"
         }
       },
       {
@@ -8383,7 +8369,21 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0005807"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "medulla pressor"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -8397,7 +8397,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -14949,7 +14949,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -14963,7 +14963,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -15103,20 +15103,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0005479"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "superior mesenteric ganglia"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
@@ -15132,6 +15118,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0005479"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "superior mesenteric ganglia"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -15145,7 +15145,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -15215,7 +15215,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -15229,7 +15229,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -17973,6 +17973,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793082"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "celiac ganglion- superior mesenteric ganglion complex"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -17987,21 +18001,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793082"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "celiac ganglion- superior mesenteric ganglion complex"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18015,7 +18015,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18631,20 +18631,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0007634"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "parabrachial area"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -18660,6 +18646,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0007634"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "parabrachial area"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18673,7 +18673,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19555,6 +19555,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "central lobe"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -19569,21 +19583,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "central lobe"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19597,7 +19597,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19695,7 +19695,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19709,7 +19709,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19863,6 +19863,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "insular lobe"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
@@ -19872,34 +19886,6 @@
         "Location_Label": {
           "type": "literal",
           "value": "insular lobe"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "insular lobe"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "insular region"
         }
       },
       {
@@ -19920,6 +19906,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002022"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "insular region"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19933,7 +19933,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",

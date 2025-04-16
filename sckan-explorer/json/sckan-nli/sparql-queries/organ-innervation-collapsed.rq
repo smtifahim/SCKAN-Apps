@@ -63,18 +63,70 @@ WHERE
     # Set IsSynapse to "Yes" if a synapse is detected, otherwise leave it as NO
     BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
 
+    # BIND
+    # (
+    #     IF(?V1_Type = "hasSomaLocation", REPLACE(?Neuron_Label, " to .*", ""), ?V1) 
+    #     AS ?V1_Collapsed
+    # )
+
+    # BIND
+    # (
+    #     IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2)
+    #     # IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (.*?) via .*", "$1"), ?V2) 
+    #     AS ?V2_Collapsed
+    # )
+    # Step 1: Extract preprocessed label candidates
+    
     BIND
     (
-        IF(?V1_Type = "hasSomaLocation", REPLACE(?Neuron_Label, " to .*", ""), ?V1) 
-        AS ?V1_Collapsed
+        IF(?V1_Type = "hasSomaLocation", REPLACE(?Neuron_Label, " to .*", ""), ?V1)
+        AS ?V1_Temp
     )
 
     BIND
     (
         IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2)
-        # IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (.*?) via .*", "$1"), ?V2) 
-        AS ?V2_Collapsed
+        AS ?V2_Temp
     )
+
+    # Step 2: Match hyphenated/en-dash/figure dash/em dash terms (preserve case)
+    # Match terms like "T4–L2", "S2‒S4", etc.
+    BIND
+    (
+        REPLACE(?V1_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V1
+    )
+
+    BIND
+    (
+        REPLACE(?V2_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V2
+    )
+
+    # Step 3: Preserve "OR" in uppercase and lowercase everything EXCEPT hyphenated terms
+    BIND
+    (
+        IF(STRLEN(?Hyphen_V1) > 0 && (CONTAINS(?V1_Temp, "-") || CONTAINS(?V1_Temp, "–") || CONTAINS(?V1_Temp, "‒") || CONTAINS(?V1_Temp, "—")),
+            REPLACE(LCASE(REPLACE(?V1_Temp, ?Hyphen_V1, "___hyph___", "i")), "___hyph___", ?Hyphen_V1),
+                LCASE(?V1_Temp)) AS ?V1_Lowered
+    )
+
+    BIND
+    (
+        IF(STRLEN(?Hyphen_V2) > 0 && (CONTAINS(?V2_Temp, "-") || CONTAINS(?V2_Temp, "–") || CONTAINS(?V2_Temp, "‒") || CONTAINS(?V2_Temp, "—")),
+            REPLACE(LCASE(REPLACE(?V2_Temp, ?Hyphen_V2, "___hyph___", "i")), "___hyph___", ?Hyphen_V2),
+                LCASE(?V2_Temp)) AS ?V2_Lowered
+    )
+
+    # Step 4: Ensure "OR" remains uppercase in final result
+    BIND
+    (
+        REPLACE(?V1_Lowered, "(\\bor\\b)", "OR") AS ?V1_Collapsed
+    )
+
+    BIND
+    (
+        REPLACE(?V2_Lowered, "(\\bor\\b)", "OR") AS ?V2_Collapsed
+    )
+
 
 }
 ORDER BY ?Neuron_Connected ?Target_Neuron_Phenotype ?Target_Organ ?V1 ?V2
