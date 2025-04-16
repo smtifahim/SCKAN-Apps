@@ -125,7 +125,7 @@ SELECT DISTINCT
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
                                     'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
                                     'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue', 'respiratory tract', 
-                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract',
+                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract', 'male reproductive system', 'female reproductive system',
                                     'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
                                     'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
                                     'paravertebral ganglion', 'prevertebral ganglion')  #Note: although not an organ, ganglion is included for sckanner.           

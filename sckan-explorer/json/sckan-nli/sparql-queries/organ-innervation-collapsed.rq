@@ -25,7 +25,8 @@ WHERE
     # Final terminal of the Target Neuron must be a part of Target Organ.
     ?Final_Terminal (ilxtr:isPartOf* | ilxtr:suppliesTo*)/rdfs:label ?Target_Organ.
     FILTER (?Target_Organ in ('ovary', 'uterus', 'vagina', 'clitoris', 'prostate gland', 
-                              'seminal vesicle', 'penis', 'kidney', 'liver')).
+                              'seminal vesicle', 'penis', 'kidney', 'male reproductive system', 
+                              'female reproductive system', 'liver')).
     
     # Code for a list of end organs 
            

@@ -50530,7 +50530,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasAxonLeadingToSensoryTerminal"
         },
         "IsSynapse": {
           "type": "literal",
@@ -50564,7 +50564,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
