@@ -35,6 +35,314 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "genitalia of male organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male genital organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male genital system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male genital tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male genitals"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male organism genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male organism reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "male reproductive tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "reproductive system of male organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000079"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "male reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "systema genitale masculinum"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female genital system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female genital tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female genitals"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism genitalia"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female organism reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female reproductive tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "genitalia of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "gynaecological tissue"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "reproductive system of female organism"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "systema genitale femininum"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
         "Organ_Label": {
