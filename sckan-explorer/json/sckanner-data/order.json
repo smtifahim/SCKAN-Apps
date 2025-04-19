@@ -1,7 +1,4 @@
 {
-  "ID": [
-    "Subclass ID"
-  ],
   "http://purl.obolibrary.org/obo/UBERON_0005844": [
     "http://purl.obolibrary.org/obo/UBERON_0007714",
     "http://purl.obolibrary.org/obo/UBERON_0007715",
@@ -57,6 +54,7 @@
   ],
   "http://purl.obolibrary.org/obo/UBERON_0000044": [
     "http://purl.obolibrary.org/obo/UBERON_0002834",
+    "http://purl.obolibrary.org/obo/UBERON_0000961",
     "http://purl.obolibrary.org/obo/UBERON_0002835",
     "http://purl.obolibrary.org/obo/UBERON_0002836",
     "http://purl.obolibrary.org/obo/UBERON_0002837",
@@ -71,6 +69,21 @@
     "http://purl.obolibrary.org/obo/UBERON_0007711",
     "http://purl.obolibrary.org/obo/UBERON_0002843",
     "http://purl.obolibrary.org/obo/UBERON_0002844"
+  ],
+  "http://purl.obolibrary.org/obo/UBERON_0000961": [
+    "http://purl.obolibrary.org/obo/UBERON_0002845",
+    "http://purl.obolibrary.org/obo/UBERON_0002846",
+    "http://purl.obolibrary.org/obo/UBERON_0002847",
+    "http://purl.obolibrary.org/obo/UBERON_0007712",
+    "http://purl.obolibrary.org/obo/UBERON_0002848",
+    "http://purl.obolibrary.org/obo/UBERON_0002849",
+    "http://purl.obolibrary.org/obo/UBERON_0002850",
+    "http://purl.obolibrary.org/obo/UBERON_0002851",
+    "http://purl.obolibrary.org/obo/UBERON_0002852",
+    "http://purl.obolibrary.org/obo/UBERON_0002853",
+    "http://purl.obolibrary.org/obo/UBERON_0002854",
+    "http://purl.obolibrary.org/obo/UBERON_0002855",
+    "http://uri.interlex.org/base/ilx_0793359"
   ],
   "http://purl.obolibrary.org/obo/UBERON_0002835": [
     "http://purl.obolibrary.org/obo/UBERON_0002845",
