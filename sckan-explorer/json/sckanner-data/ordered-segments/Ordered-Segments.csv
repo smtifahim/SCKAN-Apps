@@ -1,0 +1,95 @@
+ID,Structure,Subclass ID,Subclass Structure,
+http://purl.obolibrary.org/obo/UBERON_0005844,spinal cord segment,,,
+,,http://purl.obolibrary.org/obo/UBERON_0007714,Cervical,
+,,http://purl.obolibrary.org/obo/UBERON_0007715,Thoracic,
+,,http://purl.obolibrary.org/obo/UBERON_0007716,Lumbar,
+,,http://purl.obolibrary.org/obo/UBERON_0007717,Sacral,
+,,http://uri.interlex.org/base/ilx_0740051,Coxxygeal,
+http://purl.obolibrary.org/obo/UBERON_0007714,Cervical,,,
+,,http://purl.obolibrary.org/obo/UBERON_0006469,C1 spinal segment,C1
+,,http://purl.obolibrary.org/obo/UBERON_0006489,C2 spinal segment,C2
+,,http://purl.obolibrary.org/obo/UBERON_0006488,C3 spinal segment,C3
+,,http://purl.obolibrary.org/obo/UBERON_0006490,C4 spinal segment,C4
+,,http://purl.obolibrary.org/obo/UBERON_0006491,C5 spinal segment,C5
+,,http://purl.obolibrary.org/obo/UBERON_0006492,C6 spinal segment,C6
+,,http://purl.obolibrary.org/obo/UBERON_0006493,C7 spinal segment,C7
+,,http://purl.obolibrary.org/obo/UBERON_0006470,C8 spinal segment,C8
+http://purl.obolibrary.org/obo/UBERON_0007715,Thoracic,,,
+,,http://purl.obolibrary.org/obo/UBERON_0006457,T1 spinal segment,T1
+,,http://purl.obolibrary.org/obo/UBERON_0006458,T2 spinal segment,T2
+,,http://purl.obolibrary.org/obo/UBERON_0006459,T3 spinal segment,T3
+,,http://purl.obolibrary.org/obo/UBERON_0006452,T4 spinal segment,T4
+,,http://purl.obolibrary.org/obo/UBERON_0006453,T5 spinal segment,T5
+,,http://purl.obolibrary.org/obo/UBERON_0006454,T6 spinal segment,T6
+,,http://purl.obolibrary.org/obo/UBERON_0006455,T7 spinal segment,T7
+,,http://purl.obolibrary.org/obo/UBERON_0006456,T8 spinal segment,T8
+,,http://purl.obolibrary.org/obo/UBERON_0006465,T9 spinal segment,T9
+,,http://purl.obolibrary.org/obo/UBERON_0006466,T10 spinal segment,T10
+,,http://purl.obolibrary.org/obo/UBERON_0006467,T11 spinal segment,T11
+,,http://purl.obolibrary.org/obo/UBERON_0006468,T12 spinal segment,T12
+,,http://uri.interlex.org/base/ilx_0793357,T13 spinal segment,T13
+http://purl.obolibrary.org/obo/UBERON_0007716,Lumbar,,,
+,,http://purl.obolibrary.org/obo/UBERON_0006448,L1 spinal segment,L1
+,,http://purl.obolibrary.org/obo/UBERON_0006450,L2 spinal segment,L2
+,,http://purl.obolibrary.org/obo/UBERON_0006449,L3 spinal segment,L3
+,,http://purl.obolibrary.org/obo/UBERON_0006451,L4 spinal segment,L4
+,,http://purl.obolibrary.org/obo/UBERON_0006447,L5 spinal segment,L5
+,,http://uri.interlex.org/base/ilx_0793358,L6 spinal segment,L6
+,,http://uri.interlex.org/base/ilx_0793850,L7 spinal segment,L7
+http://purl.obolibrary.org/obo/UBERON_0007717,Sacral,,,
+,,http://purl.obolibrary.org/obo/UBERON_0006460,S1 spinal segment,S1
+,,http://purl.obolibrary.org/obo/UBERON_0006461,S2 spinal segment,S2
+,,http://purl.obolibrary.org/obo/UBERON_0006462,S3 spinal segment,S3
+,,http://purl.obolibrary.org/obo/UBERON_0006463,S4 spinal segment,S4
+,,http://purl.obolibrary.org/obo/UBERON_0006464,S5 spinal segment,S5
+http://uri.interlex.org/base/ilx_0740051,Coccygeal,,,
+,,http://uri.interlex.org/base/ilx_0777083,Cx1 spinal segment,Cx1
+,,http://uri.interlex.org/base/ilx_0777084,Cx2 spinal segment,Cx2
+,,http://uri.interlex.org/base/ilx_0777085,Cx3 spinal segment,Cx3
+http://purl.obolibrary.org/obo/UBERON_0000044,dorsal root ganglia (DRG),,,
+,,http://purl.obolibrary.org/obo/UBERON_0002834,Cervical DRG,
+,,http://purl.obolibrary.org/obo/UBERON_0002835,Thoracic DRG,
+,,http://purl.obolibrary.org/obo/UBERON_0002836,Lumbar DRG,
+,,http://purl.obolibrary.org/obo/UBERON_0002837,Sacral DRG,
+,,http://uri.interlex.org/ilx_0785867,Coccygeal DRG,
+http://purl.obolibrary.org/obo/UBERON_0002834,Cervical DRG,,,
+,,http://purl.obolibrary.org/obo/UBERON_0002838,C1 dorsal root ganglion,C1 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002839,C2 dorsal root ganglion,C2 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002840,C3 dorsal root ganglion,C3 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002841,C4 dorsal root ganglion,C4 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002842,C5 dorsal root ganglion,C5 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0007711,C6 dorsal root ganglion,C6 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002843,C7 dorsal root ganglion,C7 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002844,C8 dorsal root ganglion,C8 DRG
+http://purl.obolibrary.org/obo/UBERON_0002835,Thoracic DRG,,,
+,,http://purl.obolibrary.org/obo/UBERON_0002845,T1 dorsal root ganglion,T1 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002846,T2 dorsal root ganglion,T2 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002847,T3 dorsal root ganglion,T3 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0007712,T4 dorsal root ganglion,T4 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002848,T5 dorsal root ganglion,T5 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002849,T6 dorsal root ganglion,T6 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002850,T7 dorsal root ganglion,T7 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002851,T8 dorsal root ganglion,T8 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002852,T9 dorsal root ganglion,T9 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002853,T10 dorsal root ganglion,T10 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002854,T11 dorsal root ganglion,T11 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002855,T12 dorsal root ganglion,T12 DRG
+,,http://uri.interlex.org/base/ilx_0793359,T13 dorsal root ganglion,T13 DRG
+http://purl.obolibrary.org/obo/UBERON_0002836,Lumbar DRG,,,
+,,http://purl.obolibrary.org/obo/UBERON_0002857,L1 dorsal root ganglion,L1 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002856,L2 dorsal root ganglion,L2 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002858,L3 dorsal root ganglion,L3 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0003943,L4 dorsal root ganglion,L4 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002859,L5 dorsal root ganglion,L5 DRG
+,,http://uri.interlex.org/base/ilx_0793360,L6 dorsal root ganglion,L6 DRG
+,,http://uri.interlex.org/base/ilx_0793851,L7 dorsal root ganglion,L7 DRG
+http://purl.obolibrary.org/obo/UBERON_0002837,Sacral DRG,,,
+,,http://purl.obolibrary.org/obo/UBERON_0002860,S1 dorsal root ganglion,S1 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002861,S2 dorsal root ganglion,S2 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002862,S3 dorsal root ganglion,S3 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0007713,S4 dorsal root ganglion,S4 DRG
+,,http://purl.obolibrary.org/obo/UBERON_0002863,S5 dorsal root ganglion,S5 DRG
+http://uri.interlex.org/ilx_0785867,Coccygeal DRG,,,
+,,http://uri.interlex.org/base/ilx_0793852,Cx1 dorsal root ganglion,CX1 DRG
+,,http://uri.interlex.org/base/ilx_0793853,Cx2 dorsal root ganglion,CX2 DRG
+,,http://uri.interlex.org/base/ilx_0793854,Cx3 dorsal root ganglion,CX3 DRG
