@@ -1,8 +1,8 @@
-# The SCKAN Natural Language Interface (SCKAN NLI, [http://fdi-nlp.ucsd.edu/](http://fdi-nlp.ucsd.edu/))
+# SCKAN Natural Language Interface (SCKAN NLI)
 
 ## Introduction
 
-The SCKAN Natural Language Interface (SCKAN NLI, [http://fdi-nlp.ucsd.edu/](http://fdi-nlp.ucsd.edu/)) is an AI-based query interface designed to retrieve high-level connectivity knowledge from SCKAN. It employs few-shot learning with the GPT-4 (GPT-4o mini) model to extract potential semantic frames related to neuronal parts from natural language expressions. Based on these extracted frames, the NLI formulates and executes queries against SCKAN using the SCKAN-Explorer API. It then applies zero-shot learning to generate answers in context with the user’s question. Leveraging a Retrieval-Augmented Generation (RAG) technique, the NLI synthesizes responses based on the retrieved data from SCKAN, thereby enhancing both relevance and accuracy. To learn more about the technical aspects of SCKAN NLI, please visit the [technical overview page](./technical-overview.md).
+The [SCKAN](https://sparc.science/tools-and-resources/6eg3VpJbwQR4B84CjrvmyD) Natural Language Interface (SCKAN NLI, [http://fdi-nlp.ucsd.edu/](http://fdi-nlp.ucsd.edu/)) is an AI-based query interface designed to retrieve high-level connectivity knowledge from SCKAN. It employs few-shot learning with the GPT-4 (GPT-4o mini) model to extract potential semantic frames related to neuronal parts from natural language expressions. Based on these extracted frames, the NLI formulates and executes queries against SCKAN using the SCKAN-Explorer API. It then applies zero-shot learning to generate answers in context with the user’s question. Leveraging a Retrieval-Augmented Generation (RAG) technique, the NLI synthesizes responses based on the retrieved data from SCKAN, thereby enhancing both relevance and accuracy. To learn more about the technical aspects of SCKAN NLI, please visit the [technical overview page](./technical-overview.md).
 
 ## Disclaimers
 
