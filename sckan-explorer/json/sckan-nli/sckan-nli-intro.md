@@ -48,7 +48,7 @@ The [SCKAN](https://sparc.science/tools-and-resources/6eg3VpJbwQR4B84CjrvmyD) Na
 
 ## Example Prompts
 
-## Examples with specific origin, destination, or via
+### Examples with specific origin, destination, or via
 
 * Is there a connection between pelvic ganglion and myometrium via uterovaginal plexus in humans?
 * Is there a connection from inferior mesenteric ganglion to prostate gland smooth muscle in male dogs? Summarize the pathways based on the nerves involved.
@@ -57,11 +57,11 @@ The [SCKAN](https://sparc.science/tools-and-resources/6eg3VpJbwQR4B84CjrvmyD) Na
 
 ![1745328405754](images/sckan-nli-intro/1745328405754.png)![1745328424373](images/sckan-nli-intro/1745328424373.png)
 
-## Example with a higher-level, composite structure of the origin location
+### Example with a higher-level, composite structure of the origin location
 
 * What connections originate from the cranial nerve nucleus? Concisely summarize the connections based on each nucleus and end organs.
 
-## Examples with higher-level, composite structure for a terminal location (e.g., end organ)
+### Examples with higher-level, composite structure for a terminal location (e.g., end organ)
 
 * What connections terminate at the ovary? List the terminal structures and then summarize the pathways.
 * Track the sympathetic pathways to the uterus. List the terminal structures and then summarize the pathways.
@@ -84,7 +84,7 @@ The [SCKAN](https://sparc.science/tools-and-resources/6eg3VpJbwQR4B84CjrvmyD) Na
 
   ![1745326226958](images/sckan-nli-intro/1745326226958.png)
 
-## **Example of stimulation/virtual electrode kind of question**
+### **Example of stimulation/virtual electrode kind of question**
 
 * What anatomical structures can be stimulated by the inferior mesenteric ganglion (IMG)? In this case, IMG may act as the origin, destination, or via structure in the connections. Include all the structures for the list of structures categorized by the origin, via, and destinations.
 
