@@ -21,7 +21,7 @@ The SCKAN Natural Language Interface (SCKAN NLI, [http://fdi-nlp.ucsd.edu/](http
 * Share your feedback based on how well SCKAN NLI responds to your prompts.
 * The first example in the next section includes a screenshot showing how to provide feedback.
 
-Suggest new features or question types
+### Suggest new features or question types
 
 * SCKAN NLI currently supports extracting connectivity knowledge from SCKAN based on the **origin**, **destination**, or **via** locations mentioned in your natural language questions. It also supports filtering results by species, sex, and other phenotypes like the subdivisions of autonomic nervous system e.g., sympathetic or parasympathetic pathways. We plan to add more filters as we learn about new use cases.
 * You can suggest new question types as part of your feedback. To do so:
