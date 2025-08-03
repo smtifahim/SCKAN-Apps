@@ -2,6 +2,9 @@
 
 The [SCKAN](https://sparc.science/tools-and-resources/6eg3VpJbwQR4B84CjrvmyD) Natural Language Interface (SCKAN NLI, [http://fdi-nlp.ucsd.edu/](http://fdi-nlp.ucsd.edu/)) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the [GPT-4o mini](https://platform.openai.com/docs/models/gpt-4o-mini) (“o” for “omni”) model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions.
 
+* Python FastAPI based REST API: [GitHub Link](https://github.com/SciCrunch/sckan_llm_nli_api/tree/main)
+* MCP Server API: [GitHub Link](https://github.com/SciCrunch/sckan_explorer_mcp_api/tree/main)
+
 ## Core Technical Architecture
 
 SCKAN NLI uses a semantic frame extraction strategy rather than direct SPARQL query generation. This approach was chosen because generating SPARQL queries directly from natural language proved unreliable due to SCKAN's complexity and size.
