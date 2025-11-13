@@ -20,7 +20,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "270"
+          "value": "288"
         }
       },
       {
@@ -35,7 +35,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "86"
+          "value": "91"
         }
       },
       {
@@ -80,7 +80,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "11"
+          "value": "10"
         }
       },
       {
@@ -125,7 +125,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "71"
+          "value": "73"
         }
       },
       {
@@ -140,7 +140,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "25"
+          "value": "28"
         }
       },
       {
@@ -215,7 +215,22 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "1"
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Molecular Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Nos1 (indicator)"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
         }
       },
       {
@@ -230,7 +245,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "4"
+          "value": "3"
         }
       },
       {
@@ -245,7 +260,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "4"
+          "value": "3"
         }
       },
       {
@@ -275,7 +290,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "72"
+          "value": "75"
         }
       },
       {
@@ -290,7 +305,22 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "4"
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Projection phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
         }
       },
       {
@@ -305,7 +335,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "131"
+          "value": "136"
         }
       },
       {
@@ -320,7 +350,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "77"
+          "value": "82"
         }
       },
       {
@@ -335,7 +365,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "1"
+          "value": "25"
         }
       }
     ]

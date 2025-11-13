@@ -110,7 +110,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "14"
+          "value": "12"
         }
       },
       {
@@ -155,7 +155,22 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "60"
+          "value": "61"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Gastrointestinal Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
         }
       },
       {
@@ -170,7 +185,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "27"
+          "value": "26"
         }
       },
       {
@@ -185,7 +200,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "26"
+          "value": "25"
         }
       },
       {
@@ -210,12 +225,27 @@
         },
         "model": {
           "type": "literal",
+          "value": "SPARC Portal Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
           "value": "Sensory-Motor Connections"
         },
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "171"
+          "value": "170"
         }
       },
       {

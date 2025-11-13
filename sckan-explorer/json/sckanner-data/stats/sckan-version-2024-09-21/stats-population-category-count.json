@@ -15,7 +15,7 @@
         "population_count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "116"
+          "value": "114"
         }
       },
       {
@@ -26,7 +26,7 @@
         "population_count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "351"
+          "value": "373"
         }
       }
     ]

@@ -15,7 +15,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "463"
+          "value": "487"
         }
       },
       {
@@ -26,7 +26,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "461"
+          "value": "486"
         }
       },
       {
@@ -37,7 +37,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "429"
+          "value": "450"
         }
       },
       {
@@ -48,18 +48,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "375"
-        }
-      },
-      {
-        "phenotype": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasCircuitRole"
-        },
-        "count": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "type": "literal",
-          "value": "224"
+          "value": "397"
         }
       },
       {
@@ -70,7 +59,18 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "209"
+          "value": "243"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasCircuitRole"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "233"
         }
       },
       {
@@ -81,7 +81,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "108"
+          "value": "109"
         }
       },
       {
@@ -92,7 +92,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "96"
+          "value": "101"
         }
       },
       {
@@ -103,7 +103,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "74"
+          "value": "77"
         }
       },
       {
@@ -114,18 +114,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "69"
-        }
-      },
-      {
-        "phenotype": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
-        },
-        "count": {
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
-          "type": "literal",
-          "value": "42"
+          "value": "74"
         }
       },
       {
@@ -136,7 +125,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "19"
+          "value": "20"
         }
       },
       {
@@ -147,7 +136,18 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "8"
+          "value": "6"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasMolecule"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
         }
       }
     ]
