@@ -1,5 +1,4 @@
-## Stats-0
-## This query returns the number of neuron types by their category #STATS
+## STATS: This query returns the number of neuron types by their category #STATS
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
@@ -24,4 +23,4 @@ SELECT ?neuron_category (COUNT (?neuron_category) as ?population_count)
 }
 GROUP BY ?neuron_category
 ORDER BY ?neuron_category
-LIMIT 4000
+LIMIT 100

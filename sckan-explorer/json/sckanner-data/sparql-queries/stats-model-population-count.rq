@@ -1,6 +1,7 @@
 ## This query returns the count of SCKAN neuron populations based on models/systems
 ## categorized by sources i.e, expert-contributed or literature-extracted. 
-## -Fahim Imam (Oct 22, 2024)
+## Laast updated: November 13, 2025. Added gastint and portal connections
+## - Fahim Imam
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
@@ -33,6 +34,8 @@ SELECT
       ("kidney" "Kidney Connections")
       ("senmot" "Sensory-Motor Connections")
       ("swglnd" "Sweat Gland")
+      ("gastint" "Gastrointestinal Connections")
+      ("portal" "SPARC Portal Connections")
       ("mmset1" "Uncategorized Literature Extracted")
       ("mmset4" "Uncategorized Literature Extracted")
   }

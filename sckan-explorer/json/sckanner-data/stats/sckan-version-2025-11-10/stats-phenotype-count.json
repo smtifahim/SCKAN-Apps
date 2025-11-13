@@ -1,0 +1,155 @@
+{
+  "head": {
+    "vars": [
+      "phenotype",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "487"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "486"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "450"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/isObservedInSpecies"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "397"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasNeuronalPhenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "243"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasCircuitRole"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "233"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasForwardConnection"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "109"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasPhenotypicSex"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "101"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "77"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "74"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasProjection"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "20"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasFunctionalCircuitRole"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasMolecule"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      }
+    ]
+  }
+}

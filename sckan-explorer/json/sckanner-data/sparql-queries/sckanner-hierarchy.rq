@@ -1,5 +1,5 @@
 ## Query to generate hierarical locations for the origins, destinations, and via locations for SCKANNER
-## Version: November 7, 2024
+## Version: November 13, 2025 - Fahim Imam TODO: fix the missing hierarchy and missing end organ in interlex.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -17,9 +17,10 @@ SELECT DISTINCT
 ?C_Type_ID ?C_Type    # via location, type of via e.g., nerve
 ?B_ID ?B            # Terminal structure
 ?Target_Organ_IRI ?Target_Organ
+?Target_System_IRI ?Target_System
 {                
     # Filtering neuron by ID regex
-    # FILTER (regex(str(?Neuron_ID), 'bolew-unbranched-9')).
+    # FILTER (regex(str(?Neuron_ID), 'kidney/153')).
     
     ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
     VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
@@ -36,7 +37,7 @@ SELECT DISTINCT
             ?C_ID rdfs:label ?C.
             
             OPTIONAL {
-                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) ?C_Type_ID.
+                        ?C_ID (rdfs:subClassOf* | ilxtr:isPartOf*) ?C_Type_ID.
                         ?C_Type_ID rdfs:label ?C_Type.
                         FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
                                             'ganglion', 'white matter', 'brain', 'spinal cord')).
@@ -56,7 +57,7 @@ SELECT DISTINCT
             ?C_ID rdfs:label ?C.
             
             OPTIONAL {
-                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) ?C_Type_ID.
+                        ?C_ID (rdfs:subClassOf* | ilxtr:isPartOf*) ?C_Type_ID.
                         ?C_Type_ID rdfs:label ?C_Type.
                         FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
                                             'ganglion', 'white matter', 'brain', 'spinal cord')).
@@ -68,7 +69,7 @@ SELECT DISTINCT
     OPTIONAL
     {
         # Check if A is/part of brain, spinal cord, or ganglia
-        ?A_ID (rdfs:subClassOf+| ilxtr:isPartOf+) ?A_L1_ID.
+        ?A_ID (rdfs:subClassOf*| ilxtr:isPartOf*) ?A_L1_ID.
         ?A_L1_ID rdfs:label ?A_L1.
         FILTER (?A_L1 in ('brain', 
                           'spinal cord', 
@@ -78,17 +79,18 @@ SELECT DISTINCT
         # Check the part of brain, spinal cord, or kind of ganglia
         OPTIONAL
         {
-            ?A_ID (rdfs:subClassOf+) ?A_L2_ID.
+            ?A_ID (rdfs:subClassOf*) ?A_L2_ID.
             ?A_L2_ID rdfs:label ?A_L2.
             FILTER (?A_L2 in ('nucleus of brain',
                               'nucleus of spinal cord',
                               'spinal cord segment',
                               'gray matter of spinal cord',
                               'white matter of spinal cord',   
+                              
                               ## Types of ganglion
+                              'cranial ganglion',
                               'thoracic ganglion',
                               'cervical ganglion',
-                              'cranial ganglion',
                               'dorsal root ganglion',
                               'paravertebral ganglion',
                               'prevertebral ganglion'
@@ -96,7 +98,7 @@ SELECT DISTINCT
         }
         OPTIONAL
         {
-            ?A_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) ?A_L3_ID.
+            ?A_ID (rdfs:subClassOf* | ilxtr:isPartOf*) ?A_L3_ID.
             ?A_L3_ID rdfs:label ?A_L3.
             FILTER (?A_L3 in (## Types of nucleus
                               'brainstem nucleus',
@@ -125,18 +127,39 @@ SELECT DISTINCT
    
     OPTIONAL
     { 
-        ?B_ID (rdfs:subClassOf* | ilxtr:isPartOf* | ilxtr:suppliesTo* | ilxtr:isPartOf*/ilxtr:surrounds*)/rdfs:label | rdfs:label ?Target_Organ.        
+        ?B_ID (rdfs:subClassOf* | ilxtr:isPartOf* )/rdfs:label | rdfs:label ?Target_Organ.        
         ?Target_Organ_IRI rdfs:label ?Target_Organ.
                 
         FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
                                     'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
                                     'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue', 'respiratory tract', 
-                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract',
+                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract',  
                                     'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
                                     'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
                                     'paravertebral ganglion', 'prevertebral ganglion')  #Note: although not an organ, ganglion is included for sckanner.           
                                  )
+
+        OPTIONAL
+                {
+                    ?Target_Organ_IRI (rdfs:subClassOf* | ilxtr:isPartOf* | ilxtr:isPartOf*/rdfs:subClassOf*) /rdfs:label ?Target_System.
+
+                    # ?Target_Organ_IRI (rdfs:subClassOf* | ilxtr:isPartOf*) /rdfs:label ?Target_System.
+                    ?Target_System_IRI rdfs:label ?Target_System.
+                    
+                    FILTER (?Target_System  in (
+                                                'central nervous system', 'peripheral nervous system',
+                                                'cardiovascular system', 'respiratory system', 'digestive system', 'endocrine system',
+                                                'renal system', 'integumental system', 'lymphoid system', 'musculoskeletal system',
+                                                'male reproductive system', 'female reproductive system', 'hematopoietic system', 'sense organ' # removed 'sensory system' coz there are too many classifications
+                                                )
+                                            )
+                    FILTER (isIRI(?Target_System_IRI))      
+
+                }
+        FILTER (isIRI(?Target_Organ_IRI))
+        FILTER (isIRI(?Target_System_IRI)) 
+
     }
 }
-ORDER BY ?Neuron_ID ?A ?C ?B ?Target_Organ
+ORDER BY ?Neuron_ID ?Target_Organ ?Target_System ?B ?A ?C
 LIMIT 100000

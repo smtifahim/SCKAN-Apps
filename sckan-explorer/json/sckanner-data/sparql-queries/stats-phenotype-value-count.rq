@@ -1,6 +1,7 @@
-## Stats#6
+## Stats: Counts of distinct phenotype values from SCKAN.
 ## This query returns the list of phenotypic properties and the count of their use 
-## in SCKAN neuron populations. #TODO use general namining convention
+## in SCKAN neuron populations. Last Upadted: Nov 13, 2025
+## -Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -32,7 +33,8 @@ WHERE
                             IF(CONTAINS (STR(?phenotype), 'hasNeuronalPhenotype'), "ANS Phenotype",
                             IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Circuit Role",
                             IF(CONTAINS (STR(?phenotype), 'hasCircuitRole'), "Circuit Role",
-                            "Other")))))) AS ?phenotype_label)
+                            IF(CONTAINS (STR(?phenotype), 'hasMolecule'), "Molecular Phenotype",
+                            "Other"))))))) AS ?phenotype_label)
     
     BIND(IF(STR(?phenotype_value) =  STR("http://purl.obolibrary.org/obo/PATO_0000383"), "Female",
                             IF(CONTAINS (STR(?phenotype_value), 'PATO_0000384'), "Male",
@@ -43,8 +45,7 @@ WHERE
                             IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9615'), "Dog",
                             IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10141'), "Guinea Pig",
                             IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9685'), "Cat",
-
-                            
+  
                             IF(CONTAINS (STR(?phenotype_value), 'Parasympathetic'), "Parasympathetic Phenotype",
                             IF(CONTAINS (STR(?phenotype_value), '-para-'), "Parasympathetic Phenotype",
                             IF(CONTAINS (STR(?phenotype_value), 'Sympathetic'), "Sympathetic Phenotype",

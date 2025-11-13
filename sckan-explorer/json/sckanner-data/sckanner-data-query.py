@@ -5,21 +5,33 @@ Author: Fahim Imam
 Version: 1.0
 """
 
+
 import stardog
 import json
 import logging
 from pathlib import Path
+import os
+from dotenv import load_dotenv
 
-# Stardog DB connection configuration using stradog cloud endpoint
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Stardog DB connection configuration using stardog cloud endpoint
+STARDOG_USERNAME = os.getenv('STARDOG_USERNAME')
+STARDOG_PASSWORD = os.getenv('STARDOG_PASSWORD')
+if not STARDOG_USERNAME or not STARDOG_PASSWORD:
+    raise ValueError("STARDOG_USERNAME and STARDOG_PASSWORD must be set in the .env file.")
+
 CONN_DETAILS = {
-                'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
-                'username': 'sparc-admin',
-                'password': 'use the password' # get the password from 1password.
-               }
+    'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
+    'username': STARDOG_USERNAME,
+    'password': STARDOG_PASSWORD
+}
 
-DB_NAME = 'NPO'
+DB_NAME = 'SCKAN-NOV-2025'  # Update with the current database name.
 
-SCKAN_VERSION = '2024-09-21' # Manual for now.
+SCKAN_VERSION = '2025-11-10' # Manual for now.
 QUERY_DIR = Path(f'./sparql-queries/')
 STATS_DIR = Path(f'./stats/sckan-version-{SCKAN_VERSION}/')
 

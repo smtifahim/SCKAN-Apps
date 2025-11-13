@@ -1,0 +1,155 @@
+{
+  "head": {
+    "vars": [
+      "phenotype",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "463"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "461"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "429"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/isObservedInSpecies"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "375"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasCircuitRole"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "224"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasNeuronalPhenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "209"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasForwardConnection"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "108"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasPhenotypicSex"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "96"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "74"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "69"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasDendriteLocation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "42"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasProjection"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "phenotype": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasFunctionalCircuitRole"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      }
+    ]
+  }
+}

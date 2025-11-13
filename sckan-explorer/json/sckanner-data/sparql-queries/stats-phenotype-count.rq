@@ -1,6 +1,6 @@
-## Stats-2
+## Stats: Counts of phenotypes used in SCKAN.
 ## This query returns the list of phenotypic properties and the count of their use 
-## in SCKAN neuron populations. TODO: add specific motor or sensory etc.
+## in SCKAN neuron populations.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
