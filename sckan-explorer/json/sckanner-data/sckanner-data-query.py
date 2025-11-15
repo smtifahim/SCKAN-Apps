@@ -41,17 +41,17 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Query and output file mapping
 QUERY_OUTPUT_PAIRS = [
                         ( QUERY_DIR / 'sckanner-hierarchy.rq', 
-                          './hierarchy/sckanner-hierarchy.json'),
-                        ( QUERY_DIR / 'sckan-version-info.rq',
-                          STATS_DIR / 'sckan-version-info.json'),
-                        ( QUERY_DIR / 'stats-model-population-count.rq',
-                          STATS_DIR / 'stats-model-population-count.json'),
-                        ( QUERY_DIR / 'stats-phenotype-count.rq',
-                          STATS_DIR / 'stats-phenotype-count.json'),
-                        ( QUERY_DIR / 'stats-phenotype-value-count.rq',
-                          STATS_DIR / 'stats-phenotype-value-count.json'),
-                        ( QUERY_DIR / 'stats-population-category-count.rq',
-                          STATS_DIR / 'stats-population-category-count.json')
+                          './hierarchy/sckanner-hierarchy.json')
+                        # ( QUERY_DIR / 'sckan-version-info.rq',
+                        #   STATS_DIR / 'sckan-version-info.json'),
+                        # ( QUERY_DIR / 'stats-model-population-count.rq',
+                        #   STATS_DIR / 'stats-model-population-count.json'),
+                        # ( QUERY_DIR / 'stats-phenotype-count.rq',
+                        #   STATS_DIR / 'stats-phenotype-count.json'),
+                        # ( QUERY_DIR / 'stats-phenotype-value-count.rq',
+                        #   STATS_DIR / 'stats-phenotype-value-count.json'),
+                        # ( QUERY_DIR / 'stats-population-category-count.rq',
+                        #   STATS_DIR / 'stats-population-category-count.json')
                      ]
 
 # Ensure that the output directory exists.
