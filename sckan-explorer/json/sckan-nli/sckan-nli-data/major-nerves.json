@@ -2,11 +2,22 @@
   "head": {
     "vars": [
       "Nerve_IRI",
-      "Nerve_Label"
+      "Nerve_Label",
+      "Nerve_Synonym"
     ]
   },
   "results": {
     "bindings": [
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0738312"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Aortic arch depressor nerve"
+        }
+      },
       {
         "Nerve_IRI": {
           "type": "uri",
@@ -25,6 +36,10 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Clitoral cavernous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cavernous nerve of clitoris"
         }
       },
       {
@@ -35,6 +50,24 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Communicating branch of zygomatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Communicating branch with zygomatic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793711"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Communicating branch of zygomatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Communicating branch to V1"
         }
       },
       {
@@ -45,6 +78,10 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Deep petrosal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Sympathetic root of pterygopalatine ganglion"
         }
       },
       {
@@ -60,11 +97,29 @@
       {
         "Nerve_IRI": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0776616"
+          "value": "http://uri.interlex.org/base/ilx_0793560"
         },
         "Nerve_Label": {
           "type": "literal",
-          "value": "External carotid nerve"
+          "value": "External branch of superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "external superior laryngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793560"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "External branch of superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "External laryngeal nerve"
         }
       },
       {
@@ -75,6 +130,16 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Ganglioglomerular nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0790497"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Gray communicating ramus of cervicothoracic ganglion to first thoracic spinal nerve"
         }
       },
       {
@@ -105,6 +170,24 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Internal branch of superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Internal superior laryngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793561"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Internal branch of superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Internal laryngeal nerve"
         }
       },
       {
@@ -135,6 +218,72 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Penile cavernous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "penile nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793807"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Penile cavernous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "main penile nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793807"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Penile cavernous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Cavernous nerve of penis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0789339"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Pharyngeal branch of glossopharyngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0795005"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Posterior cutaneous nerve of arm"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Posterior brachial cutaneous nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0795006"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "Suboccipital nerve"
         }
       },
       {
@@ -145,6 +294,24 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Superior ovarian nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "SON"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793362"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "White communicating ramus of fourth lumbar anterior ramus"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "L4 white ramus"
         }
       },
       {
@@ -155,6 +322,320 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "Zygomatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Zygomatic branch of V2"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794473"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "abdominal branch of vagus nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794476"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "abdominal branch of vagus nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-XI"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "accessory spinal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Willis' nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal part of accessory nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal accessory nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal accessory nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "radix spinalis nervus accessorius"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pars spinalis nervus accessorius"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus accessorius [XI]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "eleventh cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve XI"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cervical accessory nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "accessory XI"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "accessory nerve [XI]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "accessory nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002019"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "accessory XI nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793826"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "anterior abdominal vagal trunk"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001493"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "axillary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus axillaris"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001493"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "axillary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "circumflex nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001493"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "axillary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "auxillery nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001493"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "axillary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "circumflex humeral nerve"
         }
       },
       {
@@ -165,6 +646,104 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "bladder nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of bladder"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0796679"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "cardiac interganglionic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "sinus nerve of Hering"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ramus sinus carotici nervus glossopharyngei"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ramus sinus carotici nervi glossopharyngei"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ramus sinus carotici"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Hering sinus nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009009"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "carotid sinus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "carotid branch of glossopharyngeal nerve"
         }
       },
       {
@@ -175,6 +754,174 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "tympanic cord"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "radix parasympathica ganglii submandibularis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "parasympathetic root of submandibular ganglion"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus corda tympani"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial VII nerve chorda tympani branch"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "corda tympani nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "chorda tympani nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "chorda tympani"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794977"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "deep branch of radial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Posterior interosseous nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794969"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "deep branch of ulnar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Ramus profundus (Nervus ulnaris)"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794969"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "deep branch of ulnar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Deep terminal branch of ulnar nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035207"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "deep fibular nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "deep peroneal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794853"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "esophageal vagus trunk"
         }
       },
       {
@@ -185,6 +932,262 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "7n"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve VII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial nerve/root"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial nerve or its root"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve VII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-VII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "seventh cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus facialis [vii]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus facialis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of face"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial VII nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial VII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "facial nerve [VII]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "face nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001647"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "facial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "branchiomeric cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001267"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "femoral nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus femoralis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001267"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "femoral nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "anterior crural nerve"
         }
       },
       {
@@ -195,6 +1198,192 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve IX"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "9n"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve IX"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-IX"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ninth cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus glossopharyngeus [ix]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus glossopharyngeus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve [IX]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "glossopharyngeal IX nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001649"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "glossopharyngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "glossopharyngeal IX"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0739303"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "gray communicating ramus of second thoracic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "T2 gray ramus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0739304"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "gray communicating ramus of third thoracic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "T3 gray ramus"
         }
       },
       {
@@ -205,6 +1394,10 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "greater splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "greater thoracic splanchnic nerve"
         }
       },
       {
@@ -215,6 +1408,192 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "12n"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus hypoglossus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi hypoglossalis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "twelfth cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus hypoglossus [xii]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal XII nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal XII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal nerve [XII]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve XII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve XII"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "hypoglossal nerve/ root"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001650"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "hypoglossal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-XII"
         }
       },
       {
@@ -225,6 +1604,146 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "lacrimal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus lacrimalis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035110"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "lateral plantar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus plantaris lateralis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035110"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "lateral plantar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "external plantar nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "renal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "renal branch of lesser splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ramus renalis nervus splanchnici minoris"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus splanchnicus imus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "thoracic splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "lowest splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001964"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "least splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "least thoracic splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794142"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "left cervical vagus nerve"
         }
       },
       {
@@ -235,6 +1754,10 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "lesser splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "lesser thoracic splanchnic nerve"
         }
       },
       {
@@ -245,6 +1768,38 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "lingual nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "trigeminal V nerve lingual branch"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003721"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "lingual nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "trigeminal nerve lingual branch"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003721"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "lingual nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "lingual branch of trigeminal nerve"
         }
       },
       {
@@ -253,6 +1808,24 @@
           "value": "http://purl.obolibrary.org/obo/UBERON_0022301"
         },
         "Nerve_Label": {
+          "type": "literal",
+          "value": "long ciliary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi ciliares longi"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0022301"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "long ciliary nerve"
+        },
+        "Nerve_Synonym": {
           "type": "literal",
           "value": "long ciliary nerve"
         }
@@ -275,6 +1848,80 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "lumbar splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "lumbar splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035111"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "medial plantar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus plantaris medialis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035111"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "medial plantar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "internal plantar nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001148"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "median nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus medianus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003724"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "musculocutaneous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus musculocutaneus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003724"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "musculocutaneous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "casserio's nerve"
         }
       },
       {
@@ -285,6 +1932,192 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "nasopalatine nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus nasopalatinus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0008810"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nasopalatine nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nasopalatine nerves"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0008810"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nasopalatine nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nasopalatine"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0008810"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nasopalatine nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "naso-palatine nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0008810"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nasopalatine nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Scarpa's nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001021"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001021"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "neural subtree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001021"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "peripheral nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001021"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerves"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0034984"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve to quadratus femoris"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve to the quadratus femoris muscle"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0034984"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve to quadratus femoris"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve to the quadratus femoris and gemellus inferior"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0034984"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve to quadratus femoris"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve to the quadratus femoris"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0034984"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "nerve to quadratus femoris"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve to quadratus femoris"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0005465"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "obturator nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus obturatorius"
         }
       },
       {
@@ -295,6 +2128,192 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "3n"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor nerve or its root"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "occulomotor"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve III"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve III"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-III"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "third cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor nerve [III]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor III nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "oculomotor III"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus oculomotorius [III]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001643"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "oculomotor nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus oculomotorius"
         }
       },
       {
@@ -305,6 +2324,94 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nn erigentes"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi splanchnici pelvici"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi pelvici splanchnici"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi erigentes"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pelvic splanchnic parasympathetic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018675"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pelvic splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011391"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "perineal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "perineal branch of pudendal nerve"
         }
       },
       {
@@ -315,6 +2422,62 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "phrenic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "phrenic"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001884"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "phrenic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus phrenicus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001884"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "phrenic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "diaphragmatic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793827"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "posterior abdominal vagal trunk"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794967"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "posterior interosseous nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Deep branch of radial nerve"
         }
       },
       {
@@ -325,6 +2488,248 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "pudendal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pudendal"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011390"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pudendal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pudenal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011390"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pudendal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "internal pudendal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011390"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pudendal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus pudendales"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011390"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "pudendal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus pudendae"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001492"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "radial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus radialis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794949"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent branch of the median nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "thenar branch of the median nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "recurrent nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ramus recurrens"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "inferior laryngeal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus X nerve recurrent laryngeal branch"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve from vagus nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003716"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "recurrent laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus laryngeus recurrens"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001322"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "sciatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus sciaticus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001322"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "sciatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus ischiadicus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001322"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "sciatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ischiatic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001322"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "sciatic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "ischiadic nerve"
         }
       },
       {
@@ -335,6 +2740,52 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "short ciliary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi ciliares brevis"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0022302"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "short ciliary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi ciliares breves"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0022302"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "short ciliary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "short ciliary nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0022302"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "short ciliary nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "lower branch of ciliary ganglion"
         }
       },
       {
@@ -345,6 +2796,192 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vertebral column nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spine nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal column nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of vertebral column"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of spine"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of spinal column"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of backbone"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "backbone nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "spinal nerves"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001780"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "spinal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervi spinales"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "visceral nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "splanchnic nerves"
         }
       },
       {
@@ -355,6 +2992,128 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "splenic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "Splenic nerve plexus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0797391"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superficial branch of radial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0035526"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superficial fibular nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "superficial peroneal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011326"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "superior laryngeal branch of vagus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011326"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "superior laryngeal branch of inferior vagal ganglion"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011326"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus laryngeus superior"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0011326"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "superior laryngeal nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus laryngealis superior"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018679"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "thoracic splanchnic nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001323"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tibial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "medial popliteal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001323"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tibial nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "n. tibialis"
         }
       },
       {
@@ -365,6 +3124,90 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "tympanic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "tympanic branch of the glossopharyngeal"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0036216"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tympanic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "tympanic branch"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0036216"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tympanic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "tympanic"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0036216"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tympanic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of jacobson"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0036216"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "tympanic nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "jacobson%27s nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001494"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "ulnar nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus ulnaris"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0795507"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagosympthetic trunk"
         }
       },
       {
@@ -375,6 +3218,206 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "10n"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus nerve or its root"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pneuomgastric nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus vagus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve X"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "cranial nerve X"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "CN-X"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus X nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus nerve tree"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus nerve [X]"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vagus"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "tenth cranial nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001759"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vagus nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nervus vagus [x]"
         }
       },
       {
@@ -385,6 +3428,62 @@
         "Nerve_Label": {
           "type": "literal",
           "value": "vidian nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of the pterygoid canal"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018412"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vidian nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "pterygoid canal nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018412"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vidian nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "nerve of pterygoid canal"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0018412"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "vidian nerve"
+        },
+        "Nerve_Synonym": {
+          "type": "literal",
+          "value": "vidian nerve"
+        }
+      },
+      {
+        "Nerve_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0794916"
+        },
+        "Nerve_Label": {
+          "type": "literal",
+          "value": "white ramus communicans"
         }
       }
     ]
