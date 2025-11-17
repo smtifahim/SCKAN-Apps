@@ -1,3 +1,11 @@
+// Ensure getIRIFromCurie is available
+if (typeof getIRIFromCurie === 'undefined') {
+  // For browser environments, try to get from window if loaded globally
+  if (typeof window !== 'undefined' && window.getIRIFromCurie) {
+    var getIRIFromCurie = window.getIRIFromCurie;
+  }
+}
+
 // Return the populated table based on the search filters.
 // the data represents an array of 'AtoBviaC' class instances
 function getPopulatedTable(data)
@@ -10,8 +18,32 @@ function getPopulatedTable(data)
  //  table.style.overflow = "hidden";
 
 
-  const progressContainer = document.getElementById("search-progress-container");
-  progressContainer.style.display = "block";   // Show progress container
+  // Ensure progress bar exists in DOM
+  let progressContainer = document.getElementById("search-progress-container");
+  if (!progressContainer) {
+    progressContainer = document.createElement("div");
+    progressContainer.id = "search-progress-container";
+    progressContainer.style.display = "block";
+    progressContainer.style.width = "100%";
+    progressContainer.style.background = "#f3f3f3";
+    progressContainer.style.marginBottom = "10px";
+    const bar = document.createElement("div");
+    bar.id = "search-progress-bar";
+  bar.style.width = "0%";
+  // Remove inline height to allow CSS to control thickness
+  bar.style.background = "DodgerBlue";
+    progressContainer.appendChild(bar);
+    // Insert before the table if possible, else at top of body
+    if (document.body.contains(table)) {
+      document.body.insertBefore(progressContainer, table);
+    } else {
+      document.body.insertBefore(progressContainer, document.body.firstChild);
+    }
+  } else {
+    progressContainer.style.display = "block";
+    const bar = document.getElementById("search-progress-bar");
+    if (bar) bar.style.width = "0%";
+  }
   updateSearchProgress(0);
 
   const neuronDataMap = groupDataByNeuronID(data);
@@ -19,27 +51,92 @@ function getPopulatedTable(data)
   const totalProgress = neuronDataMap.size; //number of neuron populations
   let currentProgress = 0;
   
-  for (const [neuronId, neuronData] of neuronDataMap) 
-  {
+  for (const [neuronId, neuronData] of neuronDataMap) {
     var metaData = neuronData[0].neuronMetaData;
     const vizRow = createVizRow(neuronData);
     const neuronRow = createNeuronRow(neuronId, neuronData[0], vizRow);
     const neuronDataRow = createNeuronDataRow(metaData);
-    const locationHeaderRow = createLocationHeaderRow();
-   
+
+    // Create a self-contained table for the location data
+    const locationTable = document.createElement("table");
+    locationTable.classList.add("location-table");
+    locationTable.style.width = "100%";
+    locationTable.style.marginTop = "0px";
+    locationTable.style.marginBottom = "24px";
+    // Add header and data rows to the location table
+    locationTable.appendChild(createLocationHeaderRow());
+    const dataRows = Array.from(createDataRows(neuronData));
+    const maxVisibleRows = 8;
+    let rowIndex = 0;
+    for (const row of dataRows) {
+      if (rowIndex >= maxVisibleRows) {
+        row.classList.add("location-table-hidden-row");
+        row.style.display = "none";
+      }
+      locationTable.appendChild(row);
+      rowIndex++;
+    }
+    console.log(`Total data rows: ${dataRows.length}, Hidden rows: ${dataRows.length - maxVisibleRows}`);
+
+    // Add expand/collapse button if there are more than maxVisibleRows
+    if (dataRows.length > maxVisibleRows) {
+      const expandButtonRow = document.createElement("tr");
+      expandButtonRow.classList.add("location-table-expand-row");
+      const expandButtonCell = document.createElement("td");
+      expandButtonCell.colSpan = 7;
+      expandButtonCell.style.textAlign = "center";
+      expandButtonCell.style.padding = "8px";
+      expandButtonCell.style.backgroundColor = "#f8fbff";
+
+      const expandButton = document.createElement("button");
+      expandButton.innerHTML = `<b>Show ${dataRows.length - maxVisibleRows} more rows ▼</b>`;
+      expandButton.className = "rounded-button";
+      expandButton.style.fontSize = "14px";
+      expandButton.style.padding = "6px 12px";
+      expandButton.style.backgroundColor = "#2E9AFE";
+      expandButton.style.color = "#fff";
+
+      let isExpanded = false;
+      expandButton.addEventListener("click", function() {
+        const hiddenRows = locationTable.querySelectorAll(".location-table-hidden-row");
+        isExpanded = !isExpanded;
+        hiddenRows.forEach(row => {
+          row.style.display = isExpanded ? "" : "none";
+        });
+        expandButton.innerHTML = isExpanded
+          ? "<b>Show less ▲</b>"
+          : `<b>Show ${dataRows.length - maxVisibleRows} more rows ▼</b>`;
+      });
+
+      expandButtonCell.appendChild(expandButton);
+      expandButtonRow.appendChild(expandButtonCell);
+      locationTable.appendChild(expandButtonRow);
+    }
+
+    // Append all rows/tables for this population to the main table
     table.append(
       neuronRow,
       neuronDataRow,
-      vizRow,
-      locationHeaderRow,
-      ...createDataRows(neuronData)
+      vizRow
     );
+    // Insert the location table as a full-width row
+    const locationTableRow = document.createElement("tr");
+    const locationTableCell = document.createElement("td");
+    locationTableCell.colSpan = 7;
+    locationTableCell.style.paddingTop = "0px";
+    locationTableCell.style.paddingBottom = "8px";
+    locationTableCell.appendChild(locationTable);
+    locationTableRow.appendChild(locationTableCell);
+    table.appendChild(locationTableRow);
+
     table.appendChild(createEmptyRow());
-    
+
     currentProgress++;
     console.log(" Progress+ "+ (currentProgress/totalProgress)*100);
-    //await wait(5);
     updateSearchProgress((currentProgress/totalProgress) * 100);
+    // Throttle progress bar update to visually match chunking speed
+    const start = Date.now();
+    while (Date.now() - start < 3) {} // ~5ms delay per update
   }
 
   return table;
@@ -64,7 +161,7 @@ function createNeuronRow(neuronId, neuronData, vizRow)
   const neuronRow = createTableRow("panel");
 
   const neuronHeader = createTableHeader("panel-header");
-  neuronHeader.colSpan = 6;
+  neuronHeader.colSpan = 7;
   neuronHeader.style.cursor = 'default';
   neuronHeader.style.borderCollapse = "collapse";
  // neuronHeader.style.borderTopLeftRadius = "8px";
@@ -74,17 +171,68 @@ function createNeuronRow(neuronId, neuronData, vizRow)
   neuronHeader.innerHTML = `Population: ${neuronId}`;
 
   var gData = neuronData.diGraph.axonalPath;
-  
-  if (gData !== "")
-  {
+  // Add Visualize button if graph data exists
+  if (gData !== "") {
     const visualizeButton = document.createElement('button');
-    visualizeButton.innerHTML = '<b>Visualize<b>';
-    visualizeButton.style.backgroundColor = "#C0F0FB";
+    visualizeButton.innerHTML = '<b>Visualize</b>';
+    visualizeButton.style.backgroundColor = "#d0eaf6ff";
+    visualizeButton.style.color = "#05154fff";
+    visualizeButton.style.border = "none";
+    visualizeButton.style.borderRadius = "8px";
+    visualizeButton.style.padding = "8px 16px";
+    visualizeButton.style.fontSize = "14px";
+    visualizeButton.style.fontWeight = "600";
     visualizeButton.style.cursor = 'pointer';
     visualizeButton.style.marginLeft = '10px';
+    visualizeButton.style.transition = "all 0.2s ease";
+    visualizeButton.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+    visualizeButton.addEventListener('mouseenter', function() {
+      this.style.backgroundColor = "#abfff9ff";
+      this.style.transform = "translateY(-1px)";
+      this.style.boxShadow = "0 4px 6px rgba(0,0,0,0.15)";
+    });
+    visualizeButton.addEventListener('mouseleave', function() {
+      this.style.backgroundColor = "#abe6ffff";
+      this.style.transform = "translateY(0)";
+      this.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+    });
     visualizeButton.addEventListener('click', () => togglePanel(vizRow));
     neuronHeader.appendChild(visualizeButton);
   }
+
+  // Add Edit In Composer button if composerURI exists
+  if (neuronData.neuronMetaData && neuronData.neuronMetaData.composerURI && neuronData.neuronMetaData.composerURI.trim() !== "") {
+    const editButton = document.createElement('button');
+    editButton.innerHTML = '<b>Edit in Composer</b>';
+    editButton.style.backgroundColor = "#cfddf2ff";
+    editButton.style.color = "#1d1b1bff";
+    editButton.style.border = "none";
+    editButton.style.borderRadius = "8px";
+    editButton.style.padding = "8px 16px";
+    editButton.style.fontSize = "14px";
+    editButton.style.fontWeight = "600";
+    editButton.style.cursor = 'pointer';
+    editButton.style.float = 'right';
+    editButton.style.marginRight = '10px';
+    editButton.style.transition = "all 0.2s ease";
+    editButton.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+    editButton.addEventListener('mouseenter', function() {
+      this.style.backgroundColor = "#f9d266ff";
+      this.style.transform = "translateY(-1px)";
+      this.style.boxShadow = "0 4px 6px rgba(0,0,0,0.15)";
+    });
+    editButton.addEventListener('mouseleave', function() {
+      this.style.backgroundColor = "#cfddf2ff";
+      this.style.transform = "translateY(0)";
+      this.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+    });
+    editButton.addEventListener('click', (e) => {
+      e.stopPropagation();
+      window.open(neuronData.neuronMetaData.composerURI, '_blank');
+    });
+    neuronHeader.appendChild(editButton);
+  }
+
   neuronHeader.style.border = "1px solid black";
   neuronHeader.style.backgroundColor = "black";
   neuronRow.appendChild(neuronHeader);
@@ -238,9 +386,13 @@ function createNeuronDataRow(neuronMetaData)
 {
   const neuronDataRow = createTableRow();
   neuronDataRow.style.backgroundColor = "#ffffff";
+  neuronDataRow.style.borderBottom = "none";
 
   const neuronMetaDataCell = createTableData();
-  neuronMetaDataCell.colSpan = 6;
+  neuronMetaDataCell.colSpan = 7;
+  neuronMetaDataCell.style.paddingTop = "4px";
+  neuronMetaDataCell.style.paddingBottom = "0px";
+  neuronMetaDataCell.style.borderBottom = "none";
   neuronMetaDataCell.innerHTML = getFormattedNeuronMetaData(neuronMetaData);
   neuronDataRow.appendChild(neuronMetaDataCell);
   return neuronDataRow;
@@ -255,15 +407,20 @@ function createLocationHeaderRow()
   const headers = [
     "Origin",
     "Origin ID",
-    "Destination",
-    "Destination ID",
     "Via",
-    "Via ID"
+    "Via ID",
+    "Terminal",
+    "Terminal ID",
+    "Target Organ",
   ];
 
   for (const headerText of headers) {
     const headerCell = createTableHeader();
     headerCell.innerText = headerText;
+    if (headerText === "Origin ID" || headerText === "Via ID" || headerText === "Terminal ID")
+    {
+       headerCell.classList.add('hide-col');
+    }
     headerCell.style.border = "1px solid black";
     locationHeaderRow.appendChild(headerCell);
   }
@@ -276,8 +433,9 @@ function createDataRows(neuronData)
 {
   const uniqueData = new Set();
 
+  let rowIndex = 0;
   return neuronData
-    .filter(datum =>{
+    .filter(datum => {
       // creating a unique key for each row, ensuring all relevant fields are consistently represented
       const key = [
         datum.origin.Label || "",
@@ -289,45 +447,112 @@ function createDataRows(neuronData)
         datum.via ? datum.via.Label || "-" : "-",
         datum.via ? datum.via.IRI || "" : "",
         datum.via ? datum.via.ID || "" : ""
-      ].join("|"); // joining all parts with a delimiter to form a unique string
-
-      // check if the key is already in the Set
-      if (uniqueData.has(key)) 
-      {
-        return false; // if duplicate is found, filter it out
-      } 
-      else 
-      {
-        uniqueData.add(key); // add the key to the Set
-        return true; // include the row
+      ].join("|");
+      if (uniqueData.has(key)) {
+        return false;
+      } else {
+        uniqueData.add(key);
+        return true;
       }
     })
     .map(datum => {
       const dataRow = createTableRow();
-      dataRow.style.backgroundColor = "#EFF5FB";
-      dataRow.appendChild(createTableData(datum.origin.Label));
-      dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
-      dataRow.appendChild(createTableData(datum.destination.Label || "-"));
-      dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
-      dataRow.appendChild(createTableData(datum.via ? datum.via.Label : "-"));
-      dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
+      // Add alternating row class for zebra striping
+      if (rowIndex % 2 === 1) {
+        dataRow.classList.add('alt-row');
+      }
+      rowIndex++;
+      // Origin label as clickable link (region/layer aware)
+
+      // Origin label as clickable link using the same logic as the ID column (region/layer aware)
+      dataRow.appendChild(createTableData(createLink(datum.origin.ID, datum.origin.Label)));
+      // Origin ID as before (CURIE/ID), hidden
+      const originIdCell = createTableData(createLink(datum.origin.ID, datum.origin.ID));
+      originIdCell.classList.add('hide-col');
+      dataRow.appendChild(originIdCell);
+      // Via label as clickable link using the same logic as the ID column (region/layer aware)
+      if (datum.via && datum.via.Label) {
+        dataRow.appendChild(createTableData(createLink(datum.via.ID, datum.via.Label)));
+      } else {
+        dataRow.appendChild(createTableData("-"));
+      }
+      // Via ID as before (CURIE/ID), hidden
+      if (datum.via && datum.via.ID) {
+        const viaIdCell = createTableData(createLink(datum.via.ID, datum.via.ID));
+        viaIdCell.classList.add('hide-col');
+        dataRow.appendChild(viaIdCell);
+      } else {
+        const emptyViaIdCell = createTableData("");
+        emptyViaIdCell.classList.add('hide-col');
+        dataRow.appendChild(emptyViaIdCell);
+      }
+      // Terminal label as clickable link using the same logic as the ID column (region/layer aware)
+      dataRow.appendChild(createTableData(createLink(datum.destination.ID, datum.destination.Label || "-")));
+      // Terminal ID as before (CURIE/ID), hidden
+      const terminalIdCell = createTableData(createLink(datum.destination.ID, datum.destination.ID));
+      terminalIdCell.classList.add('hide-col');
+      dataRow.appendChild(terminalIdCell);
+
+      // dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.Label)));
+      // // Origin ID as before
+      // dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
+      // // Via label as clickable link (region/layer aware)
+      // if (datum.via && datum.via.Label) {
+      //   dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.Label)));
+      // } else {
+      //   dataRow.appendChild(createTableData("-"));
+      // }
+      // // Via ID as before
+      // if (datum.via && datum.via.ID) {
+      //   dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
+      // } else {
+      //   dataRow.appendChild(createTableData(""));
+      // }
+      // // Terminal label as clickable link (region/layer aware)
+      // dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.Label || "-")));
+      // Terminal ID as before
+     // dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
+      // Target Organ column: comma-separated clickable links, one cell only
+      let organsToShow = [];
+      if (datum.destination && datum.destination.ID) {
+        const matchingRows = neuronData.filter(d => d.destination && d.destination.ID === datum.destination.ID);
+        const seen = new Set();
+        for (const d of matchingRows) {
+          if (d.targetOrgan && d.targetOrgan.IRI && d.targetOrgan.Label) {
+            const key = d.targetOrgan.IRI + '|' + d.targetOrgan.Label;
+            if (!seen.has(key)) {
+              organsToShow.push({ IRI: d.targetOrgan.IRI, Label: d.targetOrgan.Label });
+              seen.add(key);
+            }
+          }
+        }
+      }
+      let targetOrganCell = "-";
+      if (organsToShow.length > 0) {
+        targetOrganCell = organsToShow.map(org => `<a href="${org.IRI}" target="_blank">${org.Label}</a>`).join(", ");
+      }
+      dataRow.appendChild(createTableData(targetOrganCell));
       return dataRow;
     });
+  
+    // ...existing code...
 }
 
 function createEmptyRow()
 {
   const emptyRow = createTableRow();
   const emptyData = createTableData();
-  emptyData.colSpan = 6;
+  emptyData.colSpan = 7;
   emptyData.style.border = "1px solid transparent";
   emptyRow.appendChild(emptyData);
   return emptyRow;
 }
 
-function getFormattedNeuronMetaData(nmdata) 
+function getFormattedNeuronMetaData(nmdata)
 {
-  let table = `<table style="width: 100%;">`;
+  let table = `<table class="metadata-header-table" style="width: 100%;">`;
+  let citationId = null;
+  let buttonId = null;
 
   table += `<tr><td style="font-weight: bold; width: 25px;">Label</td>`;
   table += `<td style="width:90%">${nmdata.neuronLabel}</td></tr>`;
@@ -335,11 +560,13 @@ function getFormattedNeuronMetaData(nmdata)
   // Will need to consider if we want the label to be displayed in title case
   // table += `<td style="width:90%">${convertToTitleCase(nmdata.neuronLabel)}</td></tr>`;
 
-  if (nmdata.neuronPrefLabel !== "") 
+  if (nmdata.neuronPrefLabel !== "")
   {
     table += `<tr><td style="font-weight: bold;">Preferred Label</td>`;
     table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
-    
+    //table += `<td>${getFormattedNeuronLabel(nmdata.neuronPrefLabel)}</td></tr>`;
+
+
     // Will need to consider if we want the pref label to be displayed in title case
     // table += `<td>${convertToTitleCase(nmdata.neuronPrefLabel)}</td></tr>`;
   }
@@ -374,6 +601,17 @@ function getFormattedNeuronMetaData(nmdata)
 
   }
 
+  // this.expert = expert;
+    //         this.composerURI = composer_uri;
+    //         this.curationNote = curation_note;
+
+  if (nmdata.expert !== "")
+  {
+    table += `<tr><td style="font-weight: bold;">Expert Consultant</td>`;
+    table += `<td>${addHyperlinksToURIs(nmdata.expert)}</td></tr>`;
+  }
+
+
   if (nmdata.reference !== "")
   {
     table += `<tr><td style="font-weight: bold;">Reference</td>`;
@@ -382,17 +620,44 @@ function getFormattedNeuronMetaData(nmdata)
 
   if (nmdata.citation !== "")
     {
+      citationId = `citation-${Math.random().toString(36).substring(2, 11)}`;
+      buttonId = `btn-${citationId}`;
+
+      // Split citations into array
+      const citationsArray = nmdata.citation.split(',').map(c => c.trim());
+      const maxVisible = 5;
+      const hasMore = citationsArray.length > maxVisible;
+
+      // Get visible and hidden citations
+      const visibleCitations = citationsArray.slice(0, maxVisible).join(', ');
+      const hiddenCitations = hasMore ? citationsArray.slice(maxVisible).join(', ') : '';
+
       table += `<tr><td style="font-weight: bold;">Citations</td>`;
-      table += `<td>${addHyperlinksToCitationURIs(nmdata.citation)}</td></tr>`;
+      table += `<td>
+        <div id="${citationId}">
+          <span class="citation-visible">${addHyperlinksToCitationURIs(visibleCitations)}</span>
+          ${hasMore ? `<span class="citation-hidden" style="display: none;">, ${addHyperlinksToCitationURIs(hiddenCitations)}</span>` : ''}
+        </div>
+        ${hasMore ? `<button id="${buttonId}" onclick="toggleCitations(event, '${citationId}')" style="margin-top: 4px; font-size: 12px; padding: 4px 8px; background-color: #2E9AFE; color: white; border: none; border-radius: 4px; cursor: pointer;">
+          <b>Show ${citationsArray.length - maxVisible} more ▼</b>
+        </button>` : ''}
+      </td></tr>`;
     }
 
   if (nmdata.alert !== "")
   {
     table += `<tr><td style="font-weight: bold;">Alert Note</td>`;
-    table += `<td>${addHyperlinksToURIs(nmdata.alert)}</td></tr>`;
+    table += `<td>${nmdata.alert}</td></tr>`;
   }
 
+  if (nmdata.curationNote !== "")
+    {
+      table += `<tr><td style="font-weight: bold;">Curation Note</td>`; 
+      table += `<td>${nmdata.curationNote}</td></tr>`;
+    }
+
   table += `</table>`;
+
   return table;
 }
 
@@ -409,22 +674,25 @@ function convertToTitleCase(sentence)
                       'via', 'on', 'at', 'to', 'from', 'by', 'in', 'of'];
   const words = sentence.split(/\s+/); // Split by whitespace
 
-  for (let i = 0; i < words.length; i++)
-    {
-    const word = words[i];
-    
+  for (let i = 0; i < words.length; i++) {
+    let word = words[i];
+    // Keep NTS and CNS unchanged (case-insensitive match)
+    if (word.toUpperCase() === 'NTS' || word.toUpperCase() === 'CNS') {
+      words[i] = word.toUpperCase();
+      continue;
+    }
+    // Bold 'to' and 'via' (case-insensitive)
+    if (word.toLowerCase() === 'to' || word.toLowerCase() === 'via') {
+      words[i] = '<b>' + word.toLowerCase() + '</b>';
+      continue;
+    }
     // check for patterns like "S2‒S4" or "L1-L2" with any type of dash
-    if (/^[A-Za-z]\d+[-‒–][A-Za-z]?\d+$/.test(word))
-    {
+    if (/^[A-Za-z]\d+[-‒–][A-Za-z]?\d+$/.test(word)) {
       words[i] = word.replace(/([A-Za-z]\d+[-‒–][A-Za-z]?\d+)/, match => match.toUpperCase());
-    } 
-    else if (i === 0 || !smallWords.includes(word.toLowerCase()))
-      {
+    } else if (i === 0 || !smallWords.includes(word.toLowerCase())) {
       // convert to title case if it's not in the list of small words
       words[i] = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      } 
-    else
-    {
+    } else {
       // Convert small words to lowercase
       words[i] = word.toLowerCase();
     }
@@ -498,7 +766,49 @@ function createTableData(content)
 
 function createLink(href, text)
 {
-  return `<a href="${href}" target="_blank">${text}</a>`;
+  
+  // Robust region(layer) link logic
+  const regionLayerPattern = /^(.+?) \((.+?)\)$/;
+  let matchLabel = text.match(regionLayerPattern);
+  let matchHref = href.match(regionLayerPattern);
+  // If href is region(layer) form, always split and use both IRIs (convert CURIEs to IRIs if needed)
+  if (matchHref) {
+    let regionIRI = matchHref[1].trim();
+    let layerIRI = matchHref[2].trim();
+    // Convert CURIEs to IRIs if needed
+    if (regionIRI.includes(":") && !regionIRI.startsWith("http")) {
+      try { regionIRI = getIRIFromCurie(regionIRI); } catch (e) {}
+    }
+    if (layerIRI.includes(":") && !layerIRI.startsWith("http")) {
+      try { layerIRI = getIRIFromCurie(layerIRI); } catch (e) {}
+    }
+    let regionLabel = text;
+    let layerLabel = text;
+    if (matchLabel) {
+      regionLabel = matchLabel[1].trim();
+      layerLabel = matchLabel[2].trim();
+    }
+    return `<a href="${regionIRI}" target="_blank">${regionLabel}</a> (<a href="${layerIRI}" target="_blank">${layerLabel}</a>)`;
+  }
+  // If label is region(layer), href is a single CURIE or IRI: use getIRIFromCurie for each part
+  if (matchLabel && typeof getIRIFromCurie === 'function') {
+    const regionCurie = matchLabel[1].trim();
+    const layerCurie = matchLabel[2].trim();
+    let regionIRI = '#';
+    let layerIRI = '#';
+    try { regionIRI = getIRIFromCurie(regionCurie); } catch (e) {}
+    try { layerIRI = getIRIFromCurie(layerCurie); } catch (e) {}
+    return `<a href="${regionIRI}" target="_blank">${regionCurie}</a> (<a href="${layerIRI}" target="_blank">${layerCurie}</a>)`;
+  }
+  // Defensive: if no href or text, return empty string
+  if (!href || !text) return '';
+  // If href is a CURIE, convert to IRI
+  let finalHref = href;
+  if (href.includes(":") && !href.startsWith("http") && typeof getIRIFromCurie === 'function') {
+    try { finalHref = getIRIFromCurie(href); } catch (e) {}
+  }
+  // Otherwise, simple link
+  return `<a href="${finalHref}" target="_blank">${text}</a>`;
 }
 
   // get label from npo_neuron_metadata
@@ -515,11 +825,36 @@ function getNeuronPrefLabelFromID(neuron_id)
 
 function updateSearchProgress(percent)
 {
-    const progressBar = document.getElementById("search-progress-bar");
-    progressBar.style.width = percent + '%';
+  const progressBar = document.getElementById("search-progress-bar");
+  progressBar.style.width = percent + '%';
+  // Show percent as text, centered
+  progressBar.textContent = Math.floor(percent) + '%';
+  progressBar.style.textAlign = 'center';
+  progressBar.style.color = 'white';
+  progressBar.style.fontWeight = 'bold';
+  progressBar.style.fontSize = '10px';
+  progressBar.style.lineHeight = progressBar.style.height || '6px';
 }
 
 function wait(ms)
 {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Toggle citations expand/collapse
+function toggleCitations(event, citationId) {
+  const citationDiv = document.getElementById(citationId);
+  const button = event.target.closest('button');
+  const hiddenSpan = citationDiv.querySelector('.citation-hidden');
+
+  if (hiddenSpan) {
+    if (hiddenSpan.style.display === 'none') {
+      hiddenSpan.style.display = 'inline';
+      button.innerHTML = '<b>Show less ▲</b>';
+    } else {
+      hiddenSpan.style.display = 'none';
+      const totalHidden = hiddenSpan.textContent.split(',').length - 1; // -1 because first char is comma
+      button.innerHTML = `<b>Show ${totalHidden} more ▼</b>`;
+    }
+  }
 }

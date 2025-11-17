@@ -1,3 +1,56 @@
+// BEGIN URL PARAMS
+// Utility: Serialize form values to query string
+function getSearchParamsFromForm() {
+  const params = new URLSearchParams();
+  // All relevant search fields
+  const fields = [
+    { id: "neuron-txt", key: "neuron" },
+    { id: "species-txt", key: "species" },
+    { id: "organ-txt", key: "organ" },
+    { id: "conn-phenotype", key: "phenotype" },
+    { id: "conn-model", key: "model" },
+    { id: "conn-origin", key: "origin" },
+    { id: "conn-dest", key: "dest" },
+    { id: "conn-via", key: "via" }
+  ];
+  fields.forEach(f => {
+    const el = document.getElementById(f.id);
+    if (el && el.value) params.set(f.key, el.value);
+  });
+  return params.toString();
+}
+
+// Utility: Populate form from URL params
+function setFormFromSearchParams() {
+  const params = new URLSearchParams(window.location.search);
+  const fields = [
+    { id: "neuron-txt", key: "neuron" },
+    { id: "species-txt", key: "species" },
+    { id: "organ-txt", key: "organ" },
+    { id: "conn-phenotype", key: "phenotype" },
+    { id: "conn-model", key: "model" },
+    { id: "conn-origin", key: "origin" },
+    { id: "conn-dest", key: "dest" },
+    { id: "conn-via", key: "via" }
+  ];
+  fields.forEach(f => {
+    const el = document.getElementById(f.id);
+    if (el && params.has(f.key)) el.value = params.get(f.key);
+  });
+}
+
+// Call this after a search is performed (e.g., at the end of your search handler)
+function updateURLWithSearchParams() {
+  const query = getSearchParamsFromForm();
+  const newUrl = window.location.pathname + (query ? "?" + query : "");
+  window.history.replaceState(null, "", newUrl); // Does NOT reload the page
+}
+
+// Call this on page load to restore state from URL (no auto-trigger here)
+window.addEventListener("DOMContentLoaded", function() {
+  setFormFromSearchParams();
+});
+// END URL PARAMS
 // This file contains the function called loadABCData() to load, process, search, and display the a to b via c connections 
 // for the SCKAN Explorer. 
 
@@ -54,11 +107,11 @@ async function loadABCData()
     const neuronsMetaDataFromDB = loadJSONFromFile(json_directory + "neuron-metadata.json");
     NPO_NEURON_METADATA = getNeuronsMetaData(neuronsMetaDataFromDB);
 
-    //const poDataFromDB = await getPartialOrderDataFromDB();
-    const poDataFromDB = loadJSONFromFile(json_directory + "axonal-path.json");
+   // const poDataFromDB = await getPartialOrderDataFromDB();
+   const poDataFromDB = loadJSONFromFile(json_directory + "axonal-path.json");
 
-    NPO_POSET = getNPOPartialOrders(poDataFromDB);
-    populateNPONeuronDiGraphs();
+  NPO_POSET = getNPOPartialOrders(poDataFromDB);
+  populateNPONeuronDiGraphs();
     
     //const abc_data = await getABCDataFromDB();
     const abc_data = loadJSONFromFile(json_directory + "a-b-via-c.json");
@@ -75,6 +128,17 @@ async function loadABCData()
       var npo_poset_data = new Array();
       for (i = 0; i <poData.length; i++)
       {
+    //       // ===================== Defensive Checks Block =====================
+   //  const row = poData[i];
+   //  if (!row.Neuron_Connected || !row.Neuron_Connected.value) continue;
+   //  if (!row.V1_ID || !row.V1_ID.value) continue;
+   //  if (!row.V1 || !row.V1.value) continue;
+   //  if (!row.V1_Type || !row.V1_Type.value) continue;
+   //  if (!row.V2_ID || !row.V2_ID.value) continue;
+   //  if (!row.V2_Type || !row.V2_Type.value) continue;
+   //  if (!row.IsSynapse || typeof row.IsSynapse.value === 'undefined') continue;
+    // // =================== End Defensive Checks Block ===================
+        
          var neuron_iri = poData[i].Neuron_Connected.value;
          var neuron_id = getCurieFromIRI(neuron_iri);
          
@@ -83,7 +147,7 @@ async function loadABCData()
          var neuronType = new ClassEntity (neuron_id, neuron_iri, neuron_label);
          
          var v1IRI = poData[i].V1_ID.value;
-         var v1ID = getCurieFromIRI(v1IRI);
+         var v1ID = getCurieFromIRI(v1IRI)
          var v1Label= poData[i].V1.value;
          var v1 = new ClassEntity(v1ID, v1IRI, v1Label);
          var v1Type = poData[i].V1_Type.value;
@@ -142,8 +206,10 @@ async function loadABCData()
                 // add an invisible row since graphviz does not support <br/> before the html table tag
                 htmlLabel += '<TR><TD BGCOLOR="white" HEIGHT="8" BORDER="0"></TD></TR>';
                 htmlLabel += "<tr><td BGCOLOR= '#b1d6f8'><b>&nbsp;" + neuronAdj[0].neuron.ID + "</b>&nbsp;</td>";
-                htmlLabel += "<td BGCOLOR='#EFF5FB'>" + getFormattedNeuronLabel(neuronAdj[0].neuron.Label) + "</td></tr>";
-                htmlLabel += "</table>";
+               
+               htmlLabel += "<td BGCOLOR='#EFF5FB'>" + getFormattedNeuronLabel(neuronAdj[0].neuron.Label) + "</td></tr>";
+               //htmlLabel += "<td BGCOLOR='#EFF5FB'>" + neuronAdj[0].neuron.Label + "</td></tr>";
+               htmlLabel += "</table>";
             
             diGraph += htmlLabel + '>\n';           
             diGraph += getDiGraphEdges(neuronAdj, false);
@@ -170,6 +236,8 @@ async function loadABCData()
           htmlLabel += '<TR><TD BGCOLOR="white" HEIGHT="8" BORDER="0"></TD></TR>';
           htmlLabel += "<tr><td BGCOLOR='#b1d6f8'><b>&nbsp;" + neuronAdj[0].neuron.ID + "</b>&nbsp;</td>";
           htmlLabel += "<td BGCOLOR='#EFF5FB'>" + getFormattedNeuronLabel(neuronAdj[0].neuron.Label) + "</td></tr>";
+          //htmlLabel += "<td BGCOLOR='#EFF5FB'>" + neuronAdj[0].neuron.Label + "</td></tr>";
+
           
       if (connected_neurons !== null)
         {
@@ -182,6 +250,9 @@ async function loadABCData()
             {            
               htmlLabel += "<tr><td BGCOLOR='#b1d6f8'><b>&nbsp;" + neuron_id + "</b>&nbsp;</td>";
               htmlLabel += "<td BGCOLOR='#EFF5FB'>" + getFormattedNeuronLabel(neuron_label) + "</td></tr>";
+             // htmlLabel += "<td BGCOLOR='#EFF5FB'>" + neuron_label + "</td></tr>";
+
+            
             }
           }
           htmlLabel += "</table>";    
@@ -319,11 +390,14 @@ function splitTextIntoLines(text, maxChar, html = false)
 
 function getFormattedNeuronLabel(neuronLabel, maxChar = 110)
 {
+  // Defensive: if neuronLabel is not a string or is empty/null/undefined, return empty string
+  if (typeof neuronLabel !== 'string' || !neuronLabel.trim()) 
+  {
+    return '';
+  }
   let labelLines = [];
-  
   // Bold "to" and "via" and add a space after
   let formattedLabel = neuronLabel.replace(/(\b(to|via)\b)/g, '<b>$1</b>&nbsp;');
-  
   // Split formatted label into words
   const words = formattedLabel.split(" ");
   let currentLine = "";
@@ -469,23 +543,23 @@ function getAtoBviaC(abc_data)
            var neuron_phenotypes = "";
            if (neuronMetaData[i].hasOwnProperty("Phenotypes"))
            {
-              if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Sympathetic phenotype" ||
-                  neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Pre ganglionic phenotype")
-                neuron_phenotypes = "Sympathetic Pre-Ganglionic phenotype";
+              // if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Sympathetic phenotype" ||
+              //     neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Pre ganglionic phenotype")
+              //   neuron_phenotypes = "Sympathetic Pre-Ganglionic phenotype";
             
-              else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Sympathetic phenotype" ||
-                      neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Post ganglionic phenotype")
-                neuron_phenotypes = "Sympathetic Post-Ganglionic phenotype";
+              // else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Sympathetic phenotype" ||
+              //         neuronMetaData[i].Phenotypes.value === "Sympathetic phenotype, Post ganglionic phenotype")
+              //   neuron_phenotypes = "Sympathetic Post-Ganglionic phenotype";
             
-              else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Parasympathetic phenotype" ||
-                      neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Post ganglionic phenotype")
-                neuron_phenotypes = "Parasympathetic Post-Ganglionic phenotype";
+              // else if (neuronMetaData[i].Phenotypes.value === "Post ganglionic phenotype, Parasympathetic phenotype" ||
+              //         neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Post ganglionic phenotype")
+              //   neuron_phenotypes = "Parasympathetic Post-Ganglionic phenotype";
             
-              else if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Parasympathetic phenotype" ||
-                      neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Pre ganglionic phenotype")
-                neuron_phenotypes = "Parasympathetic Pre-Ganglionic phenotype";
+              // else if (neuronMetaData[i].Phenotypes.value === "Pre ganglionic phenotype, Parasympathetic phenotype" ||
+              //         neuronMetaData[i].Phenotypes.value === "Parasympathetic phenotype, Pre ganglionic phenotype")
+              //   neuron_phenotypes = "Parasympathetic Pre-Ganglionic phenotype";
 
-              else
+              // else
                 neuron_phenotypes = neuronMetaData[i].Phenotypes.value;
            }
         
@@ -503,18 +577,31 @@ function getAtoBviaC(abc_data)
            var neuron_reference = "";
            if (neuronMetaData[i].hasOwnProperty("Reference"))
                 neuron_reference = neuronMetaData[i].Reference.value;
+
+           var neuron_expert = "";
+           if (neuronMetaData[i].hasOwnProperty("Expert_Consultant"))
+                neuron_expert = neuronMetaData[i].Expert_Consultant.value;
            
            var neuron_citation = "";
            if (neuronMetaData[i].hasOwnProperty("Citations"))
                 neuron_citation = neuronMetaData[i].Citations.value;
+
+           var composer_uri = "";
+           if (neuronMetaData[i].hasOwnProperty("Composer_URI"))
+                composer_uri = neuronMetaData[i].Composer_URI.value;
+           
+           var curation_note = "";
+           if (neuronMetaData[i].hasOwnProperty("Curation_Note"))
+                citation_note = neuronMetaData[i].Curation_Note.value;
+
            
            var neuron_diagram_link = "";
            if (neuronMetaData[i].hasOwnProperty("Diagram_Link"))
                 neuron_diagram_link = neuronMetaData[i].Diagram_Link.value;      
     
            var neuron_meta_data = new NeuronMetaData (neuron_id, neuron_label, neuron_pref_label, neuron_species, neuron_sex, 
-                                                      neuron_phenotypes, neuron_forward_connections, 
-                                                      neuron_alert, neuron_diagram_link, neuron_reference, neuron_citation);
+                                                      neuron_phenotypes, neuron_forward_connections, neuron_expert, composer_uri,
+                                                      curation_note, neuron_alert, neuron_diagram_link, neuron_reference, neuron_citation);
            neurons_meta.push (neuron_meta_data);
         }
         return neurons_meta;
@@ -582,88 +669,140 @@ function getAtoBviaC(abc_data)
         autocomplete(document.getElementById("organ-txt"), target_organs);
     }
 
-    function search(event)
-     {
+  // Make search and loadABCData globally accessible
+  window.search = search;
+  window.loadABCData = loadABCData;
 
-      event.preventDefault();
-
-      var filtered_abc = new Array(); 
-      filtered_abc = A_TO_B_VIA_C;
-
-      const neuron_id = document.getElementById("neuron-txt").value.toLowerCase().trim();
-      const species_id = document.getElementById("species-txt").value.trim();
-      const organ_id = document.getElementById("organ-txt").value.toLowerCase().trim();
-      const phenotype = getStringAfterColon(document.getElementById("conn-phenotype").value.trim());
-      const model_id = getStringAfterPipe(document.getElementById("conn-model").value.trim());
-      
-      const conn_origin = document.getElementById("conn-origin").value.trim();
-      const conn_dest = document.getElementById("conn-dest").value.trim();
-      const conn_via = document.getElementById("conn-via").value.trim();
-      
-      const oID =  getStringAfterPipe(conn_origin);
-      const dID = getStringAfterPipe (conn_dest);
-      const vID = getStringAfterPipe(conn_via);
-
-      if (model_id !== "")
-        filtered_abc = filtered_abc.filter(obj => obj.neuron.ID.includes(model_id));
-
-      if (phenotype !== "")
-        filtered_abc = filtered_abc.filter(obj => obj.neuronMetaData.phenotypes.includes(phenotype));
-
-      if (organ_id !== "")
-         filtered_abc = filtered_abc.filter(obj => obj.targetOrgan.Label.includes(organ_id));
-
-      if (species_id !== "")
-         filtered_abc = filtered_abc.filter(obj => obj.neuronMetaData.species.includes(species_id));
-      
-      if (neuron_id !== "")
-         filtered_abc = filtered_abc.filter(obj => obj.neuron.ID.includes(neuron_id));
-      
-      if (oID !== "")   
-          filtered_abc = filtered_abc.filter(obj => obj.origin.ID === oID);
-      
-      if (dID !== "")   
-          filtered_abc = filtered_abc.filter(obj => obj.destination.ID === dID);
-      
-      if (vID !== "")   
-          filtered_abc = filtered_abc.filter(obj => obj.via.ID === vID);
-               
-      var resultNotificationText = "";
-      
-      if (filtered_abc.length===0)
-      {
-        resultNotificationText = "<center>Search Result: No results found in SCKAN. Please verify the input fields.<br></center>";
-        document.getElementById("query-result").innerHTML = resultNotificationText;
-      }
-      
-      else
-      {
-        var neuron_count = [...new Set(filtered_abc.map(obj => obj.neuron.ID))].length;
-
-        if (neuron_count === 1)
-            resultNotificationText = "<center>Search Result: Found <B>" 
-                                      + neuron_count + "</B> Neuron Population in SCKAN."
-                                      + "</center><br>";
-        else
-            resultNotificationText = "<center>Search Result: Found <B>" 
-                                      + neuron_count + "</B> Neuron Populations in SCKAN."
-                                      + "</center><br>";    
-        
-        document.getElementById("query-result").innerHTML = "";
-        document.getElementById("query-result").innerHTML = resultNotificationText;
-      }
-
-      var tableContainer = document.getElementById("table-container");
-      var generatedTable = getPopulatedTable(filtered_abc);
-      tableContainer.innerHTML = "";
-      tableContainer.appendChild (generatedTable);
-
-      const resultsEnd = document.getElementById("query-results-end");
-      var endMessage = "<hr><center>End of search results.</center><br><br>"
-      resultsEnd.innerHTML = endMessage;
-
-      return;      
+  function renderSearchParameterBar({ neuron_id, species_id, organ_id, phenotype, model_id, conn_origin, conn_dest, conn_via })
+  {
+    const params = [
+      { label: 'Neuron ID', value: neuron_id },
+      { label: 'Species', value: species_id },
+      { label: 'End Organ', value: organ_id },
+      { label: 'Phenotype', value: phenotype },
+      { label: 'Model', value: model_id },
+      { label: 'Origin', value: conn_origin },
+      { label: 'Terminal', value: conn_dest },
+      { label: 'Via', value: conn_via }
+    ];
+    const usedParams = params.filter(p => p.value && p.value !== '');
+    if (usedParams.length === 0) {
+      document.getElementById("query-input").innerHTML = '';
+      return;
     }
+  var paramBar = '<div style="background:#e6f2ff; border:1px solid #b3d1ff; padding:8px; margin-bottom:8px; border-radius:6px; font-size:1em; text-align:center;">';
+  paramBar += '<b>Search Parameters [ </b> ';
+  paramBar += usedParams.map(p => `<b>${p.label}</b>: ${p.value}`).join(' &nbsp;|&nbsp; ');
+  paramBar += '<b> ]</b></div>';
+  document.getElementById("query-input").innerHTML = paramBar;
+  }
+
+
+  function updateSearchProgressBar(percent) {
+    const bar = document.getElementById("search-progress-bar");
+    if (bar) bar.style.width = percent + "%";
+  }
+
+  // Helper: chunked filter for large data, with progress bar updates
+  function filterWithProgress(data, filters, onProgress, onDone) {
+    const total = data.length;
+    const chunkSize = Math.max(100, Math.floor(total / 50));
+    let filtered = [];
+    let i = 0;
+    function processChunk() {
+      const end = Math.min(i + chunkSize, total);
+      for (; i < end; i++) {
+        let obj = data[i];
+        let keep = true;
+        for (const fn of filters) {
+          if (!fn(obj)) { keep = false; break; }
+        }
+        if (keep) filtered.push(obj);
+      }
+      // Use exact floating-point progress (0-100) to match display-table.js
+      if (onProgress) onProgress((i / total) * 100);
+      if (i < total) {
+        requestAnimationFrame(processChunk);
+      } else {
+        if (onDone) onDone(filtered);
+      }
+    }
+    processChunk();
+  }
+
+  function search(event) {
+    event.preventDefault();
+
+    // Start search progress bar at 10%
+    updateSearchProgressBar(10);
+
+    // Get search parameters from input fields
+    const neuron_id = document.getElementById("neuron-txt").value.toLowerCase().trim();
+    const species_id = document.getElementById("species-txt").value.trim();
+    const organ_id = document.getElementById("organ-txt").value.toLowerCase().trim();
+    const phenotype = getStringAfterColon(document.getElementById("conn-phenotype").value.trim());
+    const model_id = getStringAfterPipe(document.getElementById("conn-model").value.trim());
+
+    const conn_origin = document.getElementById("conn-origin").value.trim();
+    const conn_dest = document.getElementById("conn-dest").value.trim();
+    const conn_via = document.getElementById("conn-via").value.trim();
+
+    // Render the parameter bar with current search data
+    renderSearchParameterBar({ neuron_id, species_id, organ_id, phenotype, model_id, conn_origin, conn_dest, conn_via });
+
+    // Build filter functions for each parameter
+    const filters = [];
+    if (model_id !== "") filters.push(obj => obj.neuron.ID.includes(model_id));
+    if (phenotype !== "") filters.push(obj => obj.neuronMetaData.phenotypes.includes(phenotype));
+    // if (organ_id !== "") filters.push(obj => obj.targetOrgan.Label.includes(organ_id));
+    if (organ_id !== "") filters.push(obj => obj.targetOrgan && obj.targetOrgan.Label && obj.targetOrgan.Label.toLowerCase().trim() === organ_id)
+    if (species_id !== "") filters.push(obj => obj.neuronMetaData.species.includes(species_id));
+    if (neuron_id !== "") filters.push(obj => obj.neuron.ID.includes(neuron_id));
+    const oID = getStringAfterPipe(conn_origin);
+    const dID = getStringAfterPipe(conn_dest);
+    const vID = getStringAfterPipe(conn_via);
+    if (oID !== "") filters.push(obj => obj.origin.ID.includes(oID));
+    if (dID !== "") filters.push(obj => obj.destination.ID.includes(dID));
+    if (vID !== "") filters.push(obj => obj.via.ID.includes(vID));
+
+    // Use chunked filter for live progress
+    filterWithProgress(
+      A_TO_B_VIA_C,
+      filters,
+      percent => updateSearchProgressBar(percent),
+      filtered_abc => {
+        // Progress: filtered, now rendering results
+        updateSearchProgressBar(90);
+        let resultNotificationText = "";
+        if (filtered_abc.length === 0) {
+          resultNotificationText = "<center>Search Result: No results found in SCKAN. Please verify the input fields.<br></center>";
+          document.getElementById("query-result").innerHTML = resultNotificationText;
+          updateSearchProgressBar(100);
+        } else {
+          var neuron_count = [...new Set(filtered_abc.map(obj => obj.neuron.ID))].length;
+          if (neuron_count === 1)
+            resultNotificationText = "<center>Search Result: Found <B>" + neuron_count + "</B> Neuron Population in SCKAN." + "</center><br>";
+          else
+            resultNotificationText = "<center>Search Result: Found <B>" + neuron_count + "</B> Neuron Populations in SCKAN." + "</center><br>";
+          document.getElementById("query-result").innerHTML = "";
+          document.getElementById("query-result").innerHTML = resultNotificationText;
+          updateSearchProgressBar(100);
+        }
+        var tableContainer = document.getElementById("table-container");
+        var generatedTable = getPopulatedTable(filtered_abc);
+        tableContainer.innerHTML = "";
+        tableContainer.appendChild(generatedTable);
+        const resultsEnd = document.getElementById("query-results-end");
+        var endMessage = "<hr><center>End of search results.</center><br><br>"
+        resultsEnd.innerHTML = endMessage;
+        setTimeout(() => updateSearchProgressBar(0), 800);
+        // BEGIN URL PARAMS: update URL after search
+        updateURLWithSearchParams();
+        // END URL PARAMS
+      }
+    );
+    return;
+  }
 
      function getStringAfterPipe(str) 
      {

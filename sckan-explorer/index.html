@@ -11,14 +11,15 @@
         <!-- <script src="./js/stardog.js"></script>
         <script src="./js/stardog-db-query.js"></script>
         <script src="./js/sparql-query-texts.js"></script> -->
-        <script src="./js/utilities.js"> </script>
-        <script src="./js/prefix-iri-mapping.js"> </script>
-        <script src="./js/auto-complete.js"> </script>
-        <script src="./js/load-npo-locations.js"> </script>
-        <script src="./js/models-and-phenotypes.js"> </script>
-        <script src="./js/load-a-b-c.js"> </script>
-        <script src="./js/graph-viz/viz.js"> </script>
-        <script src="./js/table-format/display-table.js"> </script>
+    <script src="./js/utilities.js"> </script>
+    <script src="./js/prefix-iri-mapping.js"> </script>
+    <script src="./js/auto-complete.js"> </script>
+    <script src="./js/load-npo-locations.js"> </script>
+    <script src="./js/models-and-phenotypes.js"> </script>
+    <script src="./js/location-synonyms.js"></script>
+    <script src="./js/load-a-b-c.js"> </script>
+    <script src="./js/graph-viz/viz.js"> </script>
+    <script src="./js/table-format/display-table.js"> </script>
     </head>
     <body>
         <hr>
@@ -116,8 +117,8 @@
 
         <!-- Search Progress Container -->
         <br/>
-        <div id="search-progress-container" style="display: auto; width: 100%; background: #f3f3f3; margin-bottom: 10px;">
-            <div id="search-progress-bar" style="width: 0%; height: 2px; background: DodgerBlue;"></div>
+        <div id="search-progress-container" style="display: block; width: 100%; background: #f3f3f3; margin-bottom: 10px;">
+            <div id="search-progress-bar" style="width: 0%; height: px; background: DodgerBlue;"></div>
         </div>
         
         <div id = "query-input">
@@ -160,19 +161,20 @@
                 await wait(25);
                 updateProgress(10);
 
+               
                 var s1 = await loadAllLocations();
                 await wait(25);
                 updateProgress(40);
 
                 var s2 = await loadABCData();
                 await wait(25);
-                updateProgress(80);                
-    
+                updateProgress(80);    
+                
                 // load model names and phenotype values
                 var s3 = loadModelNames();
                 await wait(25);
                 updateProgress(90);
-
+               
                 var s4 = loadPhenotypeValues();
                 await wait(25);
                 updateProgress(100);
@@ -184,9 +186,14 @@
                     document.getElementById("db-conn-status").innerHTML = "<center>"
                         + "SCKAN Data Loaded Successfully <br/>" 
                         + "<b>(SCKAN Version: " + sckan_version + ")</b><center>";
-                    
                     // only show the form after all data is loaded
                     document.getElementById("myForm").style.visibility = "visible";
+                    // BEGIN URL PARAMS: auto-trigger search if params present
+                    if (window.location.search.length > 1) {
+                        const searchButton = document.getElementById('submit');
+                        if (searchButton) searchButton.click();
+                    }
+                    // END URL PARAMS
                 }
                 else
                 {
@@ -205,10 +212,22 @@
             return new Promise(resolve => setTimeout(resolve, ms));
         }
 
-        function updateProgress(percent)
-        {
+        function animateProgressBar(targetPercent, duration = 400) {
             const progressBar = document.getElementById("progress-bar");
-            progressBar.style.width = percent + '%';
+            let current = parseFloat(progressBar.style.width) || 0;
+            const step = (targetPercent - current) / (duration / 20);
+            let interval = setInterval(() => {
+                current += step;
+                if ((step > 0 && current >= targetPercent) || (step < 0 && current <= targetPercent)) {
+                    current = targetPercent;
+                    clearInterval(interval);
+                }
+                progressBar.style.width = current + '%';
+            }, 20);
+        }
+
+        function updateProgress(percent) {
+            animateProgressBar(percent, 400);
         }
 
         async function getVersionInfo()  //get SCKAN version information.

@@ -1,0 +1,101 @@
+## Axonal path query for SCKAN Explorer
+## This version deals with region-layer pairs.
+## Version: November 13, 2025.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT
+?Neuron_Connected
+# ?region1 ?region1_label ?layer1 ?layer1_label 
+?V1_ID 
+(SAMPLE(?V1) AS ?V1_label) # To avoid multiple rdfs:label results
+?V1_Type 
+
+# ?region2 ?region2_label ?layer2 ?layer2_label 
+?V2_ID 
+(SAMPLE(?V2) AS ?V2_label) 
+?V2_Type 
+# ?Synapse
+?IsSynapse
+
+WHERE 
+{
+  ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+  values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+  # FILTER (regex(str(?Neuron_Connected),'keast-1' ))
+  FILTER (?Neuron_Connected != ilxtr:sstom-13)
+  FILTER (?Neuron_Connected != ilxtr:sstom-14)
+
+
+  <<?N1 ilxtr:hasNextNode ?N2 >> ilxtr:isConnectedBy ?Neuron_Connected.  
+  <<?N1 ilxtr:hasNextNode ?N2 >>  ilxtr:fromRegion ?region1 ;
+                                  ilxtr:toRegion ?region2. 
+  ?region1 rdfs:label ?region1_label.
+  ?region2 rdfs:label ?region2_label.
+   
+  OPTIONAL 
+  {
+    ?N1 ilxtr:hasNextNode {ilxtr:fromLayer ?layer1} ?N2 .
+    OPTIONAL {?layer1 rdfs:label ?layer1_label.}
+  }
+
+  OPTIONAL
+  {
+    ?N1 ilxtr:hasNextNode {ilxtr:toLayer ?layer2} ?N2 .
+    OPTIONAL {?layer2 rdfs:label ?layer2_label.}
+  }
+
+ BIND( IF(BOUND(?layer1),
+       CONCAT(?region1_label, " (", ?layer1_label, ")"),
+       ?region1_label) AS ?V1 )
+  
+ BIND( IF(BOUND(?layer2),
+       CONCAT(?region2_label, " (", ?layer2_label, ")"),
+       ?region2_label) AS ?V2)
+
+ BIND( IF(BOUND(?layer1),
+      CONCAT(str(?region1), " (", str(?layer1), ")"),
+      str(?region1)) AS ?V1_ID)
+  
+ BIND( IF(BOUND(?layer2),
+      CONCAT( str(?region2), " (", str(?layer2), ")"),
+      str(?region2)) AS ?V2_ID)
+   
+   ## Find the locational phenotypes for the V1 node
+   ## ?Neuron_Connected ?V1_Location_Type_IRI ?V1_ID.
+OPTIONAL
+   {
+    ?Neuron_Connected ?V1_Location_Type_IRI ?N1.
+    ?V1_Location_Type_IRI rdfs:label ?V1_Type.
+    FILTER (?V1_Type != "hasConnectedLocation")
+   }
+   
+    # Find the locational phenotype for the V2 node
+   # ?Neuron_Connected ?V2_Location_Type_IRI ?V2_ID.
+OPTIONAL
+   {
+    ?Neuron_Connected ?V2_Location_Type_IRI ?N2.
+    ?V2_Location_Type_IRI rdfs:label ?V2_Type.
+    FILTER (?V2_Type != "hasConnectedLocation")
+   }
+
+ # Check if ?V2_ID is associated with a synapse
+    OPTIONAL 
+    {
+        ?Neuron_Connnected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
+        FILTER (?region2 = ?Synapse)
+        FILTER (?V2_Type = "hasAxonTerminalLocation")
+    }
+    
+    # Set IsSynapse to "Yes" if a synapse is detected, otherwise leave it as NO
+    BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
+
+}
+GROUP BY ?Neuron_Connected ?V1_ID ?V2_ID ?V1_Type ?V2_Type ?IsSynapse
+ORDER BY ?Neuron_Connected ?V1_D ?V2_ID 
+LIMIT 100000
