@@ -1,70 +1,33 @@
-#list of SCKAN major nerves
+# Query: Major nerves and their synonyms in SCKAN neuron populations
+# Version: November 12, 2025. - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
-
-# Neuron populations where A projects to B via some Nerve C
+PREFIX ILX: <http://uri.interlex.org/base/ilx_>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX NIFRID: <http://uri.neuinfo.org/nif/nifstd/readable/>
 
 SELECT DISTINCT 
 # ?Neuron_ID 
-# ?Neuron_Label ?A ?Region_A ?B ?Region_B 
-?Nerve_IRI ?Nerve_Label 
+?Nerve_IRI ?Nerve_Label ?Nerve_Synonym
 {
-   ?Neuron_ID rdfs:label ?Neuron_Label;
-       ilxtr:hasSomaLocation ?A;
-       ilxtr:hasAxonLocation ?Nerve_IRI;
-      (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B.
-    
-    ?A rdfs:label ?Region_A.
-    ?B rdfs:label ?Region_B.
-    ?Nerve_IRI rdfs:label ?Nerve_Label.
-    
-    FILTER (?Nerve_Label in ('Aortic arch depressor nerve',
-            'Auriculotemporal nerve',
-            'Clitoral cavernous nerve',
-            'Communicating branch of zygomatic nerve',
-            'Deep petrosal nerve',
-            'External branch of inferior laryngeal nerve',
-            'External carotid nerve',
-            'External laryngeal nerve',
-            'Ganglioglomerular nerve',
-            'Greater petrosal nerve',
-            'Internal branch of inferior laryngeal nerve',
-            'Internal branch of superior laryngeal nerve',
-            'Lesser petrosal nerve',
-            'Mesenteric nerve',
-            'Penile cavernous nerve',
-            'Pharyngeal branch of glossopharyngeal nerve',
-            'Superior ovarian nerve',
-            'Zygomatic nerve',
-            'bladder nerve',
-            'carotid sinus nerve',
-            'chorda tympani branch of facial nerve',
-            'facial nerve',
-            'glossopharyngeal nerve',
-            'greater splanchnic nerve',
-            'hypoglossal nerve',
-            'lacrimal nerve',
-            'lesser splanchnic nerve',
-            'lingual nerve',
-            'long ciliary nerve',
-            'lumbar colonic nerve',
-            'lumbar splanchnic nerve',
-            'nasopalatine nerve',
-            'oculomotor nerve',
-            'pelvic splanchnic nerve',
-            'phrenic nerve',
-            'pudendal nerve',
-            'short ciliary nerve',
-            'spinal nerve',
-            'splanchnic nerve',
-            'splenic nerve',
-            'superior laryngeal nerve',
-            'tympanic nerve',
-            'vagus nerve',
-            'vidian nerve')).
+   ?Neuron_ID rdfs:subClassOf* ?sckan_neuron .
+   VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+   
+   VALUES ?axon_loaction { ilxtr:hasAxonLocation  ilxtr:hasAxonToSensoryTerminal }.
+   # VALUES ?axon_terminal  {ilxtr:hasAxonTerminalLocation  ilxtr:hasAxonSensoryLocation}.
+       
+   <<?Neuron_ID ?axon_location ?C_IRI>> ilxtr:hasRegion ?Nerve_IRI.
+   # <<?Neuron_ID ilxtr:hasSomaLocation ?A_IRI>> ilxtr:hasRegion ?A_ID.
+   
+   ?Nerve_IRI (rdfs:subClassOf*/rdfs:label) "nerve". # using uberon "nerve" UBERON:0001021
+
+   ?Nerve_IRI rdfs:label ?Nerve_Label.
+   OPTIONAL{ ?Nerve_IRI (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym | NIFRID:synonym) ?Nerve_Synonym. }
 }
 ORDER BY ?Nerve_Label ?Nerve_IRI
+LIMIT 500

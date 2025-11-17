@@ -1,38 +1,29 @@
-# Query to generate the adjacency matrix representing the axonal paths of the neuron populations for SCKAN Explorer.
+## Axonal path query for SCKAN's partial order
+## Version: November 13, 2025. Using rdf-star. Fahim Imam
+
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
-WHERE 
+
+WHERE
 {
+  # FILTER (regex(str(?Neuron_IRI),'keast-1' ))
+  ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+  values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
 
-    # Note: This query currently works for the NLP curated neuron populations.
-    # We will update the query for other populations such as the populations from ApINATOMY models. 
-    ?Neuron_IRI rdfs:subClassOf* ilxtr:NeuronSparcNlp.
+  Optional {?Neuron_IRI skos:prefLabel ?Neuron_Label} .
+  <<?V1 ilxtr:hasNextNode ?V2 >> ilxtr:isConnectedBy ?Neuron_IRI ;
+                                 ilxtr:fromRegion ?region1 ;
+                                 ilxtr:toRegion ?region2.
 
-    ?Neuron_IRI ilxtr:neuronPartialOrder ?PO .
-        ?PO (rdf:rest|rdf:first)* ?r1 .
-        ?r1 (rdf:rest|rdf:first)* ?r2 .
-        ?r1 rdf:first ?V1 .
-        ?r2 rdf:first ?V2 .
-        ?V1 rdf:type owl:Class .
-        ?V2 rdf:type owl:Class .
-
-        FILTER (?mediator = ?r1)  # draw only from the same partial order
-        ?mediator rdf:first ?V1 .  # car
-        ?mediator rdf:rest+/rdf:first/rdf:first ?V2 .  # caadr
-
-    ?V1 rdfs:label ?V1_Label. ?V2 rdfs:label ?V2_Label.
-    ?Neuron_IRI skos:prefLabel ?Neuron_Label.
-
-    FILTER (?V1 != ?V2).
-
-   # FILTER (CONTAINS(STR(?Neuron_IRI), 'semves/2')).
-
+  <<?Neuron_IRI ?Connection_Type_V1 ?V1>> ilxtr:hasRegion ?region1;
+                                          rdfs:label ?V1_Label.
+  <<?Neuron_IRI ?Connection_Type_V2 ?V2>> ilxtr:hasRegion ?region2;
+                                          rdfs:label ?V2_Label.
 }
-ORDER BY ?Neuron_IRI ?V1 ?V2 
-LIMIT 100000
+ORDER BY ?Neuron_IRI ?V1 ?V2
+LIMIT 10000

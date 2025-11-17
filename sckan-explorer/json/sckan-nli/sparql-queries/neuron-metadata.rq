@@ -1,12 +1,15 @@
-# Saved results: neurons-metadata-2.json
-# Neurons with metadata Version 2 for SCKAN NLI. This one includes literature citations and IRI for the species.
+# This query returns metadata for each of the SCKAN neuron population for SCKAN explorer.
+# Updated with expert consultant, curation note, and composer URI.
+# Last updated: Nov 12, 2025. - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX ilxcr: <http://uri.interlex.org/composer/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
 
 SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species_IRI
                 (GROUP_CONCAT(DISTINCT ?Species_1; SEPARATOR=", ") AS ?Species)
@@ -14,28 +17,38 @@ SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species_IRI
                 (GROUP_CONCAT(DISTINCT ?Phenotype; SEPARATOR=", ") AS ?Phenotypes)
                 (GROUP_CONCAT(DISTINCT ?Forward_Connection; SEPARATOR=", ") AS ?Forward_Connections)
                 ?Alert
+                ?Diagram_Link
                 ?Reference
+                ?Composer_URI
+                ?Curation_Note
+                (GROUP_CONCAT(DISTINCT ?Expert_Consultation; SEPARATOR=", ") AS ?Expert_Consultant)
                 (GROUP_CONCAT(DISTINCT ?Literature_Citation; SEPARATOR=", ") AS ?Citations)
 
 WHERE
 {
-    ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only clonsidering SCKAN neurons 
-    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    # FILTER (regex(STR(?Neuron_IRI), 'bromo'))
+    # FILTER ( regex (LCase(?Phenotype), 'sensory phenotype' ))
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    ?Neuron_IRI rdfs:subClassOf* ?SCKAN_Neuron .
 
-
+    ## Only considering connection forming neuron populations
+    # ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI; 
+    #             (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
+    
     OPTIONAL {?Neuron_IRI rdfs:label ?Neuron_Label.}
     OPTIONAL {?Neuron_IRI skos:prefLabel ?Neuron_Pref_Label.}
-            
-    OPTIONAL {
-                ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
-                ?Species_IRI rdfs:label ?Species_1.
-             }
+    OPTIONAL {?Neuron_IRI ilxcr:hasComposerURI ?Composer_URI.}
+    OPTIONAL {?Neuron_IRI ilxtr:expertConsultant ?Expert_Consultation.}
+    OPTIONAL {?Neuron_IRI ilxtr:curatorNote ?Curation_Note.}
+           
+    OPTIONAL {?Neuron_IRI ilxtr:isObservedInSpecies/rdfs:label ?Species_1.}
     OPTIONAL {?Neuron_IRI ilxtr:hasPhenotypicSex/rdfs:label ?Sex.}
-    OPTIONAL {?Neuron_IRI (  ilxtr:literatureCitation 
-                            |rdfs:subClassOf/ilxtr:literatureCitation) ?Literature_Citation.}
+    
+    OPTIONAL {?Neuron_IRI ilxtr:literatureCitation ?Literature_Citation.}
+    OPTIONAL {?Neuron_IRI rdfs:subClassOf/dc:source ?Diagram_Link.}
     OPTIONAL {?Neuron_IRI ilxtr:reference ?Reference.}
-
     OPTIONAL {?Neuron_IRI ilxtr:alertNote ?Alert.}
+    
     OPTIONAL {?Neuron_IRI ilxtr:hasForwardConnection ?Forward_Connection.}
     OPTIONAL {?Neuron_IRI (ilxtr:hasNeuronalPhenotype | 
                             ilxtr:hasFunctionalCircuitRole |
@@ -43,5 +56,8 @@ WHERE
                             ilxtr:hasProjection  
                            )/rdfs:label ?Phenotype.}
 }
-GROUP BY ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Species_IRI ?Sex ?Alert ?Reference
+
+GROUP BY ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Sex ?Alert ?Species_IRI
+         ?Diagram_Link ?Curation_Note ?Composer_URI ?Reference ?Citations
 ORDER BY ?Neuron_IRI
+#LIMIT 10000

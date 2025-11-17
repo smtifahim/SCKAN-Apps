@@ -1,0 +1,132 @@
+## CQ4: How is sympathetic innervation supplied to an end organ? Show the origins, 
+## terminations and routing for both pre- and post-ganglionic connections.
+
+SELECT DISTINCT 
+?Neuron_Connected ?Neuron_Label ?Target_Neuron_Phenotype
+?V1_ID ?V1 ?V1_Collapsed ?V1_Type 
+?V2_ID ?V2 ?V2_Collapsed ?V2_Type
+?IsSynapse
+?Target_Organ
+WHERE 
+{
+    # Specify the Target_Organ
+    # FILTER (?Target_Organ = 'ovary').
+   
+    # Specify the ANS phenotype for the Target_Neuron
+    # FILTER (?Target_Neuron_Phenotype = 'Sympathetic Post-Ganglionic phenotype').
+
+    # FILTER (REGEX (?Target_Neuron_Phenotype, 'Sympathetic')).
+
+    ?Target_Neuron ilxtr:hasNeuronalPhenotype/rdfs:label ?Target_Neuron_Phenotype.
+    
+    # Get the Final_Terminal of the Target Neuron.
+    ?Target_Neuron ilxtr:hasAxonTerminalLocation ?Final_Terminal.
+    
+    # Final terminal of the Target Neuron must be a part of Target Organ.
+    ?Final_Terminal (ilxtr:isPartOf* | ilxtr:suppliesTo*)/rdfs:label ?Target_Organ.
+    FILTER (?Target_Organ in ('ovary', 'uterus', 'vagina', 'clitoris', 'prostate gland', 
+                              'seminal vesicle', 'penis', 'kidney', 'male reproductive system', 
+                              'female reproductive system', 'liver')).
+    
+    # Code for a list of end organs 
+           
+    OPTIONAL
+    {
+        # Get all neurons that are synaptically connected to the Target_Neuron
+        ?Neuron_Connected ilxtr:hasForwardConnection* ?Target_Neuron.
+    }
+    ?V1_ID ilxtr:hasNextNode{ilxtr:isConnectedBy ?Neuron_Connected} ?V2_ID.
+    
+    ?V1_ID rdfs:label ?V1. ?V2_ID rdfs:label ?V2.
+                           
+    ?Neuron_Connected skos:prefLabel ?Neuron_Label.
+    
+    # Find the locational phenotypes for the V1 node
+    ?Neuron_Connected ?V1_Location_Type_IRI ?V1_ID.
+    ?V1_Location_Type_IRI rdfs:label ?V1_Type.
+    
+    # Find the locational phenotype for the V2 node
+    ?Neuron_Connected ?V2_Location_Type_IRI ?V2_ID.
+    ?V2_Location_Type_IRI rdfs:label ?V2_Type.
+  
+    # Filter out the generic hasConnectedLocation relation for the connected nodes.
+    FILTER (ilxtr:hasConnectedLocation not in (?V1_Location_Type_IRI, ?V2_Location_Type_IRI))
+    
+    # Check if ?V2_ID is associated with a synapse
+    OPTIONAL 
+    {
+        ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
+        FILTER (?V2_ID = ?Synapse)
+        FILTER (?V2_Type = "hasAxonTerminalLocation")
+    }
+    
+    # Set IsSynapse to "Yes" if a synapse is detected, otherwise leave it as NO
+    BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
+
+    # BIND
+    # (
+    #     IF(?V1_Type = "hasSomaLocation", REPLACE(?Neuron_Label, " to .*", ""), ?V1) 
+    #     AS ?V1_Collapsed
+    # )
+
+    # BIND
+    # (
+    #     IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2)
+    #     # IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (.*?) via .*", "$1"), ?V2) 
+    #     AS ?V2_Collapsed
+    # )
+    # Step 1: Extract preprocessed label candidates
+    
+    BIND
+    (
+        IF(?V1_Type = "hasSomaLocation", REPLACE(?Neuron_Label, " to .*", ""), ?V1)
+        AS ?V1_Temp
+    )
+
+    BIND
+    (
+        IF(?V2_Type = "hasAxonTerminalLocation", REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2)
+        AS ?V2_Temp
+    )
+
+    # Step 2: Match hyphenated/en-dash/figure dash/em dash terms (preserve case)
+    # Match terms like "T4–L2", "S2‒S4", etc.
+    BIND
+    (
+        REPLACE(?V1_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V1
+    )
+
+    BIND
+    (
+        REPLACE(?V2_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V2
+    )
+
+    # Step 3: Preserve "OR" in uppercase and lowercase everything EXCEPT hyphenated terms
+    BIND
+    (
+        IF(STRLEN(?Hyphen_V1) > 0 && (CONTAINS(?V1_Temp, "-") || CONTAINS(?V1_Temp, "–") || CONTAINS(?V1_Temp, "‒") || CONTAINS(?V1_Temp, "—")),
+            REPLACE(LCASE(REPLACE(?V1_Temp, ?Hyphen_V1, "___hyph___", "i")), "___hyph___", ?Hyphen_V1),
+                LCASE(?V1_Temp)) AS ?V1_Lowered
+    )
+
+    BIND
+    (
+        IF(STRLEN(?Hyphen_V2) > 0 && (CONTAINS(?V2_Temp, "-") || CONTAINS(?V2_Temp, "–") || CONTAINS(?V2_Temp, "‒") || CONTAINS(?V2_Temp, "—")),
+            REPLACE(LCASE(REPLACE(?V2_Temp, ?Hyphen_V2, "___hyph___", "i")), "___hyph___", ?Hyphen_V2),
+                LCASE(?V2_Temp)) AS ?V2_Lowered
+    )
+
+    # Step 4: Ensure "OR" remains uppercase in final result
+    BIND
+    (
+        REPLACE(?V1_Lowered, "(\\bor\\b)", "OR") AS ?V1_Collapsed
+    )
+
+    BIND
+    (
+        REPLACE(?V2_Lowered, "(\\bor\\b)", "OR") AS ?V2_Collapsed
+    )
+
+
+}
+ORDER BY ?Neuron_Connected ?Target_Neuron_Phenotype ?Target_Organ ?V1 ?V2

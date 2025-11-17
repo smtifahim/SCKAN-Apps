@@ -1,0 +1,137 @@
+## Hierarical locations for the origin, destination, and via for SCKAN NLI
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT DISTINCT 
+?Neuron_ID
+?A_L1_ID ?A_L1      # Level 1: brain/spinal cord/ganglion
+?A_L2_ID ?A_L2      # Level 2: nucleus of brain/ spinal cord segments/ kind of ganglion
+?A_L3_ID ?A_L3      # Level 3: kind of brain nucleus, more specific DRG and spinal cord segments C/T/L/S
+?A_ID ?A            # Level 4: specific region   
+?C_ID ?C ?C_Type    # via location, type of via e.g., nerve
+?B_ID ?B            # Terminal structure
+?Target_Organ_IRI ?Target_Organ
+{                
+    # Filtering neuron by ID regex
+    # FILTER (regex(str(?Neuron_ID), 'bolew-unbranched-9')).
+    
+    ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    {
+        ?Neuron_ID ilxtr:hasSomaLocation ?A_ID;
+                   ilxtr:hasAxonTerminalLocation ?B_ID.
+        ?A_ID rdfs:label ?A. ?B_ID rdfs:label ?B.
+
+        # Optional Axon/Via Locations
+        OPTIONAL
+        {
+            ?Neuron_ID ilxtr:hasAxonLocation ?C_ID.
+            ?C_ID rdfs:label ?C.
+            
+            OPTIONAL {
+                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) /rdfs:label ?C_Type.
+                        FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
+                                            'ganglion', 'white matter', 'brain', 'spinal cord')).
+                     }
+        }        
+    }
+    UNION
+    {
+        ?Neuron_ID ilxtr:hasSomaLocation ?A_ID;
+                   ilxtr:hasAxonSensoryLocation ?B_ID.
+        ?A_ID rdfs:label ?A. ?B_ID rdfs:label ?B.
+
+        # Optional Axon/Via Locations
+        OPTIONAL
+        {
+            ?Neuron_ID ilxtr:hasAxonToSensoryTerminal ?C_ID.
+            ?C_ID rdfs:label ?C.
+            
+            OPTIONAL {
+                        ?C_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) /rdfs:label ?C_Type.
+                        FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber', 'nerve root', 
+                                            'ganglion', 'white matter', 'brain', 'spinal cord')).
+                     }
+        }
+    }
+
+    # Hierarchical origin
+    OPTIONAL
+    {
+        # Check if A is/part of brain, spinal cord, or ganglia
+        ?A_ID (rdfs:subClassOf+| ilxtr:isPartOf+) ?A_L1_ID.
+        ?A_L1_ID rdfs:label ?A_L1.
+        FILTER (?A_L1 in ('brain', 
+                          'spinal cord', 
+                          'ganglion', 
+                          'nerve plexus'))
+        
+        # Check the part of brain, spinal cord, or kind of ganglia
+        OPTIONAL
+        {
+            ?A_ID (rdfs:subClassOf+) ?A_L2_ID.
+            ?A_L2_ID rdfs:label ?A_L2.
+            FILTER (?A_L2 in ('nucleus of brain',
+                              'spinal cord segment',
+                              'nucleus of spinal cord',
+                              'gray matter of spinal cord',
+                              'white matter of spinal cord',   
+                              'cranial ganglion',
+                              'paravertebral ganglion',
+                              'prevertebral ganglion',
+                              'dorsal root ganglion'
+                              ))
+        }
+        OPTIONAL
+        {
+            ?A_ID (rdfs:subClassOf+ | ilxtr:isPartOf+) ?A_L3_ID.
+            ?A_L3_ID rdfs:label ?A_L3.
+            FILTER (?A_L3 in (## Types of nucleus
+                              'brainstem nucleus',
+                              'cranial nerve nucleus',
+                              'diencephalic nucleus',
+                              # 'hindbrain nucleus',
+                              'midbrain nucleus',
+                              'pretectal nucleus',
+                              'telencephalic nucleus',
+                              'trigeminal nucleus',        
+                              ## Spinal Cord Segments
+                              'cervical spinal cord', # need to inspect
+                              'thoracic spinal cord',
+                              'lumbar spinal cord',
+                              'sacral spinal cord',
+                              ## Types of ganglion
+                              'thoracic ganglion',
+                              'cervical ganglion',
+                              ## Types of Dorsal Root Ganglions
+                              'cervical dorsal root ganglion',
+                              'lumbar dorsal root ganglion',
+                              'thoracic dorsal root ganglion',
+                              'sacral dorsal root ganglion'
+                              ))
+        }
+    }
+   
+    OPTIONAL
+    { 
+        ?B_ID (rdfs:subClassOf+ | ilxtr:isPartOf* | ilxtr:suppliesTo* | ilxtr:isPartOf*/ilxtr:surrounds*)/rdfs:label | rdfs:label ?Target_Organ.        
+        ?Target_Organ_IRI rdfs:label ?Target_Organ.
+                
+        FILTER (?Target_Organ in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
+                                    'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 'intestine',
+                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue', 'respiratory tract', 
+                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract', 'male reproductive system', 'female reproductive system',
+                                    'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
+                                    'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
+																		'scapular muscle', 'sphincter muscle', 'flexor muscle', 'muscle of shoulder', 'muscle organ', 
+                                    'paravertebral ganglion', 'prevertebral ganglion')  #Note: although not an organ, ganglion is included for sckanner.        
+                                 )
+    }
+}
+ORDER BY ?Neuron_ID ?A ?C ?B ?Target_Organ
+LIMIT 100000

@@ -1,0 +1,135 @@
+## Query: Axonal path partial order with locational phenotype and synapses.
+## for Sensory-Motor organ innervations.
+## Version: November 15, 2025. Using rdf-star. For SCKAN NLI. - Fahim Imam
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT
+    ?Neuron_Connected ?Neuron_Label
+    ?Target_Neuron_Phenotype
+    ?V1_ID ?V1 ?V1_Collapsed
+    ?V1_Type ?V2_ID ?V2
+    ?V2_Collapsed ?V2_Type
+    ?IsSynapse ?Target_Organ
+WHERE 
+{
+   # Specify the Target_Organ
+    # FILTER (?Target_Organ = 'flexor muscle').
+   
+   # Specify the ANS phenotype for the Target_Neuron
+   # FILTER (?Target_Neuron_Phenotype = 'Motor phenotype').
+   # FILTER (?Target_Neuron_Phenotype = 'Sensory phenotype').
+
+#   VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+#   ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron .
+
+  # Motor/Sensory
+
+  
+  ##?Neuron_Connected ilxtr:hasCircuitRole/rdfs:label ?Target_Neuron_Phenotype .
+  ## Sensory + Motor only
+  ?Neuron_Connected ilxtr:hasCircuitRole/rdfs:label ?Target_Neuron_Phenotype .
+  FILTER(?Target_Neuron_Phenotype IN ("Sensory phenotype", "Motor phenotype"))
+
+  # Final organ list
+  VALUES ?Target_Organ {
+      "heart" "ovary" "esophagus" "skin of body" "lung" "liver" "muscle organ" 
+      "colon" "descending colon" "kidney" "stomach" "urinary bladder" 
+      "male reproductive system" "female reproductive system" "clitoris" 
+      "seminal vesicle" "uterus" "sweat gland" "scapular muscle" "sphincter muscle" 
+      "flexor muscle" "muscle of shoulder"
+  }
+
+  VALUES ?hasTerminalLocation { ilxtr:hasAxonSensoryLocation ilxtr:hasAxonTerminalLocation}
+
+  <<?Neuron_Connected ?hasTerminalLocation ?X>> ilxtr:hasRegion ?Final_Terminal .
+
+  # Fast property path (merged subclassOf* + isPartOf*)
+  ?Final_Terminal (rdfs:subClassOf* | ilxtr:isPartOf*) / rdfs:label ?Target_Organ .
+
+
+  <<?V1_ID ilxtr:hasNextNode ?V2_ID>> ilxtr:isConnectedBy ?Neuron_Connected .
+
+  <<?Neuron_Connected ?V1_Phenotype ?V1_ID>> rdfs:label ?V1 .
+  <<?Neuron_Connected ?V2_Phenotype ?V2_ID>> rdfs:label ?V2 .
+
+  ?V1_Phenotype rdfs:label ?V1_Type .
+  ?V2_Phenotype rdfs:label ?V2_Type .
+
+  OPTIONAL { ?Neuron_Connected skos:prefLabel ?Neuron_Label }
+
+
+
+  OPTIONAL {
+      ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse .
+      FILTER (?V2_ID = ?Synapse && ?V2_Type = "hasAxonTerminalLocation")
+  }
+
+  BIND( IF(BOUND(?Synapse), "YES", "NO") AS ?IsSynapse )
+
+
+  BIND(
+      IF(?V1_Type = "hasSomaLocation",
+          REPLACE(?Neuron_Label, " to .*", ""),
+          ?V1)
+      AS ?V1_Temp
+  )
+
+  BIND(
+      IF(?V2_Type = "hasAxonTerminalLocation",
+          REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"),
+          ?V2)
+      AS ?V2_Temp
+  )
+
+  # Hyphen extraction
+  BIND( REPLACE(?V1_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V1 )
+  BIND( REPLACE(?V2_Temp, ".*?\\b([^\\s]*[-–‒—][^\\s]*)\\b.*", "$1") AS ?Hyphen_V2 )
+
+  # Preserve case + protect hyphenated spans
+  BIND(
+      IF( STRLEN(?Hyphen_V1) > 0 &&
+          ( CONTAINS(?V1_Temp,"-") || CONTAINS(?V1_Temp,"–") || CONTAINS(?V1_Temp,"‒") || CONTAINS(?V1_Temp,"—") ),
+          REPLACE(REPLACE(?V1_Temp,?Hyphen_V1,"___hyph___"),"___hyph___",?Hyphen_V1),
+          ?V1_Temp
+      ) AS ?V1_Lowered
+  )
+
+  BIND(
+      IF( STRLEN(?Hyphen_V2) > 0 &&
+          ( CONTAINS(?V2_Temp,"-") || CONTAINS(?V2_Temp,"–") || CONTAINS(?V2_Temp,"‒") || CONTAINS(?V2_Temp,"—") ),
+          REPLACE(REPLACE(?V2_Temp,?Hyphen_V2,"___hyph___"),"___hyph___",?Hyphen_V2),
+          ?V2_Temp
+      ) AS ?V2_Lowered
+  )
+
+  # Organs to skip collapse
+  VALUES ?skipOrgan {
+      "colon" "heart" "urinary bladder" "spleen" "digestive system"
+      "rectum" "small intestine" "endocrine system" "lymphoid system"
+      "respiratory system" "intestine" "large intestine" "liver"
+      "uterus" "pancreas" "parasympathetic nervous system"
+  }
+
+  BIND(
+      IF(?Target_Organ = ?skipOrgan,
+          ?V1,
+          REPLACE(?V1_Lowered, "(?i)\\bor\\b", "OR")
+      ) AS ?V1_Collapsed
+  )
+
+  BIND(
+      IF(?Target_Organ = ?skipOrgan,
+          ?V2,
+          REPLACE(?V2_Lowered, "(?i)\\bor\\b", "OR")
+      ) AS ?V2_Collapsed
+  )
+
+}
+ORDER BY ?Neuron_Connected ?V1 ?V2
+LIMIT 50000
