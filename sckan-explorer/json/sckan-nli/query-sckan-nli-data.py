@@ -9,10 +9,10 @@ import json
 conn_details = {
                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
                 'username': 'sparc-admin',
-                #'password': 'you need password from 1password' # password from 1password.
+                'password': 'use the password' # get the password from 1password.
                }
 
-db_name = 'NPO-SIMPLE-SCKAN-TEST'
+db_name = 'NPO'
 
 # File locations for the queries needed for SCKAN-NLI
 query_files = [
@@ -23,6 +23,8 @@ query_files = [
                 './sparql-queries/major-organs-synonyms.rq',
                 './sparql-queries/species-synonyms.rq',
                 './sparql-queries/major-nerves.rq',
+                './sparql-queries/axonal-path-with-synapse.rq',
+                './sparql-queries/organ-innervation-collapsed.rq',
                 './sparql-queries/sckan-version-info.rq'
               ]
 
@@ -35,6 +37,8 @@ generated_files = [
                     './sckan-nli-data/major-organs-synonyms.json',
                     './sckan-nli-data/species-synonyms.json',
                     './sckan-nli-data/major-nerves.json',
+                    './sckan-nli-data/axonal-path-with-synapse.json',
+                    './sckan-nli-data/organ-innervation-pathways-with-collapsed-nodes.json',
                     './sckan-nli-data/sckan-version.json'
                   ]
 

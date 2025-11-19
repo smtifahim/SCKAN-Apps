@@ -1,0 +1,24 @@
+.rounded-button
+{
+    border: 0;
+    background-color: DodgerBlue;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer; /* Change cursor to pointer (finger) */
+    transition: background-color 0.3s, transform 0.1s; /* Smooth transition for effects */
+}
+
+.rounded-button:hover
+{
+    background-color: #7e4ed2 /* Darker background on hover */
+}
+
+.rounded-button:active
+{
+    transform: translateY(2px); /* Move button down for depression effect */
+    background-color: #7e4ed2; /* Even darker background when pressed */
+}
+
+

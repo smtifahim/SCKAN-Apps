@@ -1,0 +1,29 @@
+## Stats: Counts of phenotypes used in SCKAN.
+## This query returns the list of phenotypic properties and the count of their use 
+## in SCKAN neuron populations.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT DISTINCT 
+?phenotype 
+(count (distinct ?neuron) as ?count)
+WHERE 
+{
+    ?phenotype rdf:type owl:AnnotationProperty.
+    ?phenotype rdfs:subPropertyOf+ ilxtr:hasSimpleSckanProperty.
+    
+    ?neuron ?phenotype ?o.
+
+    ?neuron rdfs:subClassOf* ?sckan_neuron .
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    # Excluding the following two classification properties
+    # Filter (?phenotype = ilxtr:hasNeuronalPhenotype) 
+
+    Filter (?phenotype != ilxtr:hasNonLocationalPhenotype && ?phenotype != ilxtr:hasConnectedLocation)
+}
+GROUP BY ?phenotype
+ORDER BY desc (?count)

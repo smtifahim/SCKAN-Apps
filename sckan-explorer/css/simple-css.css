@@ -1,3 +1,5 @@
+/* Backup of simple-css.css on 2025-11-14 before location table refactor */
+
 * { box-sizing: border-box; }
 body {
   font: 16px Arial;
@@ -7,6 +9,7 @@ body {
   position: relative;
   display: inline-block;
   width: 500px;
+  overflow: visible !important;
 }
 
 input {
@@ -32,11 +35,15 @@ input[type=submit] {
   border: 1px solid #d4d4d4;
   border-bottom: none;
   border-top: none;
-  z-index: 99;
+  z-index: 9999 !important;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
   right: 0;
+  background-color: #fff;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .autocomplete-items div {
   padding: 10px;
@@ -56,40 +63,172 @@ input[type=submit] {
   color: #ffffff;
 }
 
+/* Modern table look with rounded corners and soothing borders */
 table {
-  /* margin: 10px; */
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 500px;
-  /* width: 70%; */
+  margin: 32px auto; /* restore larger gap between tables */
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 600px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px 0 rgba(123, 142, 161, 0.18);
+  overflow: visible;
+  pointer-events: auto !important;
+}
+
+/* Allow autocomplete dropdowns to overflow from form table */
+#myForm table {
+  overflow: visible !important;
+}
+
+#myForm table td {
+  overflow: visible !important;
+}
+
+Prevent hover effects on table itself */
+  table:hover {
+  border-radius: 16px !important;
+  box-shadow: 0 2px 12px 0 rgba(46, 154, 254, 0.08) !important;
+  overflow: hidden !important;
+  background: #e2d3d3 !important;
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
+  border: none; /* remove all cell borders */
+  padding: 12px 16px;
   text-align: left;
 }
 
 th {
-  background-color:#2E9AFE;
-  color: white;
+  background: linear-gradient(90deg, #267ed0 100%, #2E9AFE 100%);
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid #e3eaf3;
 }
 
-div.a {
-  text-align: center;
+tr {
+  border-bottom: none; /* remove black row lines */
 }
 
-div.b {
-  text-align: left;
+tr:last-child {
+  border-bottom: none;
 }
 
-div.c {
-  text-align: right;
+.alt-row td:not(.hide-col) {
+  background-color: #f1f6fb !important;
 }
 
-div.c {
-  text-align: justify;
+/* Apply rounded corners to all tables */
+table {
+  border-radius: 16px !important;
+  overflow: hidden !important;
 }
+
+table th:first-child,
+table thead tr:first-child th:first-child,
+table tr:first-child th:first-child,
+table tr:first-child td:first-child {
+  border-top-left-radius: 16px !important;
+}
+
+table th:last-child,
+table thead tr:first-child th:last-child,
+table tr:first-child th:last-child,
+table tr:first-child td:last-child {
+  border-top-right-radius: 16px !important;
+}
+
+table tr:last-child td:first-child,
+table tr:last-child th:first-child {
+  border-bottom-left-radius: 16px !important;
+}
+
+table tr:last-child td:last-child,
+table tr:last-child th:last-child {
+  border-bottom-right-radius: 16px !important;
+}
+
+/* Remove ALL hover effects from ALL tables and their rows */
+table tr:hover,
+table tr:hover td,
+table tr:hover th,
+table tbody tr:hover,
+table tbody tr:hover td,
+table tbody tr:hover th {
+  background-color: inherit !important;
+  transition: none !important;
+  cursor: default !important;
+}
+
+/* Apply rounded corners to any table with .pop-header-table or .metadata-header-table class, even if tbody is omitted */
+.pop-header-table,
+.metadata-header-table {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+/* Metadata table - more contrasting colors */
+.metadata-header-table {
+  background-color: #ffffff !important;
+  border: 1px solid #e1edfa !important;
+  box-shadow: none !important;
+  margin-top: 4px !important;
+  margin-bottom: 8px !important;
+}
+
+.metadata-header-table td {
+  padding: 10px 16px !important;
+  border-bottom: 1px solid #e8f0f8 !important;
+}
+
+/* Remove all hover effects from metadata table */
+.metadata-header-table:hover,
+.metadata-header-table tr:hover,
+.metadata-header-table tr:hover td,
+.metadata-header-table td:hover {
+  background-color: inherit !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+  cursor: default !important;
+}
+
+.metadata-header-table tr:last-child td {
+  border-bottom: none !important;
+}
+
+.metadata-header-table tr:nth-child(even) {
+  background-color: #f7fbff !important;
+}
+
+.metadata-header-table tr:nth-child(odd) {
+  background-color: #ffffff !important;
+}
+
+.pop-header-table tr:first-child th:first-child,
+.metadata-header-table tr:first-child th:first-child,
+.pop-header-table tr:first-child td:first-child,
+.metadata-header-table tr:first-child td:first-child {
+  border-top-left-radius: 16px !important;
+}
+.pop-header-table tr:first-child th:last-child,
+.metadata-header-table tr:first-child th:last-child,
+.pop-header-table tr:first-child td:last-child,
+.metadata-header-table tr:first-child td:last-child {
+  border-top-right-radius: 16px !important;
+}
+.pop-header-table tr:last-child th:first-child,
+.metadata-header-table tr:last-child th:first-child,
+.pop-header-table tr:last-child td:first-child,
+.metadata-header-table tr:last-child td:first-child {
+  border-bottom-left-radius: 16px !important;
+}
+.pop-header-table tr:last-child th:last-child,
+.metadata-header-table tr:last-child th:last-child,
+.pop-header-table tr:last-child td:last-child,
+.metadata-header-table tr:last-child td:last-child {
+  border-bottom-right-radius: 16px !important;
+}
+
 
 select.hide {
   display:none;
@@ -101,4 +240,52 @@ hr {
   /* Set the hr color */
   color: #c2c2d76e;  /* old IE */
   background-color: #c2c2d76e;  /* Modern Browsers */
+}
+#search-progress-bar {
+  height: 3px;
+}
+
+.hide-col {
+  display: none !important;
+}
+
+/* Location table styles - lighter color with no borders */
+.location-table {
+  background-color: #f8fbff !important;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: 0 2px 8px 0 rgba(46, 154, 254, 0.04) !important;
+  overflow: hidden !important;
+}
+
+.location-table th,
+.location-table td {
+  border: none !important;
+  border-width: 0 !important;
+}
+
+.location-table th {
+  background: linear-gradient(90deg, #e8f4ff 100%, #e8f4ff 100%) !important;
+  color: #333 !important;
+}
+
+.location-table tbody tr:nth-child(even) td:not(.hide-col) {
+  background-color: #f0f7ff !important;
+}
+
+.location-table tbody tr:nth-child(odd) td:not(.hide-col) {
+  background-color: #f6fafb !important;
+}
+
+/* Remove all hover effects from location table */
+.location-table:hover,
+.location-table tr:hover,
+.location-table tr:hover td,
+.location-table tr:hover th,
+.location-table td:hover,
+.location-table th:hover {
+  background-color: inherit !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+  cursor: default !important;
 }

@@ -1,0 +1,283 @@
+{
+  "head": {
+    "vars": [
+      "neuron_category",
+      "model",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Bolser-Lewis Model of Defensive Breathing"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "29"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Keast Model of Bladder Innervation"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "20"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of Bronchomotor Control"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "6"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of the Descending Colon"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "18"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of the Pancreas"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of the Spleen"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SAWG Model of the Stomach"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Expert-Contributed Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "UCLA Model of the Heart"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Cranial Nerve"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "10"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Female Reproductive System"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "61"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Gastrointestinal Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Kidney Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "26"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Liver Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "25"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Male Reproductive System"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "21"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "SPARC Portal Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Sensory-Motor Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "170"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Sweat Gland"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "8"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Uncategorized Literature Extracted"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "28"
+        }
+      }
+    ]
+  }
+}

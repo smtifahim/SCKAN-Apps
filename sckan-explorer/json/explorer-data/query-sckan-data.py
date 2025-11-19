@@ -2,17 +2,26 @@
 # and saves the results in corresponing json files. 
 # (version: 1.0; @Author: Fahim Imam)
 
+
+import os
+from dotenv import load_dotenv
 import stardog
 import json
 
-# Stardog DB connection details using stradog cloud endpoint
-conn_details = {
-                'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
-                'username': 'sparc-admin',
-                'password': 'w8399Hzj78exJkaebz'
-               }
 
-db_name = 'NPO-SIMPLE-SCKAN-TEST'
+# Load environment variables from .env file if present
+load_dotenv()
+
+# Stardog DB connection details using environment variables for credentials
+conn_details = {
+    'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
+    'username': os.environ.get('SCKAN_USERNAME'),
+    'password': os.environ.get('SCKAN_PASSWORD')
+}
+
+# db_name = 'SIMPLE-SCKAN-TEST-SEP'
+db_name = 'SCKAN-NOV-2025'
+
 
 # File locations for the queries needed for SCKAN-Explorer
 query_files = [
@@ -25,11 +34,11 @@ query_files = [
 
 # File locations for the generated query results in json format
 generated_files = [
-                    './sckan-data/sckan-all-locations.json',
-                    './sckan-data/a-b-via-c.json',
-                    './sckan-data/axonal-path.json',
-                    './sckan-data/neuron-metadata.json',
-                    './sckan-data/sckan-version.json'
+                   './sckan-data/sckan-all-locations.json',
+                   './sckan-data/a-b-via-c.json',
+                   './sckan-data/axonal-path.json',
+                   './sckan-data/neuron-metadata.json',
+                   './sckan-data/sckan-version.json'
                   ]
 
 def checkServerStatus(admin):

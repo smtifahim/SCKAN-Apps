@@ -1,11 +1,11 @@
 ID,Structure,Subclass ID,Subclass Structure,
 http://purl.obolibrary.org/obo/UBERON_0005844,spinal cord segment,,,
-,,http://purl.obolibrary.org/obo/UBERON_0002726,Cervical,
-,,http://purl.obolibrary.org/obo/UBERON_0003038,Thoracic,
-,,http://purl.obolibrary.org/obo/UBERON_0002792,Lumbar,
-,,http://purl.obolibrary.org/obo/UBERON_0005843,Sacral,
+,,http://purl.obolibrary.org/obo/UBERON_0007714,Cervical,
+,,http://purl.obolibrary.org/obo/UBERON_0007715,Thoracic,
+,,http://purl.obolibrary.org/obo/UBERON_0007716,Lumbar,
+,,http://purl.obolibrary.org/obo/UBERON_0007717,Sacral,
 ,,http://uri.interlex.org/base/ilx_0740051,Coxxygeal,
-http://purl.obolibrary.org/obo/UBERON_0002726,Cervical,,,
+http://purl.obolibrary.org/obo/UBERON_0007714,Cervical,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006469,C1 spinal segment,C1
 ,,http://purl.obolibrary.org/obo/UBERON_0006489,C2 spinal segment,C2
 ,,http://purl.obolibrary.org/obo/UBERON_0006488,C3 spinal segment,C3
@@ -14,7 +14,7 @@ http://purl.obolibrary.org/obo/UBERON_0002726,Cervical,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006492,C6 spinal segment,C6
 ,,http://purl.obolibrary.org/obo/UBERON_0006493,C7 spinal segment,C7
 ,,http://purl.obolibrary.org/obo/UBERON_0006470,C8 spinal segment,C8
-http://purl.obolibrary.org/obo/UBERON_0003038,Thoracic,,,
+http://purl.obolibrary.org/obo/UBERON_0007715,Thoracic,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006457,T1 spinal segment,T1
 ,,http://purl.obolibrary.org/obo/UBERON_0006458,T2 spinal segment,T2
 ,,http://purl.obolibrary.org/obo/UBERON_0006459,T3 spinal segment,T3
@@ -28,7 +28,7 @@ http://purl.obolibrary.org/obo/UBERON_0003038,Thoracic,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006467,T11 spinal segment,T11
 ,,http://purl.obolibrary.org/obo/UBERON_0006468,T12 spinal segment,T12
 ,,http://uri.interlex.org/base/ilx_0793357,T13 spinal segment,T13
-http://purl.obolibrary.org/obo/UBERON_0002792,Lumbar,,,
+http://purl.obolibrary.org/obo/UBERON_0007716,Lumbar,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006448,L1 spinal segment,L1
 ,,http://purl.obolibrary.org/obo/UBERON_0006450,L2 spinal segment,L2
 ,,http://purl.obolibrary.org/obo/UBERON_0006449,L3 spinal segment,L3
@@ -36,7 +36,7 @@ http://purl.obolibrary.org/obo/UBERON_0002792,Lumbar,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006447,L5 spinal segment,L5
 ,,http://uri.interlex.org/base/ilx_0793358,L6 spinal segment,L6
 ,,http://uri.interlex.org/base/ilx_0793850,L7 spinal segment,L7
-http://purl.obolibrary.org/obo/UBERON_0005843,Sacral,,,
+http://purl.obolibrary.org/obo/UBERON_0007717,Sacral,,,
 ,,http://purl.obolibrary.org/obo/UBERON_0006460,S1 spinal segment,S1
 ,,http://purl.obolibrary.org/obo/UBERON_0006461,S2 spinal segment,S2
 ,,http://purl.obolibrary.org/obo/UBERON_0006462,S3 spinal segment,S3

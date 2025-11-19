@@ -1,0 +1,63 @@
+## Stats: Counts of distinct phenotype values from SCKAN.
+## This query returns the list of phenotypic properties and the count of their use 
+## in SCKAN neuron populations. Last Upadted: Nov 13, 2025
+## -Fahim Imam
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+#SELECT DISTINCT ?phenotype (count (distinct ?neuron) as ?count)
+SELECT DISTINCT 
+?phenotype_label 
+?type
+(count (distinct ?neuron) as ?count)
+
+WHERE 
+{
+    ?phenotype rdf:type owl:AnnotationProperty.
+   # ?phenotype rdfs:subPropertyOf+ ilxtr:hasSimpleSckanProperty.
+    ?phenotype rdfs:subPropertyOf+ ilxtr:hasNonLocationalPhenotype.
+    
+    ?neuron ?phenotype ?phenotype_value.
+    
+    ?phenotype_value rdfs:label ?phenotype_value_label.
+
+    ?neuron rdfs:subClassOf* ?sckan_neuron .
+    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+    BIND(IF(STR(?phenotype) =  STR(ilxtr:isObservedInSpecies), "Species",
+                            IF(CONTAINS (STR(?phenotype), 'hasProjection'), "Projection",
+                            IF(CONTAINS (STR(?phenotype), 'hasPhenotypicSex'), "Sex",
+                            IF(CONTAINS (STR(?phenotype), 'hasNeuronalPhenotype'), "ANS Phenotype",
+                            IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Circuit Role",
+                            IF(CONTAINS (STR(?phenotype), 'hasCircuitRole'), "Circuit Role",
+                            IF(CONTAINS (STR(?phenotype), 'hasMolecule'), "Molecular Phenotype",
+                            "Other"))))))) AS ?phenotype_label)
+    
+    BIND(IF(STR(?phenotype_value) =  STR("http://purl.obolibrary.org/obo/PATO_0000383"), "Female",
+                            IF(CONTAINS (STR(?phenotype_value), 'PATO_0000384'), "Male",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9606'), "Human",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10116'), "Rat",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10090'), "Mouse",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9825'), "Pig",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9615'), "Dog",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10141'), "Guinea Pig",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9685'), "Cat",
+  
+                            IF(CONTAINS (STR(?phenotype_value), 'Parasympathetic'), "Parasympathetic Phenotype",
+                            IF(CONTAINS (STR(?phenotype_value), '-para-'), "Parasympathetic Phenotype",
+                            IF(CONTAINS (STR(?phenotype_value), 'Sympathetic'), "Sympathetic Phenotype",
+                            IF(CONTAINS (STR(?phenotype_value), '-sym-'), "Sympathetic Phenotype",
+                            
+                            
+                            ?phenotype_value_label))))))))))))) AS ?type)
+
+    Filter (?phenotype != ilxtr:hasForwardConnection)
+    Filter (!REGEX(STR(?phenotype_value), 'PreGanglionic'))
+    Filter (!REGEX(STR(?phenotype_value), 'PostGanglionic'))
+  # Filter (?phenotype != ilxtr:hasNonLocationalPhenotype && ?phenotype != ilxtr:hasConnectedLocation)
+}
+GROUP BY ?phenotype_label  ?type #?phenotype_value #?phenotype_value_label
+ORDER BY desc (?phenotype_label) desc (?count) ?type

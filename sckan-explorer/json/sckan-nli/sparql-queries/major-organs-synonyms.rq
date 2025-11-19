@@ -1,7 +1,7 @@
-####
-# Saved results: major-organ-synonyms.json
-# SCKAN Organs Synonyms for SCKAN NLI
-# This query looks for the terminals of the populations that reside in any part of a major organ.
+# SCKAN Organs Synonyms for SCKAN NLI. This query looks for the terminals of 
+# the neuron populations that reside in any part of a major organ.
+# Saved results: sckan-nli-data/major-organs synonyms.json
+# Verion: November 12, 2025. - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -10,42 +10,44 @@ PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX NIFRID: <http://uri.neuinfo.org/nif/nifstd/readable/>
 
 SELECT DISTINCT 
-# ?Neuron_ID 
-# ?A_IRI ?A_Label 
-# ?B_IRI ?B_Label 
+#?Neuron_ID 
 ?Organ_ID ?Organ_Label ?Organ_Synonym
-{                
-
+{  
    ## For exact matching of the target organ name
-    # FILTER (LCase(?Organ) = 'heart')
+   # FILTER (LCase(?Organ) = 'heart')
 
-   ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron .
-   values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+   ?Neuron_ID rdfs:subClassOf* ?sckan_neuron .
+   VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
 
-   ?Neuron_ID ilxtr:hasSomaLocation ?A_IRI.
-            ?A_IRI (rdfs:label) ?A_Label.
-      
-   ?Neuron_ID (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
-                ?B_IRI (rdfs:label) ?B_Label.
-
-   ?B_IRI rdfs:subClassOf+ [rdf:type owl:Restriction ;
-                                     owl:onProperty partOf: ; 
-                                     owl:someValuesFrom ?Organ_ID].
-    
-   ?Organ_ID rdfs:label ?Organ_Label.
-   Optional {?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym) ?Organ_Synonym.}
-
-    ## using shortcut ilxtr:isPartOf relation 
-    # ?B_IRI ilxtr:isPartOf/rdfs:label ?Organ.
-
-    FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
-                                'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 
-                                'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue',
-                                'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'thymus', 'skin of body', 'adrenal gland','buttock',
-                                'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system', 'pharynx'))
-
+   # VALUES ?axon_loaction  {ilxtr:hasAxonLocation  ilxtr:hasAxonToSensoryTerminal}.
+   VALUES ?axon_terminal  {ilxtr:hasAxonTerminalLocation  ilxtr:hasAxonSensoryLocation}.
+       
+   #<<?Neuron_ID ilxtr:hasSomaLocation ?A_IRI>> ilxtr:hasRegion ?A_ID.
+   <<?Neuron_ID ?axon_terminal ?B_IRI>> ilxtr:hasRegion ?B_ID.
+   
+   OPTIONAL
+    {
+        ?B_ID (rdfs:subClassOf* | ilxtr:isPartOf*) ?Organ_ID.
+        ?Organ_ID rdfs:label ?Organ_Label.
+        
+        FILTER (?Organ_Label in ( 'heart', 'ovary', 'brain', 'urethra', 'esophagus', 'spinal cord', 'skin of body', 'lung', 'liver', 
+                                    'lower urinary tract', 'urinary tract', 'muscle organ','gallbladder', 'colon', 'descending colon','kidney', 'intestine',
+                                    'large intestine' ,'small intestine', 'stomach', 'spleen', 'urinary bladder', 'oral gland', 'tongue', 'respiratory tract', 
+                                    'lower respiratory tract', 'upper respiratory tract', 'digestive tract', 'male reproductive system', 'female reproductive system',
+                                    'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
+                                    'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
+				                            'scapular muscle', 'sphincter muscle', 'flexor muscle', 'muscle of shoulder', 'muscle organ',
+                                    # added systems
+                                    'respiratory system', 'digestive system', 'endocrine system', 'lymphoid system', 'sense organ', 'renal system', 'integumental system',
+                                    'cardiovascular system'
+                                )
+               )
+        OPTIONAL{?Organ_ID (oboInOwl:hasExactSynonym | oboInOwl:hasRelatedSynonym | NIFRID:synonym) ?Organ_Synonym.}
+    }
+  FILTER(BOUND(?Organ_ID))
 }
-ORDER BY ?Organ_ID ?Organ_Label ?Organ_Synonym
-LIMIT 999
+ORDER BY ?Organ_Label ?Organ_Synonym
+LIMIT 9999

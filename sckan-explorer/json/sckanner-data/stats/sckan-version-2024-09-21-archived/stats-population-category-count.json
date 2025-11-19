@@ -1,0 +1,34 @@
+{
+  "head": {
+    "vars": [
+      "neuron_category",
+      "population_count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "ApiNATOMY Population"
+        },
+        "population_count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "116"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "NLP Curated Population"
+        },
+        "population_count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "351"
+        }
+      }
+    ]
+  }
+}

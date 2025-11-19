@@ -1,0 +1,61 @@
+## This query returns the count of SCKAN neuron populations based on models/systems
+## categorized by sources i.e, expert-contributed or literature-extracted. 
+## Laast updated: November 13, 2025. Added gastint and portal connections
+## - Fahim Imam
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT 
+  ?neuron_category 
+  ?model 
+  (COUNT(DISTINCT ?Neuron_Population_ID) AS ?count)
+
+{
+  VALUES ?SCKAN_Population_Source { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  ?Neuron_Population_ID rdfs:subClassOf+ ?SCKAN_Population_Source .
+
+  VALUES (?Neuron_ID_Pattern ?Model_Label)
+  {
+      ("aacar" "UCLA Model of the Heart")
+      ("bromo" "SAWG Model of Bronchomotor Control")
+      ("bolew" "Bolser-Lewis Model of Defensive Breathing")
+      ("keast" "Keast Model of Bladder Innervation")
+      ("pancr" "SAWG Model of the Pancreas")
+      ("sdcol" "SAWG Model of the Descending Colon")
+      ("splen" "SAWG Model of the Spleen")
+      ("sstom" "SAWG Model of the Stomach")
+      ("femrep" "Female Reproductive System")
+      ("prostate" "Male Reproductive System")
+      ("semves" "Male Reproductive System")
+      ("mmset2cn" "Cranial Nerve")
+      ("liver" "Liver Connections")
+      ("kidney" "Kidney Connections")
+      ("senmot" "Sensory-Motor Connections")
+      ("swglnd" "Sweat Gland")
+      ("gastint" "Gastrointestinal Connections")
+      ("portal" "SPARC Portal Connections")
+      ("mmset1" "Uncategorized Literature Extracted")
+      ("mmset4" "Uncategorized Literature Extracted")
+  }
+
+  BIND
+  (
+    IF (CONTAINS(STR(?Neuron_Population_ID), ?Neuron_ID_Pattern), ?Model_Label, "Other")
+    AS ?model
+  )
+
+  BIND
+  (
+    IF (CONTAINS(STR(?SCKAN_Population_Source), "NeuronApinatSimple"), 
+        "Expert-Contributed Populations", "Literature-Extracted Populations")
+    AS ?neuron_category
+  )
+
+  # FILTER (!REGEX(STR(?Neuron_Population_ID), "senmot"))
+  FILTER (?model != "Other")
+}
+GROUP BY ?neuron_category ?model
+ORDER BY ?neuron_category ?model
+LIMIT 100

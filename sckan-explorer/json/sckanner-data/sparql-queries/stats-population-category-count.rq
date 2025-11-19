@@ -1,0 +1,26 @@
+## STATS: This query returns the number of neuron types by their category #STATS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?neuron_category (COUNT (?neuron_category) as ?population_count) 
+{
+
+   # ?Neuron_ID rdfs:subClassOf+ ?neuron_category.
+    
+    ?Neuron_ID rdfs:subClassOf+ ?category .
+    values ?category { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+    FILTER (  
+               CONTAINS (STR(?category), 'NeuronApinatSimple')
+            || CONTAINS (STR(?category), 'NeuronSparcNlp')
+           )
+    BIND ( IF(STR(?category) =  "", "",
+           IF(CONTAINS (STR(?category), 'Apinat'), "ApiNATOMY Population",
+           "NLP Curated Population"))AS ?neuron_category)
+   
+}
+GROUP BY ?neuron_category
+ORDER BY ?neuron_category
+LIMIT 100

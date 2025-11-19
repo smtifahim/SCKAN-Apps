@@ -1,0 +1,290 @@
+## Stats-0
+## This query returns the number of neuron types by their category #STATS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?neuron_category (COUNT (?neuron_category) as ?population_count) 
+{
+
+   # ?Neuron_ID rdfs:subClassOf+ ?neuron_category.
+    
+    ?Neuron_ID rdfs:subClassOf+ ?category .
+    values ?category { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+    FILTER (  
+               CONTAINS (STR(?category), 'NeuronApinatSimple')
+            || CONTAINS (STR(?category), 'NeuronSparcNlp')
+           )
+    BIND ( IF(STR(?category) =  "", "",
+           IF(CONTAINS (STR(?category), 'Apinat'), "ApiNATOMY Population",
+           "NLP Curated Population"))AS ?neuron_category)
+   
+}
+GROUP BY ?neuron_category
+ORDER BY ?neuron_category
+LIMIT 4000
+
+## Stats-1
+##This query returns the number of neuron types by their category #STATS version 2
+# SCKAN populations count by category and models - version July 20, 2024
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?neuron_category ?model 
+(count (?model) as ?count)
+
+{
+    # FILTER (REGEX (?model, "Spleen"))
+
+    ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron_category .
+    values ?sckan_neuron_category { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    BIND(IF(STR(?Neuron_ID) =  "", "",
+                            IF(CONTAINS (STR(?Neuron_ID), 'aacar'), "UCLA Model of the Heart",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bromo'), "SAWG Model of Bronchomotor Control",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bolew'), "Bolser-Lewis Model of Defensive Breathing",
+                            IF(CONTAINS (STR(?Neuron_ID), 'keast'), "Keast Model of Bladder Innervation",
+                            IF(CONTAINS (STR(?Neuron_ID), 'pancr'), "SAWG Model of the Pancreas",
+                            IF(CONTAINS (STR(?Neuron_ID),'sdcol'), "SAWG Model of the Descending Colon",
+                            IF(CONTAINS (STR(?Neuron_ID), 'splen'), "SAWG Model of the Spleen",
+                            IF(CONTAINS (STR(?Neuron_ID),'sstom'), "SAWG Model of the Stomach",
+                            IF(CONTAINS (STR(?Neuron_ID),'femrep'), "Female Reproductive System",
+                            IF(CONTAINS (STR(?Neuron_ID),'prostate'), "Male Reproductive System",
+                            IF(CONTAINS (STR(?Neuron_ID),'semves'), "Male Reproductive System",
+                            IF(CONTAINS (STR(?Neuron_ID),'mmset2cn'), "Cranial Nerve",
+                            "Other Literature-Extracted Populations"))))))))))))) AS ?model)
+    
+    BIND ( IF(STR(?sckan_neuron_category) =  "", "",
+           IF(CONTAINS (STR(?sckan_neuron_category), 'Apinat'), "Expert-Contributed Populations",
+           "Literature-Extracted Populations"))AS ?neuron_category)
+
+}
+GROUP BY ?model  ?neuron_category
+ORDER BY ?neuron_category ?model 
+LIMIT 999
+
+
+
+
+## Stats-2
+## This query returns the list of phenotypic properties and the count of their use 
+## in SCKAN neuron populations. TODO: add specific motor or sensory etc.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT DISTINCT 
+?phenotype 
+(count (distinct ?neuron) as ?count)
+WHERE 
+{
+    ?phenotype rdf:type owl:AnnotationProperty.
+    ?phenotype rdfs:subPropertyOf+ ilxtr:hasSimpleSckanProperty.
+    
+    ?neuron ?phenotype ?o.
+
+    ?neuron rdfs:subClassOf* ?sckan_neuron .
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    # Excluding the following two classification properties
+    # Filter (?phenotype = ilxtr:hasNeuronalPhenotype) 
+
+    Filter (?phenotype != ilxtr:hasNonLocationalPhenotype && ?phenotype != ilxtr:hasConnectedLocation)
+}
+GROUP BY ?phenotype
+ORDER BY desc (?count)
+
+# Stats-3
+# Count of distinct anatomical structures by neuron category
+#SELECT DISTINCT ?Neuron_Population_Text (count(?Location_ID) as ?count)
+SELECT DISTINCT
+# ?Neuron_ID ?Connection_Type ?Location_ID 
+?Neuron_Population_Text  # ?Location_Label 
+(count (distinct ?Location_Label) as ?Count)
+
+{   
+    FILTER REGEX (LCase(?Neuron_Label), 'kblad')
+    ?Neuron_ID rdfs:label ?Neuron_Label.
+
+    
+    ?Neuron_ID rdfs:subClassOf* ?sckan_neuron .
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+
+    ?Neuron_ID ?Connection_Type ?Location_ID.
+    ?Location_ID rdfs:label ?Location_Label.       
+    
+    FILTER (?Connection_Type = ilxtr:hasConnectedLocation)
+
+    BIND(IF(STR(?Neuron_ID) =  STR(ilxtr:NeuronApinatSimple), "ApINATOMY Neuron Populations",
+                            IF(CONTAINS (STR(?Neuron_ID), 'aacar'), "Heart Innervation Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bromo'), "Bronchomotor Control Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'bolew'), "Defensive Breathing Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'keast'), "Bladder Innervation Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'pancr'), "Pancreas Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID),'sdcol'), "Descending Colon Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID), 'splen'), "Spleen Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID),'sstom'), "Stomach Circuitry",
+                            IF(CONTAINS (STR(?Neuron_ID),'femrep'), "Female Reproductive System",
+                            IF(CONTAINS (STR(?Neuron_ID),'prostate'), "Prostate Gland",
+                            IF(CONTAINS (STR(?Neuron_ID),'semves'), "Seminal Vesicle",
+                            IF(CONTAINS (STR(?Neuron_ID),'mmset2cn'), "Cranial Nerve",
+                            IF(CONTAINS (STR(?Neuron_ID), 'NeuronSparcNlp'), "SPARC NLP Curated Populations",
+                            "Other NLP Populations")))))))))))))) AS ?Neuron_Population_Text)
+}
+GROUP BY ?Neuron_Population_Text
+ORDER BY ?Neuron_Population_Text
+LIMIT 5000
+
+
+
+#Stats:4
+# A to B via Major Nerve
+# QUERY: List the Neuron Populations where Neuron at Region A Projects to B via Nerve C.
+# This query returns any neuron population that has its soma located in Region A,
+#                                                       axon terminal located in Region B, and 
+#                                                       axon located in nerve C.
+# Note that region C could be of type nerve, nerve plexus, or nerve fiber from UBERON.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+# Neuron populations where A projects to B via some Nerve C
+
+SELECT DISTINCT
+# ?Neuron_ID ?Neuron_Label ?A ?Region_A ?B ?Region_B ?C 
+?Region_C
+(count (?Region_C) as ?count)  
+{  
+    ?Neuron_ID rdfs:label ?Neuron_Label;
+       ilxtr:hasSomaLocation ?A;
+       ilxtr:hasAxonLocation ?C;
+      (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B.
+    
+    ?A rdfs:label ?Region_A.
+    ?B rdfs:label ?Region_B.
+    ?C rdfs:label ?Region_C.
+    
+    ## Check if region C is a subclass+ of a 'nerve' or 'nerve plexus'.
+    ?C (rdfs:subClassOf+/rdfs:label) ?nerve_label.  
+    ## We have FMA 'Nerve' and UBERON 'nerve'. Also including UBERON 'nerve plexus'.
+    FILTER (?nerve_label in ('nerve'))
+                   # || CONTAINS(LCASE(?nerve_label), 'nerve'))
+    
+      FILTER (!regex (lcase(?Region_C), "communicating"))
+	
+}
+GROUP BY ?Region_C
+ORDER BY Desc (?count)
+LIMIT 5000
+
+#Stats:5
+# this query returns number of projections targets from origin to destinations.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX partOf: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+# Neuron populations where A projects to B via some Nerve C
+
+SELECT DISTINCT
+?Neuron_ID ?Neuron_Label ?A ?Region_A ?B ?Region_B
+# (count (?Region_C) as ?count)  
+{  
+    ?Neuron_ID rdfs:subClassOf* ?sckan_neuron .
+    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    ?Neuron_ID rdfs:label ?Neuron_Label;
+       ilxtr:hasSomaLocation ?A;
+     #  ilxtr:hasAxonLocation ?C;
+      (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B.
+    
+    ?A rdfs:label ?Region_A.
+    ?B rdfs:label ?Region_B.
+	
+}
+
+# GROUP BY ?Region_C
+ORDER BY Desc (?count)
+LIMIT 5000
+
+## Stats#6
+## This query returns the list of phenotypic properties and the count of their use 
+## in SCKAN neuron populations. #TODO use general namining convention
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+#SELECT DISTINCT ?phenotype (count (distinct ?neuron) as ?count)
+SELECT DISTINCT 
+ ?phenotype_label 
+# ?phenotype_value 
+# ?phenotype_value_label #(count (distinct ?neuron) as ?count)
+?type (count (distinct ?neuron) as ?count)
+
+WHERE 
+{
+    ?phenotype rdf:type owl:AnnotationProperty.
+   # ?phenotype rdfs:subPropertyOf+ ilxtr:hasSimpleSckanProperty.
+    ?phenotype rdfs:subPropertyOf+ ilxtr:hasNonLocationalPhenotype.
+    
+    ?neuron ?phenotype ?phenotype_value.
+    
+    ?phenotype_value rdfs:label ?phenotype_value_label.
+
+    ?neuron rdfs:subClassOf* ?sckan_neuron .
+    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+    BIND(IF(STR(?phenotype) =  STR(ilxtr:isObservedInSpecies), "Species",
+                            IF(CONTAINS (STR(?phenotype), 'hasProjection'), "Projection",
+                            IF(CONTAINS (STR(?phenotype), 'hasPhenotypicSex'), "Sex",
+                            IF(CONTAINS (STR(?phenotype), 'hasNeuronalPhenotype'), "ANS Phenotype",
+                            IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Circuit Role",
+                            IF(CONTAINS (STR(?phenotype), 'hasCircuitRole'), "Circuit Role",
+                            "Other")))))) AS ?phenotype_label)
+    
+    BIND(IF(STR(?phenotype_value) =  STR("http://purl.obolibrary.org/obo/PATO_0000383"), "Female",
+                            IF(CONTAINS (STR(?phenotype_value), 'PATO_0000384'), "Male",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9606'), "Human",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10116'), "Rat",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10090'), "Mouse",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9825'), "Pig",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9615'), "Dog",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_10141'), "Guinea Pig",
+                            IF(CONTAINS (STR(?phenotype_value), 'NCBITaxon_9685'), "Cat",
+                            
+                            #    IF(CONTAINS (STR(?phenotype_value), 'para-post'), "Parasympathetic post-ganglionic phenotype",
+                            #    IF(CONTAINS (STR(?phenotype_value), 'para-pre'), "Parasympathetic pre-ganglionic phenotype",
+                            #    IF(CONTAINS (STR(?phenotype_value), 'sym-pre'), "Sympathetic pre-ganglionic phenotype",
+                            #    IF(CONTAINS (STR(?phenotype_value), 'sym-post'), "Sympathetic post-ganglionic phenotype",
+
+
+                            #  IF(CONTAINS (STR(?phenotype_value), '-para-'), "Parasympathetic phenotype",
+                            #  IF(CONTAINS (STR(?phenotype_value), '-sym-'), "Sympathetic phenotype",
+                            #  IF(CONTAINS (STR(?phenotype_value), '-pre'), "Pre ganglionic phenotype",
+                            #  IF(CONTAINS (STR(?phenotype_value), '-post'), "Post ganglionic phenotype",
+                            
+                            ?phenotype_value_label))))))))) AS ?type)
+
+    
+    # Excluding the following two classification properties
+    # Filter (?phenotype = ilxtr:hasNeuronalPhenotype) 
+    Filter (?phenotype != ilxtr:hasForwardConnection)
+
+  # Filter (?phenotype != ilxtr:hasNonLocationalPhenotype && ?phenotype != ilxtr:hasConnectedLocation)
+}
+GROUP BY ?phenotype_label  ?type #?phenotype_value #?phenotype_value_label
+ORDER BY desc (?phenotype_label) ?count

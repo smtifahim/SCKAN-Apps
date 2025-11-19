@@ -1,0 +1,373 @@
+{
+  "head": {
+    "vars": [
+      "phenotype_label",
+      "type",
+      "count"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Human"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "288"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Rat"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "91"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Dog"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "22"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Pig"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "19"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Mouse"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "10"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Cat"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Species"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Guinea Pig"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "1"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Sex"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Female"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "73"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Sex"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Male"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "28"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Projection"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Spinal cord descending projection phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Projection"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Anterior projecting"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Projection"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Intestino fugal projection phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Projection"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Posterior projecting"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Projection"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Spinal cord ascending projection phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Molecular Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Nos1 (indicator)"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "2"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Functional Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Excitatory"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "3"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Functional Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Inhibitory"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "3"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Motor phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "148"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Sensory phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "75"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Intrinsic phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Circuit Role"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Projection phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "ANS Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Sympathetic Phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "136"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "ANS Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Parasympathetic Phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "82"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "ANS Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "Enteric phenotype"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "25"
+        }
+      }
+    ]
+  }
+}
