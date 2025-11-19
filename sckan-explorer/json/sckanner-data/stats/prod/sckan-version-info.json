@@ -1,0 +1,17 @@
+{
+  "head": {
+    "vars": [
+      "sckan_version"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "sckan_version": {
+          "type": "literal",
+          "value": "2025-11-10"
+        }
+      }
+    ]
+  }
+}
