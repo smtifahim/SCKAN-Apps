@@ -703,7 +703,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "intermediolateral nucleus of S2‒S4 to intramural ganglia of the myenteric plexus within the wall of the hindgut via pelvic splanchnic nerves via inferior hypogastric plexus"
+          "value": "intermediolateral nucleus of S2\u2012S4 to intramural ganglia of the myenteric plexus within the wall of the hindgut via pelvic splanchnic nerves via inferior hypogastric plexus"
         },
         "Species_IRI": {
           "type": "uri",
@@ -8417,7 +8417,7 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "Wulf (2023) https://doi.org/10.3389/fncel.2023.999253 mentioned about the sympathetic innervation “The SPNs reside in the intermediolateral cell column (IML) of thoracolumbar spinal cord segments T1-L2 (McLachlan and Oldfield, 1981; Oldfield and McLachlan, 1981; Anderson et al., 1989)”. In light of the absense of experimental data on the level of the spinal cord that this connection arises from and suggested by the knowledge expert we decided to include all the sympathetic spinal cord from T1-L2. Houdeau (1998) using retrograde tracing shows that the epicenter of the origin of the postganglionic fibers in the paravertebral sympathetic chain is at T12-L1, but the spread ranges from T10 to L2. Alert 1 was suggested by the knowledge domain expert."
+          "value": "Wulf (2023) https://doi.org/10.3389/fncel.2023.999253 mentioned about the sympathetic innervation \u201cThe SPNs reside in the intermediolateral cell column (IML) of thoracolumbar spinal cord segments T1-L2 (McLachlan and Oldfield, 1981; Oldfield and McLachlan, 1981; Anderson et al., 1989)\u201d. In light of the absense of experimental data on the level of the spinal cord that this connection arises from and suggested by the knowledge expert we decided to include all the sympathetic spinal cord from T1-L2. Houdeau (1998) using retrograde tracing shows that the epicenter of the origin of the postganglionic fibers in the paravertebral sympathetic chain is at T12-L1, but the spread ranges from T10 to L2. Alert 1 was suggested by the knowledge domain expert."
         },
         "Expert_Consultant": {
           "type": "literal",
@@ -8633,7 +8633,7 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "Wulf (2023) https://doi.org/10.3389/fncel.2023.999253 mentioned about the sympathetic innervation “The SPNs reside in the intermediolateral cell column (IML) of thoracolumbar spinal cord segments T1-L2 (McLachlan and Oldfield, 1981; Oldfield and McLachlan, 1981; Anderson et al., 1989)”. In light of the absense of experimental data on the level of the spinal cord that this connection arises from and suggested by the knowledge expert we decided to include all the sympathetic spinal cord from T1-L2. Information on the splanchnic nerve comes from ISBN13:978-1608312948."
+          "value": "Wulf (2023) https://doi.org/10.3389/fncel.2023.999253 mentioned about the sympathetic innervation \u201cThe SPNs reside in the intermediolateral cell column (IML) of thoracolumbar spinal cord segments T1-L2 (McLachlan and Oldfield, 1981; Oldfield and McLachlan, 1981; Anderson et al., 1989)\u201d. In light of the absense of experimental data on the level of the spinal cord that this connection arises from and suggested by the knowledge expert we decided to include all the sympathetic spinal cord from T1-L2. Information on the splanchnic nerve comes from ISBN13:978-1608312948."
         },
         "Expert_Consultant": {
           "type": "literal",
@@ -8833,7 +8833,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "Laterality difference: The references indicate a laterality difference in the innervation of the ovary. \nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9.\nAlert 3: Pastelin 2017 and 2023 - SON innervation includes both ipsilateral and contralateral postganglionic fibers—i.e., some fibers cross to innervate the ovary from the opposite side's ganglia (Contralateral CG and SG also labeled when injecting True Blue (TB) tracer into the right ovary). OPN innervation appears mostly ipsilateral, with no contralateral fibers reported."
+          "value": "Laterality difference: The references indicate a laterality difference in the innervation of the ovary. \nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9.\nAlert 3: Pastelin 2017 and 2023 - SON innervation includes both ipsilateral and contralateral postganglionic fibers\u2014i.e., some fibers cross to innervate the ovary from the opposite side's ganglia (Contralateral CG and SG also labeled when injecting True Blue (TB) tracer into the right ovary). OPN innervation appears mostly ipsilateral, with no contralateral fibers reported."
         },
         "Composer_URI": {
           "type": "uri",
@@ -8991,7 +8991,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "Laterality difference: The references indicate a laterality difference in the innervation of the ovary.\nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9.\nLaterality difference: Pastelin 2017 and 2023 - SON innervation includes both ipsilateral and contralateral postganglionic fibers—i.e., some fibers cross to innervate the ovary from the opposite side's ganglia (Contralateral CG and SG also labeled when injecting True Blue (TB) tracer into the right ovary). OPN innervation appears mostly ipsilateral, with no contralateral fibers reported.\""
+          "value": "Laterality difference: The references indicate a laterality difference in the innervation of the ovary.\nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9.\nLaterality difference: Pastelin 2017 and 2023 - SON innervation includes both ipsilateral and contralateral postganglionic fibers\u2014i.e., some fibers cross to innervate the ovary from the opposite side's ganglia (Contralateral CG and SG also labeled when injecting True Blue (TB) tracer into the right ovary). OPN innervation appears mostly ipsilateral, with no contralateral fibers reported.\""
         },
         "Composer_URI": {
           "type": "uri",
@@ -9821,7 +9821,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "Spatial extent: The spinal levels T10-L1 are mentioned in the references below as the sympathetic innervation of the female reproductive system arises from the superior hypogastric plexus, which in turn arises mainly from the spinal levels mentioned above. Janig et al (1987), table 2, shows these spinal levels as origins of the preganglionic fibers innervating the female reproductive organs. This is supported also by Gray’s Anatomy (40th edition) which states that sympathetic fibers to the uterus are derived from neurons in the last thoracic and first lumbar segments. However, often the splanchnic nerves to the abdomen and pelvis are grouped into “abdominopelvic splanchnic nerves” (see Clinically Oriented Anatomy, Lippincott Williams and Wilkins, 5th ed). It’s possible that the preganglionic neurons spread between T5-L4 with an epicenter at T10-L1.\nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9."
+          "value": "Spatial extent: The spinal levels T10-L1 are mentioned in the references below as the sympathetic innervation of the female reproductive system arises from the superior hypogastric plexus, which in turn arises mainly from the spinal levels mentioned above. Janig et al (1987), table 2, shows these spinal levels as origins of the preganglionic fibers innervating the female reproductive organs. This is supported also by Gray\u2019s Anatomy (40th edition) which states that sympathetic fibers to the uterus are derived from neurons in the last thoracic and first lumbar segments. However, often the splanchnic nerves to the abdomen and pelvis are grouped into \u201cabdominopelvic splanchnic nerves\u201d (see Clinically Oriented Anatomy, Lippincott Williams and Wilkins, 5th ed). It\u2019s possible that the preganglionic neurons spread between T5-L4 with an epicenter at T10-L1.\nPhysiological condition: Sympathetic innervation is known to undergo dynamic functional and/or anatomical changes during gestation. This has been observed in several species including rats and humans. Vera et al (1997) https://doi.org/10.1016/s0006-8993(96)01107-9."
         },
         "Composer_URI": {
           "type": "uri",
@@ -10283,7 +10283,7 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "Dr. Caroline Cobine cited \"The spinal levels are from Gray’s Anatomy 40th edition, page 1293\". The statement was corrected by Dr. Caroline Cobine and it became: \"via lesser splanchnic nerve OR first OR second lumbar splanchnic nerves\". But we can say simply Lumbar splanchnic nerves because the term refers to L1 and L2 only. So we avoid creating extra terms."
+          "value": "Dr. Caroline Cobine cited \"The spinal levels are from Gray\u2019s Anatomy 40th edition, page 1293\". The statement was corrected by Dr. Caroline Cobine and it became: \"via lesser splanchnic nerve OR first OR second lumbar splanchnic nerves\". But we can say simply Lumbar splanchnic nerves because the term refers to L1 and L2 only. So we avoid creating extra terms."
         },
         "Expert_Consultant": {
           "type": "literal",
@@ -10663,7 +10663,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "S2-S4 sacral parasympathetic nucleus to pelvic ganglion via anterior ramI of S2‒S4 spinal cord via pelvic splanchnic nerves via inferior hypogastric plexus"
+          "value": "S2-S4 sacral parasympathetic nucleus to pelvic ganglion via anterior ramI of S2\u2012S4 spinal cord via pelvic splanchnic nerves via inferior hypogastric plexus"
         },
         "Species_IRI": {
           "type": "uri",
@@ -10687,7 +10687,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "Cross-species inference: The source mentions that the parasympathetic neurons arise from the ventral rami of S2‒S4 spinal nerves but the origin (where the somata are located) is not mentioned explicitly. The somata are expected to be in the sacral parasympathetic nucleus."
+          "value": "Cross-species inference: The source mentions that the parasympathetic neurons arise from the ventral rami of S2\u2012S4 spinal nerves but the origin (where the somata are located) is not mentioned explicitly. The somata are expected to be in the sacral parasympathetic nucleus."
         },
         "Composer_URI": {
           "type": "uri",
@@ -15061,7 +15061,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T4–L2 intermediolateral cell columns to pre vertebral sympathetic ganglia in abdominal aortic plexus via greater splanchnic nerve OR lesser splanchnic nerve"
+          "value": "T4\u2013L2 intermediolateral cell columns to pre vertebral sympathetic ganglia in abdominal aortic plexus via greater splanchnic nerve OR lesser splanchnic nerve"
         },
         "Species_IRI": {
           "type": "uri",
@@ -16111,7 +16111,7 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "Dr. Janet R Keast commented \"This statement is correct but could be expanded : “to inferior hypogastric plexus via the superior hypogastric plexus then the hypogastric nerve”\"."
+          "value": "Dr. Janet R Keast commented \"This statement is correct but could be expanded : \u201cto inferior hypogastric plexus via the superior hypogastric plexus then the hypogastric nerve\u201d\"."
         },
         "Expert_Consultant": {
           "type": "literal",
@@ -20435,7 +20435,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "C7-T1 dorsal root ganglia with axon sensory terminal in flexor surface of ulnar 1½ fingers or their nail beds via ulnar nerve with axon terminal in C7-T1 spinal cord via C7-T1 dorsal roots of spinal cord"
+          "value": "C7-T1 dorsal root ganglia with axon sensory terminal in flexor surface of ulnar 1\u00bd fingers or their nail beds via ulnar nerve with axon terminal in C7-T1 spinal cord via C7-T1 dorsal roots of spinal cord"
         },
         "Species_IRI": {
           "type": "uri",
