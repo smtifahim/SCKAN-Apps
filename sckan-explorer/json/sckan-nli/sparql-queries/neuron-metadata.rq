@@ -41,7 +41,11 @@ WHERE
     OPTIONAL {?Neuron_IRI ilxtr:expertConsultant ?Expert_Consultation.}
     OPTIONAL {?Neuron_IRI ilxtr:curatorNote ?Curation_Note.}
            
-    OPTIONAL {?Neuron_IRI ilxtr:isObservedInSpecies/rdfs:label ?Species_1.}
+   # OPTIONAL {?Neuron_IRI ilxtr:isObservedInSpecies/rdfs:label ?Species_1.}           
+    OPTIONAL {
+                ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
+                ?Species_IRI rdfs:label ?Species_1.
+             }
     OPTIONAL {?Neuron_IRI ilxtr:hasPhenotypicSex/rdfs:label ?Sex.}
     
     OPTIONAL {?Neuron_IRI ilxtr:literatureCitation ?Literature_Citation.}

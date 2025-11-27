@@ -144,7 +144,7 @@ SELECT DISTINCT
                                             'lower respiratory tract', 'upper respiratory tract', 'digestive tract', 'male reproductive system', 'female reproductive system',
                                             'eye gland', 'endocrine gland', 'spinal cord', 'vagina', 'hemopoietic organ', 'skin of body', 'adrenal gland','buttock', 
                                             'penis', 'clitoris', 'prostate gland', 'seminal vesicle','pancreas','uterus', 'sweat gland', 'arterial system',
-                                                    'scapular muscle', 'sphincter muscle', 'flexor muscle', 'muscle of shoulder', 'muscle organ',
+                                            'scapular muscle', 'sphincter muscle', 'flexor muscle', 'muscle of shoulder', 'muscle organ',
                                             # added systems
                                             'respiratory system', 'digestive system', 'endocrine system', 'lymphoid system', 'sense organ', 'renal system', 'integumental system',
                                             'cardiovascular system'

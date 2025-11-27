@@ -1,5 +1,5 @@
-## Axonal path query for SCKAN's partial order
-## Version: November 13, 2025. Using rdf-star. Fahim Imam
+## Updated axonal path query for SCKAN's partial order
+## Version: November 13, 2025. Using rdf-star
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -7,23 +7,50 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
+SELECT DISTINCT 
+?Neuron_IRI ?Neuron_Label 
+?V1 ?V1_Label
+?V2 ?V2_Label
 
 WHERE
 {
-  # FILTER (regex(str(?Neuron_IRI),'keast-1' ))
+  # FILTER (regex(str(?Neuron_IRI),'aacar-1' ))
   ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
   values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
 
   Optional {?Neuron_IRI skos:prefLabel ?Neuron_Label} .
-  <<?V1 ilxtr:hasNextNode ?V2 >> ilxtr:isConnectedBy ?Neuron_IRI ;
-                                 ilxtr:fromRegion ?region1 ;
-                                 ilxtr:toRegion ?region2.
+  
+  <<?V1 ilxtr:hasNextNode ?V2 >> ilxtr:isConnectedBy ?Neuron_IRI.
+  <<?Neuron_IRI ?V1_Phenotype ?V1>> rdfs:label ?V1_Label.
+  <<?Neuron_IRI ?V2_Phenotype ?V2>> rdfs:label ?V2_Label.
 
-  <<?Neuron_IRI ?Connection_Type_V1 ?V1>> ilxtr:hasRegion ?region1;
-                                          rdfs:label ?V1_Label.
-  <<?Neuron_IRI ?Connection_Type_V2 ?V2>> ilxtr:hasRegion ?region2;
-                                          rdfs:label ?V2_Label.
 }
-ORDER BY ?Neuron_IRI ?V1 ?V2
+ORDER BY ?Neuron_IRI ?V1_label ?V2_Label
 LIMIT 10000
+
+# PREFIX owl: <http://www.w3.org/2002/07/owl#>
+# PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+# PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+# PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+# PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?V1 ?V1_Label ?V2 ?V2_Label
+
+# WHERE
+# {
+#   # FILTER (regex(str(?Neuron_IRI),'keast-1' ))
+#   ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
+#   values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+
+#   Optional {?Neuron_IRI skos:prefLabel ?Neuron_Label} .
+#   <<?V1 ilxtr:hasNextNode ?V2 >> ilxtr:isConnectedBy ?Neuron_IRI ;
+#                                  ilxtr:fromRegion ?region1 ;
+#                                  ilxtr:toRegion ?region2.
+
+#   <<?Neuron_IRI ?Connection_Type_V1 ?V1>> ilxtr:hasRegion ?region1;
+#                                           rdfs:label ?V1_Label.
+#   <<?Neuron_IRI ?Connection_Type_V2 ?V2>> ilxtr:hasRegion ?region2;
+#                                           rdfs:label ?V2_Label.
+# }
+# ORDER BY ?Neuron_IRI ?V1 ?V2
+# LIMIT 10000
