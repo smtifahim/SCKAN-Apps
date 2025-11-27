@@ -2537,7 +2537,7 @@
         },
         "Organ_Synonym": {
           "type": "literal",
-          "value": "vesiculæ seminales"
+          "value": "vesicul\u00e6 seminales"
         }
       },
       {

@@ -37623,7 +37623,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "Méry gland"
+          "value": "M\u00e9ry gland"
         }
       },
       {
@@ -38617,7 +38617,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "vesiculæ seminales"
+          "value": "vesicul\u00e6 seminales"
         }
       },
       {
@@ -40465,7 +40465,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "glutæus minimus"
+          "value": "glut\u00e6us minimus"
         }
       },
       {
@@ -40605,7 +40605,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "glutæus maximus"
+          "value": "glut\u00e6us maximus"
         }
       },
       {
@@ -49761,7 +49761,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "levator scapulæ"
+          "value": "levator scapul\u00e6"
         }
       },
       {
