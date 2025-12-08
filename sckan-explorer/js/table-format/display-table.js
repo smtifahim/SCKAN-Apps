@@ -493,26 +493,6 @@ function createDataRows(neuronData)
       terminalIdCell.classList.add('hide-col');
       dataRow.appendChild(terminalIdCell);
 
-      // dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.Label)));
-      // // Origin ID as before
-      // dataRow.appendChild(createTableData(createLink(datum.origin.IRI, datum.origin.ID)));
-      // // Via label as clickable link (region/layer aware)
-      // if (datum.via && datum.via.Label) {
-      //   dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.Label)));
-      // } else {
-      //   dataRow.appendChild(createTableData("-"));
-      // }
-      // // Via ID as before
-      // if (datum.via && datum.via.ID) {
-      //   dataRow.appendChild(createTableData(createLink(datum.via.IRI, datum.via.ID)));
-      // } else {
-      //   dataRow.appendChild(createTableData(""));
-      // }
-      // // Terminal label as clickable link (region/layer aware)
-      // dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.Label || "-")));
-      // Terminal ID as before
-     // dataRow.appendChild(createTableData(createLink(datum.destination.IRI, datum.destination.ID)));
-      // Target Organ column: comma-separated clickable links, one cell only
       let organsToShow = [];
       if (datum.destination && datum.destination.ID) {
         const matchingRows = neuronData.filter(d => d.destination && d.destination.ID === datum.destination.ID);
@@ -535,7 +515,6 @@ function createDataRows(neuronData)
       return dataRow;
     });
   
-    // ...existing code...
 }
 
 function createEmptyRow()
