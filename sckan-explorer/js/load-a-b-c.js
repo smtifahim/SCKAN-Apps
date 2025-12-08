@@ -592,8 +592,7 @@ function getAtoBviaC(abc_data)
            
            var curation_note = "";
            if (neuronMetaData[i].hasOwnProperty("Curation_Note"))
-                citation_note = neuronMetaData[i].Curation_Note.value;
-
+                curation_note = neuronMetaData[i].Curation_Note.value;
            
            var neuron_diagram_link = "";
            if (neuronMetaData[i].hasOwnProperty("Diagram_Link"))
