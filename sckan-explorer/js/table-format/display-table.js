@@ -254,15 +254,6 @@ function createVizRow(neuronData)
     vizData.style.border = 'none';
     vizData.colSpan = 6;
     
-    const synapseCheckbox = getSynapseCheckBox();
-    vizData.appendChild(synapseCheckbox);    
-    synapseCheckbox.style.display = 'none'; //hide checkbox
-
-    if (hasSynapse !== "")
-    {
-      synapseCheckbox.style.display = 'block'; //show checkbox
-    }    
-      
     // Create a containers for the toggle viz
     var divNonSynapse = document.createElement('div');
     divNonSynapse.id = "divNonSynapse";
@@ -274,10 +265,40 @@ function createVizRow(neuronData)
     divSynapse.appendChild (getVizWithSynapse(gData));
     divSynapse.style.display = 'none'; // Initially hide divSynapse
 
+    // Create container for legend and checkboxes
+    const legendContainer = document.createElement('div');
+    legendContainer.style.position = 'relative';
+    legendContainer.style.paddingTop = '35px';
+    
+    // Add layout toggle checkbox (positioned on the left, above legend)
+    const layoutToggle = getLayoutToggleCheckBox();
+    layoutToggle.style.position = 'absolute';
+    layoutToggle.style.top = '-8px';
+    layoutToggle.style.left = '0';
+    legendContainer.appendChild(layoutToggle);
+    
+    // Add synapse checkbox positioned above legend (center)
+    const synapseCheckbox = getSynapseCheckBox();
+    synapseCheckbox.style.position = 'absolute';
+    synapseCheckbox.style.top = '-8px';
+    synapseCheckbox.style.right = '50%';
+    synapseCheckbox.style.transform = 'translateX(50%)';
+    synapseCheckbox.style.display = 'none'; //hide checkbox
+
+    if (hasSynapse !== "")
+    {
+      synapseCheckbox.style.display = 'block'; //show checkbox
+    }
+    
+    legendContainer.appendChild(synapseCheckbox);
+    legendContainer.appendChild(getVizLegend());
+    
+    vizData.appendChild(legendContainer);   
+
     vizData.appendChild(divSynapse);
     vizData.appendChild(divNonSynapse);
     
-     // Toggle effect for the checkbox
+     // Toggle effect for the synapse checkbox
     synapseCheckbox.firstChild.addEventListener('change', function ()
     {
         if (this.checked)
@@ -291,8 +312,19 @@ function createVizRow(neuronData)
           divNonSynapse.style.display = 'block'; //show viz
         }
     });
+    
+    // Toggle effect for the layout checkbox
+    layoutToggle.firstChild.addEventListener('change', function ()
+    {
+        const layout = this.checked ? 'LR' : 'TB'; // checked = LR, unchecked = TB (default)
+        // Regenerate both visualizations with new layout
+        divNonSynapse.innerHTML = '';
+        divNonSynapse.appendChild(getVizWithoutSynapse(gData, layout));
+        
+        divSynapse.innerHTML = '';
+        divSynapse.appendChild(getVizWithSynapse(gData, layout));
+    });
 
-    vizData.appendChild(getVizLegend());   
     vizRow.appendChild(vizData);
     
     return vizRow;
@@ -300,25 +332,53 @@ function createVizRow(neuronData)
   return document.createElement("tr");
 }
 
-function getVizWithoutSynapse(gData)
+function getVizWithoutSynapse(gData, layout = 'TB')
 {
   const div = document.createElement('div');
   div.id = "graphWithoutSynapse";
   div.style = "display: flex; justify-content: center";
   
-  const graphSVG = Viz(gData.diGraph.axonalPath); //calling the Viz constructor from GraphViz's viz.js
+  // Modify the graph definition to use the specified layout
+  let graphDef = gData.diGraph.axonalPath;
+  
+  // Remove any existing rankdir setting first (more comprehensive pattern)
+  graphDef = graphDef.replace(/rankdir\s*=\s*[A-Z]+\s*;?\s*/gi, '');
+  
+  // Insert the desired rankdir after 'strict digraph {' or 'digraph ... {'
+  // Match both 'strict digraph {' and 'digraph identifier {'
+  graphDef = graphDef.replace(/(strict\s+)?digraph(\s+\w+)?\s*\{/, (match) => {
+    return match + '\nrankdir=' + layout + ';';
+  });
+  
+  console.log('Layout:', layout, 'GraphDef preview:', graphDef.substring(0, 200));
+  
+  const graphSVG = Viz(graphDef); //calling the Viz constructor from GraphViz's viz.js
   div.innerHTML = graphSVG;
   
   return div;
 }
 
-function getVizWithSynapse(gData)
+function getVizWithSynapse(gData, layout = 'TB')
 {
   const div = document.createElement('div');
   div.id = "graphWithSynapse";
   div.style = "display: flex; justify-content: center";
   
-  const graphSVG = Viz(gData.diGraphSynapse.axonalPath); //calling the Viz constructor from GraphViz's viz.js
+  // Modify the graph definition to use the specified layout
+  let graphDef = gData.diGraphSynapse.axonalPath;
+  
+  // Remove any existing rankdir setting first (more comprehensive pattern)
+  graphDef = graphDef.replace(/rankdir\s*=\s*[A-Z]+\s*;?\s*/gi, '');
+  
+  // Insert the desired rankdir after 'strict digraph {' or 'digraph ... {'
+  // Match both 'strict digraph {' and 'digraph identifier {'
+  graphDef = graphDef.replace(/(strict\s+)?digraph(\s+\w+)?\s*\{/, (match) => {
+    return match + '\nrankdir=' + layout + ';';
+  });
+  
+  console.log('Layout:', layout, 'GraphDef preview:', graphDef.substring(0, 200));
+  
+  const graphSVG = Viz(graphDef); //calling the Viz constructor from GraphViz's viz.js
   div.innerHTML = graphSVG;
 
   return div;
@@ -328,8 +388,8 @@ function getSynapseCheckBox()
 {
   const synapseDiv = document.createElement('div');
   synapseDiv.id = 'syn-div';
-  synapseDiv.style = `display: flex; justify-content: center; align-items: center;
-                       margin: 10px auto 20px auto; width: fit-content;`;
+  synapseDiv.style = `display: flex; justify-content: flex-start; align-items: center;
+                       width: fit-content;`;
 
   const synapseCheckbox = document.createElement('input');
   synapseCheckbox.type = 'checkbox';
@@ -352,6 +412,40 @@ function getSynapseCheckBox()
   synapseDiv.appendChild(synapseLabel);
 
   return synapseDiv;
+}
+
+function getLayoutToggleCheckBox() 
+{
+  const layoutDiv = document.createElement('div');
+  layoutDiv.id = 'layout-div';
+  layoutDiv.style = `display: flex; justify-content: flex-start; align-items: center;
+                      width: fit-content;`;
+
+  const layoutCheckbox = document.createElement('input');
+  layoutCheckbox.type = 'checkbox';
+  layoutCheckbox.id = 'layoutCheckbox';
+  layoutCheckbox.checked = false; // Default unchecked = TB layout
+  layoutCheckbox.style.width = '25px';
+  layoutCheckbox.style.top = '80px';
+
+  layoutCheckbox.style.height = '25px';
+  layoutCheckbox.style.verticalAlign = 'middle';
+
+  const layoutLabel = document.createElement('label');
+  layoutLabel.htmlFor = 'layoutCheckbox';
+  layoutLabel.innerText = 'Layout: Left to Right';
+  layoutLabel.style.backgroundColor = '#FBE0C0'; 
+  layoutLabel.style.color = 'black';        
+  
+  layoutLabel.style.padding = '5px 5px';
+  layoutLabel.style.cursor = 'pointer';
+  layoutLabel.style.verticalAlign = 'middle';
+
+  // append checkbox and label to layoutDiv
+  layoutDiv.appendChild(layoutCheckbox);
+  layoutDiv.appendChild(layoutLabel);
+
+  return layoutDiv;
 }
 
 function getVizLegend()
