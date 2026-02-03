@@ -10,3 +10,6 @@
 /sckan-test-jan
 /testing
 /testing-1
+
+# Environment variables
+.env

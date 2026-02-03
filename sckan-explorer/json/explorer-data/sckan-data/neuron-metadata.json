@@ -22,6 +22,48 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/gastint/1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type gastint 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "NEEDS FURTHER REVIEW/CONFIRMATION: superior salivatory nucleus to submandibular ganglion via chorda tympani nerve"
+        },
+        "Species": {
+          "type": "literal",
+          "value": "Rattus norvegicus"
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Parasympathetic Pre-Ganglionic phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/257"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "This connection may be equivalent to mmset2cn:3 which is human but it needs more careful examination."
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": "https://orcid.org/0000-0003-0638-5274"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2018.00009/full, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2231255/"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/composer/uris/set/gastint/10"
         },
         "Neuron_Label": {
@@ -88,11 +130,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -126,11 +168,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -164,11 +206,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -202,11 +244,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -240,11 +282,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -278,11 +320,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -316,11 +358,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -354,11 +396,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -392,11 +434,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -468,11 +510,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0003-0638-5274"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309, https://orcid.org/0000-0003-0638-5274"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0702052309"
         }
       },
       {
@@ -744,6 +786,506 @@
       {
         "Neuron_IRI": {
           "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 1"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in skin of body via splanchnic nerve with axon terminal in the rexed laminae I-II or rexed lamina V of the dorsal grey horn via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype, nociceptive circuit, type A\u03b4 (delta) nerve fiber"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/559"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "should this be lower trunk \"generic\" since it includes splanchnic nerve?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 10"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "rexed laminae I-II or rexed lamina V of the dorsal grey horn to ventral posteromedial (VPM) nucleus of the thalamus via anterior white commissure via spinothalamic tract"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit, Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/568"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "Ilias asks if this population should have the laminae specified for the dorsal horn of spinal cord - that isn't currently modeled here) should it?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 11"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "spinal nucleus of trigeminal nerve or caudal part of spinal trigeminal nucleus or interpolar part of spinal trigeminal nucleus or oral part of spinal trigeminal nucleus to ventral posteromedial nucleus of thalamus via spinal cord ventral commissure via ventral trigeminothalamic tract"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/569"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "For this statement, there's 3 origins, but the trigeminal 1st order neurons only specify one location. should we break both populations out accordingly?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 12"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in joint via splanchnic nerve with axon terminal in the rexed lamina I or rexed laminae V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit, type A\u03b4 (delta) nerve fiber, Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/570"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "remove \"X\" in A2BviaC statements?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 2"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in skin of body via splanchnic nerve with axon terminal in the rexed laminae I-II or rexed lamina V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "type C nerve fiber, nociceptive circuit, Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/560"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "Should this be lower trunk of body because of the splanchnic nerve? Also, we should remove the \"X\" in the A2BviaC description too, i think."
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 3"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in muscle via splanchnic nerve with axon terminal in the rexed laminae I-II or rexed lamina V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype, nociceptive circuit, type A\u03b4 (delta) nerve fiber"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/561"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "did not model species as mammalian -it's implicit for sckan. do we need to refer to this as lower trunk because of splanchnic nerve?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 4"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in muscle via splanchnic nerve with axon terminal in the rexed laminae I-II or rexed laminae V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype, nociceptive circuit, type C nerve fiber"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/562"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "Should this be lower trunk due to splanchnic nerve as via? Need to remove \"X\" in the A2BviaC statements, correct?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 5"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in joint via splanchnic nerve with axon terminal in the rexed lamina I or rexed laminae V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit, type C nerve fiber, Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/563"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "would this be for lower trunk joints because of splanchnic nerve involvement? also, just noting no traversal through substantia gelatinous (lamina II) (in contrast to skin and muscle populations)"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 6"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in visceral organ via splanchnic nerve with axon terminal in the rexed lamina I or rexed laminae V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit, Sensory phenotype, type C nerve fiber"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/564"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "Remove \"X\" from the A2BviaC statements?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 7"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "dorsal root ganglion with axon sensory terminal in visceral organ via splanchnic nerve with axon terminal in the rexed lamina I or rexed laminae V of dorsal grey horn of the spinal cord via dorsal root of spinal cord"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "nociceptive circuit, type A\u03b4 (delta) nerve fiber, Sensory phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/565"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 8"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "trigeminal ganglion with axon sensory terminal in face or oral cavity or head via trigeminal nerve with axon terminal in the spinal trigeminal nucleus via spinal trigeminal tract"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "type A\u03b4 (delta) nerve fiber, Sensory phenotype, nociceptive circuit"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/566"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "should we include the tongue here? Also, should we use the branches of the trigeminal to provide more specificity?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type pain1 9"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "trigeminal ganglion with axon sensory terminal in face or oral cavity or head via trigeminal nerve with axon terminal in the spinal trigeminal nucleus via spinal trigeminal tract"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Sensory phenotype, type C nerve fiber, nociceptive circuit"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/567"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "Should we break out the trigeminal nerve into the 3 branches? Should this include the tongue as a destination?"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": ""
+        },
+        "Citations": {
+          "type": "literal",
+          "value": "https://doi.org/10.1016/j.cell.2011.11.027, https://doi.org/10.1016/j.neuron.2013.07.051, https://doi.org/10.1016/j.tins.2012.03.006, https://doi.org/10.1038/nn.3881, https://doi.org/10.3390/ijms19082164"
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
           "value": "http://uri.interlex.org/composer/uris/set/portal/1"
         },
         "Neuron_Label": {
@@ -760,7 +1302,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Enteric phenotype, Motor phenotype"
+          "value": "Motor phenotype, Enteric phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -804,21 +1346,17 @@
           "type": "literal",
           "value": ""
         },
-        "Alert": {
-          "type": "literal",
-          "value": "Spatial extent: Dr. Zixi Cheng, the corresponding author of the study used as the source, mentioned the epicenter of labeled cells is T7-T11, but there is a spatial distribution of DRG labeled cells from T4-T12."
-        },
         "Composer_URI": {
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/525"
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "We spoke directly with the corresponding author of the study used as the source Dr. Zixi Cheng to confirm the distillation of knowledge. He mentioned there is a spatial distribution of DRG labeled cells and that in the paper they mention the epicenter."
+          "value": "We spoke directly with the corresponding author of the study used as the source Dr. Zixi Cheng to confirm the distillation\u00a0of knowledge. He mentioned there is a spatial distribution of DRG labeled cells and that in the paper they mention the epicenter."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "We spoke directly with the corresponding author of the study used as the source Dr.Zixi Cheng to confirm the distillation of knowledge."
+          "value": "https://orcid.org/0000-0002-7941-8527"
         },
         "Citations": {
           "type": "literal",
@@ -850,10 +1388,6 @@
           "type": "literal",
           "value": ""
         },
-        "Alert": {
-          "type": "literal",
-          "value": "Alert 1: The primary reference identifies the vagal afferent endings of this population as intramuscular arrays (IMAs). According to Powley et al., 2011 https://doi.org/10.1002/cne.22541 \"The second smooth muscle ending, the intramuscular array, is found running in smooth muscle in association with interstitial cells of Cajal; although it is uncertain whether these afferents have been adequately sampled in electrophysiological analyses, they are presumed to be mechanoreceptors and have been hypothesized to serve as stretch receptors (see discussions in Phillips and Powley, 2000; Zagorodnyuk et al., 2001).\"\nAlert 2: The dataset https://doi.org/10.26275/ih2m-pphy has been added as a reference for the axon terminals in the nucleus of solitary tract that have cell bodies residing in nodose ganglion."
-        },
         "Composer_URI": {
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/528"
@@ -868,7 +1402,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/10.26275/3m8n-0owa, http://dx.doi.org/10.1002/cne.23892, https://doi.org/10.26275/ih2m-pphy"
+          "value": "https://doi.org/10.1002/10.26275/3m8n-0owa, https://doi.org/10.1002/cne.23892, https://doi.org/10.26275/ih2m-pphy"
         }
       },
       {
@@ -896,10 +1430,6 @@
           "type": "literal",
           "value": ""
         },
-        "Alert": {
-          "type": "literal",
-          "value": "Alert 1: The primary reference identifies the vagal afferent endings of this population as intraganglionic Laminar Endings (IGLEs). According to Powley et al., 2011 https://doi.org/10.1002/cne.22541: \"Surveys of the smooth muscle wall of the gut, from the esophagus to colon (e.g., Wang and Powley, 2000) have commonly recognized two classes of vagal afferents in the tunica muscularis. One, the intraganglionic laminar ending, is associated with myenteric ganglia, is found from esophagus to colon, and appears to operate as mechanoreceptor detecting tension (Phillips and Powley, 2000; Zagorodnyuk et al., 2001).\"\nAlert 2: The dataset https://doi.org/10.26275/ih2m-pphy has been added as a reference for the axon terminals in the nucleus of solitary tract that have cell bodies residing in nodose ganglion."
-        },
         "Composer_URI": {
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/529"
@@ -914,7 +1444,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cne.23892, https://doi.org/10.26275/ih2m-pphy, http://dx.doi.org/10.26275/3m8n-0owa"
+          "value": "https://doi.org/10.1002/cne.23892, https://doi.org/10.26275/ih2m-pphy, https://doi.org/10.26275/3m8n-0owa"
         }
       },
       {
@@ -942,10 +1472,6 @@
           "type": "literal",
           "value": ""
         },
-        "Alert": {
-          "type": "literal",
-          "value": "Spatial extent: Dr. Zixi Cheng, the corresponding author of the study used as the source, mentioned the epicenter of labeled cells is C8-T3, but there is a spatial distribution of DRG labeled cells. Laterality difference: This use case shows how the left DRGs innervate with sensory terminals both left and right atria in the rat. The innervation of the rat atria from the right DRGs is yet to be studied. The corresponding author confirmed a left-predominant distribution of fibers in the left atria compared to the right atria in rats. Data source note: The left precaval vein plexus appears to be a synonym: left cranial vein plexus in the rat (as per Batulevicius et al., 2003 and Chen et al., 2025)."
-        },
         "Composer_URI": {
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/522"
@@ -956,63 +1482,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "We spoke directly with the corresponding author of the study used as the source Dr.Zixi Cheng to confirm the distillation of knowledge."
+          "value": "https://orcid.org/0000-0002-7941-8527"
         },
         "Citations": {
           "type": "literal",
           "value": "https://doi.org/10.1002/cne.25681, https://doi.org/10.26275/jjd7-yomj"
-        }
-      },
-      {
-        "Neuron_IRI": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/NeuronApinatSimple"
-        },
-        "Species": {
-          "type": "literal",
-          "value": ""
-        },
-        "Phenotypes": {
-          "type": "literal",
-          "value": ""
-        },
-        "Forward_Connections": {
-          "type": "literal",
-          "value": ""
-        },
-        "Expert_Consultant": {
-          "type": "literal",
-          "value": ""
-        },
-        "Citations": {
-          "type": "literal",
-          "value": ""
-        }
-      },
-      {
-        "Neuron_IRI": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/NeuronSparcNlp"
-        },
-        "Species": {
-          "type": "literal",
-          "value": ""
-        },
-        "Phenotypes": {
-          "type": "literal",
-          "value": ""
-        },
-        "Forward_Connections": {
-          "type": "literal",
-          "value": ""
-        },
-        "Expert_Consultant": {
-          "type": "literal",
-          "value": ""
-        },
-        "Citations": {
-          "type": "literal",
-          "value": ""
         }
       },
       {
@@ -1046,7 +1520,11 @@
         },
         "Composer_URI": {
           "type": "uri",
-          "value": "https://composer.scicrunch.io/statement/121"
+          "value": "https://composer.scicrunch.io/statement/543"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "This statement is equivalent to AACAR-1, but that statement seems corrupted for some reason and is unable to transition."
         },
         "Expert_Consultant": {
           "type": "literal",
@@ -1054,7 +1532,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.5281/zenodo.14042941"
+          "value": "https://zenodo.org/records/14042941"
         }
       },
       {
@@ -1304,10 +1782,6 @@
           "type": "literal",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-15"
         },
-        "Alert": {
-          "type": "literal",
-          "value": "This neuron population, aacar 14, is the result of the May 2023 discussion with Bernard de Bono, Jeff Ardell, and Robert Foreman that focused on bridging the DRG sensory neurons returning nociceptive signals from the heart, synapsing with a (green) interneuron (aacar-14) in Rexed Lamina I to project to Rexed laminae VIII and X. In the latter, projections via neuron family 15 relay, via the funicular tracts, feedback to the NTS."
-        },
         "Diagram_Link": {
           "type": "uri",
           "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/ard-arm-cardiac/docs/ard-arm-cardiac.svg"
@@ -1322,7 +1796,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.5281/zenodo.14042941, https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.c140032, https://physoc.onlinelibrary.wiley.com/doi/abs/10.1113/JP271869"
+          "value": "https://doi.org/10.5281/zenodo.14042941, https://doi.org/10.1002/cphy.c140032, https://doi.org/10.1113/JP271869"
         }
       },
       {
@@ -1536,11 +2010,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-9241-0864"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/ard-arm-cardiac, https://orcid.org/0000-0001-9241-0864, http://www.ncbi.nlm.nih.gov/pubmed/27783854"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/27783854"
         }
       },
       {
@@ -2750,11 +3224,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/bolser-lewis, https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
+          "value": ""
         }
       },
       {
@@ -2796,11 +3270,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/bolser-lewis, https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
+          "value": ""
         }
       },
       {
@@ -2842,11 +3316,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/bolser-lewis, https://orcid.org/0000-0001-7050-0666, https://orcid.org/0000-0002-4577-8954"
+          "value": ""
         }
       },
       {
@@ -3466,11 +3940,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972"
         }
       },
       {
@@ -3512,11 +3986,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/1619047, http://www.ncbi.nlm.nih.gov/pubmed/32598494"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/1619047, http://www.ncbi.nlm.nih.gov/pubmed/32598494"
         }
       },
       {
@@ -3558,11 +4032,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3600,11 +4074,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/12811806"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/12811806"
         }
       },
       {
@@ -3646,11 +4120,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301"
         }
       },
       {
@@ -3688,11 +4162,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3730,11 +4204,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047, http://www.ncbi.nlm.nih.gov/pubmed/13584080"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047, http://www.ncbi.nlm.nih.gov/pubmed/13584080"
         }
       },
       {
@@ -3772,11 +4246,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3798,7 +4272,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Spinal cord descending projection phenotype, Projection phenotype"
+          "value": "Projection phenotype, Spinal cord descending projection phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -3814,11 +4288,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3840,7 +4314,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Projection phenotype, Spinal cord descending projection phenotype"
+          "value": "Spinal cord descending projection phenotype, Projection phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -3856,11 +4330,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3898,11 +4372,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -3944,11 +4418,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972"
         }
       },
       {
@@ -3986,11 +4460,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2571623, http://www.ncbi.nlm.nih.gov/pubmed/2713886, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/7644029, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/9622251, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806, http://www.ncbi.nlm.nih.gov/pubmed/1619047"
         }
       },
       {
@@ -4032,11 +4506,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/9622251"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/4700666, http://www.ncbi.nlm.nih.gov/pubmed/9622251"
         }
       },
       {
@@ -4078,11 +4552,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/9622251, https://doi.org/10.5281/zenodo.4592539, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/9622251, https://doi.org/10.5281/zenodo.4592539, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414"
         }
       },
       {
@@ -4120,11 +4594,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/9442414, http://www.ncbi.nlm.nih.gov/pubmed/86176, http://www.ncbi.nlm.nih.gov/pubmed/6736301, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/12401325, http://www.ncbi.nlm.nih.gov/pubmed/21283532"
         }
       },
       {
@@ -4138,7 +4612,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "L1-L2 spinal cord segment (rexed laminae VII) to pelvic ganglion via white matter of L1-L2 via ventral root of L1-L2 via white communicating ramus of L1-L2 via grey communicating ramus of L1-L2 via lumbar splanchnic nerve via inferior mesenteric ganglion via hypogastric nerve"
+          "value": "L1-L2 spinal cord segments (rexed laminae VII) to pelvic ganglion via white matter of L1-L2 via ventral root of L1-L2 via white communicating ramus of L1-L2 via grey communicating ramus of L1-L2 via lumbar splanchnic nerve via inferior mesenteric ganglion via hypogastric nerve"
         },
         "Species": {
           "type": "literal",
@@ -4166,11 +4640,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/30704972, http://www.ncbi.nlm.nih.gov/pubmed/10473279, http://www.ncbi.nlm.nih.gov/pubmed/21283532, http://www.ncbi.nlm.nih.gov/pubmed/758335, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884"
         }
       },
       {
@@ -4184,7 +4658,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "L1-L2 spinal cord segment (rexed laminae VII) to inferior mesenteric ganglion via white matter of L1-L2 via ventral root of L1-L2 via white communicating ramus of L1-L2 via grey communicating ramus of L1-L2 via lumbar splanchnic nerve"
+          "value": "L1-L2 spinal cord segments (rexed laminae VII) to inferior mesenteric ganglion via white matter of L1-L2 via ventral root of L1-L2 via white communicating ramus of L1-L2 via grey communicating ramus of L1-L2 via lumbar splanchnic nerve"
         },
         "Species": {
           "type": "literal",
@@ -4212,11 +4686,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/3225349, http://www.ncbi.nlm.nih.gov/pubmed/3558884, http://www.ncbi.nlm.nih.gov/pubmed/2567744, http://www.ncbi.nlm.nih.gov/pubmed/3416186"
         }
       },
       {
@@ -4230,7 +4704,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "L1-L2 spinal cord segments (rexed laminae VII) to T12-L6 sympathetic chain via white matter of L1-L2 via ventral root of L1-L2 via L1-L2 white communicating rami"
+          "value": "L1-L2 spinal cord segments (rexed laminae VII) to T12-L6 sympathetic chain ganglia via white matter of L1-L2 via ventral root of L1-L2 via L1-L2 white communicating rami"
         },
         "Species": {
           "type": "literal",
@@ -4258,11 +4732,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/2567744"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/1358408, http://www.ncbi.nlm.nih.gov/pubmed/2891149, http://www.ncbi.nlm.nih.gov/pubmed/1726105, http://www.ncbi.nlm.nih.gov/pubmed/2567744"
         }
       },
       {
@@ -4300,11 +4774,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-4341-3265"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/keast-bladder, https://orcid.org/0000-0002-4341-3265, http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/7174880, http://www.ncbi.nlm.nih.gov/pubmed/3722467, http://www.ncbi.nlm.nih.gov/pubmed/7419745, http://www.ncbi.nlm.nih.gov/pubmed/7636036, http://www.ncbi.nlm.nih.gov/pubmed/9421141, http://www.ncbi.nlm.nih.gov/pubmed/11382385, http://www.ncbi.nlm.nih.gov/pubmed/11748568, http://www.ncbi.nlm.nih.gov/pubmed/12811806"
         }
       },
       {
@@ -4346,11 +4820,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/pancreas, https://orcid.org/0000-0003-4718-5869, http://uri.interlex.org/base/ilx_0739291"
+          "value": ""
         }
       },
       {
@@ -4392,11 +4866,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/pancreas, https://orcid.org/0000-0003-4718-5869, http://uri.interlex.org/base/ilx_0739291"
+          "value": ""
         }
       },
       {
@@ -4438,11 +4912,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/pancreas, https://orcid.org/0000-0003-4718-5869, http://uri.interlex.org/base/ilx_0739291"
+          "value": ""
         }
       },
       {
@@ -4480,11 +4954,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/pancreas, https://orcid.org/0000-0003-4718-5869, http://uri.interlex.org/base/ilx_0739291"
+          "value": ""
         }
       },
       {
@@ -4526,11 +5000,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/pancreas, https://orcid.org/0000-0003-4718-5869, http://uri.interlex.org/base/ilx_0739291"
+          "value": ""
         }
       },
       {
@@ -4566,13 +5040,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/200"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-b, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4610,15 +5088,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "This population has co-located axons and axon terminals. this is because the axon traverses through layers, with some layers also having terminations. To be revisited when we have time for this modeling question."
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant\n10/2025: This population has co-located axons and axon terminals. this is because the axon traverses through layers, with some layers also having terminations. To be revisited when we have time for this modeling question."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4654,13 +5132,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/194"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pairs for descending colon and promoted the layer to be the region, because it was  redundant"
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-d, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4696,13 +5178,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/195"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-f, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4738,13 +5224,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/59"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed redundant info by promoting the layers to be regions. Also, note that the posterior projecting phenotype was present when i editing today. updated provenance to remove Gary from literature cited to expert consultant, and removed the ilx population identifier."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-g, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4780,13 +5270,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/58"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed redundant info by promoting the layers to be regions. Also, note that the posterior projecting phenotype was present when i editing today. updated provenance to remove Gary from literature cited to expert consultant, and removed the ilx population identifier."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-h, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468"
+          "value": ""
         }
       },
       {
@@ -4822,13 +5316,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/16"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant"
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
+          "value": ""
         }
       },
       {
@@ -4850,7 +5348,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Enteric phenotype, Excitatory, Motor phenotype, Posterior projecting"
+          "value": "Posterior projecting, Excitatory, Motor phenotype, Enteric phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -4866,15 +5364,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "10/30/2025 [ST]: Added functional circuit role: excitatory to be consistent with ApiNATOMY. remove posterior projecting."
+          "value": "12/10/2025 [ST]: removed redundant info by promoting the layers to be regions. Also, note that the posterior projecting phenotype was present when i editing today. updated provenance to remove Gary from literature cited to expert consultant, and removed the ilx population identifier.\n10/30/2025 [ST]: Added functional circuit role: excitatory to be consistent with ApiNATOMY."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-j"
+          "value": ""
         }
       },
       {
@@ -4896,7 +5394,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Motor phenotype, Enteric phenotype, Posterior projecting, Excitatory"
+          "value": "Motor phenotype, Excitatory, Enteric phenotype, Posterior projecting"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -4912,15 +5410,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "10/30/25 [ST]: Added functional circuit role: excitatory to be consistent with ApiNATOMY. remove posterior projecting."
+          "value": "12/10/2025 [ST]: promoted layer to region to remove redundancy. Posterior projecting is now specified.  removed Gary Mawe and ilx identifier from provenance, added Gary Mawe to expert consultant. 10/30/25 [ST]: Added functional circuit role: excitatory to be consistent with ApiNATOMY. remove posterior projecting."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-j-prime"
+          "value": ""
         }
       },
       {
@@ -4956,13 +5454,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/17"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant"
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-k"
+          "value": ""
         }
       },
       {
@@ -4984,7 +5486,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Anterior projecting, Inhibitory, Enteric phenotype, Motor phenotype"
+          "value": "Motor phenotype, Anterior projecting, Inhibitory, Enteric phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -5000,15 +5502,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "10/30/25 [ST]: Added inhibitory as functional circuit role, and removed anterior projection phenotype to be consistent with ApiNATOMY."
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant\n10/30/25 [ST]: Added inhibitory as functional circuit role, and removed anterior projection phenotype to be consistent with ApiNATOMY."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://www.ncbi.nlm.nih.gov/pubmed/8601295"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/8601295"
         }
       },
       {
@@ -5030,7 +5532,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Motor phenotype, Anterior projecting, Enteric phenotype, Inhibitory"
+          "value": "Anterior projecting, Inhibitory, Motor phenotype, Enteric phenotype"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -5046,15 +5548,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "10/30/25 [ST]: Added inhibitory as functional circuit role, and removed anterior projection phenotype to be consistent with ApiNATOMY."
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant\n10/30/25 [ST]: Added inhibitory as functional circuit role, and removed anterior projection phenotype to be consistent with ApiNATOMY."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://www.ncbi.nlm.nih.gov/pubmed/8601295"
+          "value": "http://www.ncbi.nlm.nih.gov/pubmed/8601295"
         }
       },
       {
@@ -5090,13 +5592,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/125"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant"
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-m"
+          "value": ""
         }
       },
       {
@@ -5132,13 +5638,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/126"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-n"
+          "value": ""
         }
       },
       {
@@ -5174,13 +5684,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/19"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-o"
+          "value": ""
         }
       },
       {
@@ -5216,13 +5730,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/18"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. Removed region(layer) pair and promoted the layer to be the region, because it was  redundant"
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-p"
+          "value": ""
         }
       },
       {
@@ -5258,13 +5776,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/11"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. simplified modeling to remove the region(layer) pair because the layer is explicit. Promoted layer to be region."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-q"
+          "value": ""
         }
       },
       {
@@ -5300,13 +5822,17 @@
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/10"
         },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "12/10/2025 [ST]: removed ilx population identifier and Gary Mawe from provenance. added Gary Mawe as Expert Consultant. simplified modeling to remove the region(layer) pair because the layer is explicit. Promoted layer to be region."
+        },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-distal-colon, https://orcid.org/0000-0001-8876-8468, http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-q-prime"
+          "value": ""
         }
       },
       {
@@ -5566,7 +6092,7 @@
         },
         "Diagram_Link": {
           "type": "uri",
-          "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/spleen/docs/spleen.svg"
+          "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/sawg-stomach/docs/sawg-stomach.svg"
         },
         "Composer_URI": {
           "type": "uri",
@@ -5578,11 +6104,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5610,10 +6136,6 @@
           "type": "literal",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
         },
-        "Alert": {
-          "type": "literal",
-          "value": "SSTOM 10 is a replica of 8; they are equivalent but are modeled differently in ApiNATOMY"
-        },
         "Diagram_Link": {
           "type": "uri",
           "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/sawg-stomach/docs/sawg-stomach.svg"
@@ -5624,15 +6146,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "10/30/2025 [ST]: This ApiNATOMY population had a dendrite colocated with the soma, creating a loop. This has been removed."
+          "value": "10/30/2025 [ST]: This ApiNATOMY population had a dendrite colocated with the soma, creating a loop. This has been removed.\n10/25/2025 [ST]: SSTOM 10 is a replica of 8; they are equivalent but are modeled differently in ApiNATOMY."
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5674,11 +6196,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5700,7 +6222,7 @@
         },
         "Phenotypes": {
           "type": "literal",
-          "value": "Excitatory, Enteric phenotype"
+          "value": "Enteric phenotype, Excitatory"
         },
         "Forward_Connections": {
           "type": "literal",
@@ -5720,11 +6242,103 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-13"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 13"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach) to proximal stomach (stomach smooth muscle outer longitudinal layer) or proximal stomach (stomach smooth muscle circular layer)"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Inhibitory, Enteric phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Diagram_Link": {
+          "type": "uri",
+          "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/sawg-stomach/docs/sawg-stomach.svg"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/68"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "The destinations to both the proximal stomach smooth muscle outer longitudinal layer and the proximal stomach smooth muscle circular layer include the PDGFR-alpha receptor that is not demonstrated in the modelling of this population."
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
+        }
+      },
+      {
+        "Neuron_IRI": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "Neuron_Label": {
+          "type": "literal",
+          "value": "neuron type sstom 14"
+        },
+        "Neuron_Pref_Label": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach) to proximal stomach (stomach smooth muscle outer longutudinal layer); proximal stomach (myenteric nerve plexus of stomach) to proximal stomach (mucosa of stomach) via proximal stomach (stomach smooth muscle circular layer) via proximal stomach (stomach smooth muscle inner oblique layer) via proximal stomach (submucosa of stomach) via proximal stomach (muscularis mucosae of stomach)"
+        },
+        "Species": {
+          "type": "literal",
+          "value": ""
+        },
+        "Phenotypes": {
+          "type": "literal",
+          "value": "Excitatory, Enteric phenotype"
+        },
+        "Forward_Connections": {
+          "type": "literal",
+          "value": ""
+        },
+        "Diagram_Link": {
+          "type": "uri",
+          "value": "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/sawg-stomach/docs/sawg-stomach.svg"
+        },
+        "Composer_URI": {
+          "type": "uri",
+          "value": "https://composer.scicrunch.io/statement/69"
+        },
+        "Curation_Note": {
+          "type": "literal",
+          "value": "10/30/25 [ST]: Added functional circuit role: excitatory to be consistent with ApiNATOMY"
+        },
+        "Expert_Consultant": {
+          "type": "literal",
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+        },
+        "Citations": {
+          "type": "literal",
+          "value": ""
         }
       },
       {
@@ -5766,11 +6380,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5812,11 +6426,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5858,11 +6472,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5904,11 +6518,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach, https://orcid.org/0000-0001-6689-7058"
+          "value": ""
         }
       },
       {
@@ -5950,11 +6564,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -5996,11 +6610,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -6042,11 +6656,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -6088,11 +6702,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/base/ilx_0739291, https://orcid.org/0000-0001-8876-8468, https://github.com/open-physiology/apinatomy-models/tree/master/models/sawg-stomach"
+          "value": ""
         }
       },
       {
@@ -6130,7 +6744,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825"
         },
         "Citations": {
           "type": "literal",
@@ -6352,7 +6966,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009"
         }
       },
       {
@@ -6402,7 +7016,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
         }
       },
       {
@@ -6452,7 +7066,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
         }
       },
       {
@@ -6502,7 +7116,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948"
         }
       },
       {
@@ -6598,7 +7212,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/S0165-1838(97)00091-X"
+          "value": "https://doi.org/10.1016/S0165-1838(97)00091-X"
         }
       },
       {
@@ -6648,7 +7262,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372"
+          "value": "https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, https://doi.org/10.1186/s13048-017-0311-x"
         }
       },
       {
@@ -6694,7 +7308,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, http://dx.doi.org/10.1186/1477-7827-7-50, https://doi.org/10.1016/j.autneu.2016.04.003"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/j.autneu.2016.04.003, https://doi.org/10.1186/1477-7827-7-50"
         }
       },
       {
@@ -6708,7 +7322,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "suprarenal ganglion to right ovary or left ovary via superior ovarian nerve"
+          "value": "suprarenal ganglion to left ovary or right ovary via superior ovarian nerve"
         },
         "Species": {
           "type": "literal",
@@ -6740,7 +7354,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, http://dx.doi.org/10.1186/1477-7827-7-50, https://doi.org/10.1016/j.autneu.2016.04.003, http://dx.doi.org/10.1186/s13048-023-01109-1"
+          "value": "https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/j.autneu.2016.04.003, https://doi.org/10.1186/1477-7827-7-50, https://doi.org/10.1186/s13048-023-01109-1"
         }
       },
       {
@@ -6790,7 +7404,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1186/s13048-023-01109-1"
+          "value": "https://doi.org/10.1186/s13048-023-01109-1"
         }
       },
       {
@@ -6836,11 +7450,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, https://doi.org/10.1186/s13048-017-0311-x"
         }
       },
       {
@@ -6854,7 +7468,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "celiac ganglion to right ovary or left ovary via ovarian plexus nerve or superior ovarian nerve (minor contribution)"
+          "value": "celiac ganglion-superior mesenteric ganglion complex to left ovary or right ovary via ovarian plexus nerve or superior ovarian nerve"
         },
         "Species": {
           "type": "literal",
@@ -6886,7 +7500,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1186/s13048-017-0311-x"
         }
       },
       {
@@ -6936,7 +7550,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, http://dx.doi.org/10.1186/s13048-023-01109-1"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, https://doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1186/s13048-023-01109-1"
         }
       },
       {
@@ -6986,7 +7600,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, http://dx.doi.org/10.1186/s13048-023-01109-1"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0304-3940(88)90354-0, https://doi.org/10.1016/S0165-1838(00)00071-0, https://doi.org/10.1159/000054372, https://doi.org/10.1186/s13048-017-0311-x, https://doi.org/10.1186/s13048-023-01109-1"
         }
       },
       {
@@ -7036,7 +7650,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4"
         }
       },
       {
@@ -7082,7 +7696,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0165-1838(96)00019-7, https://doi.org/10.1016/S0165-1838(97)00091-X"
+          "value": "https://doi.org/10.1002/(SICI)1096-9861(19980928)399:3%3C403::AID-CNE8%3E3.0.CO;2-4, https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/S0165-1838(97)00091-X, https://doi.org/10.1016/0165-1838(96)00019-7"
         }
       },
       {
@@ -7262,7 +7876,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, https://doi.org/10.1002/cne.22515, https://doi.org/10.1007/s004410051290"
         }
       },
       {
@@ -7304,7 +7918,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, https://doi.org/10.1002/cne.22515, https://doi.org/10.1007/s004410051290"
         }
       },
       {
@@ -7346,7 +7960,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, http://dx.doi.org/10.1007/s004410051290, https://doi.org/10.1002/cne.22515"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1152/ajpcell.1986.251.1.C41, https://doi.org/10.1016/0165-1838(96)00019-7, https://doi.org/10.1002/cne.22515, https://doi.org/10.1007/s004410051290"
         }
       },
       {
@@ -7388,7 +8002,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051290"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051290"
         }
       },
       {
@@ -7430,7 +8044,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
         }
       },
       {
@@ -7472,7 +8086,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
         }
       },
       {
@@ -7504,10 +8118,6 @@
           "type": "literal",
           "value": ""
         },
-        "Alert": {
-          "type": "literal",
-          "value": "sjfjkanvnisoojsll https://sparc.science"
-        },
         "Composer_URI": {
           "type": "uri",
           "value": "https://composer.scicrunch.io/statement/246"
@@ -7518,7 +8128,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
         }
       },
       {
@@ -7560,7 +8170,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
         }
       },
       {
@@ -7602,7 +8212,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, http://dx.doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
+          "value": "https://doi.org/10.1016/j.autneu.2014.11.009, https://doi.org/10.1007/s004410051211, https://doi.org/10.1016/0006-8993(95)01312-1, https://doi.org/10.1016/0196-9781(85)90306-7, https://doi.org/10.1016/0361-9230(90)90221-K"
         }
       },
       {
@@ -8912,7 +9522,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
         }
       },
       {
@@ -8950,7 +9560,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
         }
       },
       {
@@ -8988,7 +9598,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
         }
       },
       {
@@ -9026,7 +9636,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1007/bf00495438, https://doi.org/10.1007/s00429-004-0420-3, https://doi.org/10.1007/s11906-020-01110-9, https://doi.org/10.1038/s41598-019-41159-4, https://doi.org/10.1159/000282292, https://doi.org/10.4103/0974-7796.84968"
         }
       },
       {
@@ -9270,7 +9880,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1681/ASN.2021111518"
+          "value": "https://doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1681/ASN.2021111518"
         }
       },
       {
@@ -9312,7 +9922,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1681/ASN.2021111518"
+          "value": "https://doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1681/ASN.2021111518"
         }
       },
       {
@@ -9464,7 +10074,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6"
+          "value": "https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6, https://doi.org/10.1152/ajprenal.1987.252.6.F957"
         }
       },
       {
@@ -9506,7 +10116,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6, https://doi.org/10.1152/ajprenal.1987.252.6.F957"
         }
       },
       {
@@ -9548,7 +10158,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6, https://doi.org/10.1152/ajprenal.1987.252.6.F957"
         }
       },
       {
@@ -9586,7 +10196,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6"
+          "value": "https://doi.org/10.1002/cne.902160205, https://doi.org/10.1016/0165-1838(84)90076-6, https://doi.org/10.1016/0304-3940(82)90319-6, https://doi.org/10.1152/ajprenal.1987.252.6.F957"
         }
       },
       {
@@ -9628,7 +10238,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/cne.902160205"
+          "value": "https://doi.org/10.1002/cne.902160205, https://doi.org/10.1152/ajprenal.1987.252.6.F957"
         }
       },
       {
@@ -9666,7 +10276,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, http://dx.doi.org/10.1292/jvms.13-0617, https://doi.org/10.1002/aja.1001860407"
+          "value": "https://doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/aja.1001860407, https://doi.org/10.1292/jvms.13-0617"
         }
       },
       {
@@ -9708,7 +10318,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, http://dx.doi.org/10.1016/j.autneu.2016.05.007, https://doi.org/10.1016/s0022-5320(73)90073-7, https://doi.org/10.1152/ajprenal.1984.247.1.F50"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/j.autneu.2016.05.007, https://doi.org/10.1016/s0022-5320(73)90073-7, https://doi.org/10.1152/ajprenal.1984.247.1.F50"
         }
       },
       {
@@ -9722,7 +10332,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "intermediolateral cell column of T12-L1 to celiac-superior mesenteric ganglion complex OR suprarenal ganglia via white rami communicantes via celiac plexus"
+          "value": "intermediolateral cell column of T12-L1 to celiac ganglion-superior mesenteric ganglion complex or suprarenal ganglia via white rami communicantes via celiac plexus"
         },
         "Species": {
           "type": "literal",
@@ -9746,7 +10356,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1152/ajprenal.1987.252.6.F957, http://dx.doi.org/10.1292/jvms.13-0617, https://doi.org/10.1002/aja.1001860407"
+          "value": "https://doi.org/10.1152/ajprenal.1987.252.6.F957, https://doi.org/10.1002/aja.1001860407, https://doi.org/10.1292/jvms.13-0617"
         }
       },
       {
@@ -9788,7 +10398,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.autneu.2016.05.007, https://doi.org/10.1016/s0022-5320(73)90073-7, https://doi.org/10.1152/ajprenal.1984.247.1.F50"
+          "value": "https://doi.org/10.1016/j.autneu.2016.05.007, https://doi.org/10.1016/s0022-5320(73)90073-7, https://doi.org/10.1152/ajprenal.1984.247.1.F50"
         }
       },
       {
@@ -9834,7 +10444,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1002/aja.1001860407, http://dx.doi.org/10.1016/0165-1838(86)90034-2, https://doi.org/10.1007/bf01191730, https://doi.org/10.1016/0006-8993(83)91072-7, https://doi.org/10.1016/0165-1838(83)90110-8, https://doi.org/10.1016/s0006-8993(98)00950-0, https://doi.org/10.1146/annurev-physiol-031620-091656, https://doi.org/10.1152/ajprenal.1986.250.2.f189"
+          "value": "https://doi.org/10.1002/aja.1001860407, https://doi.org/10.1007/bf01191730, https://doi.org/10.1016/0006-8993(83)91072-7, https://doi.org/10.1016/0165-1838(83)90110-8, https://doi.org/10.1016/0165-1838(86)90034-2, https://doi.org/10.1016/s0006-8993(98)00950-0, https://doi.org/10.1146/annurev-physiol-031620-091656, https://doi.org/10.1152/ajprenal.1986.250.2.f189"
         }
       },
       {
@@ -9880,7 +10490,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1002/aja.1001860407, http://dx.doi.org/10.1016/0165-1838(86)90034-2, https://doi.org/10.1007/bf01191730, https://doi.org/10.1016/0006-8993(83)91072-7, https://doi.org/10.1016/0165-1838(83)90110-8, https://doi.org/10.1016/s0006-8993(98)00950-0, https://doi.org/10.1146/annurev-physiol-031620-091656, https://doi.org/10.1152/ajprenal.1986.250.2.f189"
+          "value": "https://doi.org/10.1002/aja.1001860407, https://doi.org/10.1007/bf01191730, https://doi.org/10.1016/0006-8993(83)91072-7, https://doi.org/10.1016/0165-1838(83)90110-8, https://doi.org/10.1016/0165-1838(86)90034-2, https://doi.org/10.1016/s0006-8993(98)00950-0, https://doi.org/10.1146/annurev-physiol-031620-091656, https://doi.org/10.1152/ajprenal.1986.250.2.f189"
         }
       },
       {
@@ -9960,7 +10570,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/0006-8993(88)90132-1, http://dx.doi.org/10.1002/cne.10765, http://dx.doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006"
+          "value": "https://doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1002/cne.10765, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006"
         }
       },
       {
@@ -9998,7 +10608,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006, http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1007/BF00305105, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006, https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1007/BF00305105, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603"
         }
       },
       {
@@ -10040,7 +10650,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006, http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1007/BF00305105, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1016/j.bbadis.2010.01.006, https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1007/BF00305105, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603"
         }
       },
       {
@@ -10082,7 +10692,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.bbadis.2010.01.006, http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/cne.902730206, http://dx.doi.org/10.1113/jphysiol.1985.sp015733"
+          "value": "https://doi.org/10.1016/j.bbadis.2010.01.006, https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.902730206, https://doi.org/10.1113/jphysiol.1985.sp015733"
         }
       },
       {
@@ -10120,7 +10730,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/j.bbadis.2010.01.006, http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/cne.902730206, http://dx.doi.org/10.1113/jphysiol.1985.sp015733"
+          "value": "https://doi.org/10.1016/j.bbadis.2010.01.006, https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.902730206, https://doi.org/10.1113/jphysiol.1985.sp015733"
         }
       },
       {
@@ -10162,7 +10772,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/cne.902730206, http://dx.doi.org/10.1113/jphysiol.1985.sp015733"
+          "value": "https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.902730206, https://doi.org/10.1113/jphysiol.1985.sp015733"
         }
       },
       {
@@ -10204,7 +10814,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/ar.1091910106, http://dx.doi.org/10.1002/ar.a.20087, http://dx.doi.org/10.1016/0300-9629(94)00189-Z, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/cne.902730206, http://dx.doi.org/10.1113/jphysiol.1985.sp015733"
+          "value": "https://doi.org/10.1002/ar.1091910106, https://doi.org/10.1002/ar.a.20087, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1016/0300-9629(94)00189-Z, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.902730206, https://doi.org/10.1113/jphysiol.1985.sp015733"
         }
       },
       {
@@ -10246,7 +10856,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/ar.a.20088"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1002/ar.a.20088"
         }
       },
       {
@@ -10288,7 +10898,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/ar.a.20088, http://dx.doi.org/10.1002/cphy.c140009, http://dx.doi.org/10.1007/BF00185458"
+          "value": "https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1002/ar.a.20088, https://doi.org/10.1002/cphy.c140009, https://doi.org/10.1007/BF00185458"
         }
       },
       {
@@ -10330,7 +10940,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/0165-1838(83)90108-X, http://dx.doi.org/10.1002/ar.a.20088, http://dx.doi.org/10.1007/BF00185458"
+          "value": "https://doi.org/10.1016/0165-1838(83)90108-X, https://doi.org/10.1002/ar.a.20088, https://doi.org/10.1007/BF00185458"
         }
       },
       {
@@ -10372,7 +10982,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10414,7 +11024,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10456,7 +11066,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10498,7 +11108,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10536,7 +11146,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10578,7 +11188,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, http://dx.doi.org/10.1177/030006059602400603, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/978-94-009-1239-7_6, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, http://dx.doi.org/10.3109/00365528509089667, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1016/0022-4804(88)90191-6"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0323680424, https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1177/030006059602400603, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/978-94-009-1239-7_6, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0022-4804(88)90191-6, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.3109/00365528509089667"
         }
       },
       {
@@ -10620,7 +11230,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.1002/ar.a.20086"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4"
         }
       },
       {
@@ -10658,7 +11268,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.1002/ar.a.20086"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4"
         }
       },
       {
@@ -10700,7 +11310,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.1002/ar.a.20086"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4"
         }
       },
       {
@@ -10738,7 +11348,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1002/cphy.c120018, http://dx.doi.org/10.1079/PNS19870016, http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/cne.900720205, http://dx.doi.org/10.1002/hep.32055, http://dx.doi.org/10.1007/BF00233883, http://dx.doi.org/10.1007/s00428-007-0569-2, http://dx.doi.org/10.1016/0168-8278(89)90044-5, http://dx.doi.org/10.1038/s41388-020-01578-4, https://doi.org/10.1002/ar.a.20086"
+          "value": "https://doi.org/10.1002/cphy.c120018, https://doi.org/10.1002/cne.900720205, https://doi.org/10.1079/PNS19870016, https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1002/hep.32055, https://doi.org/10.1007/BF00233883, https://doi.org/10.1007/s00428-007-0569-2, https://doi.org/10.1016/0168-8278(89)90044-5, https://doi.org/10.1038/s41388-020-01578-4"
         }
       },
       {
@@ -10780,7 +11390,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1002/ar.a.20086, http://dx.doi.org/10.1055/s-0043-57237"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-1608312948, https://doi.org/10.1002/ar.a.20086, https://doi.org/10.1055/s-0043-57237"
         }
       },
       {
@@ -10822,7 +11432,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086"
+          "value": "https://doi.org/10.1111/j.1600-0676.1998.tb00817.x, https://doi.org/10.1002/ar.a.20086"
         }
       },
       {
@@ -10864,7 +11474,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021"
+          "value": "https://doi.org/10.1016/0006-8993(88)90132-1, https://doi.org/10.1152/ajpregu.00079.2021"
         }
       },
       {
@@ -10906,7 +11516,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1152/ajpregu.00079.2021, http://dx.doi.org/10.1126/sciadv.abg5733"
+          "value": "https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1126/sciadv.abg5733"
         }
       },
       {
@@ -10952,7 +11562,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1152/ajpregu.00079.2021, http://dx.doi.org/10.1126/sciadv.abg5733"
+          "value": "https://doi.org/10.1152/ajpregu.00079.2021, https://doi.org/10.1126/sciadv.abg5733"
         }
       },
       {
@@ -10990,11 +11600,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1155%2F2012%2F816274"
+          "value": "https://doi.org/10.1155/2012/816274"
         }
       },
       {
@@ -11032,7 +11642,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11074,11 +11684,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1111%2Fnyas.14119"
+          "value": "https://doi.org/10.1111/nyas.14119"
         }
       },
       {
@@ -11116,11 +11726,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1111%2Fnyas.14119"
+          "value": "https://doi.org/10.1111/nyas.14119"
         }
       },
       {
@@ -11158,7 +11768,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11200,7 +11810,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
@@ -11242,11 +11852,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.2500%2Far.2013.4.0067"
+          "value": "https://doi.org/10.2500/ar.2013.4.0067"
         }
       },
       {
@@ -11288,7 +11898,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1002%2Fcphy.c140014"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9780323760232, https://doi.org/10.1002/cphy.c140014"
         }
       },
       {
@@ -11326,11 +11936,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset1/3a"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9780323760232"
         }
       },
       {
@@ -11364,7 +11974,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
@@ -11402,11 +12012,11 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "Preganglionic parasympathetic fibers leave the brain stem from the inferior salivatory nucleus in the glossopharyngeal nerve and then run along its tympanic branch followed by the lesser petrosal branch into the otic ganglion."
+          "value": "Preganglionic parasympathetic fibers leave the brain stem from the inferior salivatory nucleus in the glossopharyngeal nerve and then run along its tympanic branch followed by the lesser petrosal branch into the otic ganglion.\nhttps://www.sciencedirect.com/topics/neuroscience/inferior-salivatory-nucleus"
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
@@ -11444,15 +12054,15 @@
         },
         "Curation_Note": {
           "type": "literal",
-          "value": "As per our preferred rule, we are using the preferred label from UBERON, parvocellular oculomotor nucleus, rather than the more common Edinger-Westphal nucleus."
+          "value": "As per our preferred rule, we are using the preferred label from UBERON, parvocellular oculomotor nucleus, rather than the more common Edinger-Westphal nucleus. Source: Butler-Hodos, Comparative Vertebrate Neuroanatomy: Evolution and Adaptation, Table 12-1, p200, ISBN-13:978-0471210054"
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/1"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9780471210054"
         }
       },
       {
@@ -11490,7 +12100,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11532,7 +12142,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11574,7 +12184,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11616,7 +12226,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11658,7 +12268,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11738,7 +12348,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/6"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/6, https://uilx.org/tgbugs/u/r/isbn-13/978-0471210054"
         }
       },
       {
@@ -11780,7 +12390,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/7"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0471210054, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/7"
         }
       },
       {
@@ -11818,11 +12428,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/9"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/978-0471210054, http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset2cn/9"
         }
       },
       {
@@ -11860,7 +12470,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -11902,11 +12512,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/11"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9781416041108"
         }
       },
       {
@@ -11944,11 +12554,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/12"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9781416041108"
         }
       },
       {
@@ -11986,7 +12596,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -12032,11 +12642,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/3"
+          "value": "https://doi.org/10.1016/S0074-7696(06)48003-7"
         }
       },
       {
@@ -12078,7 +12688,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468, https://orcid.org/0000-0003-2243-7054"
         },
         "Citations": {
           "type": "literal",
@@ -12124,7 +12734,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468, https://orcid.org/0000-0003-2243-7054"
         },
         "Citations": {
           "type": "literal",
@@ -12170,7 +12780,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
@@ -12216,11 +12826,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/3e"
+          "value": "https://doi.org/10.1002/ar.1092240112"
         }
       },
       {
@@ -12266,7 +12876,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -12316,7 +12926,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -12366,7 +12976,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -12416,7 +13026,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://scicrunch.org/resolver/RRID:018709"
         },
         "Citations": {
           "type": "literal",
@@ -12466,7 +13076,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -12512,11 +13122,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/7"
+          "value": "https://doi.org/10.1002/jemt.10225"
         }
       },
       {
@@ -12558,11 +13168,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0002-2871-3825, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/8"
+          "value": "https://uilx.org/tgbugs/u/r/isbn-13/9781416041108"
         }
       },
       {
@@ -12604,11 +13214,11 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": ""
+          "value": "https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/mmset4/9"
+          "value": "https://doi.org/10.1002/jemt.10225"
         }
       },
       {
@@ -13136,7 +13746,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/0304-3940(79)90046-6, https://doi.org/10.1016/j.urology.2010.03.013, https://doi.org/10.1016/S0074-7696(06)48003-7, https://pubmed.ncbi.nlm.nih.gov/758335/"
+          "value": "https://doi.org/10.1016/S0074-7696(06)48003-7, https://doi.org/10.1016/0304-3940(79)90046-6, https://doi.org/10.1016/j.urology.2010.03.013, https://pubmed.ncbi.nlm.nih.gov/758335/"
         }
       },
       {
@@ -13572,7 +14182,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -13610,7 +14220,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -13662,7 +14272,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T12-L4 spinal cord to quadratus lumborum muscle via anterior rami of T12-L4"
+          "value": "T12-L4 spinal cord to quadratus lumborum muscle via anterior ramus of T12 thoracic nerve or anterior rami of L1-L4 lumbar nerve"
         },
         "Species": {
           "type": "literal",
@@ -13754,7 +14364,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "C6-C8 with an epicenter of C7."
+          "value": "Spatial Extent: C6-C8 with an epicenter of C7."
         },
         "Composer_URI": {
           "type": "uri",
@@ -13766,7 +14376,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -13818,7 +14428,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T9-T12 spinal cord to serratus posterior inferior muscle via anterior rami of lower thoracic nerves (T9 to T12)"
+          "value": "T9-T12 spinal cord to serratus posterior inferior muscle via anterior rami of T9-T12 thoracic nerves"
         },
         "Species": {
           "type": "literal",
@@ -14032,7 +14642,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -14252,7 +14862,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "L4-S1 with an epicenter of L4-L5."
+          "value": "Spatial Extent: L4-S1 with an epicenter of L4-L5."
         },
         "Composer_URI": {
           "type": "uri",
@@ -14294,7 +14904,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "L4-S1 with an epicenter of L4-L5."
+          "value": "Spatial Extent: L4-S1 with an epicenter of L4-L5."
         },
         "Composer_URI": {
           "type": "uri",
@@ -14336,7 +14946,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "L5-S2 with an epicenter of L5-S1"
+          "value": "Spatial Extent: L5-S2 with an epicenter of L5-S1"
         },
         "Composer_URI": {
           "type": "uri",
@@ -14424,7 +15034,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -14842,7 +15452,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16096,7 +16706,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -16644,7 +17254,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -16682,7 +17292,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16720,7 +17330,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16758,7 +17368,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.7759/cureus.25203"
+          "value": "https://doi.org/10.7759/cureus.25203"
         }
       },
       {
@@ -16796,7 +17406,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16834,7 +17444,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16872,7 +17482,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16914,7 +17524,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16956,7 +17566,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -16998,7 +17608,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17040,7 +17650,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17078,7 +17688,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17116,7 +17726,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17154,7 +17764,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17192,7 +17802,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17230,7 +17840,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17268,7 +17878,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17306,7 +17916,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17344,7 +17954,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -17382,7 +17992,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
         }
       },
       {
@@ -17420,7 +18030,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
         }
       },
       {
@@ -17496,7 +18106,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17572,7 +18182,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -17770,7 +18380,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
         }
       },
       {
@@ -17846,7 +18456,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
         }
       },
       {
@@ -17884,7 +18494,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-3319430881"
         }
       },
       {
@@ -18002,7 +18612,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -18398,7 +19008,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18436,7 +19046,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -18474,7 +19084,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18512,7 +19122,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18550,7 +19160,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18588,7 +19198,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18626,7 +19236,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18664,7 +19274,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18702,7 +19312,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015"
         }
       },
       {
@@ -18740,7 +19350,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.7759/cureus.25203"
+          "value": "https://doi.org/10.7759/cureus.25203"
         }
       },
       {
@@ -18854,7 +19464,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -19276,7 +19886,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -19734,7 +20344,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "http://dx.doi.org/10.1016/j.rapm.2003.12.015, https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
         }
       },
       {
@@ -19904,7 +20514,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T7-T12 spinal cord to abdominal external oblique muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12)"
+          "value": "T7-T12 spinal cord to abdominal external oblique muscle via anterior rami of the T7-T12 thoracic spinal nerves"
         },
         "Species": {
           "type": "literal",
@@ -19942,7 +20552,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T7-L1 spinal cord to abdominal internal oblique muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12) and L1"
+          "value": "T7-L1 spinal cord to abdominal internal oblique muscle via anterior rami of T7-T12 thoracic spinal nerves or anterior ramus of L1 spinal nerve"
         },
         "Species": {
           "type": "literal",
@@ -19984,7 +20594,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T7-L1 spinal cord to transversus abdominis muscle via anterior rami of lower six thoracic spinal nerves (T7 to T12) and L1"
+          "value": "T7-L1 spinal cord to transversus abdominis muscle via anterior rami of T7-T12 thoracic spinal nerves or L1 spinal nerve"
         },
         "Species": {
           "type": "literal",
@@ -20022,7 +20632,7 @@
         },
         "Neuron_Pref_Label": {
           "type": "literal",
-          "value": "T7-T12 spinal cord to rectus abdominis muscle via anterior rami of lower seven thoracic spinal nerves (T7 to T12)"
+          "value": "T7-T12 spinal cord to rectus abdominis muscle via anterior rami of T17-T12 thoracic spinal nerves"
         },
         "Species": {
           "type": "literal",
@@ -20118,7 +20728,7 @@
         },
         "Alert": {
           "type": "literal",
-          "value": "L1-L3 with an epicenter of L1-L2."
+          "value": "Spatial Extent: L1-L3 with an epicenter of L1-L2."
         },
         "Composer_URI": {
           "type": "uri",

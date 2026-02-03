@@ -16,6 +16,74 @@
       {
         "Neuron_Connected": {
           "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/gastint/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002059"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "submandibular ganglion"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/gastint/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002149"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "superior salivatory nucleus"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0009675"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "chorda tympani branch of facial nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
           "value": "http://uri.interlex.org/composer/uris/set/gastint/10"
         },
         "V1_ID": {
@@ -2285,6 +2353,2284 @@
         "V2_Type": {
           "type": "literal",
           "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002181"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "substantia gelatinosa"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/1"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0007703"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinothalamic tract"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0007703"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinothalamic tract"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002945"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "ventral posteromedial nucleus of thalamus"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/10"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002181"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "substantia gelatinosa"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002866"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "caudal part of spinal trigeminal nucleus"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002873"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "interpolar part of spinal trigeminal nucleus"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002591"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "oral part of spinal trigeminal nucleus"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002549"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "ventral trigeminal tract"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001717"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinal nucleus of trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004170"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal cord ventral commissure"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/11"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002549"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "ventral trigeminal tract"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002945"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "ventral posteromedial nucleus of thalamus"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001484"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "articular capsule"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002181"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "substantia gelatinosa"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/2"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002097"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "skin of body"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002181"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "substantia gelatinosa"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/3"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001015"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "musculature"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002181"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "substantia gelatinosa"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001630"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "muscle organ"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/5"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001484"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "articular capsule"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/6"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002075"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "viscus"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000044"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006118"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina I of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002261"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "dorsal root of spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0016576"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "lamina V of gray matter of spinal cord"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/7"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0003715"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "splanchnic nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002075"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "viscus"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0014761"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinal trigeminal tract"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001717"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal nucleus of trigeminal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001675"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0014761"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal trigeminal tract"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001675"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001456"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "face"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000033"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "head"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/8"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000167"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "oral cavity"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0014761"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "spinal trigeminal tract"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001717"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal nucleus of trigeminal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001675"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0014761"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "spinal trigeminal tract"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001675"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000033"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "head"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000167"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "oral cavity"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/composer/uris/set/pain1/9"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001645"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "trigeminal nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002075"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "viscus"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -7636,74 +9982,6 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002849"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "Sixth thoracic spinal ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006454,http://purl.obolibrary.org/obo/UBERON_0002318"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "T6 segment of thoracic spinal cord (white matter of spinal cord)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0002849"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "Sixth thoracic spinal ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0000948,http://purl.obolibrary.org/obo/UBERON_0002348"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "heart (epicardium)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
-        },
-        "V1_ID": {
-          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0006457,http://purl.obolibrary.org/obo/UBERON_0002318"
         },
         "V1": {
@@ -8520,6 +10798,74 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002849"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "sixth thoracic dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006454,http://purl.obolibrary.org/obo/UBERON_0002318"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "T6 segment of thoracic spinal cord (white matter of spinal cord)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002849"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "sixth thoracic dorsal root ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000948,http://purl.obolibrary.org/obo/UBERON_0002348"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "heart (epicardium)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-13"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002847"
         },
         "V1": {
@@ -9050,11 +11396,11 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "NO"
+          "value": "YES"
         }
       },
       {
@@ -9084,40 +11430,6 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "YES"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V2_Type": {
-          "type": "literal",
           "value": "hasSomaLocation"
         },
         "IsSynapse": {
@@ -9157,6 +11469,40 @@
         "IsSynapse": {
           "type": "literal",
           "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
         }
       },
       {
@@ -27274,7 +29620,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27308,7 +29654,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27410,7 +29756,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27444,7 +29790,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27546,7 +29892,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27580,7 +29926,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27682,7 +30028,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -27716,7 +30062,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -28158,7 +30504,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -28192,7 +30538,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -28260,7 +30606,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -28294,7 +30640,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -33714,6 +36060,40 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0773760"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Circular muscle layer of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793659"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Submucosal nerve plexus of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0006448,http://purl.obolibrary.org/obo/UBERON_0002318"
         },
         "V1": {
@@ -34564,6 +36944,142 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0776070"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Longitudinal muscle layer of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0773760"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Circular muscle layer of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0771089"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Serosa of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0776070"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Longitudinal muscle layer of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793659"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Submucosal nerve plexus of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0770759"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Lamina propria mucosae of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSensoryAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793357,http://purl.obolibrary.org/obo/UBERON_0002318"
         },
         "V1": {
@@ -34721,176 +37237,6 @@
         "V2_Type": {
           "type": "literal",
           "value": "hasAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-c"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSensoryAxonTerminalLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -35120,11 +37466,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35346,11 +37692,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35358,11 +37704,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35380,11 +37726,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35414,11 +37760,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35426,11 +37772,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35448,11 +37794,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35460,11 +37806,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35482,11 +37828,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35494,11 +37840,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35516,11 +37862,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35528,11 +37874,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35596,11 +37942,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35856,11 +38202,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35868,11 +38214,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35890,11 +38236,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -35902,11 +38248,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35970,11 +38316,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -35992,11 +38338,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36004,11 +38350,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36026,11 +38372,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36038,11 +38384,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36060,11 +38406,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36072,11 +38418,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36094,11 +38440,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36106,11 +38452,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36174,11 +38520,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36196,11 +38542,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36208,11 +38554,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36230,11 +38576,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36242,11 +38588,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36264,11 +38610,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36276,11 +38622,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36289,40 +38669,6 @@
         "IsSynapse": {
           "type": "literal",
           "value": "YES"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
         }
       },
       {
@@ -36332,11 +38678,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36344,11 +38690,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36366,11 +38712,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36378,11 +38724,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36400,11 +38746,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36412,11 +38758,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36434,11 +38780,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36446,11 +38792,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36468,11 +38814,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36480,11 +38826,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36502,11 +38848,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36514,11 +38860,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36536,11 +38882,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36548,11 +38894,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36570,11 +38916,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36582,11 +38928,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36604,11 +38950,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36616,11 +38962,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36638,11 +38984,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36650,11 +38996,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36672,11 +39018,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36684,11 +39030,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36706,11 +39052,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36718,11 +39064,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36740,11 +39086,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36752,11 +39098,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36774,11 +39120,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36786,11 +39132,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36808,11 +39154,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36820,11 +39166,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0773760"
+          "value": "http://uri.interlex.org/base/ilx_0773760"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Circular muscle layer of descending colon)"
+          "value": "Circular muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36842,11 +39188,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36854,11 +39200,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36876,11 +39222,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36888,11 +39234,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36910,11 +39256,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36944,11 +39290,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793659"
+          "value": "http://uri.interlex.org/base/ilx_0793659"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Submucosal nerve plexus of descending colon)"
+          "value": "Submucosal nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36956,11 +39302,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0770759"
+          "value": "http://uri.interlex.org/base/ilx_0770759"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Lamina propria mucosae of descending colon)"
+          "value": "Lamina propria mucosae of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -36978,11 +39324,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -36990,11 +39336,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -37012,11 +39358,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -37024,11 +39370,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -37046,11 +39392,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -37114,11 +39460,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -37126,11 +39472,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -37148,11 +39494,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0793657"
+          "value": "http://uri.interlex.org/base/ilx_0793657"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Myenteric nerve plexus of descending colon)"
+          "value": "Myenteric nerve plexus of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -37160,11 +39506,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0776070"
+          "value": "http://uri.interlex.org/base/ilx_0776070"
         },
         "V2": {
           "type": "literal",
-          "value": "descending colon (Longitudinal muscle layer of descending colon)"
+          "value": "Longitudinal muscle layer of descending colon"
         },
         "V2_Type": {
           "type": "literal",
@@ -37182,11 +39528,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001158,http://uri.interlex.org/base/ilx_0771089"
+          "value": "http://uri.interlex.org/base/ilx_0771089"
         },
         "V1": {
           "type": "literal",
-          "value": "descending colon (Serosa of descending colon)"
+          "value": "Serosa of descending colon"
         },
         "V1_Type": {
           "type": "literal",
@@ -38192,7 +40538,7 @@
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "NO"
+          "value": "YES"
         }
       },
       {
@@ -38270,23 +40616,23 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0001203"
+          "value": "http://uri.interlex.org/base/ilx_0793558,http://uri.interlex.org/base/ilx_0793656"
         },
         "V1": {
           "type": "literal",
-          "value": "distal stomach (muscularis mucosae of stomach)"
+          "value": "distal stomach (myenteric nerve plexus of stomach)"
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008863"
+          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008857"
         },
         "V2": {
           "type": "literal",
-          "value": "distal stomach (stomach smooth muscle outer longitudinal layer)"
+          "value": "distal stomach (stomach smooth muscle circular layer)"
         },
         "V2_Type": {
           "type": "literal",
@@ -38316,11 +40662,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008857"
+          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008863"
         },
         "V2": {
           "type": "literal",
-          "value": "distal stomach (stomach smooth muscle circular layer)"
+          "value": "distal stomach (stomach smooth muscle outer longitudinal layer)"
         },
         "V2_Type": {
           "type": "literal",
@@ -38474,40 +40820,6 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0001203"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "distal stomach (muscularis mucosae of stomach)"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008863"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "distal stomach (stomach smooth muscle outer longitudinal layer)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-12"
-        },
-        "V1_ID": {
-          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793558,http://uri.interlex.org/base/ilx_0793656"
         },
         "V1": {
@@ -38542,6 +40854,40 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793558,http://uri.interlex.org/base/ilx_0793656"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "distal stomach (myenteric nerve plexus of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008863"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "distal stomach (stomach smooth muscle outer longitudinal layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-12"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0793558,http://purl.obolibrary.org/obo/UBERON_0008857"
         },
         "V1": {
@@ -38627,6 +40973,278 @@
         "V2": {
           "type": "literal",
           "value": "distal stomach (muscularis mucosae of stomach)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-13"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://uri.interlex.org/base/ilx_0793656"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008857"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle circular layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-13"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://uri.interlex.org/base/ilx_0793656"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008863"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle outer longitudinal layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0001203"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (muscularis mucosae of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0001199"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (mucosa of stomach)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://uri.interlex.org/base/ilx_0793656"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008857"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle circular layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://uri.interlex.org/base/ilx_0793656"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (myenteric nerve plexus of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008863"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle outer longitudinal layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008857"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle circular layer)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008862"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle inner oblique layer)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0008862"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (stomach smooth muscle inner oblique layer)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0001200"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (submucosa of stomach)"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sstom-14"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0001200"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "proximal stomach (submucosa of stomach)"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793658,http://purl.obolibrary.org/obo/UBERON_0001203"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "proximal stomach (muscularis mucosae of stomach)"
         },
         "V2_Type": {
           "type": "literal",
@@ -39892,7 +42510,7 @@
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "NO"
+          "value": "YES"
         }
       },
       {
@@ -102258,6 +104876,40 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001220"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "quadratus lumborum"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/101"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0785242"
         },
         "V1": {
@@ -102360,27 +105012,27 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006448"
         },
         "V1": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "L1 segment of lumbar spinal cord"
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001220"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "quadratus lumborum"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -102508,11 +105160,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -102530,11 +105182,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006448"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006450"
         },
         "V1": {
           "type": "literal",
-          "value": "L1 segment of lumbar spinal cord"
+          "value": "L2 segment of lumbar spinal cord"
         },
         "V1_Type": {
           "type": "literal",
@@ -102542,11 +105194,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -102678,11 +105330,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -102700,11 +105352,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006450"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006449"
         },
         "V1": {
           "type": "literal",
-          "value": "L2 segment of lumbar spinal cord"
+          "value": "L3 segment of lumbar spinal cord"
         },
         "V1_Type": {
           "type": "literal",
@@ -102712,11 +105364,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -102848,11 +105500,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -102870,11 +105522,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006449"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006451"
         },
         "V1": {
           "type": "literal",
-          "value": "L3 segment of lumbar spinal cord"
+          "value": "L4 segment of lumbar spinal cord"
         },
         "V1_Type": {
           "type": "literal",
@@ -102882,11 +105534,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -103018,11 +105670,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -103040,11 +105692,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006451"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006468"
         },
         "V1": {
           "type": "literal",
-          "value": "L4 segment of lumbar spinal cord"
+          "value": "T12 segment of thoracic spinal cord"
         },
         "V1_Type": {
           "type": "literal",
@@ -103052,11 +105704,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -103188,11 +105840,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -103210,45 +105862,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006468"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "T12 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "subcostal nerve (TA98)"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/101"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
@@ -104344,11 +106962,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -104480,11 +107098,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -104616,11 +107234,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -104752,11 +107370,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -104808,11 +107426,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
@@ -162314,11 +164932,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -162518,11 +165136,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -162722,11 +165340,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -162926,11 +165544,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -163130,11 +165748,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -163334,11 +165952,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -163390,11 +166008,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
@@ -163742,11 +166360,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -164048,11 +166666,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -164286,11 +166904,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -164524,11 +167142,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -164762,11 +167380,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165000,11 +167618,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165238,11 +167856,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165294,11 +167912,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
@@ -165328,6 +167946,40 @@
         },
         "V1_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001221"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "transversus abdominis muscle"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0787969"
         },
         "V1": {
@@ -165396,27 +168048,27 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006448"
         },
         "V1": {
           "type": "literal",
-          "value": "First lumbar nerve"
+          "value": "L1 segment of lumbar spinal cord"
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001221"
+          "value": "http://uri.interlex.org/base/ilx_0791390"
         },
         "V2": {
           "type": "literal",
-          "value": "transversus abdominis muscle"
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -165481,40 +168133,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006448"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "L1 segment of lumbar spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165646,11 +168264,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165748,6 +168366,40 @@
         },
         "V2_ID": {
           "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006466"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T10 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
           "value": "http://uri.interlex.org/base/ilx_0787969"
         },
         "V2": {
@@ -165787,40 +168439,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006466"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T10 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -165952,11 +168570,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006467"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T11 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166025,40 +168677,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006467"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T11 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166190,11 +168808,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006468"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T12 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166263,40 +168915,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006468"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T12 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166428,11 +169046,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006455"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T7 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166501,40 +169153,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006455"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T7 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166666,11 +169284,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006456"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T8 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166739,40 +169391,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006456"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T8 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166904,11 +169522,45 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006465"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "T9 segment of thoracic spinal cord"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0791390"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Anterior ramus of first lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -166977,40 +169629,6 @@
         "V2": {
           "type": "literal",
           "value": "Eleventh intercostal nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/senmot/96"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006465"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "T9 segment of thoracic spinal cord"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0788972"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "First lumbar nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -167142,11 +169760,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -167198,11 +169816,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
@@ -167550,11 +170168,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -167754,11 +170372,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -167958,11 +170576,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -168162,11 +170780,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -168366,11 +170984,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -168570,11 +171188,11 @@
         },
         "V2_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V2": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V2_Type": {
           "type": "literal",
@@ -168626,11 +171244,11 @@
         },
         "V1_ID": {
           "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0746880"
+          "value": "http://uri.interlex.org/base/ilx_0797451"
         },
         "V1": {
           "type": "literal",
-          "value": "subcostal nerve (TA98)"
+          "value": "subcostal nerve"
         },
         "V1_Type": {
           "type": "literal",
