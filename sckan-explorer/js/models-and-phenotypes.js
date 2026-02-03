@@ -20,6 +20,7 @@ function loadModelNames()
         "SPARC Portal Connections" : "portal",
         "Sensory-Motor Connections": "senmot",
         "Sweat Gland Connections": "swglnd",
+        "Nociceptive Pain Connections": "pain1",
         "Uncategorized Connections (Set 1)": "mmset1",
         "Uncategorized Connections (Set 4)": "mmset4"
     };

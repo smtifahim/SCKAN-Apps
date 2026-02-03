@@ -16,6 +16,7 @@ const Prefix_IRI_Mapping = [
   { prefix: "swglnd:", iri: "http://uri.interlex.org/tgbugs/uris/readable/sparc-nlp/swglnd/" },
   { prefix: "gastint:", iri: "http://uri.interlex.org/composer/uris/set/gastint/" },
   { prefix: "portal:", iri: "http://uri.interlex.org/composer/uris/set/portal/" },
+  { prefix: "pain1:", iri: "http://uri.interlex.org/composer/uris/set/pain1/" },
   { prefix: "TEMP:", iri: "http://uri.interlex.org/temp/uris/" },
   { prefix: "ilxcr:", iri: "http://uri.interlex.org/composer/uris/readable/" },
   { prefix: "ilxtr:", iri: "http://uri.interlex.org/tgbugs/uris/readable/" },
