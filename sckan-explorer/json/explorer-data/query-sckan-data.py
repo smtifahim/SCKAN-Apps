@@ -20,7 +20,7 @@ conn_details = {
 }
 
 # db_name = 'SIMPLE-SCKAN-TEST-SEP'
-db_name = 'SCKAN-NOV-2025'
+db_name = 'SCKAN-JAN-2026'
 
 
 # File locations for the queries needed for SCKAN-Explorer
