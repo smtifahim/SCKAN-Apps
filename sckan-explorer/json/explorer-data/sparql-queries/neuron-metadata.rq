@@ -1,6 +1,6 @@
 # This query returns metadata for each of the SCKAN neuron population for SCKAN explorer.
 # Updated with expert consultant, curation note, and composer URI.
-# Last updated: Nov 12, 2025. - Fahim Imam
+# Last updated: Feb 2, 2026 (Added hasAxonPhenotype and isMemeberOfCircuit). - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -26,18 +26,27 @@ SELECT DISTINCT ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label
 
 WHERE
 {
-    # FILTER (regex(STR(?Neuron_IRI), 'bromo'))
+   #  FILTER (CONTAINS(?Neuron_Pref_Label, 'of the Keast'))
+    # Multiple prefLabel for the kblad model needs to be removed.
+    # Adding this filter for now - Feb 2, 2026
+     FILTER ( !(CONTAINS(?Neuron_Pref_Label, 'kblad') ||
+                CONTAINS(?Neuron_Pref_Label, 'of the Keast') ||
+                CONTAINS(?Neuron_Pref_Label, 'innervating') ||
+                CONTAINS(?Neuron_Pref_Label, 'motor neuron'))
+            )
+
     # FILTER ( regex (LCase(?Phenotype), 'sensory phenotype' ))
     # ?Neuron_IRI rdfs:subClassOf+ SAO:1417703748.   # SAO Neuron IRI http://uri.neuinfo.org/nif/nifstd/sao1417703748
-    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
-    ?Neuron_IRI rdfs:subClassOf* ?SCKAN_Neuron .
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex}
+    ?Neuron_IRI rdfs:subClassOf+ ?SCKAN_Neuron .
 
     ## Only considering connection forming neuron populations
     # ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI; 
     #             (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?B_IRI.
     
-    OPTIONAL {?Neuron_IRI rdfs:label ?Neuron_Label.}
-    OPTIONAL {?Neuron_IRI skos:prefLabel ?Neuron_Pref_Label.}
+    ?Neuron_IRI rdfs:label ?Neuron_Label.
+    ?Neuron_IRI skos:prefLabel ?Neuron_Pref_Label.
+    
     OPTIONAL {?Neuron_IRI ilxcr:hasComposerURI ?Composer_URI.}
     OPTIONAL {?Neuron_IRI ilxtr:expertConsultant ?Expert_Consultation.}
     OPTIONAL {?Neuron_IRI ilxtr:curatorNote ?Curation_Note.}
@@ -54,7 +63,9 @@ WHERE
     OPTIONAL {?Neuron_IRI (ilxtr:hasNeuronalPhenotype | 
                             ilxtr:hasFunctionalCircuitRole |
                             ilxtr:hasCircuitRole |
-                            ilxtr:hasProjection  
+                            ilxtr:hasProjection  |
+                            ilxtr:hasAxonType |
+                            ilxtr:hasCircuitMembership
                            )/rdfs:label ?Phenotype.}
 }
 

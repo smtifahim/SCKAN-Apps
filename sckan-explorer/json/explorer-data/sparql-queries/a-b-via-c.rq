@@ -3,6 +3,8 @@
 # part of end organs. - August 29, 2024
 # Added union to distinguish the axons leading to sensory terminals. - September 28, 2024
 # Added more target organs to be considered for sckanner and sckan NLI. - November 12, 2025
+# SCKAN Neuron now cosideres subclass of NeuronComposer and NeuronApinatComplex. - February 2, 2026
+
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -24,15 +26,17 @@ SELECT DISTINCT
     ##  FILTER (?Target_Organ_Label = 'digestive tract').
     ## FILTER (regex (str(?Neuron_ID), 'aacar')).
     
-    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
     ?Neuron_ID rdfs:subClassOf+ ?SCKAN_Neuron .
-    VALUES ?axon_terminal  {ilxtr:hasAxonTerminalLocation  ilxtr:hasAxonSensoryLocation}.
+    # VALUES ?axon_terminal  {ilxtr:hasAxonTerminalLocation  ilxtr:hasAxonSensoryLocation}.
 
     {
       <<?Neuron_ID ilxtr:hasSomaLocation ?A_IRI>> rdfs:label ?A_Label.
       Optional {<<?Neuron_ID ilxtr:hasAxonLocation ?C_IRI>> rdfs:label ?C_Label.}
       <<?Neuron_ID ilxtr:hasAxonTerminalLocation ?B_IRI>> rdfs:label ?B_Label.
-      <<?Neuron_ID  ?axon_terminal ?B_IRI>> ilxtr:hasRegion ?BR_X.
+     # <<?Neuron_ID  ?axon_terminal ?B_IRI>> ilxtr:hasRegion ?BR_X.
+      <<?Neuron_ID  ilxtr:hasAxonTerminalLocation ?B_IRI>> ilxtr:hasRegion ?BR_X.
+
       #?BR_X rdfs:label ?BR_Label.
     }
 
@@ -42,7 +46,9 @@ SELECT DISTINCT
       <<?Neuron_ID ilxtr:hasSomaLocation ?A_IRI>> rdfs:label ?A_Label.
       Optional {<<?Neuron_ID ilxtr:hasAxonToSensoryTerminal ?C_IRI>> rdfs:label ?C_Label.}
       <<?Neuron_ID ilxtr:hasAxonSensoryLocation ?B_IRI>> rdfs:label ?B_Label.
-      <<?Neuron_ID  ?axon_terminal ?B_IRI>> ilxtr:hasRegion ?BR_X.
+     # <<?Neuron_ID  ?axon_terminal ?B_IRI>> ilxtr:hasRegion ?BR_X.
+      <<?Neuron_ID  ilxtr:hasAxonSensoryLocation ?B_IRI>> ilxtr:hasRegion ?BR_X.
+
     }
 
     OPTIONAL 

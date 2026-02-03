@@ -1,5 +1,5 @@
 ## Query: Axonal path partial order with locational phenotype and synapses.
-## Version: November 13, 2025. Using rdf-star. For SCKAN NLI and Explorer. - Fahim Imam
+## Version: February 2, 2026. Using rdf-star. For SCKAN NLI and Explorer. - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -17,7 +17,7 @@ WHERE
 {
   # FILTER (regex(str(?Neuron_Connected),'keast-1' ))
   ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-  VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
   OPTIONAL {?Neuron_Connected skos:prefLabel ?Neuron_Label} .
   

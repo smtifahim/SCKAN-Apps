@@ -1,6 +1,6 @@
 # The query returns all the connected anatomical locations along with their synonyms based on the 
 # locational phenotype relations in SCKAN for SCKAN Explorer. 
-# Version: November 12, 2025. Using rdf-star.
+# Version: Feb 2, 2026. Using rdf-star.
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -19,7 +19,7 @@ SELECT DISTINCT
     #FILTER (lcase(?Location_Label) = 'nodose ganglion')
     # FILTER (REGEX(str(?Neuron_ID), 'keast-1')).
 
-    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
     ?Neuron_ID rdfs:subClassOf+ ?SCKAN_Neuron .
 
    <<?Neuron_ID ?Connection_Type ?Region_IRI>> ilxtr:hasRegion ?Location_IRI.
