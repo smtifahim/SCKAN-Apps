@@ -11099,7 +11099,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11113,7 +11113,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11155,7 +11155,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11169,7 +11169,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11239,7 +11239,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11253,7 +11253,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11295,6 +11295,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
@@ -11309,21 +11323,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11337,7 +11337,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11463,7 +11463,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11477,7 +11477,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11519,7 +11519,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -11533,7 +11533,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18351,7 +18351,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18365,7 +18365,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18407,7 +18407,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -18421,7 +18421,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19793,7 +19793,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19807,7 +19807,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19877,7 +19877,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -19891,7 +19891,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20017,7 +20017,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20031,7 +20031,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20101,20 +20101,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006466"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "tenth thoracic spinal cord segment"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
@@ -20130,6 +20116,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006466"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "tenth thoracic spinal cord segment"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20143,7 +20143,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20185,20 +20185,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006465"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "ninth thoracic spinal cord segment"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
@@ -20214,6 +20200,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006465"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "ninth thoracic spinal cord segment"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20227,7 +20227,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20437,20 +20437,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006455"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "t7 segment"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
@@ -20466,6 +20452,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006455"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "t7 segment"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20479,7 +20479,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20521,7 +20521,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20535,7 +20535,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20619,7 +20619,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20633,7 +20633,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20675,7 +20675,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20689,7 +20689,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20787,7 +20787,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20801,7 +20801,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20871,7 +20871,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20885,7 +20885,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20927,7 +20927,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -20941,7 +20941,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21515,7 +21515,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21529,7 +21529,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21599,7 +21599,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21613,7 +21613,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21739,20 +21739,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001258"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "bladder neck"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
@@ -21775,7 +21761,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "cervix vesicae"
+          "value": "bladder neck"
         }
       },
       {
@@ -21795,7 +21781,21 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001258"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "cervix vesicae"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -21809,7 +21809,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22285,7 +22285,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22299,7 +22299,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22369,20 +22369,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006460"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "first sacral spinal cord segment"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
@@ -22397,15 +22383,15 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006460"
         },
         "Location_Label": {
           "type": "literal",
-          "value": "base of urinary bladder"
+          "value": "first sacral spinal cord segment"
         }
       },
       {
@@ -22426,6 +22412,20 @@
         "Connection_Type": {
           "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "base of urinary bladder"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22439,7 +22439,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22509,6 +22509,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "fundus vesicae"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
@@ -22518,34 +22532,6 @@
         "Location_Label": {
           "type": "literal",
           "value": "fundus vesicae"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "fundus vesicae"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "urinary bladder base"
         }
       },
       {
@@ -22565,7 +22551,21 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0006082"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "urinary bladder base"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22579,7 +22579,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22677,7 +22677,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22691,7 +22691,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22733,7 +22733,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22747,7 +22747,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22789,20 +22789,6 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001258"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "neck of urinary bladder"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
@@ -22825,7 +22811,7 @@
         },
         "Location_Label": {
           "type": "literal",
-          "value": "urinary bladder neck"
+          "value": "neck of urinary bladder"
         }
       },
       {
@@ -22845,7 +22831,21 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001258"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "urinary bladder neck"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -22859,7 +22859,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -24875,7 +24875,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -24889,7 +24889,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -24959,7 +24959,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -24973,7 +24973,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26401,7 +26401,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26415,7 +26415,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26527,7 +26527,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26541,7 +26541,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26611,7 +26611,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26625,7 +26625,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26667,6 +26667,20 @@
       {
         "Connection_Type": {
           "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+        },
+        "Location_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001165"
+        },
+        "Location_Label": {
+          "type": "literal",
+          "value": "gastric antrum"
+        }
+      },
+      {
+        "Connection_Type": {
+          "type": "uri",
           "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
@@ -26681,21 +26695,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
-        },
-        "Location_IRI": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001165"
-        },
-        "Location_Label": {
-          "type": "literal",
-          "value": "gastric antrum"
-        }
-      },
-      {
-        "Connection_Type": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26709,7 +26709,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26751,7 +26751,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -26765,7 +26765,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -29103,7 +29103,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -29117,7 +29117,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasSomaLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonTerminalLocation"
         },
         "Location_IRI": {
           "type": "uri",
@@ -29453,7 +29453,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
         },
         "Location_IRI": {
           "type": "uri",
@@ -29467,7 +29467,7 @@
       {
         "Connection_Type": {
           "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonToSensoryTerminal"
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/hasAxonSensoryLocation"
         },
         "Location_IRI": {
           "type": "uri",

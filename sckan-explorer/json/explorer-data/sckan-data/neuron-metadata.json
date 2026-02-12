@@ -1504,7 +1504,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1550,7 +1550,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Canis familiaris, Homo sapiens, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1592,7 +1592,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1680,7 +1680,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
+          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1726,7 +1726,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1772,7 +1772,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1814,7 +1814,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
+          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1860,7 +1860,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1902,7 +1902,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Domestic Pig, Canis familiaris"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1944,7 +1944,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -1986,7 +1986,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2032,7 +2032,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2074,7 +2074,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
+          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2116,7 +2116,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Homo sapiens, Domestic Pig"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2158,7 +2158,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Domestic Pig, Homo sapiens, Canis familiaris"
+          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2200,7 +2200,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Homo sapiens, Canis familiaris, Domestic Pig"
+          "value": "Domestic Pig, Canis familiaris, Homo sapiens"
         },
         "Phenotypes": {
           "type": "literal",
@@ -2284,7 +2284,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Canis familiaris, Domestic Pig, Homo sapiens"
+          "value": "Canis familiaris, Homo sapiens, Domestic Pig"
         },
         "Phenotypes": {
           "type": "literal",
@@ -4820,7 +4820,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
@@ -4866,7 +4866,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
@@ -4912,7 +4912,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
@@ -4954,7 +4954,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
@@ -5000,7 +5000,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0003-4718-5869"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0003-4718-5869"
         },
         "Citations": {
           "type": "literal",
@@ -6104,7 +6104,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6150,7 +6150,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6196,7 +6196,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6242,7 +6242,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6288,7 +6288,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6334,7 +6334,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6380,7 +6380,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6426,7 +6426,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6472,7 +6472,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6518,7 +6518,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6564,7 +6564,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6610,7 +6610,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6656,7 +6656,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -6702,7 +6702,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709, https://orcid.org/0000-0001-8876-8468"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709, https://orcid.org/0000-0001-8876-8468"
         },
         "Citations": {
           "type": "literal",
@@ -7450,7 +7450,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -11600,7 +11600,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -11684,7 +11684,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -11726,7 +11726,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -11810,7 +11810,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -11974,7 +11974,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -12016,7 +12016,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -12780,7 +12780,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -13026,7 +13026,7 @@
         },
         "Expert_Consultant": {
           "type": "literal",
-          "value": "https://scicrunch.org/resolver/RRID:018709"
+          "value": "https://scicrunch.org/resolver/RRID:SCR_018709"
         },
         "Citations": {
           "type": "literal",
@@ -13190,7 +13190,7 @@
         },
         "Species": {
           "type": "literal",
-          "value": "Rattus norvegicus, Homo sapiens"
+          "value": "Homo sapiens, Rattus norvegicus"
         },
         "Sex": {
           "type": "literal",
@@ -14182,7 +14182,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -14220,7 +14220,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -14642,7 +14642,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -15034,7 +15034,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -15452,7 +15452,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17330,7 +17330,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17406,7 +17406,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17444,7 +17444,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17482,7 +17482,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17524,7 +17524,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17566,7 +17566,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17608,7 +17608,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17650,7 +17650,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17688,7 +17688,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -17764,7 +17764,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -18182,7 +18182,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -18612,7 +18612,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -19046,7 +19046,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -19464,7 +19464,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -19886,7 +19886,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {
@@ -20344,7 +20344,7 @@
         },
         "Citations": {
           "type": "literal",
-          "value": "https://doi.org/10.1016/B978-0-12-802653-3.00082-8, https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987"
+          "value": "https://doi.org/10.1016/j.rapm.2003.12.015, https://uilx.org/tgbugs/u/r/isbn-13/978-0275970987, https://doi.org/10.1016/B978-0-12-802653-3.00082-8"
         }
       },
       {

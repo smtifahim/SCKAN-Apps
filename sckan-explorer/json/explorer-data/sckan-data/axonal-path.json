@@ -8970,7 +8970,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -9004,7 +9004,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -9752,7 +9752,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -9786,40 +9786,6 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0738312"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "Aortic arch depressor nerve"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLeadingToSensoryTerminal"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-12"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
           "value": "hasSomaLocation"
         },
         "V2_ID": {
@@ -9855,6 +9821,40 @@
         "V1_Type": {
           "type": "literal",
           "value": "hasAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0738312"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Aortic arch depressor nerve"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLeadingToSensoryTerminal"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-12"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -11316,7 +11316,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -11328,11 +11328,11 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "YES"
+          "value": "NO"
         }
       },
       {
@@ -11418,7 +11418,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -11430,6 +11430,40 @@
         },
         "V2_Type": {
           "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "YES"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V2_Type": {
+          "type": "literal",
           "value": "hasSomaLocation"
         },
         "IsSynapse": {
@@ -11453,6 +11487,40 @@
         "V1_Type": {
           "type": "literal",
           "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "middle cervical ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -11498,79 +11566,11 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V2_Type": {
-          "type": "literal",
           "value": "hasAxonTerminalLocation"
         },
         "IsSynapse": {
           "type": "literal",
           "value": "YES"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-aacar-2m"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://purl.obolibrary.org/obo/UBERON_0001990"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "middle cervical ganglion"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
         }
       },
       {
@@ -15668,7 +15668,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -15702,7 +15702,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -16076,7 +16076,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -16110,7 +16110,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -29620,7 +29620,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -29654,7 +29654,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -30084,7 +30084,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30118,7 +30118,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30220,7 +30220,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30254,7 +30254,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30322,40 +30322,6 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0777093"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "L6 - S1 interganglionic segment of the sympathetic chain"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasAxonLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-keast-4"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0739297"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "L6 sympathetic chain ganglion"
-        },
-        "V1_Type": {
-          "type": "literal",
           "value": "hasAxonLocation"
         },
         "V2_ID": {
@@ -30391,6 +30357,40 @@
         "V1_Type": {
           "type": "literal",
           "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0777093"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "L6 - S1 interganglionic segment of the sympathetic chain"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-keast-4"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0739297"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "L6 sympathetic chain ganglion"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30424,7 +30424,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30504,7 +30504,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -30538,7 +30538,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -30606,7 +30606,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -30640,7 +30640,7 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "IsSynapse": {
           "type": "literal",
@@ -30662,7 +30662,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -30696,7 +30696,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -38550,7 +38550,75 @@
         },
         "V1_Type": {
           "type": "literal",
+          "value": "hasAxonTerminalLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
           "value": "hasSomaLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "V2_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V2": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V2_Type": {
+          "type": "literal",
+          "value": "hasSomaLocation"
+        },
+        "IsSynapse": {
+          "type": "literal",
+          "value": "NO"
+        }
+      },
+      {
+        "Neuron_Connected": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
+        },
+        "V1_ID": {
+          "type": "uri",
+          "value": "http://uri.interlex.org/base/ilx_0793657"
+        },
+        "V1": {
+          "type": "literal",
+          "value": "Myenteric nerve plexus of descending colon"
+        },
+        "V1_Type": {
+          "type": "literal",
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -38585,74 +38653,6 @@
         "V1_Type": {
           "type": "literal",
           "value": "hasSomaLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "Myenteric nerve plexus of descending colon"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "Myenteric nerve plexus of descending colon"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
-        },
-        "V2_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V2": {
-          "type": "literal",
-          "value": "Myenteric nerve plexus of descending colon"
-        },
-        "V2_Type": {
-          "type": "literal",
-          "value": "hasSomaLocation"
-        },
-        "IsSynapse": {
-          "type": "literal",
-          "value": "NO"
-        }
-      },
-      {
-        "Neuron_Connected": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-sdcol-i"
-        },
-        "V1_ID": {
-          "type": "uri",
-          "value": "http://uri.interlex.org/base/ilx_0793657"
-        },
-        "V1": {
-          "type": "literal",
-          "value": "Myenteric nerve plexus of descending colon"
-        },
-        "V1_Type": {
-          "type": "literal",
-          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -38766,11 +38766,11 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "YES"
+          "value": "NO"
         }
       },
       {
@@ -38788,7 +38788,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -38856,7 +38856,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -38868,11 +38868,11 @@
         },
         "V2_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "IsSynapse": {
           "type": "literal",
-          "value": "NO"
+          "value": "YES"
         }
       },
       {
@@ -39128,7 +39128,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasSomaLocation"
+          "value": "hasAxonTerminalLocation"
         },
         "V2_ID": {
           "type": "uri",
@@ -39162,7 +39162,7 @@
         },
         "V1_Type": {
           "type": "literal",
-          "value": "hasAxonTerminalLocation"
+          "value": "hasSomaLocation"
         },
         "V2_ID": {
           "type": "uri",
