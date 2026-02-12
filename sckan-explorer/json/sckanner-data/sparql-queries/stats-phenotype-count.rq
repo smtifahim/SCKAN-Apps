@@ -18,7 +18,7 @@ WHERE
     ?neuron ?phenotype ?o.
 
     ?neuron rdfs:subClassOf* ?sckan_neuron .
-    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    values ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
     
     # Excluding the following two classification properties
     # Filter (?phenotype = ilxtr:hasNeuronalPhenotype) 

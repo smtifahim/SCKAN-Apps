@@ -1,4 +1,5 @@
-## STATS: This query returns the number of neuron types by their category #STATS
+## Stats-0
+## This query returns the number of neuron types by their category #STATS
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
@@ -10,11 +11,11 @@ SELECT ?neuron_category (COUNT (?neuron_category) as ?population_count)
    # ?Neuron_ID rdfs:subClassOf+ ?neuron_category.
     
     ?Neuron_ID rdfs:subClassOf+ ?category .
-    values ?category { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    values ?category { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
     FILTER (  
-               CONTAINS (STR(?category), 'NeuronApinatSimple')
-            || CONTAINS (STR(?category), 'NeuronSparcNlp')
+               CONTAINS (STR(?category), 'NeuronApinatComplex')
+            || CONTAINS (STR(?category), 'NeuronComposer')
            )
     BIND ( IF(STR(?category) =  "", "",
            IF(CONTAINS (STR(?category), 'Apinat'), "ApiNATOMY Population",

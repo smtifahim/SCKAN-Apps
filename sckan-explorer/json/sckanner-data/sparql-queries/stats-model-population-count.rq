@@ -13,7 +13,7 @@ SELECT
   (COUNT(DISTINCT ?Neuron_Population_ID) AS ?count)
 
 {
-  VALUES ?SCKAN_Population_Source { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  VALUES ?SCKAN_Population_Source { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
   ?Neuron_Population_ID rdfs:subClassOf+ ?SCKAN_Population_Source .
 
   VALUES (?Neuron_ID_Pattern ?Model_Label)
@@ -34,6 +34,7 @@ SELECT
       ("kidney" "Kidney Connections")
       ("senmot" "Sensory-Motor Connections")
       ("swglnd" "Sweat Gland")
+      ("pain1" "Nociceptive Pain Connections")
       ("gastint" "Gastrointestinal Connections")
       ("portal" "SPARC Portal Connections")
       ("mmset1" "Uncategorized Literature Extracted")
@@ -48,7 +49,7 @@ SELECT
 
   BIND
   (
-    IF (CONTAINS(STR(?SCKAN_Population_Source), "NeuronApinatSimple"), 
+    IF (CONTAINS(STR(?SCKAN_Population_Source), "NeuronApinatComplex"), 
         "Expert-Contributed Populations", "Literature-Extracted Populations")
     AS ?neuron_category
   )

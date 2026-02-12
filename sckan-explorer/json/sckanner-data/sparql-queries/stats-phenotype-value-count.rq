@@ -1,7 +1,7 @@
 ## Stats: Counts of distinct phenotype values from SCKAN.
 ## This query returns the list of phenotypic properties and the count of their use 
-## in SCKAN neuron populations. Last Upadted: Nov 13, 2025
-## -Fahim Imam
+## in SCKAN neuron populations.
+## Last Updated: Feb 2, 2026 -Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -25,7 +25,7 @@ WHERE
     ?phenotype_value rdfs:label ?phenotype_value_label.
 
     ?neuron rdfs:subClassOf* ?sckan_neuron .
-    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
     BIND(IF(STR(?phenotype) =  STR(ilxtr:isObservedInSpecies), "Species",
                             IF(CONTAINS (STR(?phenotype), 'hasProjection'), "Projection",
@@ -34,7 +34,10 @@ WHERE
                             IF(CONTAINS (STR(?phenotype), 'hasFunctionalCircuitRole'), "Functional Circuit Role",
                             IF(CONTAINS (STR(?phenotype), 'hasCircuitRole'), "Circuit Role",
                             IF(CONTAINS (STR(?phenotype), 'hasMolecule'), "Molecular Phenotype",
-                            "Other"))))))) AS ?phenotype_label)
+                            IF(CONTAINS (STR(?phenotype), 'hasAxonType'), "Axon Phenotype",
+                            IF(CONTAINS (STR(?phenotype), 'hasCircuitMembership'), "Circuit Membership",
+
+                            "Other"))))))))) AS ?phenotype_label)
     
     BIND(IF(STR(?phenotype_value) =  STR("http://purl.obolibrary.org/obo/PATO_0000383"), "Female",
                             IF(CONTAINS (STR(?phenotype_value), 'PATO_0000384'), "Male",

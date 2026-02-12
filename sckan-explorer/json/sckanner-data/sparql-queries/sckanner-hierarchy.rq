@@ -1,3 +1,13 @@
+# SCKANNER Hierarchy query 
+# This query returns the hierarchical classification of SCKAN neurons based on their soma location, axon terminal location, and axon location.
+# The hierarchy is organized into four levels:
+# Level 1: brain/spinal cord/ganglion
+# Level 2: nucleus of brain/ spinal cord segments/ kind of ganglion
+# Level 3: kind of brain nucleus, more specific DRG and spinal cord segments C/T/L/S
+# Level 4: specific region
+# The query also retrieves the terminal structure, target organ, and target system for each neuron.
+# Last Updated: Feb 2, 2026 - Fahim Imam
+
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
