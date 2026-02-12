@@ -777,7 +777,8 @@ function addHyperlinksToURIs(text)
 {
     // Regular expression to match URIs ignoring punctuation charecters or any braces 
     // at the end of a url within the texts
-    const uriRegex = /(https?:\/\/[^\s,:]+[^\s.)},;:])/g;
+    // Updated to allow colons in URIs (e.g., RRID:SCR_018709)
+    const uriRegex = /(https?:\/\/[^\s,]+[^\s.)},;])/g;
     
     // Replace URIs with hyperlinks
     const result = text.replace(uriRegex, '<a href="$&" target="_blank">$&</a>');
