@@ -4,15 +4,27 @@
 
 import stardog
 import json
+import os
+from dotenv import load_dotenv
 
-# Stardog DB connection details using stradog cloud endpoint
+# Load environment variables from .env file
+load_dotenv()
+
+# Stardog DB connection details using environment variables for credentials
 conn_details = {
-                'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
-                'username': 'sparc-admin',
-                'password': 'useThePassWord' # get the password from 1password.
-               }
+    'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
+    'username': os.environ.get('SCKAN_USERNAME'),
+    'password': os.environ.get('SCKAN_PASSWORD')
+}
 
-db_name = 'SCKAN-NOV-2025'
+# # Stardog DB connection details using stradog cloud endpoint
+# conn_details = {
+#                 'endpoint': 'https://sd-c1e74c63.stardog.cloud:5820',
+#                 'username': 'sparc-admin',
+#                 'password': 'useThePassWord' # get the password from 1password.
+#                }
+
+db_name = 'SCKAN-FEB-2026'
 
 # File locations for the queries needed for SCKAN-NLI
 query_files = [
