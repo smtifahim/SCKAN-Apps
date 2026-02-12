@@ -29,11 +29,13 @@ CONN_DETAILS = {
     'password': STARDOG_PASSWORD
 }
 
-DB_NAME = 'SCKAN-NOV-2025'  # Update with the current database name.
+DB_NAME = 'SCKAN-FEB-2026'  # Update with the current database name.
 
-SCKAN_VERSION = '2025-11-10' # Manual for now.
+SCKAN_VERSION = '2026-02-11' # Manual for now.
 QUERY_DIR = Path(f'./sparql-queries/')
-STATS_DIR = Path(f'./stats/sckan-version-{SCKAN_VERSION}/')
+# STATS_DIR = Path(f'./stats/sckan-version-{SCKAN_VERSION}/')
+STATS_DIR = Path(f'./stats/prod/')
+
 
 # Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -41,17 +43,17 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # Query and output file mapping
 QUERY_OUTPUT_PAIRS = [
                         ( QUERY_DIR / 'sckanner-hierarchy.rq', 
-                          './hierarchy/sckanner-hierarchy.json')
-                        # ( QUERY_DIR / 'sckan-version-info.rq',
-                        #   STATS_DIR / 'sckan-version-info.json'),
-                        # ( QUERY_DIR / 'stats-model-population-count.rq',
-                        #   STATS_DIR / 'stats-model-population-count.json'),
-                        # ( QUERY_DIR / 'stats-phenotype-count.rq',
-                        #   STATS_DIR / 'stats-phenotype-count.json'),
-                        # ( QUERY_DIR / 'stats-phenotype-value-count.rq',
-                        #   STATS_DIR / 'stats-phenotype-value-count.json'),
-                        # ( QUERY_DIR / 'stats-population-category-count.rq',
-                        #   STATS_DIR / 'stats-population-category-count.json')
+                          './hierarchy/sckanner-hierarchy.json'),
+                        ( QUERY_DIR / 'sckan-version-info.rq',
+                          STATS_DIR / 'sckan-version-info.json'),
+                        ( QUERY_DIR / 'stats-model-population-count.rq',
+                          STATS_DIR / 'stats-model-population-count.json'),
+                        ( QUERY_DIR / 'stats-phenotype-count.rq',
+                          STATS_DIR / 'stats-phenotype-count.json'),
+                        ( QUERY_DIR / 'stats-phenotype-value-count.rq',
+                          STATS_DIR / 'stats-phenotype-value-count.json'),
+                        ( QUERY_DIR / 'stats-population-category-count.rq',
+                          STATS_DIR / 'stats-population-category-count.json')
                      ]
 
 # Ensure that the output directory exists.
