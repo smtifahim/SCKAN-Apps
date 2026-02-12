@@ -35,7 +35,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "91"
+          "value": "92"
         }
       },
       {
@@ -245,7 +245,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "3"
+          "value": "4"
         }
       },
       {
@@ -260,7 +260,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "3"
+          "value": "4"
         }
       },
       {
@@ -290,7 +290,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "75"
+          "value": "86"
         }
       },
       {
@@ -326,6 +326,51 @@
       {
         "phenotype_label": {
           "type": "literal",
+          "value": "Circuit Membership"
+        },
+        "type": {
+          "type": "literal",
+          "value": "nociceptive circuit"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Axon Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "type A\u03b4 (delta) nerve fiber"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
+          "value": "Axon Phenotype"
+        },
+        "type": {
+          "type": "literal",
+          "value": "type C nerve fiber"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "5"
+        }
+      },
+      {
+        "phenotype_label": {
+          "type": "literal",
           "value": "ANS Phenotype"
         },
         "type": {
@@ -350,7 +395,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "82"
+          "value": "83"
         }
       },
       {
@@ -365,7 +410,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "25"
+          "value": "27"
         }
       }
     ]

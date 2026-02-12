@@ -110,7 +110,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "12"
+          "value": "14"
         }
       },
       {
@@ -170,7 +170,7 @@
         "count": {
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
-          "value": "19"
+          "value": "20"
         }
       },
       {
@@ -216,6 +216,21 @@
           "datatype": "http://www.w3.org/2001/XMLSchema#integer",
           "type": "literal",
           "value": "21"
+        }
+      },
+      {
+        "neuron_category": {
+          "type": "literal",
+          "value": "Literature-Extracted Populations"
+        },
+        "model": {
+          "type": "literal",
+          "value": "Nociceptive Pain Connections"
+        },
+        "count": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "type": "literal",
+          "value": "12"
         }
       },
       {
