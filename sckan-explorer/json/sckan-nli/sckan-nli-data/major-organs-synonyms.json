@@ -393,6 +393,20 @@
         },
         "Organ_Synonym": {
           "type": "literal",
+          "value": "colon"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001155"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "colon"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
           "value": "hindgut"
         }
       },
@@ -729,6 +743,20 @@
         },
         "Organ_Synonym": {
           "type": "literal",
+          "value": "esophagus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001043"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "esophagus"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
           "value": "gullet"
         }
       },
@@ -744,6 +772,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "oesophagus"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004859"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "eye gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "eye gland"
         }
       },
       {
@@ -856,6 +898,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "female organism reproductive system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000474"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "female reproductive system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "female reproductive system"
         }
       },
       {
@@ -1080,6 +1136,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "hematopoietic system organ"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004177"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "hemopoietic organ"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "hemopoietic organ"
         }
       },
       {
@@ -1323,6 +1393,20 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000160"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "intestine"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "intestine"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002113"
         },
         "Organ_Label": {
@@ -1346,6 +1430,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "intestinum crassum"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000059"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "large intestine"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "large intestine"
         }
       },
       {
@@ -1379,6 +1477,20 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002107"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "liver"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "liver"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001558"
         },
         "Organ_Label": {
@@ -1393,11 +1505,39 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001558"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "lower respiratory tract"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "lower respiratory tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0001556"
         },
         "Organ_Label": {
           "type": "literal",
           "value": "lower urinary tract"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002048"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "lung"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "lung"
         }
       },
       {
@@ -1775,6 +1915,20 @@
         },
         "Organ_Synonym": {
           "type": "literal",
+          "value": "oral gland"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0010047"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "oral gland"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
           "value": "oral region gland"
         }
       },
@@ -2097,6 +2251,20 @@
         },
         "Organ_Synonym": {
           "type": "literal",
+          "value": "ovary"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000992"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "ovary"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
           "value": "ovum-producing ovary"
         }
       },
@@ -2134,6 +2302,10 @@
           "value": "http://purl.obolibrary.org/obo/UBERON_0001264"
         },
         "Organ_Label": {
+          "type": "literal",
+          "value": "pancreas"
+        },
+        "Organ_Synonym": {
           "type": "literal",
           "value": "pancreas"
         }
@@ -2234,6 +2406,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "renal or urinary system"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0001008"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "renal system"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "renal system"
         }
       },
       {
@@ -2907,6 +3093,20 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0004590"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "sphincter muscle"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "sphincter muscle"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0002240"
         },
         "Organ_Label": {
@@ -3047,6 +3247,20 @@
       {
         "Organ_ID": {
           "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0002106"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "spleen"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "spleen"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
           "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
         },
         "Organ_Label": {
@@ -3084,6 +3298,20 @@
         "Organ_Synonym": {
           "type": "literal",
           "value": "mesenteron"
+        }
+      },
+      {
+        "Organ_ID": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/UBERON_0000945"
+        },
+        "Organ_Label": {
+          "type": "literal",
+          "value": "stomach"
+        },
+        "Organ_Synonym": {
+          "type": "literal",
+          "value": "stomach"
         }
       },
       {

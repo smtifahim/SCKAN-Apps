@@ -313,6 +313,20 @@
         },
         "Species_Synonym": {
           "type": "literal",
+          "value": "Homo sapiens"
+        }
+      },
+      {
+        "Species_IRI": {
+          "type": "uri",
+          "value": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        },
+        "Species_Label": {
+          "type": "literal",
+          "value": "Homo sapiens"
+        },
+        "Species_Synonym": {
+          "type": "literal",
           "value": "human"
         }
       },
