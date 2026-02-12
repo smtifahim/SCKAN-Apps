@@ -31,7 +31,7 @@ WHERE
    # FILTER (?Target_Neuron_Phenotype = 'Motor phenotype').
    # FILTER (?Target_Neuron_Phenotype = 'Sensory phenotype').
 
-  VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
   ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron .
 
   ##?Neuron_Connected ilxtr:hasCircuitRole/rdfs:label ?Target_Neuron_Phenotype .

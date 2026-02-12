@@ -17,7 +17,7 @@ SELECT DISTINCT
 WHERE
 {    
     ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-    values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    values ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
     ?Neuron_IRI ilxtr:isObservedInSpecies ?Species_IRI.
     ?Species_IRI rdfs:label ?Species_Label.

@@ -19,7 +19,7 @@ SELECT DISTINCT
     # FILTER (lcase(?Location_Label) = 'nodose ganglion')
     # FILTER (REGEX(str(?Neuron_ID), 'keast-1')).
 
-    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
     ?Neuron_ID rdfs:subClassOf+ ?SCKAN_Neuron .
 
    <<?Neuron_ID ?Connection_Type ?Region_IRI>> ilxtr:hasRegion ?Location_IRI.
