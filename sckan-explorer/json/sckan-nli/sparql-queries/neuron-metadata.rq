@@ -28,8 +28,8 @@ WHERE
 {
     # FILTER (regex(STR(?Neuron_IRI), 'bromo'))
     # FILTER ( regex (LCase(?Phenotype), 'sensory phenotype' ))
-    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
-    ?Neuron_IRI rdfs:subClassOf* ?SCKAN_Neuron .
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
+    ?Neuron_IRI rdfs:subClassOf+ ?SCKAN_Neuron .
 
     ## Only considering connection forming neuron populations
     # ?Neuron_IRI ilxtr:hasSomaLocation ?A_IRI; 
@@ -57,8 +57,11 @@ WHERE
     OPTIONAL {?Neuron_IRI (ilxtr:hasNeuronalPhenotype | 
                             ilxtr:hasFunctionalCircuitRole |
                             ilxtr:hasCircuitRole |
-                            ilxtr:hasProjection  
+                            ilxtr:hasProjection  |
+                            ilxtr:hasAxonType |
+                            ilxtr:hasCircuitMembership
                            )/rdfs:label ?Phenotype.}
+    FILTER (BOUND(?Neuron_Pref_Label)).
 }
 
 GROUP BY ?Neuron_IRI ?Neuron_Label ?Neuron_Pref_Label ?Sex ?Alert ?Species_IRI

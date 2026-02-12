@@ -25,7 +25,7 @@ SELECT DISTINCT
     # FILTER (regex(str(?Neuron_ID), 'keast-1')).
     
     ?Neuron_ID rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-    VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
     
      {
       <<?Neuron_ID ilxtr:hasSomaLocation ?A_ID>> rdfs:label ?A.

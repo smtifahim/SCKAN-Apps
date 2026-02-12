@@ -21,7 +21,7 @@ WHERE
 {
   # FILTER (regex(str(?Neuron_Connected),'keast-1' ))
   ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-  VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
   OPTIONAL {?Neuron_Connected skos:prefLabel ?Neuron_Label} .
   

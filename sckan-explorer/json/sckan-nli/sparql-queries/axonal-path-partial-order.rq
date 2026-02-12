@@ -16,7 +16,7 @@ WHERE
 {
   # FILTER (regex(str(?Neuron_IRI),'aacar-1' ))
   ?Neuron_IRI rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
-  values ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+  values ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
   Optional {?Neuron_IRI skos:prefLabel ?Neuron_Label} .
   

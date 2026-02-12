@@ -16,7 +16,7 @@ SELECT DISTINCT
 ?Nerve_IRI ?Nerve_Label ?Nerve_Synonym
 {
    ?Neuron_ID rdfs:subClassOf* ?sckan_neuron .
-   VALUES ?sckan_neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+   VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
    
    VALUES ?axon_loaction { ilxtr:hasAxonLocation  ilxtr:hasAxonToSensoryTerminal }.
    # VALUES ?axon_terminal  {ilxtr:hasAxonTerminalLocation  ilxtr:hasAxonSensoryLocation}.
