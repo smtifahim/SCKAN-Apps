@@ -1,4 +1,5 @@
 // To load the model names and the phenotype values for the listbox on the interface.
+// Ideally, these should come from a sparql query generated json files. Will update in the future.
 function loadModelNames()
 {
     const models = {
@@ -58,7 +59,10 @@ function loadPhenotypeValues()
         "Projection: Spinal cord descending projection phenotype",
         "Projection: Anterior projecting",
         "Projection: Posterior projecting",
-        "Projection: Intestino fugal projection phenotype"
+        "Projection: Intestino fugal projection phenotype",
+        "Axon Phenotype: type Aδ (delta) nerve fiber",
+        "Axon Phenotype: type C nerve fiber",
+        "Circuit Membership: nociceptive circuit"
     ];
 
     const phenotypeList = document.getElementById('phenotypeList');
