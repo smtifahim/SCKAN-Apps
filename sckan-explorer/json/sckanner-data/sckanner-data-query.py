@@ -31,7 +31,7 @@ CONN_DETAILS = {
 
 DB_NAME = 'SCKAN-FEB-2026'  # Update with the current database name.
 
-SCKAN_VERSION = '2026-02-11' # Manual for now.
+# SCKAN_VERSION = '2026-02-11' # NOT USED. Manual data just to organize the stats for different versions.
 QUERY_DIR = Path(f'./sparql-queries/')
 # STATS_DIR = Path(f'./stats/sckan-version-{SCKAN_VERSION}/')
 STATS_DIR = Path(f'./stats/prod/')
