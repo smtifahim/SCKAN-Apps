@@ -43,13 +43,7 @@ Install the required Python packages using pip:
 pip install stardog python-dotenv
 ```
 
-Alternatively, if a `requirements.txt` file is provided:
-
-```bash
-pip install -r requirements.txt
-```
-
-#### Package Descriptions
+Package Descriptions
 
 - **stardog**: Python client library for interacting with Stardog databases
 - **python-dotenv**: Loads environment variables from a `.env` file
@@ -118,13 +112,14 @@ All queries executed and results are saved successfully!
 
 The script generates the following JSON files in the `sckan-data/` directory:
 
-| File | Description |
-|------|-------------|
-| `sckan-all-locations.json` | All anatomical locations in SCKAN |
-| `a-b-via-c.json` | Anatomical connectivity pathways (from A to B via C) |
-| `axonal-path.json` | Axonal path data with partial ordering |
-| `neuron-metadata.json` | Detailed neuron metadata and properties |
-| `sckan-version.json` | SCKAN database version information |
+
+| File                       | Description                                          |
+| -------------------------- | ---------------------------------------------------- |
+| `sckan-all-locations.json` | All anatomical locations in SCKAN                    |
+| `a-b-via-c.json`           | Anatomical connectivity pathways (from A to B via C) |
+| `axonal-path.json`         | Axonal path data with partial ordering               |
+| `neuron-metadata.json`     | Detailed neuron metadata and properties              |
+| `sckan-version.json`       | SCKAN database version information                   |
 
 ## SPARQL Queries
 
@@ -160,6 +155,7 @@ SCKAN_PASSWORD=your_password_here
 **Problem:** Cannot connect to Stardog server
 
 **Solution:**
+
 - Verify your internet connection
 - Check that the Stardog endpoint URL is correct
 - Confirm your credentials are valid
@@ -170,6 +166,7 @@ SCKAN_PASSWORD=your_password_here
 **Problem:** Authentication failed
 
 **Solution:**
+
 - Verify that the `.env` file exists in the correct directory
 - Check that `SCKAN_USERNAME` and `SCKAN_PASSWORD` are correctly set
 - Ensure there are no extra spaces or quotes in the `.env` file
@@ -179,6 +176,7 @@ SCKAN_PASSWORD=your_password_here
 **Problem:** FileNotFoundError for SPARQL query files
 
 **Solution:**
+
 - Ensure you are running the script from the correct directory
 - Verify that all query files exist in the `sparql-queries/` directory
 - Check file paths in the `query_files` list
@@ -188,6 +186,7 @@ SCKAN_PASSWORD=your_password_here
 **Problem:** Permission denied when writing JSON files
 
 **Solution:**
+
 - Ensure the `sckan-data/` directory exists
 - Check write permissions for the directory
 - Create the directory manually if needed: `mkdir -p sckan-data`

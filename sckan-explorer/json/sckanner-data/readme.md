@@ -121,19 +121,21 @@ The script generates JSON files in two directories:
 
 ### Hierarchy Directory
 
-| File | Description |
-|------|-------------|
+
+| File                                | Description                                         |
+| ----------------------------------- | --------------------------------------------------- |
 | `hierarchy/sckanner-hierarchy.json` | Hierarchical anatomical structure data for SCKANNER |
 
 ### Statistics Directory (stats/prod/)
 
-| File | Description |
-|------|-------------|
-| `sckan-version-info.json` | SCKAN database version information |
-| `stats-model-population-count.json` | Count of populations per anatomical model |
-| `stats-phenotype-count.json` | Count of phenotypes in the knowledge base |
-| `stats-phenotype-value-count.json` | Count of phenotype values and distributions |
-| `stats-population-category-count.json` | Count of populations by category |
+
+| File                                   | Description                                 |
+| -------------------------------------- | ------------------------------------------- |
+| `sckan-version-info.json`              | SCKAN database version information          |
+| `stats-model-population-count.json`    | Count of populations per anatomical model   |
+| `stats-phenotype-count.json`           | Count of phenotypes in the knowledge base   |
+| `stats-phenotype-value-count.json`     | Count of phenotype values and distributions |
+| `stats-population-category-count.json` | Count of populations by category            |
 
 **Note:** The script automatically creates output directories if they do not exist.
 
@@ -157,16 +159,6 @@ To query a different Stardog database, modify the `DB_NAME` variable in the scri
 ```python
 DB_NAME = 'SCKAN-FEB-2026'  # Update with the current database name
 ```
-
-### SCKAN Version
-
-Update the `SCKAN_VERSION` variable to match the current SCKAN release:
-
-```python
-SCKAN_VERSION = '2026-02-11'  # Update with the current version
-```
-
-**Note:** This version string is currently set manually. It may be used for organizing output files by version.
 
 ### Output Directory
 
@@ -194,6 +186,7 @@ STARDOG_PASSWORD=your_password_here
 **Problem:** Cannot connect to Stardog server
 
 **Solution:**
+
 - Verify your internet connection
 - Check that the Stardog endpoint URL is correct
 - Confirm your credentials are valid
@@ -204,6 +197,7 @@ STARDOG_PASSWORD=your_password_here
 **Problem:** Authentication failed or "STARDOG_USERNAME and STARDOG_PASSWORD must be set in the .env file"
 
 **Solution:**
+
 - Verify that the `.env` file exists in the correct directory
 - Check that `STARDOG_USERNAME` and `STARDOG_PASSWORD` are correctly set (note the different variable names)
 - Ensure there are no extra spaces or quotes in the `.env` file
@@ -214,6 +208,7 @@ STARDOG_PASSWORD=your_password_here
 **Problem:** FileNotFoundError for SPARQL query files
 
 **Solution:**
+
 - Ensure you are running the script from the correct directory
 - Verify that all query files exist in the `sparql-queries/` directory
 - Check file paths in the `QUERY_OUTPUT_PAIRS` list
@@ -224,6 +219,7 @@ STARDOG_PASSWORD=your_password_here
 **Problem:** Cannot create output directories
 
 **Solution:**
+
 - Check write permissions for the script's directory
 - The script automatically creates `hierarchy/` and `stats/prod/` directories
 - Verify you have permissions to create directories in the current location
@@ -234,6 +230,7 @@ STARDOG_PASSWORD=your_password_here
 **Problem:** Query fails during execution
 
 **Solution:**
+
 - Check the log output for specific error messages
 - Verify the database name is correct
 - Ensure the Stardog server is not overloaded
