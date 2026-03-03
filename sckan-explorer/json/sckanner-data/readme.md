@@ -16,7 +16,7 @@ The script connects to a Stardog database, executes multiple SPARQL queries, and
 
 ### 1. Python Environment Setup
 
-It is recommended to use a virtual environment to manage dependencies.
+A virtual environment is recommended for dependency isolation.
 
 #### Create a Virtual Environment
 
@@ -43,13 +43,7 @@ Install the required Python packages using pip:
 pip install stardog python-dotenv
 ```
 
-Alternatively, if a `requirements.txt` file is provided:
-
-```bash
-pip install -r requirements.txt
-```
-
-#### Package Descriptions
+```#### Package Descriptions
 
 - **stardog**: Python client library for interacting with Stardog databases
 - **python-dotenv**: Loads environment variables from a `.env` file
@@ -62,28 +56,25 @@ Create a `.env` file in the same directory as the script with the following cont
 # Create .env file
 touch .env
 ```
-
 Add the following content to the `.env` file:
 
 ```
 STARDOG_USERNAME=your_username_here
 STARDOG_PASSWORD=your_password_here
 ```
-
 **Important:** Replace `your_username_here` and `your_password_here` with your actual Stardog credentials. Never commit the `.env` file to version control. Ensure it is listed in `.gitignore`.
 
 **Note:** This script uses `STARDOG_USERNAME` and `STARDOG_PASSWORD` environment variable names (different from the explorer-data and sckan-nli scripts which use `SCKAN_USERNAME` and `SCKAN_PASSWORD`).
 
 ## Running the Script
 
-### Basic Execution
+### Execution
 
-Once the setup is complete, run the script:
+After completing the setup, execute the script:
 
 ```bash
 python sckanner-data-query.py
 ```
-
 ### Expected Output
 
 The script will execute the following operations:
@@ -98,9 +89,7 @@ The script will execute the following operations:
    - **Step 5:** Query phenotype value count statistics
    - **Step 6:** Query population category count statistics
 
-Each step will display progress messages with timestamps and log levels.
-
-### Example Output
+Example Output
 
 ```
 2026-03-02 10:15:30 - INFO - Server Status: Stardog server is running and able to accept traffic.
@@ -114,7 +103,6 @@ Each step will display progress messages with timestamps and log levels.
 ...
 2026-03-02 10:15:45 - INFO - All queries executed and results saved successfully.
 ```
-
 ## Generated Files
 
 The script generates JSON files in two directories:
@@ -137,38 +125,45 @@ The script generates JSON files in two directories:
 | `stats-phenotype-value-count.json`     | Count of phenotype values and distributions |
 | `stats-population-category-count.json` | Count of populations by category            |
 
-**Note:** The script automatically creates output directories if they do not exist.
+**Note:** The script automatically creates output directories, including parent directories, if they do not exist.
 
 ## SPARQL Queries
 
-The script executes SPARQL queries from the `sparql-queries/` directory:
+The script executes the following SPARQL queries from the `sparql-queries/` directory:
 
-- `sckanner-hierarchy.rq`: Retrieves hierarchical anatomical structure
-- `sckan-version-info.rq`: Gets database version details
-- `stats-model-population-count.rq`: Counts populations per model
-- `stats-phenotype-count.rq`: Counts phenotypes
-- `stats-phenotype-value-count.rq`: Counts phenotype values
-- `stats-population-category-count.rq`: Counts populations by category
+- `sckanner-hierarchy.rq`: Retrieves hierarchical anatomical structures for SCKANNER
+- `sckan-version-info.rq`: Obtains database version and release information
+- `stats-model-population-count.rq`: Retreives population counts per model
+- `stats-phenotype-count.rq`: Computes phenotype occurrence statistics
+- `stats-phenotype-value-count.rq`: Computes phenotype value distributions
+- `stats-population-category-count.rq`: Computes population counts by category
 
 ## Configuration
 
-### Database Name
+### Database Selection
 
 To query a different Stardog database, modify the `DB_NAME` variable in the script:
 
 ```python
 DB_NAME = 'SCKAN-FEB-2026'  # Update with the current database name
 ```
+### SCKAN Version
 
-### Output Directory
+Update the `SCKAN_VERSION` variable to reflect the current SCKAN release:
 
-By default, statistics are saved to `./stats/prod/`. To change this, modify the `STATS_DIR` variable:
+```python
+SCKAN_VERSION = '2026-02-11'  # Update with the current version
+```
+**Note:** This version identifier is currently set manually and may be used for organizing output files.
+
+### Output Directory Configuration
+
+By default, statistical data is saved to `./stats/prod/`. To modify this location, update the `STATS_DIR` variable:
 
 ```python
 STATS_DIR = Path(f'./stats/prod/')  # Change as needed
 ```
-
-### Environment Variables
+### Credentials Configuration
 
 Create a `.env` file in the same directory as the script with the following content:
 
@@ -176,7 +171,6 @@ Create a `.env` file in the same directory as the script with the following cont
 STARDOG_USERNAME=your_username_here
 STARDOG_PASSWORD=your_password_here
 ```
-
 **Important:** Replace `your_username_here` and `your_password_here` with your actual Stardog credentials. Never commit the `.env` file to version control.
 
 ## Troubleshooting
@@ -237,35 +231,13 @@ STARDOG_PASSWORD=your_password_here
 - Check that the query syntax in .rq files is valid
 - Contact database administrator if errors persist
 
-## Logging
-
-The script uses Python's logging module to provide detailed execution information:
-
-- **INFO**: Normal execution progress and status messages
-- **ERROR**: Errors that occur during execution
-- **Exception traces**: Detailed stack traces for debugging
-
-All log messages include timestamps for tracking execution progress.
-
 ## Deactivating Virtual Environment
 
-When finished, deactivate the virtual environment:
+Upon completion of your work, deactivate the virtual environment:
 
 ```bash
 deactivate
 ```
-
-## Script Features
-
-This script includes several advanced features:
-
-- **Automatic directory creation**: Creates output directories if they don't exist
-- **Health check**: Verifies Stardog server status before running queries
-- **Structured logging**: Provides detailed execution information with timestamps
-- **Error handling**: Comprehensive exception handling with detailed error messages
-- **Pathlib integration**: Uses modern Python path handling
-- **Environment validation**: Checks for required credentials before execution
-
 ## Version
 
 Script Version: 1.0
@@ -274,8 +246,6 @@ Author: Fahim Imam
 
 ## Additional Notes
 
-- The script uses `reasoning=False` when executing SPARQL queries for performance
-- All query results are saved with proper JSON indentation for readability
-- The script will exit with detailed error messages if any step fails
-- Output directories are created automatically with parent directories as needed
-- The script uses different environment variable names (`STARDOG_USERNAME/PASSWORD`) compared to other SCKAN scripts
+- The script disables reasoning (`reasoning=False`) during SPARQL query execution to optimize performance
+- The script terminates execution with detailed error diagnostics if any operation fails
+- Output directories are created automatically, including parent directories as required

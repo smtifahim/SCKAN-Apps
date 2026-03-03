@@ -43,7 +43,7 @@ Install the required Python packages using pip:
 pip install stardog python-dotenv
 ```
 
-```#### Package Descriptions
+Package Descriptions
 
 - **stardog**: Python client library for interacting with Stardog databases
 - **python-dotenv**: Loads environment variables from a `.env` file
@@ -56,12 +56,14 @@ Create a `.env` file in the same directory as the script with your Stardog crede
 # Create .env file
 touch .env
 ```
+
 Add the following content to the `.env` file:
 
 ```
 SCKAN_USERNAME=your_username_here
 SCKAN_PASSWORD=your_password_here
 ```
+
 **Important:** Never commit the `.env` file to version control. Ensure it is listed in `.gitignore`.
 
 ## Running the Script
@@ -73,6 +75,7 @@ Once the setup is complete, run the script:
 ```bash
 python query-sckan-nli-data.py
 ```
+
 ### Expected Output
 
 The script will execute the following steps:
@@ -109,6 +112,7 @@ Step 1: Done!
 
 All queries executed and results are saved successfully!
 ```
+
 ## Generated Files
 
 The script generates the following JSON files in the `sckan-nli-data/` directory:
@@ -158,6 +162,7 @@ SCKAN_PASSWORD=your_password_here
 ```
 
 **Important:** Replace `your_username_here` and `your_password_here` with your actual Stardog credentials. Never commit the `.env` file to version control.
+
 ## Troubleshooting
 
 ### Server Connection Issues
@@ -219,6 +224,7 @@ When finished, deactivate the virtual environment:
 ```bash
 deactivate
 ```
+
 ## Differences from SCKAN Explorer Data
 
 The SCKAN NLI data query script differs from the Explorer data query script in the following ways:
