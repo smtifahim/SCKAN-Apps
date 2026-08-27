@@ -1,7 +1,7 @@
-# Query: Organ inervation query for SCKAN NLI.
+# Query: Organ innervation query for SCKAN NLI.
 ## CQ4: How is sympathetic innervation supplied to an end organ? Show the origins, 
 ## terminations and routing for both pre- and post-ganglionic connections.
-## Version: Nov 26, 2025. - Fahim Imam
+## Version: August 26, 2026 - Fahim Imam
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -9,7 +9,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT DISTINCT 
+SELECT DISTINCT
 
 ?Neuron_Connected
 ?Neuron_Label
@@ -25,26 +25,34 @@ SELECT DISTINCT
 
 WHERE 
 {
-    # FILTER (?Neuron_Connected != ilxtr:aacar-5)
-    # FILTER (?Neuron_Connected != ilxtr:aacar-6)
-    
-    # Specify the Target_Organ
-    # FILTER (?Target_Organ = 'muscle of shoulder').
+    # Test: Specify the Target_Organ (applies to both branches - both branches'
    
-    # # Specify the ANS phenotype for the Target_Neuron
-    # FILTER (?Target_Neuron_Phenotype = 'Parasympathetic Post-Ganglionic phenotype').
+    # FILTER (?Target_Organ = 'urethra').
+    # FILTER (?Target_Neuron_Phenotype = 'Motor phenotype').
 
-    # FILTER (REGEX (?Target_Neuron_Phenotype, 'Sympathetic')).
     ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
     VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
 
  {
-    ?Target_Neuron ilxtr:hasNeuronalPhenotype/rdfs:label ?Target_Neuron_Phenotype.
+   
+    ?Neuron_Connected (ilxtr:hasForwardConnection*) ?Target_Neuron.
+    ?Neuron_Connected ilxtr:hasNeuronalPhenotype ?np .
+
+    VALUES (?np ?TargetPhenotypeIRI) 
+    {
+        ( ilxtr:neuron-phenotype-sym-pre   ilxtr:neuron-phenotype-sym-post )
+        ( ilxtr:neuron-phenotype-para-pre  ilxtr:neuron-phenotype-para-post )
+        ( ilxtr:neuron-phenotype-sym-post  ilxtr:neuron-phenotype-sym-post )
+        ( ilxtr:neuron-phenotype-para-post ilxtr:neuron-phenotype-para-post )
+    }
+
+    ?Target_Neuron ilxtr:hasNeuronalPhenotype ?TargetPhenotypeIRI .
+    ?TargetPhenotypeIRI rdfs:label ?Target_Neuron_Phenotype .
+
+    # Filter (?Target_Neuron_Phenotype != "Intrinsic phenotype").
     
     # Get the Final_Terminal of the Target Neuron.
     <<?Target_Neuron ilxtr:hasAxonTerminalLocation ?X>> ilxtr:hasRegion ?Final_Terminal.
-    
-    # ?Final_Terminal rdfs:label ?ft.
     
     # Final terminal of the Target Neuron must be a part of Target Organ.
     ?Final_Terminal   (rdfs:subClassOf* | ilxtr:isPartOf*)/rdfs:label ?Target_Organ.
@@ -58,21 +66,22 @@ WHERE
                                 # added systems
                                 'male reproductive system', 'female reproductive system', 'respiratory system', 'digestive system', 'endocrine system', 
                                 'arterial system', 'lymphoid system', 'renal system', 'integumental system', 'cardiovascular system')
-                              ) # not good: 'heart''bladder'
+                              ) # NOTE: known open issue with 'heart'/'bladder' matching
 
-    
-    ?Neuron_Connected ilxtr:hasForwardConnection* ?Target_Neuron.
-           
-    # Note: there are projection phenotypes in Kblad model e.g., keast-20 with Spinal cord descending projection 
-    # phenotype has forward connection with keast-5 the following line ensures that we are only 
-    # considering symp or parasymp phenotypes
-    ?Neuron_Connected ilxtr:hasNeuronalPhenotype ?np.
-    
-    ?V1_ID ilxtr:hasNextNode{ilxtr:isConnectedBy ?Neuron_Connected} ?V2_ID.
+    <<?V1_ID ilxtr:hasNextNode ?V2_ID>> ilxtr:isConnectedBy ?Neuron_Connected .
+
+    # FIX (PERFORMANCE): ?V1_Location_Type_IRI / ?V2_Location_Type_IRI were
+    # previously left as open predicate variables, which Stardog's planner
+    # estimated at 1.5M rows PER SCAN.
+    VALUES ?V1_Location_Type_IRI { ilxtr:hasSomaLocation ilxtr:hasAxonLocation ilxtr:hasAxonTerminalLocation }
+    VALUES ?V2_Location_Type_IRI { ilxtr:hasAxonLocation ilxtr:hasAxonTerminalLocation }
+
     <<?Neuron_Connected ?V1_Location_Type_IRI ?V1_ID>> rdfs:label ?V1.
     <<?Neuron_Connected ?V2_Location_Type_IRI ?V2_ID>> rdfs:label ?V2.                         
     
-    ?Neuron_Connected skos:prefLabel ?Neuron_Label.
+    # FIX #6: prefLabel made OPTIONAL (was mandatory, silently dropping
+    # neurons without a skos:prefLabel).
+    OPTIONAL { ?Neuron_Connected skos:prefLabel ?Neuron_Label. }
     
     # Find the locational phenotypes for the V1 node
     ?V1_Location_Type_IRI rdfs:label ?V1_Type.
@@ -80,31 +89,33 @@ WHERE
     # Find the locational phenotype for the V2 node
     ?V2_Location_Type_IRI rdfs:label ?V2_Type.
   
-    # Filter out the generic hasConnectedLocation relation for the connected nodes.
-    FILTER (ilxtr:hasConnectedLocation not in (?V1_Location_Type_IRI, ?V2_Location_Type_IRI))
+    # Filter out the generic hasConnectedLocation relation for the connected
+    # nodes. Now redundant given the VALUES restriction above (ilxtr:
+    # hasConnectedLocation isn't in that list, so it can never bind here),
+    # but left in as a cheap, harmless defense-in-depth check in case the
+    # allowed predicate list above is ever widened later.
+    ## FILTER (ilxtr:hasConnectedLocation not in (?V1_Location_Type_IRI, ?V2_Location_Type_IRI))
     
     OPTIONAL 
     {
         ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
         FILTER (?V2_ID = ?Synapse)
         FILTER (?V2_Type = "hasAxonTerminalLocation")
-
     }
     BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
 
-    
-    # Set IsSynapse to "Yes" if a synapse is detected, otherwise leave it as NO
-    #BIND (IF (BOUND(?Synapse), "YES", "NO") AS ?IsSynapse)
+    # FIX: guard against unbound ?Neuron_Label instead of letting
+    # REPLACE() error out and cascade to unbound V1/V2 columns.
     BIND(
         IF(?V1_Type = "hasSomaLocation",
-            REPLACE(?Neuron_Label, " to .*", ""),
+            IF(BOUND(?Neuron_Label), REPLACE(?Neuron_Label, " to .*", ""), ?V1),
             ?V1)
         AS ?V1_Temp
     )
 
     BIND(
         IF(?V2_Type = "hasAxonTerminalLocation",
-            REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"),
+            IF(BOUND(?Neuron_Label), REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2),
             ?V2)
         AS ?V2_Temp
     )
@@ -148,14 +159,6 @@ WHERE
     )
 
     # Step 4: Force OR to uppercase, except for certain organs
-
-    #  # Organs to skip collapse
-    #   VALUES ?skipOrgan {
-    #                         "colon" "heart" "urinary bladder" "spleen" "digestive system" 'rectum' 'small intestine'
-    #                         "endocrine system" "lymphoid system" 'respiratory system' 'intestine'
-    #                         'large intestine' 'liver' 'uterus' 'pancreas'
-    #                     }
-
     BIND(
         IF(
             ?Target_Organ IN ('colon', 'heart', 'urinary bladder', 'spleen', 'digestive system', 'rectum', 'small intestine',
@@ -180,19 +183,18 @@ WHERE
  UNION
 
  {
-     ##?Neuron_Connected ilxtr:hasCircuitRole/rdfs:label ?Target_Neuron_Phenotype .
-     ## Sensory + Motor only
+    # Sensory + Motor only
     ?Neuron_Connected ilxtr:hasCircuitRole/rdfs:label ?Target_Neuron_Phenotype .
     FILTER(?Target_Neuron_Phenotype IN ("Sensory phenotype", "Motor phenotype"))
 
-    # Final organ list
+    # Final organ list (intentionally not required to match branch 1's list)
     VALUES ?Target_Organ 
     {
-        "heart" "ovary" "esophagus" "kidney"  "lung" "liver" # "muscle organ" 
+        "heart" "ovary" "esophagus" "kidney"  "lung" "liver"
         "colon" "descending colon" "stomach" "urinary bladder" "penis" "skin of body"
         "male reproductive system" "female reproductive system" "clitoris" "vagina"
         "seminal vesicle" "uterus" "sweat gland" "scapular muscle" "sphincter muscle" 
-        "flexor muscle" "muscle of shoulder" # "integumental system" # "skin of body"
+        "flexor muscle" "muscle of shoulder" "urethra"
     }
 
     VALUES ?hasTerminalLocation { ilxtr:hasAxonSensoryLocation ilxtr:hasAxonTerminalLocation}
@@ -202,8 +204,16 @@ WHERE
     # Fast property path (merged subclassOf* + isPartOf*)
     ?Final_Terminal (rdfs:subClassOf* | ilxtr:isPartOf*) / rdfs:label ?Target_Organ .
 
-
     <<?V1_ID ilxtr:hasNextNode ?V2_ID>> ilxtr:isConnectedBy ?Neuron_Connected .
+
+    # FIX (PERFORMANCE): same fix as branch 1 - bind these to the known
+    # location-type predicates instead of leaving them open, to avoid the
+    # ~1.5M-row wildcard-predicate scans Stardog's plan showed for branch 1's
+    # equivalent pattern.
+    VALUES ?V1_Phenotype { ilxtr:hasSomaLocation ilxtr:hasAxonLocation ilxtr:hasAxonSensoryLocation 
+                           ilxtr:hasAxonTerminalLocation ilxtr:hasAxonToSensoryTerminal }
+    VALUES ?V2_Phenotype { ilxtr:hasAxonLocation ilxtr:hasAxonSensoryLocation ilxtr:hasAxonTerminalLocation 
+                           ilxtr:hasAxonToSensoryTerminal }
 
     <<?Neuron_Connected ?V1_Phenotype ?V1_ID>> rdfs:label ?V1 .
     <<?Neuron_Connected ?V2_Phenotype ?V2_ID>> rdfs:label ?V2 .
@@ -211,27 +221,32 @@ WHERE
     ?V1_Phenotype rdfs:label ?V1_Type .
     ?V2_Phenotype rdfs:label ?V2_Type .
 
+    # FIX: added, was missing vs. branch 1. Now redundant given the VALUES
+    # restriction above, kept as cheap defense-in-depth (see branch 1 note).
+    ## FILTER (ilxtr:hasConnectedLocation not in (?V1_Phenotype, ?V2_Phenotype))
+
     OPTIONAL { ?Neuron_Connected skos:prefLabel ?Neuron_Label }
 
-    #   OPTIONAL 
-    #   {
-    #       ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse .
-    #       FILTER (?V2_ID = ?Synapse && ?V2_Type = "hasAxonTerminalLocation")
-    #   }
-
+    # FIX:restored synapse-detection block - IsSynapse was previously
+    # hardcoded to "NO" here because ?Synapse was never bound.
+    OPTIONAL 
+    {
+        ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse .
+        FILTER (?V2_ID = ?Synapse && ?V2_Type = "hasAxonTerminalLocation")
+    }
     BIND( IF(BOUND(?Synapse), "YES", "NO") AS ?IsSynapse )
 
-
+    # FIX #6 (cont.): same BOUND-guard as branch 1.
     BIND(
         IF(?V1_Type = "hasSomaLocation",
-            REPLACE(?Neuron_Label, " to .*", ""),
+            IF(BOUND(?Neuron_Label), REPLACE(?Neuron_Label, " to .*", ""), ?V1),
             ?V1)
         AS ?V1_Temp
     )
 
     BIND(
         IF(?V2_Type = "hasAxonTerminalLocation",
-            REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"),
+            IF(BOUND(?Neuron_Label), REPLACE(?Neuron_Label, ".* to (the )?(.*?) via .*", "$2"), ?V2),
             ?V2)
         AS ?V2_Temp
     )
@@ -259,11 +274,11 @@ WHERE
 
     BIND(
         IF(
-            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body", # "muscle organ", 
+            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
                             "colon","descending colon","stomach","urinary bladder","penis",
                             "male reproductive system", "female reproductive system", "clitoris", "vagina",
                             "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
-                            "flexor muscle","muscle of shoulder"),
+                            "flexor muscle", "muscle of shoulder"),
             ?V1,   # Skip collapsing for these organs
             REPLACE(?V1_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V1_Collapsed
@@ -271,18 +286,17 @@ WHERE
 
     BIND(
         IF(
-            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body", # "muscle organ" 
+            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
                             "colon","descending colon","stomach","urinary bladder","penis",
                             "male reproductive system", "female reproductive system", "clitoris", "vagina",
                             "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
-                            "flexor muscle","muscle of shoulder"),
+                            "flexor muscle", "muscle of shoulder"),
             ?V2,   # Skip collapsing for these organs
             REPLACE(?V2_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V2_Collapsed
     )
 
  }
-
 
 }
 ORDER BY ?Neuron_Connected ?Target_Neuron_Phenotype ?Target_Organ ?V1 ?V2
