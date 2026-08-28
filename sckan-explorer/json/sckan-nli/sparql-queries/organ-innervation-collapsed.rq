@@ -9,7 +9,19 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
-SELECT DISTINCT
+SELECT DISTINCT 
+
+# ?Neuron_Connected
+# # ?Neuron_Label
+# #?Target_Neuron_Phenotype
+# #?V1_ID 
+# ?V1 
+# ?V1_Collapsed ?V1_Type 
+# #?V2_ID
+# ?V2
+# ?V2_Collapsed ?V2_Type
+# ?IsSynapse
+# # ?Target_Organ
 
 ?Neuron_Connected
 ?Neuron_Label
@@ -27,8 +39,9 @@ WHERE
 {
     # Test: Specify the Target_Organ (applies to both branches - both branches'
    
-    # FILTER (?Target_Organ = 'urethra').
-    # FILTER (?Target_Neuron_Phenotype = 'Motor phenotype').
+    # FILTER (?Target_Organ = 'heart').
+    # FILTER (?Target_Neuron_Phenotype = 'Parasympathetic Post-Ganglionic phenotype').
+    # FILTER (?Target_Neuron_Phenotype = 'Sensory phenotype').
 
     ?Neuron_Connected rdfs:subClassOf+ ?sckan_neuron . #only consider SCKAN neurons
     VALUES ?sckan_neuron { ilxtr:NeuronComposer ilxtr:NeuronApinatComplex }
@@ -161,9 +174,12 @@ WHERE
     # Step 4: Force OR to uppercase, except for certain organs
     BIND(
         IF(
-            ?Target_Organ IN ('colon', 'heart', 'urinary bladder', 'spleen', 'digestive system', 'rectum', 'small intestine',
-                            'endocrine system', 'lymphoid system', 'respiratory system', 'intestine',
-                            'large intestine', 'liver', 'uterus', 'pancreas'),
+            
+            CONTAINS (STR(?Neuron_Connected), "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-" ), # skip apainat neurons from node collapsing
+
+            # ?Target_Organ IN ('colon', 'heart', 'urinary bladder', 'spleen', 'digestive system', 'rectum', 'small intestine',
+            #                 'endocrine system', 'lymphoid system', 'respiratory system', 'intestine',
+            #                 'large intestine', 'liver', 'uterus', 'pancreas'),
             ?V1,   # Skip collapsing for these organs
             REPLACE(?V1_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V1_Collapsed
@@ -171,9 +187,10 @@ WHERE
 
     BIND(
         IF(
-            ?Target_Organ IN ('colon', 'heart', 'urinary bladder', 'spleen', 'digestive system', 'rectum', 'small intestine',
-                            'endocrine system', 'lymphoid system', 'respiratory system', 'intestine',
-                            'large intestine', 'liver', 'uterus', 'pancreas'),
+            CONTAINS (STR(?Neuron_Connected), "http://uri.interlex.org/tgbugs/uris/readable/neuron-type-" ), # skip apainat neurons from node collapsing       
+            # ?Target_Organ IN ('colon', 'heart', 'urinary bladder', 'spleen', 'digestive system', 'rectum', 'small intestine',
+            #                 'endocrine system', 'lymphoid system', 'respiratory system', 'intestine',
+            #                 'large intestine', 'liver', 'uterus', 'pancreas'),
             ?V2,   # Skip collapsing for these organs
             REPLACE(?V2_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V2_Collapsed
@@ -194,7 +211,7 @@ WHERE
         "colon" "descending colon" "stomach" "urinary bladder" "penis" "skin of body"
         "male reproductive system" "female reproductive system" "clitoris" "vagina"
         "seminal vesicle" "uterus" "sweat gland" "scapular muscle" "sphincter muscle" 
-        "flexor muscle" "muscle of shoulder" "urethra"
+        "flexor muscle" "muscle of shoulder"
     }
 
     VALUES ?hasTerminalLocation { ilxtr:hasAxonSensoryLocation ilxtr:hasAxonTerminalLocation}
@@ -274,11 +291,12 @@ WHERE
 
     BIND(
         IF(
-            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
-                            "colon","descending colon","stomach","urinary bladder","penis",
-                            "male reproductive system", "female reproductive system", "clitoris", "vagina",
-                            "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
-                            "flexor muscle", "muscle of shoulder"),
+            CONTAINS (STR(?Neuron_Connected), "http://uri.interlex.org/tgbugs/uris/readable/" ), # skip node collapsing from sensory and motor for now
+            # ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
+            #                 "colon","descending colon","stomach","urinary bladder","penis",
+            #                 "male reproductive system", "female reproductive system", "clitoris", "vagina",
+            #                 "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
+            #                 "flexor muscle","muscle of shoulder"),
             ?V1,   # Skip collapsing for these organs
             REPLACE(?V1_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V1_Collapsed
@@ -286,11 +304,12 @@ WHERE
 
     BIND(
         IF(
-            ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
-                            "colon","descending colon","stomach","urinary bladder","penis",
-                            "male reproductive system", "female reproductive system", "clitoris", "vagina",
-                            "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
-                            "flexor muscle", "muscle of shoulder"),
+            CONTAINS (STR(?Neuron_Connected), "http://uri.interlex.org/tgbugs/uris/readable/" ), # skip node collapsing from sensory and motor for now
+            # ?Target_Organ IN ("heart", "ovary", "esophagus", "kidney", "lung", "liver", "skin of body",
+            #                 "colon","descending colon","stomach","urinary bladder","penis",
+            #                 "male reproductive system", "female reproductive system", "clitoris", "vagina",
+            #                 "seminal vesicle", "uterus", "sweat gland", "scapular muscle", "sphincter muscle", 
+            #                 "flexor muscle","muscle of shoulder"),
             ?V2,   # Skip collapsing for these organs
             REPLACE(?V2_Lowered, "(?i)\\bor\\b", "OR")
         ) AS ?V2_Collapsed
